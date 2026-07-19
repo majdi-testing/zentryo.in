@@ -1,0 +1,428 @@
+[
+  {
+    "id": "hyd-001",
+    "slug": "bosch-rexroth-axial-piston-pump-a4vso",
+    "sku": "ZEN-HYD-BRX-40001",
+    "mpn": "A4VSO-40-D1W",
+    "name": "Bosch Rexroth A4VSO Axial Piston Pump 40cc",
+    "brand": "Bosch Rexroth",
+    "manufacturer": "Bosch Rexroth AG",
+    "category": "Hydraulics",
+    "subcategory": "Pumps",
+    "industry": ["Manufacturing", "Mining", "Energy", "Marine"],
+    "series": "A4VSO",
+    "model": "A4VSO 40 DR/10R-PPB13N00",
+    "description": "The Bosch Rexroth A4VSO is a swashplate design axial piston pump for industrial and mobile hydraulic systems. This 40cc displacement pump delivers up to 350 bar continuous pressure with a pressure regulator control.",
+    "shortDescription": "Axial piston pump, 40cc/rev, 350 bar, pressure regulator, SAE mount.",
+    "technicalDescription": "Swashplate axial piston pump in bent-axis design for open circuits. 40 cc/rev displacement, pressure regulator (DR) control, SAE A two-bolt mount, and SAE side ports. Through-drive capability for tandem pump configurations.",
+    "applications": ["Industrial Hydraulic Power Units", "Press Hydraulics", "Mobile Equipment", "Marine Deck Machinery"],
+    "features": [
+      "Swashplate design for high efficiency",
+      "40 cc/rev displacement",
+      "Pressure regulator control (DR)",
+      "Through-drive for tandem pump mounting",
+      "SAE A two-bolt mounting flange"
+    ],
+    "benefits": [
+      "High power density reduces installation space",
+      "Low noise operation meets workplace standards",
+      "Long service life with hydrostatic bearings"
+    ],
+    "technicalSpecifications": {
+      "Displacement": "40 cc/rev",
+      "Maximum Pressure": "350 bar (continuous) / 400 bar (peak)",
+      "Maximum Speed": "3,000 rpm",
+      "Flow at Rated Speed": "120 L/min at 3,000 rpm",
+      "Control Type": "Pressure Regulator (DR)",
+      "Mounting Flange": "SAE A 2-Bolt",
+      "Weight": "22 kg"
+    },
+    "dimensions": "300mm x 200mm x 180mm",
+    "weight": "22 kg",
+    "material": "Cast Iron Housing, Steel Pistons",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "CE", "ATEX Option"],
+    "compatibleModels": ["A4VSO-71", "A4VSO-125", "A4VSO-250"],
+    "downloads": [
+      { "name": "A4VSO Pump Datasheet", "url": "https://example.com/bosch-a4vso.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/bosch-a4vso-40.pdf"],
+    "images": [
+      { "src": "https://example.com/images/bosch-a4vso-1.jpg", "alt": "Bosch Rexroth A4VSO Axial Piston Pump", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Bosch Pump Selection Guide", "url": "https://example.com/bosch-pump-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Bosch Rexroth A4VSO Axial Piston Pump 40cc",
+    "seoDescription": "Bosch Rexroth A4VSO 40cc axial piston pump, 350 bar, pressure regulator. For industrial and mobile hydraulic systems.",
+    "seoKeywords": ["Bosch Rexroth pump", "A4VSO", "axial piston pump", "hydraulic pump", "40cc pump"],
+    "canonical": "https://example.com/bosch-rexroth-axial-piston-pump-a4vso",
+    "ogImage": "https://example.com/images/bosch-a4vso-og.jpg",
+    "faq": [
+      { "question": "What hydraulic fluids are compatible?", "answer": "Compatible with HLP mineral oils per DIN 51524. Phosphate ester and biodegradable fluids available with special seals." },
+      { "question": "What is the filtration requirement?", "answer": "Recommended filtration is ISO 18/16/13 with a 10 micron absolute filter." },
+      { "question": "Can multiple pumps be driven together?", "answer": "Yes, the through-drive shaft allows mounting of a second pump (up to the same size) in tandem." }
+    ],
+    "relatedProducts": ["hyd-002", "hyd-004", "hyd-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "hydraulic-pump", "axial-piston", "bosch-rexroth"],
+    "createdAt": "2024-01-20T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "hyd-002",
+    "slug": "parker-hydraulic-motor-f11",
+    "sku": "ZEN-HYD-PRK-11001",
+    "mpn": "F11-10-PL-1A-00",
+    "name": "Parker F11 Fixed Displacement Hydraulic Motor",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Hydraulics",
+    "subcategory": "Motors",
+    "industry": ["Manufacturing", "Marine", "Mining", "Automotive"],
+    "series": "F11",
+    "model": "F11-10-PL-1A-00",
+    "description": "The Parker F11 is a fixed displacement bent-axis hydraulic motor designed for high-speed, high-power applications. With 10cc displacement, it delivers smooth rotation for machine tool spindles, winches, and conveyor drives.",
+    "shortDescription": "Bent-axis hydraulic motor, 10cc, 350 bar, high-speed, SAE mount.",
+    "technicalDescription": "Fixed displacement bent-axis piston motor with 10 cc/rev displacement. Designed for open and closed circuits with integrated drain port. SAE A mount with 1/2\" SAE O-ring ports.",
+    "applications": ["Machine Tool Spindles", "Marine Winches", "Mining Conveyors", "Mixer Drives"],
+    "features": [
+      "Bent-axis design for high efficiency",
+      "10 cc/rev fixed displacement",
+      "High speed capability up to 5,000 rpm",
+      "Compact and lightweight design",
+      "Suitable for open and closed circuits"
+    ],
+    "benefits": [
+      "Smooth operation from low to high speeds",
+      "High starting torque for demanding loads",
+      "Long service life with robust construction"
+    ],
+    "technicalSpecifications": {
+      "Displacement": "10 cc/rev",
+      "Maximum Pressure": "350 bar (continuous)",
+      "Maximum Speed": "5,000 rpm",
+      "Maximum Torque": "55 Nm at 350 bar",
+      "Flow at Max Speed": "50 L/min",
+      "Mounting": "SAE A 2-Bolt",
+      "Weight": "8.5 kg"
+    },
+    "dimensions": "180mm x 120mm x 100mm",
+    "weight": "8.5 kg",
+    "material": "Steel Body, Brass Pistons",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "CE"],
+    "compatibleModels": ["F11-5", "F11-19", "F11-25"],
+    "downloads": [
+      { "name": "Parker F11 Motor Datasheet", "url": "https://example.com/parker-f11.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-f11-10.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-f11-1.jpg", "alt": "Parker F11 Hydraulic Motor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Motor Selection Guide", "url": "https://example.com/parker-motor-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker F11 Fixed Displacement Hydraulic Motor",
+    "seoDescription": "Parker F11 bent-axis hydraulic motor, 10cc, 350 bar, 5,000 rpm. For machine spindles, winches, and conveyor drives.",
+    "seoKeywords": ["Parker hydraulic motor", "F11 motor", "bent-axis motor", "hydraulic drive", "10cc motor"],
+    "canonical": "https://example.com/parker-hydraulic-motor-f11",
+    "ogImage": "https://example.com/images/parker-f11-og.jpg",
+    "faq": [
+      { "question": "What is the maximum case pressure?", "answer": "Maximum case pressure is 3 bar (continuous). External drain line required for high-speed operation." },
+      { "question": "What direction of rotation?", "answer": "The motor is reversible. Direction is determined by port connection (A or B pressurized)." },
+      { "question": "What is the filtration recommendation?", "answer": "ISO 18/16/13 or better with 10 micron absolute filter." }
+    ],
+    "relatedProducts": ["hyd-001", "hyd-003", "hyd-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "hydraulic-motor", "parker", "fixed-displacement"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-05T11:00:00Z"
+  },
+  {
+    "id": "hyd-003",
+    "slug": "eaton-hydraulic-cylinder-h-series",
+    "sku": "ZEN-HYD-EAT-20002",
+    "mpn": "H-2-12-36-2A",
+    "name": "Eaton H-Series Hydraulic Cylinder 2\" Bore x 12\" Stroke",
+    "brand": "Eaton",
+    "manufacturer": "Eaton Corporation",
+    "category": "Hydraulics",
+    "subcategory": "Cylinders",
+    "industry": ["Manufacturing", "Mining", "Construction", "Agriculture"],
+    "series": "H-Series",
+    "model": "H-2-12-36-2A",
+    "description": "The Eaton H-Series hydraulic cylinder is a heavy-duty tie-rod cylinder for industrial and mobile applications. With a 2-inch bore and 12-inch stroke, it provides reliable linear force for clamping, lifting, and pressing operations.",
+    "shortDescription": "Tie-rod hydraulic cylinder, 2\" bore, 12\" stroke, 3,000 psi, double-acting.",
+    "technicalDescription": "NFPA tie-rod hydraulic cylinder with 2-inch bore, 12-inch stroke, and 1.375-inch rod diameter. Double-acting with cushioning on both ends. Pressure rating 3,000 psi with 5,000 psi non-shock.",
+    "applications": ["Machine Tool Clamping", "Hydraulic Presses", "Material Handling", "Injection Molding Machines"],
+    "features": [
+      "NFPA tie-rod construction per ANSI B93.1",
+      "Double-acting with adjustable cushions",
+      "2-inch bore, 1.375-inch rod, 12-inch stroke",
+      "Piston and rod wiper seals",
+      "SAE O-ring port connections"
+    ],
+    "benefits": [
+      "Interchangeable with other NFPA tie-rod cylinders",
+      "Cushions reduce impact at end of stroke",
+      "Reliable sealing with polyurethane wiper seals"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "2 inches",
+      "Rod Diameter": "1.375 inches",
+      "Stroke Length": "12 inches",
+      "Pressure Rating": "3,000 psi (5,000 psi non-shock)",
+      "Push Force": "9,420 lbs at 3,000 psi",
+      "Pull Force": "5,080 lbs at 3,000 psi",
+      "Ports": "SAE 8 O-Ring Boss"
+    },
+    "dimensions": "2\" bore, 12\" stroke, 26.5\" retracted length",
+    "weight": "18 kg",
+    "material": "Steel Barrel (C1026), Chrome-Plated Rod",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "NFPA/ANSI B93.1"],
+    "compatibleModels": ["H-2-8-36", "H-2-16-36", "H-2.5-12-36"],
+    "downloads": [
+      { "name": "Eaton Cylinder Catalog", "url": "https://example.com/eaton-cylinder.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/eaton-h-series.pdf"],
+    "images": [
+      { "src": "https://example.com/images/eaton-hcyl-1.jpg", "alt": "Eaton H-Series Hydraulic Cylinder", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Eaton Cylinder Installation Guide", "url": "https://example.com/eaton-cyl-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Eaton H-Series Hydraulic Cylinder 2\" Bore x 12\" Stroke",
+    "seoDescription": "Eaton H-Series tie-rod hydraulic cylinder, 2\" bore, 12\" stroke, 3,000 psi. For machine clamping, presses, and material handling.",
+    "seoKeywords": ["Eaton hydraulic cylinder", "H-Series cylinder", "tie-rod cylinder", "2 inch bore cylinder", "hydraulic actuator"],
+    "canonical": "https://example.com/eaton-hydraulic-cylinder-h-series",
+    "ogImage": "https://example.com/images/eaton-hcyl-og.jpg",
+    "faq": [
+      { "question": "What mounting styles are available?", "answer": "Available with cap flange, rod flange, clevis, trunnion, and foot mounting options." },
+      { "question": "What seal materials are standard?", "answer": "Standard seals are polyurethane (rod) and nitrile rubber (piston). Viton seals are available for high-temperature applications." },
+      { "question": "Can the cushions be adjusted?", "answer": "Yes, both end cushions have adjustable needles for deceleration control." }
+    ],
+    "relatedProducts": ["hyd-001", "hyd-004", "hyd-007"],
+    "availability": "in-stock",
+    "tags": ["featured", "hydraulic-cylinder", "eaton", "tie-rod"],
+    "createdAt": "2024-03-10T10:00:00Z",
+    "updatedAt": "2025-06-01T09:00:00Z"
+  },
+  {
+    "id": "hyd-004",
+    "slug": "parker-accumulator-bladder-1-gallon",
+    "sku": "ZEN-HYD-PRK-ACC01",
+    "mpn": "BA0010CB1M1",
+    "name": "Parker Bladder Accumulator 1 Gallon 3,000 PSI",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Hydraulics",
+    "subcategory": "Accumulators",
+    "industry": ["Manufacturing", "Energy", "Oil & Gas", "Mining"],
+    "series": "Bladder Accumulator",
+    "model": "BA0010CB1M1",
+    "description": "The Parker bladder accumulator stores hydraulic energy for peak demand, shock absorption, and emergency power. This 1-gallon accumulator is pre-charged with nitrogen and rated for 3,000 PSI.",
+    "shortDescription": "Bladder-type accumulator, 1 gallon, 3,000 PSI, ASME certified.",
+    "technicalDescription": "Bladder-type hydraulic accumulator with butyl rubber bladder, steel shell, and gas valve cap. ASME Section VIII stamped. Includes O-ring seal kit and pre-charge fitting.",
+    "applications": ["Hydraulic Power Units", "Pump Unloading Systems", "Shock Suppression", "Emergency Power Reserve"],
+    "features": [
+      "Bladder design for rapid response",
+      "1 gallon (0.13 ft³) fluid capacity",
+      "3,000 PSI working pressure",
+      "ASME Section VIII certified",
+      "Butyl rubber bladder standard"
+    ],
+    "benefits": [
+      "Reduces pump cycling frequency",
+      "Absorbs hydraulic shocks and pressure spikes",
+      "Provides emergency power for safety functions"
+    ],
+    "technicalSpecifications": {
+      "Fluid Capacity": "1 gallon (3.8 liters)",
+      "Working Pressure": "3,000 psi (207 bar)",
+      "Pre-Charge Gas": "Nitrogen (N₂)",
+      "Bladder Material": "Butyl Rubber (standard)",
+      "Shell Material": "Carbon Steel",
+      "Certification": "ASME Section VIII Div 1",
+      "Port Connection": "SAE 12 O-Ring Boss"
+    },
+    "dimensions": "300mm diameter x 500mm height",
+    "weight": "22 kg",
+    "material": "Carbon Steel Shell, Butyl Bladder",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME Section VIII", "ISO 9001", "CE"],
+    "compatibleModels": ["BA0020", "BA0050", "BA0100"],
+    "downloads": [
+      { "name": "Parker Accumulator Catalog", "url": "https://example.com/parker-accumulator.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-ba0010.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-accum-1.jpg", "alt": "Parker 1 Gallon Bladder Accumulator", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/parker-accum-charging.mp4"],
+    "documents": [
+      { "name": "Accumulator Safety Manual", "url": "https://example.com/parker-accum-safety.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker 1 Gallon Bladder Accumulator | 3,000 PSI",
+    "seoDescription": "Parker BA0010 bladder accumulator, 1 gallon, 3,000 PSI, ASME certified. For hydraulic energy storage and shock suppression.",
+    "seoKeywords": ["Parker accumulator", "bladder accumulator", "1 gallon accumulator", "hydraulic accumulator", "ASME accumulator"],
+    "canonical": "https://example.com/parker-accumulator-bladder-1-gallon",
+    "ogImage": "https://example.com/images/parker-accum-og.jpg",
+    "faq": [
+      { "question": "What is proper pre-charge pressure?", "answer": "Pre-charge should be 80-90% of minimum system pressure, typically 1,000-1,500 psi for a 3,000 psi system." },
+      { "question": "How often should pre-charge be checked?", "answer": "Pre-charge should be checked every 6 months or during routine maintenance." },
+      { "question": "Can the bladder be replaced?", "answer": "Yes, replacement bladders and seal kits are available for field replacement." }
+    ],
+    "relatedProducts": ["hyd-001", "hyd-005", "hyd-007"],
+    "availability": "in-stock",
+    "tags": ["accumulator", "hydraulic", "parker", "energy-storage"],
+    "createdAt": "2024-04-15T08:30:00Z",
+    "updatedAt": "2025-06-08T13:00:00Z"
+  },
+  {
+    "id": "hyd-005",
+    "slug": "eaton-hydraulic-filter-of10",
+    "sku": "ZEN-HYD-EAT-10001",
+    "mpn": "OF10-10-10BV",
+    "name": "Eaton OF10 Hydraulic Return-Line Filter",
+    "brand": "Eaton",
+    "manufacturer": "Eaton Corporation",
+    "category": "Hydraulics",
+    "subcategory": "Filters",
+    "industry": ["Manufacturing", "Mining", "Automotive", "Energy"],
+    "series": "OF10",
+    "model": "OF10-10-10BV",
+    "description": "The Eaton OF10 return-line filter removes particulate contamination from hydraulic system return flow. With 10 micron filtration and 100 L/min flow capacity, it protects pumps and valves from wear.",
+    "shortDescription": "Return-line hydraulic filter, 10 micron, 100 L/min, spin-on cartridge.",
+    "technicalDescription": "In-line return-line hydraulic filter with spin-on cartridge element. 10 micron absolute (ß10 ≥ 200) cellulose media. Bypass valve set at 3 bar. Visual and electrical clogging indicator.",
+    "applications": ["Hydraulic Power Unit Return", "Machine Tool Hydraulics", "Mobile Hydraulic Systems", "Industrial Oil Circulation"],
+    "features": [
+      "Spin-on cartridge for element replacement",
+      "10 micron absolute filtration",
+      "Integrated bypass valve",
+      "Visual and electrical clogging indicator",
+      "High collapse strength element"
+    ],
+    "benefits": [
+      "Extends hydraulic component life",
+      "Quick element change reduces downtime",
+      "Visual clogging indicator prevents unfiltered bypass"
+    ],
+    "technicalSpecifications": {
+      "Flow Capacity": "100 L/min",
+      "Filtration Rating": "10 micron (ß10 ≥ 200)",
+      "Maximum Pressure": "20 bar (290 psi)",
+      "Element Type": "Spin-on Cellulose",
+      "Bypass Setting": "3 bar (43 psi)",
+      "Port Size": "G 3/4\"",
+      "Weight": "2.5 kg"
+    },
+    "dimensions": "150mm diameter x 250mm height",
+    "weight": "2.5 kg",
+    "material": "Aluminum Head, Steel Canister",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ISO 16889"],
+    "compatibleModels": ["OF10-10-03BV", "OF10-10-25BV", "OF10-10-3BV"],
+    "downloads": [
+      { "name": "Eaton OF10 Filter Datasheet", "url": "https://example.com/eaton-of10.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/eaton-of10.pdf"],
+    "images": [
+      { "src": "https://example.com/images/eaton-of10-1.jpg", "alt": "Eaton OF10 Hydraulic Return-Line Filter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Eaton Hydraulic Filtration Guide", "url": "https://example.com/eaton-filtration.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Eaton OF10 Hydraulic Return-Line Filter",
+    "seoDescription": "Eaton OF10 return-line hydraulic filter, 10 micron, 100 L/min, spin-on cartridge. For hydraulic power units and industrial oil circulation.",
+    "seoKeywords": ["Eaton hydraulic filter", "OF10", "return-line filter", "hydraulic filtration", "oil filter"],
+    "canonical": "https://example.com/eaton-hydraulic-filter-of10",
+    "ogImage": "https://example.com/images/eaton-of10-og.jpg",
+    "faq": [
+      { "question": "What is the filter element material?", "answer": "Standard element is cellulose media. Micro-fiber glass elements are available for higher efficiency." },
+      { "question": "How often should the element be changed?", "answer": "When the clogging indicator shows red (visual) or triggers the electrical switch, typically 6-12 months depending on system condition." },
+      { "question": "Can this be installed on the pressure line?", "answer": "No, this is a return-line filter rated for 20 bar. For pressure line filtration, use the OFP series." }
+    ],
+    "relatedProducts": ["hyd-001", "hyd-003", "flt-001"],
+    "availability": "in-stock",
+    "tags": ["hydraulic-filter", "eaton", "return-line", "filtration"],
+    "createdAt": "2024-05-10T09:00:00Z",
+    "updatedAt": "2025-05-25T14:00:00Z"
+  },
+  {
+    "id": "hyd-006",
+    "slug": "parker-hydraulic-valve-d1vw",
+    "sku": "ZEN-HYD-PRK-10001",
+    "mpn": "D1VW020BVZP70",
+    "name": "Parker D1VW Directional Control Valve (D03)",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Hydraulics",
+    "subcategory": "Valves",
+    "industry": ["Manufacturing", "Automotive", "Energy", "Material Handling"],
+    "series": "D1VW",
+    "model": "D1VW020BVZP70",
+    "description": "The Parker D1VW is a direct-operated 4/3-way directional control valve with D03 (NG6) mounting pattern. Designed for solenoid operation with manual override, it controls the start, stop, and direction of hydraulic actuators.",
+    "shortDescription": "Direct-operated 4/3-way DCV, D03/NG6, 24VDC, solenoids, 80 L/min.",
+    "technicalDescription": "Direct-operated spool-type directional control valve with 4/3-way function, soft-shift solenoids (24 VDC), and manual emergency override. D03/NG6 CETOP mounting pattern with 80 L/min flow capacity.",
+    "applications": ["Cylinder Control", "Motor Direction Control", "Machine Tool Actuators", "Press Control Systems"],
+    "features": [
+      "4/3-way spool design with multiple spool options",
+      "D03/NG6 CETOP mounting pattern",
+      "24 VDC solenoids with manual override",
+      "Soft-shift solenoids for reduced shock",
+      "LED coil status indicators"
+    ],
+    "benefits": [
+      "Reduces system shock with soft-shift design",
+      "Quick diagnostics with LED indicators",
+      "Interchangeable with all D03 pattern valves"
+    ],
+    "technicalSpecifications": {
+      "Valve Type": "4/3-Way Direct Operated",
+      "Mounting Pattern": "D03 / NG6 / CETOP 03",
+      "Maximum Flow": "80 L/min",
+      "Maximum Pressure": "350 bar",
+      "Spool Type": "020 (P-A, B-T in center position)",
+      "Solenoid Voltage": "24 VDC",
+      "Weight": "2.2 kg"
+    },
+    "dimensions": "135mm x 75mm x 60mm",
+    "weight": "2.2 kg",
+    "material": "Cast Iron Body, Steel Spool",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "CE", "UL"],
+    "compatibleModels": ["D1VW020BN", "D1VW020CN", "D1VW020EN"],
+    "downloads": [
+      { "name": "Parker D1VW Valve Datasheet", "url": "https://example.com/parker-d1vw.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-d1vw.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-d1vw-1.jpg", "alt": "Parker D1VW Directional Control Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker DCV Selection Guide", "url": "https://example.com/parker-dcv-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker D1VW D03 Directional Control Valve",
+    "seoDescription": "Parker D1VW 4/3-way directional control valve, D03/NG6, 24VDC, 80 L/min, 350 bar. For cylinder and motor control in hydraulic systems.",
+    "seoKeywords": ["Parker DCV", "D1VW", "directional control valve", "D03 valve", "hydraulic solenoid valve"],
+    "canonical": "https://example.com/parker-hydraulic-valve-d1vw",
+    "ogImage": "https://example.com/images/parker-d1vw-og.jpg",
+    "faq": [
+      { "question": "What spool configurations are available?", "answer": "Available center positions: 0 (all ports blocked), 2 (P-A/B-T), 3 (P-A-B/T), and others." },
+      { "question": "What voltage options are available?", "answer": "Standard is 24 VDC. Options include 12 VDC, 115 VAC, and 230 VAC with rectifier." },
+      { "question": "What is the response time?", "answer": "Typical response time is 30-50 ms for solenoid energization and 20-40 ms for de-energization." }
+    ],
+    "relatedProducts": ["hyd-001", "hyd-002", "mnf-001"],
+    "availability": "in-stock",
+    "tags": ["featured", "directional-valve", "parker", "d03", "hydraulic-valve"],
+    "createdAt": "2024-06-01T08:00:00Z",
+    "updatedAt": "2025-06-10T10:00:00Z"
+  }
+]

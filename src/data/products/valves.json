@@ -1,0 +1,989 @@
+[
+  {
+    "id": "vlv-001",
+    "slug": "cameron-gate-valve-6-inch-600-class",
+    "sku": "ZEN-VLV-CAM-60001",
+    "mpn": "G-600-6-FL-CW",
+    "name": "Cameron Forged Steel Gate Valve 6\" Class 600",
+    "brand": "Cameron",
+    "manufacturer": "Cameron International",
+    "category": "Valves",
+    "subcategory": "Gate Valves",
+    "industry": ["Oil & Gas", "Chemical", "Energy"],
+    "series": "DuraGate Series",
+    "model": "G-600-6-FL-CW",
+    "description": "The Cameron DuraGate forged steel gate valve is designed for critical service in oil and gas production and chemical processing. Featuring a flexible wedge gate design and bolted bonnet, this Class 600 valve provides reliable bidirectional shut-off in high-pressure applications up to 1,480 psi at 100°F.",
+    "shortDescription": "Forged steel gate valve, Class 600, 6-inch flanged ends, flexible wedge.",
+    "technicalDescription": "Bolted bonnet gate valve with flexible wedge gate, full-port design, raised-face flanged ends per ASME B16.5. Body and bonnet in A216 WCB carbon steel. Standard trim conforming to API 600.",
+    "applications": ["Oil & Gas Pipelines", "Refinery Process Lines", "Chemical Processing Plants", "Power Generation Steam Systems"],
+    "features": [
+      "Flexible wedge gate for tight sealing under thermal cycling",
+      "Bolted bonnet design for easy maintenance access",
+      "Full-port design minimizes pressure drop",
+      "API 600 / ASME B16.34 compliant design",
+      "Graphite gasket sealing for fire-safe operation"
+    ],
+    "benefits": [
+      "Reliable shut-off in high-temperature and high-pressure conditions",
+      "Reduces fugitive emissions with advanced stem sealing",
+      "Long service life with corrosion-resistant trim options"
+    ],
+    "technicalSpecifications": {
+      "Size": "6 inches",
+      "Pressure Class": "Class 600",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Body Material": "A216 WCB Carbon Steel",
+      "Trim Material": "13Cr / F6a",
+      "Design Standard": "API 600 / ASME B16.34",
+      "Operating Temperature": "-29°C to +425°C"
+    },
+    "dimensions": "6\" flanged, face-to-face 403mm per ASME B16.10",
+    "weight": "95 kg",
+    "material": "A216 WCB Carbon Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 600", "API 6D", "ASME B16.34", "ISO 9001"],
+    "compatibleModels": ["G-600-4-FL", "G-600-8-FL", "G-600-6-BW"],
+    "downloads": [
+      { "name": "Cameron DuraGate Valve Catalog", "url": "https://example.com/cameron-duragate.pdf", "type": "application/pdf", "size": "5.2 MB" },
+      { "name": "Cameron Gate Valve IOM Manual", "url": "https://example.com/cameron-gate-iom.pdf", "type": "application/pdf", "size": "2.8 MB" }
+    ],
+    "datasheets": ["https://example.com/cameron-g600-datasheet.pdf"],
+    "images": [
+      { "src": "https://example.com/images/cameron-g600-1.jpg", "alt": "Cameron 6\" Class 600 Gate Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/cameron-valve-operation.mp4"],
+    "documents": [
+      { "name": "Cameron Valve Selection Guide", "url": "https://example.com/cameron-selection.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Cameron 6\" Class 600 Forged Steel Gate Valve",
+    "seoDescription": "Cameron DuraGate Class 600 gate valve, 6-inch flanged, A216 WCB body. API 600 compliant. For oil & gas, refining, and chemical applications.",
+    "seoKeywords": ["Cameron gate valve", "Class 600 gate valve", "6 inch gate valve", "API 600 valve"],
+    "canonical": "https://example.com/cameron-gate-valve-6-inch-600-class",
+    "ogImage": "https://example.com/images/cameron-g600-og.jpg",
+    "faq": [
+      { "question": "What is the maximum working pressure?", "answer": "The Class 600 valve has a maximum working pressure of 1,480 psi at 100°F (10.2 MPa at 38°C) per ASME B16.34." },
+      { "question": "Can this valve be used for throttling?", "answer": "Gate valves are not recommended for throttling service. They are designed for fully open or fully closed positions only." },
+      { "question": "What trim options are available?", "answer": "Standard trim is 13Cr. For corrosive services, options include F316 stainless steel, Monel, and Duplex stainless steel." }
+    ],
+    "relatedProducts": ["vlv-002", "vlv-003", "vlv-008"],
+    "availability": "in-stock",
+    "tags": ["featured", "gate-valve", "oil-gas", "high-pressure"],
+    "createdAt": "2024-01-20T08:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": "vlv-002",
+    "slug": "honeywell-ball-valve-3-inch-300-class",
+    "sku": "ZEN-VLV-HON-30003",
+    "mpn": "BV-300-3-FL-SS",
+    "name": "Honeywell Ball Valve 3\" Class 300 Stainless Steel",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Valves",
+    "subcategory": "Ball Valves",
+    "industry": ["Chemical", "Oil & Gas", "Pharmaceutical"],
+    "series": "V-Ball Series",
+    "model": "BV-300-3-FL-SS",
+    "description": "The Honeywell V-Ball Series ball valve provides precise flow control and tight shut-off in demanding process applications. This 3-inch Class 300 stainless steel valve features a floating ball design with reinforced PTFE seats, suitable for corrosive media.",
+    "shortDescription": "Stainless steel floating ball valve, Class 300, 3-inch flanged, PTFE seats.",
+    "technicalDescription": "Floating ball valve with full-port design, reinforced PTFE seat rings, blowout-proof stem, and anti-static device. Designed per ASME B16.34 with flanged ends per ASME B16.5. Suitable for bidirectional flow with zero leakage shut-off.",
+    "applications": ["Chemical Processing", "Pharmaceutical Manufacturing", "Refining", "Water Treatment"],
+    "features": [
+      "Floating ball design for tight shut-off at low pressures",
+      "Reinforced PTFE seats for wide chemical compatibility",
+      "Blowout-proof stem for enhanced safety",
+      "Anti-static device per API 608",
+      "Full-port design for minimal pressure drop"
+    ],
+    "benefits": [
+      "Zero leakage performance reduces product loss",
+      "Fire-safe design meets API 607 requirements",
+      "Low operating torque for easy automation"
+    ],
+    "technicalSpecifications": {
+      "Size": "3 inches",
+      "Pressure Class": "Class 300",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Body Material": "A351 CF8M",
+      "Ball Material": "316 Stainless Steel",
+      "Seat Material": "Reinforced PTFE",
+      "Design Standard": "API 608 / ASME B16.34"
+    },
+    "dimensions": "3\" flanged, face-to-face 203mm",
+    "weight": "28 kg",
+    "material": "CF8M Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 608", "API 607", "ISO 9001", "PED"],
+    "compatibleModels": ["BV-300-2-FL", "BV-300-4-FL", "BV-300-3-SW"],
+    "downloads": [
+      { "name": "Honeywell Ball Valve Brochure", "url": "https://example.com/honeywell-bv.pdf", "type": "application/pdf", "size": "3.5 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-bv300.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-bv300-1.jpg", "alt": "Honeywell 3\" Class 300 Ball Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Honeywell Valve Catalog", "url": "https://example.com/honeywell-valves.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell 3\" Class 300 Stainless Steel Ball Valve",
+    "seoDescription": "Honeywell V-Ball Series ball valve, 3-inch Class 300, CF8M stainless steel, PTFE seats. For chemical, pharmaceutical, and refining processes.",
+    "seoKeywords": ["Honeywell ball valve", "Class 300 ball valve", "stainless steel ball valve", "API 608 ball valve"],
+    "canonical": "https://example.com/honeywell-ball-valve-3-inch-300-class",
+    "ogImage": "https://example.com/images/honeywell-bv300-og.jpg",
+    "faq": [
+      { "question": "Is this valve fire-safe?", "answer": "Yes, the valve is designed and tested to API 607 fire-safe requirements." },
+      { "question": "Can this valve be automated?", "answer": "Yes, it features an ISO 5211 mounting pad for direct mounting of pneumatic or electric actuators." },
+      { "question": "What temperature range can the PTFE seats handle?", "answer": "Reinforced PTFE seats can operate from -50°C to +230°C." }
+    ],
+    "relatedProducts": ["vlv-001", "vlv-005", "vlv-007"],
+    "availability": "in-stock",
+    "tags": ["featured", "ball-valve", "stainless-steel", "chemical"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  },
+  {
+    "id": "vlv-003",
+    "slug": "emerson-butterfly-valve-12-inch",
+    "sku": "ZEN-VLV-EMR-12012",
+    "mpn": "BFV-12-150-WAF-LG",
+    "name": "Emerson Fishtail Butterfly Valve 12\" Class 150",
+    "brand": "Emerson",
+    "manufacturer": "Emerson Automation Solutions",
+    "category": "Valves",
+    "subcategory": "Butterfly Valves",
+    "industry": ["Water Treatment", "Chemical", "Oil & Gas", "HVAC"],
+    "series": "Fishtail Series",
+    "model": "BFV-12-150-WAF-LG",
+    "description": "The Emerson Fisher Fishtail butterfly valve is a high-performance, lug-style valve designed for throttling and on-off service. Featuring a contoured stainless steel disc with a fishtail shape for improved flow characteristics and reduced cavitation.",
+    "shortDescription": "High-performance lug-style butterfly valve, 12-inch Class 150, stainless steel disc.",
+    "technicalDescription": "Lug-style butterfly valve with pressure-assisted bi-directional sealing, contoured fishtail disc design for improved flow coefficient, and blowout-proof stem. Lugged body allows dead-end service. Designed per API 609 Category A.",
+    "applications": ["Water Distribution Systems", "HVAC Chilled Water", "Chemical Transfer", "Fire Protection Systems"],
+    "features": [
+      "Fishtail disc contour for enhanced flow and reduced cavitation",
+      "Pressure-assisted seat for bidirectional shut-off",
+      "Lugged body design allows dead-end service",
+      "Blowout-proof stem with double O-ring sealing",
+      "ISO 5211 mounting pad for direct actuator mounting"
+    ],
+    "benefits": [
+      "Excellent throttling characteristics across entire travel range",
+      "Reduces installation costs with dead-end service capability",
+      "Low operating torque reduces actuator size requirements"
+    ],
+    "technicalSpecifications": {
+      "Size": "12 inches",
+      "Pressure Class": "Class 150",
+      "End Connections": "Lug Style per ASME B16.5",
+      "Body Material": "A395 Ductile Iron",
+      "Disc Material": "316 Stainless Steel",
+      "Seat Material": "EPDM",
+      "Design Standard": "API 609 Category A"
+    },
+    "dimensions": "12\" lug, face-to-face 168mm per API 609",
+    "weight": "68 kg",
+    "material": "Ductile Iron Body, 316 SS Disc",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 609", "ISO 9001", "NSF 61", "PED"],
+    "compatibleModels": ["BFV-10-150-WAF", "BFV-14-150-WAF", "BFV-12-150-WAF-SS"],
+    "downloads": [
+      { "name": "Emerson Fishtail Butterfly Valve Catalog", "url": "https://example.com/emerson-fishtail.pdf", "type": "application/pdf", "size": "4.1 MB" }
+    ],
+    "datasheets": ["https://example.com/emerson-bfv12.pdf"],
+    "images": [
+      { "src": "https://example.com/images/emerson-bfv12-1.jpg", "alt": "Emerson 12\" Fishtail Butterfly Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/emerson-butterfly-installation.mp4"],
+    "documents": [
+      { "name": "Emerson Valve Product Guide", "url": "https://example.com/emerson-valve-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Emerson Fisher 12\" Class 150 Fishtail Butterfly Valve",
+    "seoDescription": "Emerson Fishtail high-performance butterfly valve, 12-inch Class 150, ductile iron body with SS disc. For water, HVAC, and chemical applications.",
+    "seoKeywords": ["Emerson butterfly valve", "Fisher butterfly valve", "12 inch butterfly valve", "lug style butterfly valve"],
+    "canonical": "https://example.com/emerson-butterfly-valve-12-inch",
+    "ogImage": "https://example.com/images/emerson-bfv12-og.jpg",
+    "faq": [
+      { "question": "Can this valve be used for dead-end service?", "answer": "Yes, the lug-style design allows the valve to be used for dead-end service at the full rated pressure on one side." },
+      { "question": "What is the operating temperature range?", "answer": "With EPDM seats, the operating range is -40°C to +130°C. Other elastomer options are available." },
+      { "question": "Is this valve suitable for potable water?", "answer": "Yes, the valve is NSF 61 certified for potable water service." }
+    ],
+    "relatedProducts": ["vlv-001", "vlv-005", "vlv-009"],
+    "availability": "in-stock",
+    "tags": ["featured", "butterfly-valve", "water-treatment"],
+    "createdAt": "2024-03-01T10:00:00Z",
+    "updatedAt": "2025-05-28T14:00:00Z"
+  },
+  {
+    "id": "vlv-004",
+    "slug": "honeywell-globe-valve-2-inch-600-class",
+    "sku": "ZEN-VLV-HON-60002",
+    "mpn": "GL-600-2-FL-CW",
+    "name": "Honeywell Globe Valve 2\" Class 600 Carbon Steel",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Valves",
+    "subcategory": "Globe Valves",
+    "industry": ["Power Plants", "Oil & Gas", "Chemical"],
+    "series": "GenGlobe Series",
+    "model": "GL-600-2-FL-CW",
+    "description": "The Honeywell GenGlobe globe valve is engineered for precise throttling and regulation in high-pressure steam, water, and process gas services. This 2-inch Class 600 valve features a plug-type disc and renewable seat ring providing excellent flow control characteristics.",
+    "shortDescription": "Carbon steel globe valve, Class 600, 2-inch flanged, plug-type disc for throttling.",
+    "technicalDescription": "Bolted bonnet globe valve with plug-type disc, renewable stellite-faced seat ring, and integral backseat. Flanged ends per ASME B16.5. Designed per ASME B16.34 with Class V shut-off capability.",
+    "applications": ["Boiler Feedwater", "Main Steam Lines", "Chemical Injection", "Condensate Systems"],
+    "features": [
+      "Plug-type disc for precise throttling control",
+      "Renewable stellite-faced seat ring for extended life",
+      "Integral backseat allows repacking under pressure",
+      "Bolted bonnet for easy internal access",
+      "Raised-face flanged ends per ASME B16.5"
+    ],
+    "benefits": [
+      "Excellent flow regulation with minimal erosion",
+      "Reduced maintenance cost with renewable seat",
+      "Safe repacking under line pressure"
+    ],
+    "technicalSpecifications": {
+      "Size": "2 inches",
+      "Pressure Class": "Class 600",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Body Material": "A216 WCB Carbon Steel",
+      "Disc Material": "13Cr Stainless Steel",
+      "Seat Material": "Stellite Hardfacing",
+      "Design Standard": "ASME B16.34 / BS 1873"
+    },
+    "dimensions": "2\" flanged, face-to-face 292mm",
+    "weight": "25 kg",
+    "material": "A216 WCB Carbon Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME B16.34", "ISO 9001", "PED"],
+    "compatibleModels": ["GL-600-1.5-FL", "GL-600-2.5-FL", "GL-600-2-SW"],
+    "downloads": [
+      { "name": "Honeywell Globe Valve Datasheet", "url": "https://example.com/honeywell-globe.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-gl600.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-gl600-1.jpg", "alt": "Honeywell 2\" Class 600 Globe Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Honeywell Valve IOM Manual", "url": "https://example.com/honeywell-globe-iom.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell 2\" Class 600 Globe Valve",
+    "seoDescription": "Honeywell GenGlobe globe valve, 2-inch Class 600, A216 WCB carbon steel, plug-type disc. For boiler feedwater, steam, and chemical injection.",
+    "seoKeywords": ["Honeywell globe valve", "Class 600 globe valve", "2 inch globe valve", "carbon steel globe valve"],
+    "canonical": "https://example.com/honeywell-globe-valve-2-inch-600-class",
+    "ogImage": "https://example.com/images/honeywell-gl600-og.jpg",
+    "faq": [
+      { "question": "Can this valve be used for on-off service?", "answer": "Yes, but globe valves are primarily designed for throttling. For frequent on-off service, a gate or ball valve is recommended." },
+      { "question": "What does renewable seat mean?", "answer": "The seat ring is a separate component that can be replaced without replacing the entire valve body." },
+      { "question": "What is the maximum temperature rating?", "answer": "For A216 WCB carbon steel, the maximum temperature is 425°C. Above this, alloy steel bodies are required." }
+    ],
+    "relatedProducts": ["vlv-001", "vlv-002", "vlv-006"],
+    "availability": "in-stock",
+    "tags": ["globe-valve", "high-pressure", "steam"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-05-15T09:00:00Z"
+  },
+  {
+    "id": "vlv-005",
+    "slug": "emerson-check-valve-8-inch-150-class",
+    "sku": "ZEN-VLV-EMR-15008",
+    "mpn": "CKV-8-150-WAF-DC",
+    "name": "Emerson Swing Check Valve 8\" Class 150",
+    "brand": "Emerson",
+    "manufacturer": "Emerson Automation Solutions",
+    "category": "Valves",
+    "subcategory": "Check Valves",
+    "industry": ["Water Treatment", "Oil & Gas", "Manufacturing"],
+    "series": "Full-Flo Series",
+    "model": "CKV-8-150-WAF-DC",
+    "description": "The Emerson Full-Flo swing check valve is designed for low-pressure drop and reliable backflow prevention in horizontal or vertical pipeline applications. This 8-inch Class 150 valve features a ductile iron body and stainless steel disc.",
+    "shortDescription": "Swing check valve, 8-inch Class 150, ductile iron body, stainless steel disc.",
+    "technicalDescription": "Swing check valve with bolted cover, hinged disc, and renewable seat ring. Wafer-style body for compact installation between flanges. Designed per API 594.",
+    "applications": ["Wastewater Pump Stations", "Cooling Water Systems", "Pipeline Backflow Prevention"],
+    "features": [
+      "Full-flow design minimizes pressure drop",
+      "Hinged disc closes automatically on flow reversal",
+      "Renewable seat ring extends valve service life",
+      "Wafer-style body reduces weight and cost"
+    ],
+    "benefits": [
+      "Prevents damaging water hammer with controlled closure",
+      "Low maintenance with renewable components",
+      "Compact installation between existing flanges"
+    ],
+    "technicalSpecifications": {
+      "Size": "8 inches",
+      "Pressure Class": "Class 150",
+      "End Connections": "Wafer Style per ASME B16.5",
+      "Body Material": "A395 Ductile Iron",
+      "Disc Material": "316 Stainless Steel",
+      "Seat Material": "Buna-N",
+      "Design Standard": "API 594"
+    },
+    "dimensions": "8\" wafer, face-to-face 127mm per API 594",
+    "weight": "32 kg",
+    "material": "Ductile Iron Body, 316 SS Disc",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 594", "ISO 9001", "NSF 61"],
+    "compatibleModels": ["CKV-6-150-WAF", "CKV-10-150-WAF", "CKV-8-150-FL"],
+    "downloads": [
+      { "name": "Emerson Check Valve Catalog", "url": "https://example.com/emerson-check.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/emerson-ckv8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/emerson-ckv8-1.jpg", "alt": "Emerson 8\" Swing Check Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Emerson Check Valve Sizing Guide", "url": "https://example.com/emerson-check-sizing.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Emerson 8\" Class 150 Swing Check Valve",
+    "seoDescription": "Emerson Full-Flo swing check valve, 8-inch Class 150, ductile iron body with 316 SS disc. For water, wastewater, and fire protection systems.",
+    "seoKeywords": ["Emerson check valve", "swing check valve", "8 inch check valve", "ductile iron check valve"],
+    "canonical": "https://example.com/emerson-check-valve-8-inch-150-class",
+    "ogImage": "https://example.com/images/emerson-ckv8-og.jpg",
+    "faq": [
+      { "question": "Can this valve be installed vertically?", "answer": "Yes, but for vertical installations where flow is upward, an optional lever and weight kit is recommended." },
+      { "question": "What is the minimum flow velocity for full disc opening?", "answer": "The minimum flow velocity for full disc lift is typically 2-3 m/s depending on line size." },
+      { "question": "Is this valve suitable for throttling?", "answer": "No, check valves are designed for automatic backflow prevention only and should not be used for throttling." }
+    ],
+    "relatedProducts": ["vlv-003", "vlv-007", "vlv-010"],
+    "availability": "in-stock",
+    "tags": ["check-valve", "backflow-prevention"],
+    "createdAt": "2024-05-05T09:00:00Z",
+    "updatedAt": "2025-06-10T08:00:00Z"
+  },
+  {
+    "id": "vlv-006",
+    "slug": "cameron-relief-valve-1-inch-2500-class",
+    "sku": "ZEN-VLV-CAM-25001",
+    "mpn": "PSV-2500-1-FL-SS",
+    "name": "Cameron Pressure Relief Valve 1\" Class 2500",
+    "brand": "Cameron",
+    "manufacturer": "Cameron International",
+    "category": "Valves",
+    "subcategory": "Relief Valves",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants"],
+    "series": "Safe-T-Relief Series",
+    "model": "PSV-2500-1-FL-SS",
+    "description": "The Cameron Safe-T-Relief pressure relief valve provides overpressure protection for high-pressure vessels and pipelines. This 1-inch Class 2500 spring-loaded valve features a stainless steel body and soft seat for bubble-tight shut-off.",
+    "shortDescription": "Spring-loaded pressure relief valve, Class 2500, 1-inch, ASME UV certified.",
+    "technicalDescription": "Direct spring-operated pressure relief valve with full-lift nozzle design, soft PEEK seat, and adjustable blowdown ring. Flanged inlet per ASME B16.5. Certified per ASME Section VIII Division 1.",
+    "applications": ["Pressure Vessel Protection", "Pipeline Overpressure", "Compressor Stations", "Chemical Reactors"],
+    "features": [
+      "ASME Section VIII UV certified for safety relief",
+      "Soft PEEK seat for bubble-tight shut-off up to set pressure",
+      "Adjustable blowdown ring for precise re-seat pressure",
+      "Full-lift nozzle design for maximum flow capacity",
+      "Stainless steel construction for corrosive service"
+    ],
+    "benefits": [
+      "Reliable overpressure protection for personnel and equipment",
+      "Reduces product loss with tight shut-off after relief",
+      "Field-adjustable blowdown without removing valve from service"
+    ],
+    "technicalSpecifications": {
+      "Size": "1 inch x 2 inch",
+      "Pressure Class": "Class 2500",
+      "Inlet Connection": "1\" RTJ Flanged per ASME B16.5",
+      "Outlet Connection": "2\" Raised Face Flanged",
+      "Body Material": "A182 F316 Stainless Steel",
+      "Seat Material": "PEEK",
+      "Design Standard": "ASME Section VIII Div 1 / API 526"
+    },
+    "dimensions": "1\" x 2\" inlet/outlet, center-to-top 350mm",
+    "weight": "18 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME UV Stamp", "API 526", "NACE MR0175", "ISO 9001"],
+    "compatibleModels": ["PSV-1500-1-FL", "PSV-2500-0.75-FL", "PSV-2500-1.5-FL"],
+    "downloads": [
+      { "name": "Cameron Safe-T-Relief Catalog", "url": "https://example.com/cameron-relief.pdf", "type": "application/pdf", "size": "4.0 MB" }
+    ],
+    "datasheets": ["https://example.com/cameron-psv2500.pdf"],
+    "images": [
+      { "src": "https://example.com/images/cameron-psv2500-1.jpg", "alt": "Cameron 1\" Class 2500 Pressure Relief Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/cameron-relief-testing.mp4"],
+    "documents": [
+      { "name": "Cameron Relief Valve IOM Manual", "url": "https://example.com/cameron-relief-iom.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Cameron 1\" Class 2500 Pressure Relief Valve | ASME UV Certified",
+    "seoDescription": "Cameron Safe-T-Relief pressure relief valve, 1\" Class 2500, 316 SS, ASME UV certified. For high-pressure vessel and pipeline protection.",
+    "seoKeywords": ["Cameron relief valve", "pressure relief valve", "Class 2500", "ASME UV valve"],
+    "canonical": "https://example.com/cameron-relief-valve-1-inch-2500-class",
+    "ogImage": "https://example.com/images/cameron-psv2500-og.jpg",
+    "faq": [
+      { "question": "What set pressure ranges are available?", "answer": "Set pressure ranges from 150 to 2,500 psi depending on spring selection." },
+      { "question": "What does the ASME UV stamp mean?", "answer": "The UV stamp certifies that the valve has been tested and approved by the National Board for use as a safety relief valve per ASME Section VIII." },
+      { "question": "Can the blowdown be adjusted in the field?", "answer": "Yes, the adjustable blowdown ring allows field adjustment of the re-seat pressure without removing the valve from service." }
+    ],
+    "relatedProducts": ["vlv-004", "vlv-008", "vlv-011"],
+    "availability": "made-to-order",
+    "tags": ["featured", "relief-valve", "asme-certified", "high-pressure"],
+    "createdAt": "2024-06-15T10:30:00Z",
+    "updatedAt": "2025-06-05T12:00:00Z"
+  },
+  {
+    "id": "vlv-007",
+    "slug": "emerson-pinch-valve-4-inch",
+    "sku": "ZEN-VLV-EMR-PIN04",
+    "mpn": "PV-4-150-FL-EPDM",
+    "name": "Emerson Pinch Valve 4\" Class 150",
+    "brand": "Emerson",
+    "manufacturer": "Emerson Automation Solutions",
+    "category": "Valves",
+    "subcategory": "Pinch Valves",
+    "industry": ["Mining", "Chemical", "Pharmaceutical"],
+    "series": "Flex-Master Series",
+    "model": "PV-4-150-FL-EPDM",
+    "description": "The Emerson Flex-Master pinch valve is ideal for handling abrasive slurries and corrosive chemicals. The full-bore rubber sleeve is the only wetted part, providing bubble-tight shut-off by pinching the sleeve closed.",
+    "shortDescription": "Full-bore pinch valve with EPDM sleeve, 4-inch flanged, for abrasive and corrosive media.",
+    "technicalDescription": "Pinch valve with full-bore elastomeric sleeve, flanged ends per ASME B16.5, and a direct-acting pinch mechanism. The sleeve is the only component in contact with the process fluid.",
+    "applications": ["Slurry Transport", "Mine Tailings", "Chemical Dosing", "Wastewater Sludge"],
+    "features": [
+      "Full-bore design with no flow restriction when fully open",
+      "Sleeve is the only wetted component",
+      "Bubble-tight shut-off even with trapped solids",
+      "Self-cleaning action with no dead spaces"
+    ],
+    "benefits": [
+      "Eliminates valve maintenance from abrasive wear",
+      "Lowest cost of ownership for slurry applications",
+      "No packing or seat leakage"
+    ],
+    "technicalSpecifications": {
+      "Size": "4 inches",
+      "Pressure Class": "Class 150",
+      "End Connections": "Flanged per ASME B16.5",
+      "Body Material": "Epoxy-Coated Cast Iron",
+      "Sleeve Material": "EPDM",
+      "Max Operating Pressure": "150 psi",
+      "Max Operating Temperature": "100°C"
+    },
+    "dimensions": "4\" flanged, face-to-face 229mm",
+    "weight": "22 kg",
+    "material": "Cast Iron Body, EPDM Sleeve",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ATEX"],
+    "compatibleModels": ["PV-3-150-FL", "PV-6-150-FL", "PV-4-150-FL-NR"],
+    "downloads": [
+      { "name": "Emerson Pinch Valve Catalog", "url": "https://example.com/emerson-pinch.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/emerson-pv4.pdf"],
+    "images": [
+      { "src": "https://example.com/images/emerson-pv4-1.jpg", "alt": "Emerson 4\" Pinch Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Emerson Pinch Valve Sleeve Selection Guide", "url": "https://example.com/emerson-sleeve-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Emerson 4\" Class 150 Pinch Valve",
+    "seoDescription": "Emerson Flex-Master pinch valve, 4-inch flanged, EPDM sleeve. Full-bore design for abrasive slurries, mining tailings, and chemical dosing.",
+    "seoKeywords": ["Emerson pinch valve", "4 inch pinch valve", "slurry valve", "abrasive service valve"],
+    "canonical": "https://example.com/emerson-pinch-valve-4-inch",
+    "ogImage": "https://example.com/images/emerson-pv4-og.jpg",
+    "faq": [
+      { "question": "How long does the sleeve last?", "answer": "Sleeve life depends on service conditions. In abrasive slurry service, typical life is 3-5 years." },
+      { "question": "Can the sleeve be replaced in the field?", "answer": "Yes, the sleeve is a field-replaceable component that can be changed without removing the valve body." },
+      { "question": "Is this valve suitable for food applications?", "answer": "Yes, EPDM and silicone sleeves are available with FDA-approved materials for food contact." }
+    ],
+    "relatedProducts": ["vlv-005", "vlv-009", "vlv-012"],
+    "availability": "in-stock",
+    "tags": ["pinch-valve", "slurry", "mining", "abrasive"],
+    "createdAt": "2024-07-10T08:00:00Z",
+    "updatedAt": "2025-06-08T11:00:00Z"
+  },
+  {
+    "id": "vlv-008",
+    "slug": "honeywell-control-valve-3-inch-globe",
+    "sku": "ZEN-VLV-HON-30003",
+    "mpn": "CV-300-3-FL-PD",
+    "name": "Honeywell Control Valve 3\" Class 300 with Positioner",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Valves",
+    "subcategory": "Control Valves",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants"],
+    "series": "Precision-Drive Series",
+    "model": "CV-300-3-FL-PD",
+    "description": "The Honeywell Precision-Drive control valve is a complete assembly with a globe valve body, pneumatic diaphragm actuator, and digital positioner. Designed for precise flow, pressure, and temperature control in continuous process applications.",
+    "shortDescription": "Complete control valve assembly, 3-inch Class 300, with pneumatic actuator and digital positioner.",
+    "technicalDescription": "Globe-style control valve body with cage-guided trim, equal percentage flow characteristic, multi-spring pneumatic diaphragm actuator, and digital valve positioner with HART protocol. Designed per IEC 60534.",
+    "applications": ["Process Flow Control", "Boiler Feedwater Regulation", "Chemical Reactor Temperature"],
+    "features": [
+      "Cage-guided trim for stable throttling across full travel",
+      "Multi-spring pneumatic diaphragm actuator for high thrust",
+      "Digital positioner with HART communication protocol",
+      "Characterized trim options available",
+      "Low-emission packing meets TA-Luft standards"
+    ],
+    "benefits": [
+      "Superior process control accuracy reduces product variability",
+      "Integrated assembly simplifies installation and commissioning",
+      "Reduces fugitive emissions with advanced packing"
+    ],
+    "technicalSpecifications": {
+      "Size": "3 inches",
+      "Pressure Class": "Class 300",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Valve Body Material": "A216 WCB Carbon Steel",
+      "Trim Material": "316 SS with Stellite Hardfacing",
+      "Actuator Type": "Multi-Spring Diaphragm",
+      "Positioner Input": "4-20 mA / HART Protocol"
+    },
+    "dimensions": "3\" flanged, face-to-face 451mm per IEC 60534",
+    "weight": "85 kg",
+    "material": "Carbon Steel Body, 316 SS Trim",
+    "countryOfOrigin": "USA",
+    "certifications": ["IEC 60534", "ASME B16.34", "ISO 9001", "SIL 2", "ATEX"],
+    "compatibleModels": ["CV-300-2-FL", "CV-300-4-FL", "CV-150-3-FL"],
+    "downloads": [
+      { "name": "Honeywell Control Valve Catalog", "url": "https://example.com/honeywell-control.pdf", "type": "application/pdf", "size": "6.0 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-cv300.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-cv300-1.jpg", "alt": "Honeywell 3\" Control Valve Assembly", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/honeywell-control-valve-calibration.mp4"],
+    "documents": [
+      { "name": "Honeywell Control Valve Sizing Software", "url": "https://example.com/honeywell-sizing-software.exe", "type": "application/x-msdownload" }
+    ],
+    "seoTitle": "Honeywell 3\" Class 300 Control Valve with Digital Positioner",
+    "seoDescription": "Honeywell Precision-Drive control valve assembly, 3-inch Class 300, with pneumatic actuator and HART digital positioner.",
+    "seoKeywords": ["Honeywell control valve", "3 inch control valve", "globe control valve", "digital positioner", "HART valve"],
+    "canonical": "https://example.com/honeywell-control-valve-3-inch-globe",
+    "ogImage": "https://example.com/images/honeywell-cv300-og.jpg",
+    "faq": [
+      { "question": "What communication protocols are supported?", "answer": "Standard is HART protocol via 4-20 mA analog signal. Foundation Fieldbus and Profibus PA options are available." },
+      { "question": "What is the rangeability of this valve?", "answer": "The valve has a rangeability of 50:1 with equal percentage trim." },
+      { "question": "What accessories are included?", "answer": "The assembly includes a digital positioner, I/P converter, air filter regulator, and position feedback." }
+    ],
+    "relatedProducts": ["vlv-004", "vlv-006", "vlv-011"],
+    "availability": "made-to-order",
+    "tags": ["featured", "control-valve", "digital-positioner"],
+    "createdAt": "2024-08-05T11:00:00Z",
+    "updatedAt": "2025-06-15T13:00:00Z"
+  },
+  {
+    "id": "vlv-009",
+    "slug": "cameron-plug-valve-2-inch-lubricated",
+    "sku": "ZEN-VLV-CAM-20002",
+    "mpn": "PLV-200-2-FL-SG",
+    "name": "Cameron Lubricated Plug Valve 2\" Class 200",
+    "brand": "Cameron",
+    "manufacturer": "Cameron International",
+    "category": "Valves",
+    "subcategory": "Plug Valves",
+    "industry": ["Oil & Gas", "Chemical"],
+    "series": "Lube-Master Series",
+    "model": "PLV-200-2-FL-SG",
+    "description": "The Cameron Lube-Master lubricated plug valve is designed for positive shut-off in gas distribution and oil gathering services. The tapered plug design with pressurized sealant system provides bubble-tight sealing.",
+    "shortDescription": "Lubricated tapered plug valve, Class 200, 2-inch flanged, carbon steel.",
+    "technicalDescription": "Single-port lubricated plug valve with inverted tapered plug, sealant injection system, and bolted gland. Flanged ends per ASME B16.5. Sealant replenishment restores sealing without valve disassembly.",
+    "applications": ["Natural Gas Distribution", "Oil Well Gathering Lines", "Chemical Injection Manifolds"],
+    "features": [
+      "Lubricated plug design for bubble-tight sealing",
+      "Sealant injection system allows in-service restoration",
+      "Tapered plug provides smooth, low-torque operation",
+      "Bi-directional shut-off capability"
+    ],
+    "benefits": [
+      "Seal can be restored without removing valve from service",
+      "Reliable operation even after long periods of inactivity",
+      "Low operating torque even at full rated pressure"
+    ],
+    "technicalSpecifications": {
+      "Size": "2 inches",
+      "Pressure Class": "Class 200",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Body Material": "A216 WCB Carbon Steel",
+      "Plug Material": "13Cr Stainless Steel",
+      "Sealant Type": "Standard Lube-Master Sealant #1",
+      "Design Standard": "API 6D"
+    },
+    "dimensions": "2\" flanged, face-to-face 178mm",
+    "weight": "18 kg",
+    "material": "A216 WCB Carbon Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 6D", "API 607", "ISO 9001"],
+    "compatibleModels": ["PLV-200-1-FL", "PLV-200-3-FL", "PLV-200-2-TH"],
+    "downloads": [
+      { "name": "Cameron Plug Valve Manual", "url": "https://example.com/cameron-plug.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/cameron-plv200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/cameron-plv200-1.jpg", "alt": "Cameron 2\" Lubricated Plug Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Cameron Plug Valve Sealant Guide", "url": "https://example.com/cameron-sealant.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Cameron 2\" Class 200 Lubricated Plug Valve",
+    "seoDescription": "Cameron Lube-Master lubricated plug valve, 2-inch Class 200, carbon steel. For natural gas, oil gathering, and chemical injection.",
+    "seoKeywords": ["Cameron plug valve", "lubricated plug valve", "gas distribution valve"],
+    "canonical": "https://example.com/cameron-plug-valve-2-inch-lubricated",
+    "ogImage": "https://example.com/images/cameron-plv200-og.jpg",
+    "faq": [
+      { "question": "How often does the sealant need replenishing?", "answer": "Sealant replenishment depends on service. Typical interval is 6-12 months in normal gas service." },
+      { "question": "Can this valve be automated?", "answer": "Yes, the valve has a standard square stem top and can be fitted with pneumatic or electric actuators." },
+      { "question": "What is the temperature range?", "answer": "The standard valve operates from -30°C to +180°C with standard sealant." }
+    ],
+    "relatedProducts": ["vlv-001", "vlv-006", "vlv-010"],
+    "availability": "in-stock",
+    "tags": ["plug-valve", "gas-distribution"],
+    "createdAt": "2024-09-01T09:30:00Z",
+    "updatedAt": "2025-05-25T10:00:00Z"
+  },
+  {
+    "id": "vlv-010",
+    "slug": "honeywell-diaphragm-valve-2-inch-stainless",
+    "sku": "ZEN-VLV-HON-20002",
+    "mpn": "DV-200-2-FL-SSW",
+    "name": "Honeywell Weir-Type Diaphragm Valve 2\" Stainless Steel",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Valves",
+    "subcategory": "Diaphragm Valves",
+    "industry": ["Pharmaceutical", "Chemical"],
+    "series": "Sanitary-Flo Series",
+    "model": "DV-200-2-FL-SSW",
+    "description": "The Honeywell Sanitary-Flo weir-type diaphragm valve is designed for hygienic processing in pharmaceutical and biotech applications. The 316L stainless steel body features a fully drainable design with Ra ≤ 0.5 μm surface finish.",
+    "shortDescription": "Sanitary weir-type diaphragm valve, 2-inch, 316L stainless steel, Ra ≤ 0.5 μm finish.",
+    "technicalDescription": "Weir-type diaphragm valve with 316L stainless steel body, PTFE-faced EPDM diaphragm, and manual bonnet assembly with position indicator. Designed for aseptic service with CIP/SIP compatibility.",
+    "applications": ["Pharmaceutical WFI Systems", "Bioreactor Feed", "Clean-in-Place Circuits"],
+    "features": [
+      "316L stainless steel body with Ra ≤ 0.5 μm surface finish",
+      "PTFE-faced EPDM diaphragm for wide chemical compatibility",
+      "Fully drainable weir design for hygienic service",
+      "CIP and SIP compatible construction"
+    ],
+    "benefits": [
+      "Eliminates product contamination with crevice-free design",
+      "Sterilizable-in-place reduces contamination risk",
+      "Diaphragm isolates bonnet mechanism from process fluid"
+    ],
+    "technicalSpecifications": {
+      "Size": "2 inches",
+      "Pressure Rating": "200 psi",
+      "End Connections": "Flanged per ASME B16.5",
+      "Body Material": "316L Stainless Steel",
+      "Diaphragm Material": "PTFE-Faced EPDM",
+      "Surface Finish": "Ra ≤ 0.5 μm",
+      "Design Standard": "ISO 2100"
+    },
+    "dimensions": "2\" flanged, face-to-face 150mm",
+    "weight": "8.5 kg",
+    "material": "316L Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "FDA 21 CFR 177", "USP Class VI", "EHEDG"],
+    "compatibleModels": ["DV-200-1.5-FL", "DV-200-2.5-FL", "DV-200-2-SC"],
+    "downloads": [
+      { "name": "Honeywell Sanitary Valve Catalog", "url": "https://example.com/honeywell-sanitary.pdf", "type": "application/pdf", "size": "3.2 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-dv200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-dv200-1.jpg", "alt": "Honeywell 2\" Sanitary Diaphragm Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Honeywell Sanitary Valve IOM Manual", "url": "https://example.com/honeywell-sanitary-iom.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell 2\" Sanitary Diaphragm Valve | 316L Stainless Steel",
+    "seoDescription": "Honeywell Sanitary-Flo weir-type diaphragm valve, 2-inch 316L SS, Ra ≤ 0.5 μm. For pharmaceutical and biotech applications.",
+    "seoKeywords": ["Honeywell diaphragm valve", "sanitary diaphragm valve", "316L diaphragm valve", "aseptic valve"],
+    "canonical": "https://example.com/honeywell-diaphragm-valve-2-inch-stainless",
+    "ogImage": "https://example.com/images/honeywell-dv200-og.jpg",
+    "faq": [
+      { "question": "Can this valve be sterilized in place?", "answer": "Yes, the valve is fully SIP compatible with 316L materials and PTFE diaphragm that withstands sterilization temperatures." },
+      { "question": "What surface finish is provided?", "answer": "Standard internal surface finish is Ra ≤ 0.5 μm. Electropolishing to Ra ≤ 0.25 μm is available for critical applications." },
+      { "question": "Is the diaphragm replaceable?", "answer": "Yes, the diaphragm is a field-replaceable component." }
+    ],
+    "relatedProducts": ["vlv-005", "vlv-008", "vlv-013"],
+    "availability": "in-stock",
+    "tags": ["featured", "diaphragm-valve", "sanitary", "pharmaceutical"],
+    "createdAt": "2024-10-10T08:00:00Z",
+    "updatedAt": "2025-06-12T09:00:00Z"
+  },
+  {
+    "id": "vlv-011",
+    "slug": "cameron-ball-valve-10-inch-600-class-trunnion",
+    "sku": "ZEN-VLV-CAM-60010",
+    "mpn": "TBV-600-10-FL-DS",
+    "name": "Cameron Trunnion Ball Valve 10\" Class 600",
+    "brand": "Cameron",
+    "manufacturer": "Cameron International",
+    "category": "Valves",
+    "subcategory": "Ball Valves",
+    "industry": ["Oil & Gas", "Energy", "Marine"],
+    "series": "Trunnio-Ball Series",
+    "model": "TBV-600-10-FL-DS",
+    "description": "The Cameron Trunnio-Ball trunnion-mounted ball valve is engineered for high-pressure, large-diameter pipelines. The trunnion design supports the ball at both top and bottom, reducing operating torque at high pressure differentials.",
+    "shortDescription": "Trunnion-mounted ball valve, Class 600, 10-inch, double-block-and-bleed capability.",
+    "technicalDescription": "Trunnion-mounted ball valve with double-block-and-bleed capability, full-bore design, double-piston effect seats, and automatic cavity pressure relief. Flanged ends per ASME B16.5. Designed per API 6D.",
+    "applications": ["Cross-Country Pipelines", "Subsea Manifolds", "Offshore Production Platforms"],
+    "features": [
+      "Trunnion-mounted ball reduces operating torque at high pressure",
+      "Double-piston effect seats for bidirectional sealing",
+      "Double-block-and-bleed capability",
+      "Automatic cavity pressure relief safety feature",
+      "Anti-blowout stem design with fire-safe certification"
+    ],
+    "benefits": [
+      "Safe operation at high differential pressures",
+      "Provides positive isolation for maintenance activities",
+      "Fire-safe design meets API 607 requirements"
+    ],
+    "technicalSpecifications": {
+      "Size": "10 inches",
+      "Pressure Class": "Class 600",
+      "End Connections": "Raised Face Flanged per ASME B16.5",
+      "Body Material": "A216 WCB Carbon Steel",
+      "Ball Material": "13Cr Stainless Steel",
+      "Seat Material": "PTFE with Nylon Back-up Ring",
+      "Design Standard": "API 6D"
+    },
+    "dimensions": "10\" flanged, face-to-face 660mm per API 6D",
+    "weight": "450 kg",
+    "material": "Carbon Steel Body, 13Cr Ball",
+    "countryOfOrigin": "USA",
+    "certifications": ["API 6D", "API 607", "API 6FA", "ISO 9001"],
+    "compatibleModels": ["TBV-600-8-FL", "TBV-600-12-FL", "TBV-900-10-FL"],
+    "downloads": [
+      { "name": "Cameron Trunnion Ball Valve Catalog", "url": "https://example.com/cameron-tbv.pdf", "type": "application/pdf", "size": "5.5 MB" }
+    ],
+    "datasheets": ["https://example.com/cameron-tbv600.pdf"],
+    "images": [
+      { "src": "https://example.com/images/cameron-tbv600-1.jpg", "alt": "Cameron 10\" Trunnion Ball Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/cameron-trv-operation.mp4"],
+    "documents": [
+      { "name": "Cameron Pipeline Valve IOM Manual", "url": "https://example.com/cameron-pipeline-iom.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Cameron 10\" Class 600 Trunnion Ball Valve",
+    "seoDescription": "Cameron Trunnio-Ball trunnion-mounted ball valve, 10-inch Class 600, DBB capability, API 6D. For oil & gas pipelines and offshore platforms.",
+    "seoKeywords": ["Cameron trunnion ball valve", "10 inch ball valve", "trunnion mounted ball valve", "API 6D valve"],
+    "canonical": "https://example.com/cameron-ball-valve-10-inch-600-class-trunnion",
+    "ogImage": "https://example.com/images/cameron-tbv600-og.jpg",
+    "faq": [
+      { "question": "What is double-block-and-bleed?", "answer": "DBB means a single valve can provide double isolation with a bleed port between them for positive verification of seal integrity." },
+      { "question": "What is the advantage of trunnion mounting?", "answer": "Trunnion mounting supports the ball at both top and bottom, reducing operating torque at high differential pressures." },
+      { "question": "What seat materials are available?", "answer": "Standard seats are reinforced PTFE with nylon backup rings. PEEK or metal seats are available for high-temperature service." }
+    ],
+    "relatedProducts": ["vlv-002", "vlv-006", "vlv-008"],
+    "availability": "made-to-order",
+    "tags": ["featured", "trunnion-ball", "pipeline", "offshore"],
+    "createdAt": "2024-11-20T10:00:00Z",
+    "updatedAt": "2025-06-18T14:00:00Z"
+  },
+  {
+    "id": "vlv-012",
+    "slug": "emerson-needle-valve-1-2-inch-10000-psi",
+    "sku": "ZEN-VLV-EMR-10005",
+    "mpn": "NV-10000-0.5-TH-SS",
+    "name": "Emerson Needle Valve 1/2\" 10,000 PSI",
+    "brand": "Emerson",
+    "manufacturer": "Emerson Automation Solutions",
+    "category": "Valves",
+    "subcategory": "Needle Valves",
+    "industry": ["Oil & Gas", "Chemical", "Instrumentation"],
+    "series": "Precision-Needle Series",
+    "model": "NV-10000-0.5-TH-SS",
+    "description": "The Emerson Precision-Needle valve provides precise flow regulation in high-pressure instrumentation and sampling systems. Rated for 10,000 psi, this 1/2-inch valve features a 316 stainless steel body and non-rotating stem tip.",
+    "shortDescription": "High-pressure needle valve, 1/2-inch, 10,000 psi, 316 stainless steel.",
+    "technicalDescription": "Globe-pattern needle valve with non-rotating stem tip, PTFE packing below threads, and stainless steel bonnet. Female NPT threaded ends per ASME B1.20.1.",
+    "applications": ["Instrument Air Systems", "Chemical Injection Sampling", "Hydraulic Control Panels"],
+    "features": [
+      "Non-rotating stem tip prevents seat galling",
+      "PTFE packing below threads prevents thread contamination",
+      "Panel-mountable design with lock nut",
+      "316 stainless steel construction for corrosion resistance"
+    ],
+    "benefits": [
+      "Precise flow control with smooth, repeatable adjustment",
+      "Extended service life with gall-resistant stem design",
+      "Safe operation at extreme pressures"
+    ],
+    "technicalSpecifications": {
+      "Size": "1/2 inch",
+      "Pressure Rating": "10,000 psi",
+      "End Connections": "1/2\" Female NPT",
+      "Body Material": "316 Stainless Steel",
+      "Stem Tip Material": "17-4 PH Stainless Steel",
+      "Packing Material": "PTFE",
+      "Orifice Diameter": "0.250\""
+    },
+    "dimensions": "1/2\" NPT, length 89mm",
+    "weight": "1.2 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "PED"],
+    "compatibleModels": ["NV-10000-0.25-TH", "NV-6000-0.5-TH", "NV-10000-0.5-SW"],
+    "downloads": [
+      { "name": "Emerson Needle Valve Datasheet", "url": "https://example.com/emerson-nv.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/emerson-nv10000.pdf"],
+    "images": [
+      { "src": "https://example.com/images/emerson-nv10000-1.jpg", "alt": "Emerson 1/2\" 10,000 PSI Needle Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Emerson Instrument Valve Catalog", "url": "https://example.com/emerson-instrument.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Emerson 1/2\" 10,000 PSI Needle Valve",
+    "seoDescription": "Emerson Precision-Needle valve, 1/2-inch, 10,000 psi, 316 SS. For instrumentation, chemical injection, and hydraulic control panels.",
+    "seoKeywords": ["Emerson needle valve", "10000 psi needle valve", "high pressure needle valve", "instrument valve"],
+    "canonical": "https://example.com/emerson-needle-valve-1-2-inch-10000-psi",
+    "ogImage": "https://example.com/images/emerson-nv10000-og.jpg",
+    "faq": [
+      { "question": "What is the maximum operating temperature?", "answer": "With standard PTFE packing, the maximum operating temperature is 230°C. Graphite packing allows up to 540°C." },
+      { "question": "Can this valve be used for shut-off?", "answer": "Yes, while designed for throttling, the valve provides bubble-tight shut-off at full rated pressure." }
+    ],
+    "relatedProducts": ["vlv-004", "vlv-009", "vlv-013"],
+    "availability": "in-stock",
+    "tags": ["needle-valve", "high-pressure", "instrumentation"],
+    "createdAt": "2024-12-05T07:00:00Z",
+    "updatedAt": "2025-06-01T15:00:00Z"
+  },
+  {
+    "id": "vlv-013",
+    "slug": "honeywell-solenoid-valve-1-inch-300-class",
+    "sku": "ZEN-VLV-HON-30001",
+    "mpn": "SV-300-1-FL-SS-PP",
+    "name": "Honeywell Solenoid Valve 1\" Class 300 with Position Feedback",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Valves",
+    "subcategory": "Solenoid Valves",
+    "industry": ["Oil & Gas", "Chemical", "Water Treatment", "Manufacturing"],
+    "series": "Solo-Force Series",
+    "model": "SV-300-1-FL-SS-PP",
+    "description": "The Honeywell Solo-Force solenoid valve is a direct-acting, 2-way normally closed valve for on-off control of liquids and gases. This 1-inch Class 300 valve features a stainless steel body and explosion-proof solenoid enclosure.",
+    "shortDescription": "Direct-acting solenoid valve, 1-inch Class 300, 316 SS body, explosion-proof enclosure.",
+    "technicalDescription": "2-way, normally closed, direct-acting solenoid valve with Class H molded coil, explosion-proof solenoid enclosure, and hermetically sealed position switch.",
+    "applications": ["Emergency Shutdown Systems", "Fuel Gas Cut-Off", "Chemical Dosing Control"],
+    "features": [
+      "Direct-acting design with no minimum pressure required",
+      "Explosion-proof solenoid enclosure",
+      "Integral hermetically sealed position feedback switch",
+      "Class H molded coil for high-temperature operation",
+      "Manual override for maintenance and commissioning"
+    ],
+    "benefits": [
+      "Reliable operation in hazardous environments",
+      "Simplifies wiring with integral junction box",
+      "Manual override allows system testing during power loss"
+    ],
+    "technicalSpecifications": {
+      "Size": "1 inch",
+      "Pressure Class": "Class 300",
+      "End Connections": "1\" Female NPT",
+      "Body Material": "316 Stainless Steel",
+      "Seal Material": "FKM",
+      "Coil Voltage": "24 VDC / 110 VAC / 230 VAC",
+      "Enclosure Classification": "NEMA 4X/7/9"
+    },
+    "dimensions": "1\" NPT, length 152mm, height 203mm",
+    "weight": "5.5 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ATEX", "IECEx", "NEMA 4X/7/9", "ISO 9001"],
+    "compatibleModels": ["SV-300-0.75-FL", "SV-300-1.25-FL", "SV-150-1-FL"],
+    "downloads": [
+      { "name": "Honeywell Solenoid Valve Catalog", "url": "https://example.com/honeywell-solenoid.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-sv300.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-sv300-1.jpg", "alt": "Honeywell 1\" Solenoid Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Honeywell Solenoid Valve IOM Manual", "url": "https://example.com/honeywell-sv-iom.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell 1\" Class 300 Solenoid Valve",
+    "seoDescription": "Honeywell Solo-Force solenoid valve, 1-inch Class 300, 316 SS, explosion-proof enclosure with position feedback.",
+    "seoKeywords": ["Honeywell solenoid valve", "explosion proof solenoid", "1 inch solenoid valve", "safety solenoid"],
+    "canonical": "https://example.com/honeywell-solenoid-valve-1-inch-300-class",
+    "ogImage": "https://example.com/images/honeywell-sv300-og.jpg",
+    "faq": [
+      { "question": "What is the maximum ambient temperature?", "answer": "With Class H insulation, the coil can operate in ambient temperatures up to +80°C." },
+      { "question": "Does the valve require minimum differential pressure?", "answer": "No, the direct-acting design allows the valve to open and close at zero differential pressure." }
+    ],
+    "relatedProducts": ["vlv-008", "vlv-010", "vlv-012"],
+    "availability": "in-stock",
+    "tags": ["solenoid-valve", "explosion-proof", "safety-system"],
+    "createdAt": "2025-01-15T08:30:00Z",
+    "updatedAt": "2025-06-10T10:00:00Z"
+  },
+  {
+    "id": "vlv-014",
+    "slug": "cameron-pressure-seal-gate-valve-16-inch-900-class",
+    "sku": "ZEN-VLV-CAM-90016",
+    "mpn": "PSG-900-16-BW-AL",
+    "name": "Cameron Pressure Seal Gate Valve 16\" Class 900",
+    "brand": "Cameron",
+    "manufacturer": "Cameron International",
+    "category": "Valves",
+    "subcategory": "Gate Valves",
+    "industry": ["Power Plants", "Oil & Gas", "Energy"],
+    "series": "Pressure-Seal Series",
+    "model": "PSG-900-16-BW-AL",
+    "description": "The Cameron Pressure-Seal gate valve is designed for high-pressure, high-temperature power generation and main steam line service. The pressure-seal bonnet connection uses line pressure to tighten the seal, providing leak-free operation at elevated pressures.",
+    "shortDescription": "Pressure-seal gate valve, Class 900, 16-inch butt-weld ends, for power generation.",
+    "technicalDescription": "Pressure-seal bonnet gate valve with flexible wedge gate, butt-weld ends per ASME B16.25, and alloy steel body for high-temperature service. Designed per ASME B16.34 and ASME Section I.",
+    "applications": ["Main Steam Isolation", "Boiler Feedwater Bypass", "High-Pressure Turbine Lines"],
+    "features": [
+      "Pressure-seal bonnet for leak-proof operation at high pressure",
+      "Flexible wedge gate for reliable sealing under thermal cycling",
+      "Butt-weld ends for permanent, leak-free connections",
+      "Alloy steel construction for high-temperature service"
+    ],
+    "benefits": [
+      "Zero leakage in critical high-pressure steam service",
+      "Self-tightening seal at higher pressures improves reliability",
+      "Reduced maintenance with pressure-assisted sealing"
+    ],
+    "technicalSpecifications": {
+      "Size": "16 inches",
+      "Pressure Class": "Class 900",
+      "End Connections": "Butt-Weld per ASME B16.25",
+      "Body Material": "A182 F22 Alloy Steel",
+      "Trim Material": "13Cr with Stellite Hardfacing",
+      "Design Standard": "ASME Section I / ASME B16.34",
+      "Max Temperature": "+565°C"
+    },
+    "dimensions": "16\" butt-weld, face-to-face 914mm",
+    "weight": "1,200 kg",
+    "material": "A182 F22 Alloy Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME Section I", "ASME B16.34", "ISO 9001"],
+    "compatibleModels": ["PSG-900-14-BW", "PSG-900-18-BW", "PSG-600-16-BW"],
+    "downloads": [
+      { "name": "Cameron Pressure-Seal Valve Catalog", "url": "https://example.com/cameron-psg.pdf", "type": "application/pdf", "size": "6.0 MB" }
+    ],
+    "datasheets": ["https://example.com/cameron-psg900.pdf"],
+    "images": [
+      { "src": "https://example.com/images/cameron-psg900-1.jpg", "alt": "Cameron 16\" Class 900 Pressure Seal Gate Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Cameron Power Generation Valve Guide", "url": "https://example.com/cameron-power.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Cameron 16\" Class 900 Pressure Seal Gate Valve",
+    "seoDescription": "Cameron Pressure-Seal gate valve, 16-inch Class 900, F22 alloy steel, butt-weld ends. For power generation main steam service.",
+    "seoKeywords": ["Cameron pressure seal valve", "gate valve", "Class 900 gate valve", "main steam valve"],
+    "canonical": "https://example.com/cameron-pressure-seal-gate-valve-16-inch-900-class",
+    "ogImage": "https://example.com/images/cameron-psg900-og.jpg",
+    "faq": [
+      { "question": "What is a pressure-seal bonnet?", "answer": "A pressure-seal bonnet uses line pressure to create a tighter seal as pressure increases, making it ideal for high-pressure service." },
+      { "question": "What temperatures can this valve withstand?", "answer": "The F22 alloy steel body allows operation up to +565°C for main steam service." },
+      { "question": "What are the typical applications?", "answer": "Main steam isolation, boiler feedwater bypass, and high-pressure turbine lines in power plants." }
+    ],
+    "relatedProducts": ["vlv-001", "vlv-006", "vlv-011"],
+    "availability": "made-to-order",
+    "tags": ["featured", "pressure-seal", "gate-valve", "power-plant"],
+    "createdAt": "2025-02-10T09:00:00Z",
+    "updatedAt": "2025-06-20T11:00:00Z"
+  }
+]

@@ -1,0 +1,428 @@
+[
+  {
+    "id": "plc-001",
+    "slug": "siemens-sm1231-analog-input",
+    "sku": "ZEN-PLC-SIE-12311",
+    "mpn": "6ES7231-4HD32-0XB0",
+    "name": "Siemens SM 1231 Analog Input Module (8 AI)",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "PLC Accessories",
+    "subcategory": "I/O Modules",
+    "industry": ["Manufacturing", "Energy", "Chemical", "Water Treatment"],
+    "series": "SIMATIC S7-1200",
+    "model": "SM 1231 AI 8x13bit",
+    "description": "The Siemens SM 1231 analog input module provides 8 analog inputs for the S7-1200 PLC system. Each channel is configurable for voltage, current, or thermocouple measurement with 13-bit resolution.",
+    "shortDescription": "Analog input module, 8 channels, 13-bit, 0-10V/4-20mA/TC, S7-1200.",
+    "technicalDescription": "8-channel analog input module with 13-bit resolution and per-channel diagnostics. Supports 0-10V, 0-20mA, 4-20mA, and thermocouple types J and K. Removable terminal block for easy wiring.",
+    "applications": ["Sensor Signal Acquisition", "Process Variable Monitoring", "Temperature Sensing", "Pressure Transducer Inputs"],
+    "features": [
+      "8 analog input channels in compact form factor",
+      "Per-channel configuration for voltage, current, or TC",
+      "13-bit resolution (0.05% accuracy)",
+      "Per-channel diagnostics and wire break detection",
+      "Removable front connector for easy maintenance"
+    ],
+    "benefits": [
+      "Reduces wiring with sensor supply terminals",
+      "Flexible channel configuration reduces spare modules needed",
+      "Plug-and-play installation with S7-1200 backplane"
+    ],
+    "technicalSpecifications": {
+      "Input Channels": "8 (differential)",
+      "Input Types": "0-10V, 0-20mA, 4-20mA, TC J/K",
+      "Resolution": "13-bit + sign",
+      "Accuracy": "±0.5% at 25°C",
+      "Conversion Time": "1 ms per channel",
+      "Power Supply": "24 VDC (via backplane)",
+      "Dimensions": "45mm x 100mm x 75mm"
+    },
+    "dimensions": "45mm x 100mm x 75mm",
+    "weight": "0.15 kg",
+    "material": "Plastic Enclosure",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["S7-1200 CPU", "S7-1200 Signal Board"],
+    "downloads": [
+      { "name": "SM 1231 Datasheet", "url": "https://example.com/siemens-sm1231.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-sm1231.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-sm1231-1.jpg", "alt": "Siemens SM 1231 Analog Input Module", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "S7-1200 System Manual", "url": "https://example.com/s7-1200-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SM 1231 Analog Input Module | 8-Channel",
+    "seoDescription": "Siemens SM 1231 8-channel analog input module for S7-1200. 13-bit, voltage, current, and thermocouple inputs.",
+    "seoKeywords": ["Siemens SM1231", "analog input", "S7-1200 I/O", "AI module", "SIMATIC"],
+    "canonical": "https://example.com/siemens-sm1231-analog-input",
+    "ogImage": "https://example.com/images/siemens-sm1231-og.jpg",
+    "faq": [
+      { "question": "What is the maximum update rate?", "answer": "With 8 channels enabled, total conversion time is 8 ms (1 ms per channel)." },
+      { "question": "Can different input types be mixed?", "answer": "Yes, each channel can be independently configured for voltage, current, or thermocouple input." },
+      { "question": "Does this module require external power?", "answer": "Power is supplied from the S7-1200 backplane; no external power supply needed." }
+    ],
+    "relatedProducts": ["plc-002", "plc-004", "aut-001"],
+    "availability": "in-stock",
+    "tags": ["featured", "analog-input", "siemens", "s7-1200", "plc-module"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "plc-002",
+    "slug": "allen-bradley-controllogix-power-supply",
+    "sku": "ZEN-PLC-AB-17560",
+    "mpn": "1756-PA75",
+    "name": "Allen-Bradley ControlLogix Power Supply 1756-PA75",
+    "brand": "Allen-Bradley",
+    "manufacturer": "Rockwell Automation",
+    "category": "PLC Accessories",
+    "subcategory": "Power Supplies",
+    "industry": ["Manufacturing", "Automotive", "Energy", "Mining"],
+    "series": "ControlLogix",
+    "model": "1756-PA75",
+    "description": "The Allen-Bradley 1756-PA75 is a 75W AC power supply for the ControlLogix chassis. It provides isolated power to the backplane for all modules in the chassis.",
+    "shortDescription": "75W AC power supply for ControlLogix chassis, 120/240 VAC input.",
+    "technicalDescription": "Standard-duty AC power supply for ControlLogix chassis. 120/240 VAC auto-ranging input, 75W continuous output, and field-replaceable fan. Provides backplane power and includes power OK relay contact.",
+    "applications": ["ControlLogix Chassis Power", "System Power Distribution", "Automation Control Panels"],
+    "features": [
+      "75W continuous output power",
+      "120/240 VAC auto-ranging input",
+      "Field-replaceable cooling fan",
+      "Power OK relay contact for diagnostics",
+      "LED status indicators"
+    ],
+    "benefits": [
+      "Reliable power for up to 12 ControlLogix modules",
+      "Auto-ranging simplifies international installation",
+      "Power OK relay enables remote monitoring"
+    ],
+    "technicalSpecifications": {
+      "Output Power": "75 W",
+      "Input Voltage": "120/240 VAC (auto-ranging)",
+      "Input Frequency": "47-63 Hz",
+      "Output Current": "10 A at 5V, 3.6 A at 24V",
+      "Efficiency": "> 85%",
+      "Chassis Compatibility": "1756-A4 through 1756-A17",
+      "Dimensions": "175mm x 140mm x 90mm"
+    },
+    "dimensions": "175mm x 140mm x 90mm",
+    "weight": "1.8 kg",
+    "material": "Metal Enclosure, Plastic Fan",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "UL", "CSA", "ATEX Zone 2", "IEC 61131-2"],
+    "compatibleModels": ["1756-PA72", "1756-PA75/B", "1756-PB72", "1756-PB75"],
+    "downloads": [
+      { "name": "1756-PA75 Datasheet", "url": "https://example.com/ab-1756-pa75.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/ab-1756-pa75.pdf"],
+    "images": [
+      { "src": "https://example.com/images/ab-1756-pa75-1.jpg", "alt": "Allen-Bradley 1756-PA75 Power Supply", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ControlLogix Installation Guide", "url": "https://example.com/ab-controllogix-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Allen-Bradley ControlLogix 1756-PA75 Power Supply",
+    "seoDescription": "Allen-Bradley 1756-PA75 75W AC power supply for ControlLogix chassis. 120/240 VAC, auto-ranging, with power OK relay.",
+    "seoKeywords": ["Allen-Bradley power supply", "1756-PA75", "ControlLogix", "Rockwell power supply", "PLC power supply"],
+    "canonical": "https://example.com/allen-bradley-controllogix-power-supply",
+    "ogImage": "https://example.com/images/ab-1756-pa75-og.jpg",
+    "faq": [
+      { "question": "How many modules can this power supply support?", "answer": "Typically supports up to 8-12 ControlLogix modules depending on module power consumption." },
+      { "question": "Can multiple power supplies be used in one chassis?", "answer": "Yes, for high-power configurations, redundant power supplies can be installed in the chassis." },
+      { "question": "What is the part number revision B?", "answer": "The /B revision includes improved fan design and extended-temperature rating." }
+    ],
+    "relatedProducts": ["plc-003", "plc-005", "aut-009"],
+    "availability": "in-stock",
+    "tags": ["power-supply", "allen-bradley", "controllogix", "plc"],
+    "createdAt": "2024-02-10T09:00:00Z",
+    "updatedAt": "2025-06-01T11:00:00Z"
+  },
+  {
+    "id": "plc-003",
+    "slug": "schneider-modicon-rack-12-slot",
+    "sku": "ZEN-PLC-SCH-58012",
+    "mpn": "BMEXBP1200",
+    "name": "Schneider Modicon M580 Rack 12 Slot",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "PLC Accessories",
+    "subcategory": "Racks and Chassis",
+    "industry": ["Manufacturing", "Oil & Gas", "Chemical", "Energy"],
+    "series": "Modicon M580",
+    "model": "BMEXBP1200",
+    "description": "The Schneider BMEXBP1200 is a 12-slot backplane rack for the Modicon M580 automation platform. It provides power distribution and communication between CPU, I/O, and communication modules.",
+    "shortDescription": "12-slot rack for Modicon M580, Ethernet backplane, DIN rail mount.",
+    "technicalDescription": "12-slot Ethernet backplane rack for Modicon M580. Provides backplane power distribution and high-speed Ethernet communication between modules. DIN rail mountable with removable end caps.",
+    "applications": ["M580 Module Mounting", "Distributed I/O Stations", "Process Control Panels"],
+    "features": [
+      "12 slots for M580 modules",
+      "Integrated Ethernet backplane",
+      "DIN rail or panel mounting",
+      "Removable end caps for module access",
+      "Module addressing via backplane"
+    ],
+    "benefits": [
+      "High-speed backplane communication",
+      "Flexible mounting reduces panel fabrication",
+      "Easy module replacement without tools"
+    ],
+    "technicalSpecifications": {
+      "Number of Slots": "12",
+      "Backplane Type": "Ethernet",
+      "Mounting": "DIN Rail (35mm) or Panel",
+      "Power Supply Connection": "Separate power supply module required",
+      "Operating Temperature": "0°C to +60°C",
+      "Dimensions": "482mm x 85mm x 45mm",
+      "Weight": "0.9 kg"
+    },
+    "dimensions": "482mm x 85mm x 45mm",
+    "weight": "0.9 kg",
+    "material": "Galvanized Steel Enclosure",
+    "countryOfOrigin": "France",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["BMEXBP0800 (8-slot)", "BMEXBP0400 (4-slot)"],
+    "downloads": [
+      { "name": "Modicon M580 Rack Datasheet", "url": "https://example.com/schneider-bmexbp1200.pdf", "type": "application/pdf", "size": "0.5 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-bmexbp1200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-bmexbp1200-1.jpg", "alt": "Schneider Modicon M580 12-Slot Rack", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "M580 Hardware Reference Manual", "url": "https://example.com/m580-hw-ref.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider Modicon M580 12-Slot Rack",
+    "seoDescription": "Schneider BMEXBP1200 12-slot Ethernet backplane rack for Modicon M580. DIN rail mount, high-speed backplane communication.",
+    "seoKeywords": ["Schneider rack", "M580 rack", "12 slot rack", "Modicon backplane", "PLC rack"],
+    "canonical": "https://example.com/schneider-modicon-rack-12-slot",
+    "ogImage": "https://example.com/images/schneider-bmexbp1200-og.jpg",
+    "faq": [
+      { "question": "What modules can be installed?", "answer": "All M580 CPU, I/O, communication, and special function modules designed for the M580 platform." },
+      { "question": "Is the backplane hot-swappable?", "answer": "Modules can be hot-swapped in the rack. The rack itself must be powered down for installation." },
+      { "question": "What is the distance between slots?", "answer": "Slots are on 25mm centers, with total rack width of 482mm." }
+    ],
+    "relatedProducts": ["plc-001", "plc-004", "aut-009"],
+    "availability": "in-stock",
+    "tags": ["rack", "chassis", "schneider", "m580", "backplane"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-05-20T09:00:00Z"
+  },
+  {
+    "id": "plc-004",
+    "slug": "siemens-profibus-cable-6xv1830",
+    "sku": "ZEN-PLC-SIE-18301",
+    "mpn": "6XV1830-0EH10",
+    "name": "Siemens Profibus FC Standard Cable (100m)",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "PLC Accessories",
+    "subcategory": "Cables and Connectors",
+    "industry": ["Manufacturing", "Automotive", "Chemical", "Energy"],
+    "series": "SIMATIC NET",
+    "model": "6XV1830-0EH10",
+    "description": "Siemens Profibus FC (FastConnect) standard cable for Profibus DP and MPI networks. This 100-meter drum provides reliable communication between PLCs, drives, and distributed I/O stations.",
+    "shortDescription": "Profibus FC standard cable, 100m drum, 2-wire shielded, for DP/MPI networks.",
+    "technicalDescription": "Profibus DP/MPI cable with 2-wire twisted pair, braided shield, and PE outer jacket. Designed for FastConnect stripping tool for quick connector installation. Cat 5 specification for 12 Mbit/s transmission.",
+    "applications": ["Profibus DP Networks", "MPI Communication", "Drive System Links", "Distributed I/O Wiring"],
+    "features": [
+      "2-wire twisted pair with braided shield",
+      "PE outer jacket for industrial environments",
+      "FastConnect compatible for quick termination",
+      "12 Mbit/s transmission rate",
+      "100m continuous length on drum"
+    ],
+    "benefits": [
+      "Reduces installation time with FastConnect stripping",
+      "Reliable communication in electrically noisy environments",
+      "One-piece ordering for 100m runs"
+    ],
+    "technicalSpecifications": {
+      "Cable Type": "Profibus FC Standard",
+      "Number of Conductors": "2 (twisted pair)",
+      "Shield": "Braided Copper (85% coverage)",
+      "Outer Jacket": "PVC (standard) / PE (outdoor)",
+      "Impedance": "150 Ohm",
+      "Transmission Speed": "Up to 12 Mbit/s",
+      "Length": "100 m (per drum)"
+    },
+    "dimensions": "100m drum, 8mm cable diameter",
+    "weight": "3.5 kg",
+    "material": "Copper Conductors, PVC Jacket",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL AWM Style 2464"],
+    "compatibleModels": ["6ES7972-0BA12-0XA0 (connector)", "6GK1901-1BB10-2AB0"],
+    "downloads": [
+      { "name": "SIMATIC NET Cable Catalog", "url": "https://example.com/siemens-net-cable.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-6xv1830.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-6xv1830-1.jpg", "alt": "Siemens Profibus Cable 100m", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Profibus Cabling Guidelines", "url": "https://example.com/profibus-cabling.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens Profibus FC Standard Cable | 100m",
+    "seoDescription": "Siemens 6XV1830-0EH10 Profibus FC standard cable, 100m drum, 2-wire shielded, 12 Mbit/s. For DP and MPI networks.",
+    "seoKeywords": ["Siemens Profibus cable", "Profibus DP cable", "6XV1830", "FC standard cable", "SIMATIC NET"],
+    "canonical": "https://example.com/siemens-profibus-cable-6xv1830",
+    "ogImage": "https://example.com/images/siemens-6xv1830-og.jpg",
+    "faq": [
+      { "question": "What connectors work with this cable?", "answer": "Siemens Profibus FastConnect connectors (6ES7972-0BA12-0XA0) provide quick termination without stripping individual wires." },
+      { "question": "What is the maximum segment length?", "answer": "Maximum segment length is 1,200m at 93.75 kbit/s and 200m at 12 Mbit/s with standard cable." },
+      { "question": "Can this cable be used outdoors?", "answer": "The standard PVC jacket is for indoor use. For outdoor installation, use the outdoor PE jacket variant (6XV1830-0EH10)." }
+    ],
+    "relatedProducts": ["plc-001", "plc-005", "aut-010"],
+    "availability": "in-stock",
+    "tags": ["cable", "profibus", "siemens", "networking"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-05-25T15:00:00Z"
+  },
+  {
+    "id": "plc-005",
+    "slug": "siemens-et200sp-digital-output",
+    "sku": "ZEN-PLC-SIE-22221",
+    "mpn": "6ES7132-6BD21-0BA0",
+    "name": "Siemens ET 200SP Digital Output Module (8 DO)",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "PLC Accessories",
+    "subcategory": "I/O Modules",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Material Handling"],
+    "series": "ET 200SP",
+    "model": "DQ 8x24VDC/0.5A ST",
+    "description": "The Siemens ET 200SP digital output module provides 8 digital outputs with 0.5A per channel for solenoid valves, contactors, and indicator lights. Compact design with push-in terminals for fast wiring.",
+    "shortDescription": "Digital output module, 8 channels, 24VDC, 0.5A, push-in terminals, ET 200SP.",
+    "technicalDescription": "8-channel digital output module with 24 VDC, 0.5 A per channel, short-circuit and overload protection. Push-in terminal technology for tool-less wiring. Module diagnostics via LED and software.",
+    "applications": ["Actuator Control", "Solenoid Valve Switching", "Motor Starter Control", "Signal Light Outputs"],
+    "features": [
+      "8 digital outputs with 0.5A per channel",
+      "Short-circuit and overload protection",
+      "Push-in terminals for tool-less wiring",
+      "Channel-level diagnostics",
+      "Can be hot-swapped in ET 200SP system"
+    ],
+    "benefits": [
+      "Fast installation with push-in wiring technology",
+      "Reduces downtime with channel diagnostics",
+      "Compact design saves space in distributed I/O cabinets"
+    ],
+    "technicalSpecifications": {
+      "Output Channels": "8",
+      "Output Voltage": "24 VDC",
+      "Output Current": "0.5 A per channel (2 A per module max)",
+      "Load Type": "Resistive, inductive, lamp",
+      "Switching Frequency": "100 Hz (resistive load)",
+      "Short Circuit Protection": "Yes (electronic)",
+      "Module Width": "15 mm"
+    },
+    "dimensions": "15mm x 165mm x 75mm",
+    "weight": "0.08 kg",
+    "material": "Plastic Housing",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["ET 200SP Interface Module", "S7-1500 via Profinet"],
+    "downloads": [
+      { "name": "ET 200SP Digital Modules Datasheet", "url": "https://example.com/siemens-et200sp-do.pdf", "type": "application/pdf", "size": "0.7 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-6es7132.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-et200sp-do-1.jpg", "alt": "Siemens ET 200SP Digital Output Module", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ET 200SP System Manual", "url": "https://example.com/et200sp-system.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens ET 200SP Digital Output Module | 8 DO",
+    "seoDescription": "Siemens ET 200SP digital output module, 8 channels, 24VDC, 0.5A, push-in terminals. For valve and actuator control in distributed I/O.",
+    "seoKeywords": ["Siemens digital output", "ET 200SP DO", "8 DO module", "6ES7132", "SIMATIC ET 200SP"],
+    "canonical": "https://example.com/siemens-et200sp-digital-output",
+    "ogImage": "https://example.com/images/siemens-et200sp-do-og.jpg",
+    "faq": [
+      { "question": "What is the maximum cable length?", "answer": "Maximum unshielded cable length is 30m. For longer runs, shield termination is recommended." },
+      { "question": "Can outputs be paralleled?", "answer": "Yes, outputs can be paralleled for higher current (max 2A total per module)." },
+      { "question": "What is the inrush current capability?", "answer": "The module can handle up to 2A peak for 100ms for lamp load inrush." }
+    ],
+    "relatedProducts": ["plc-001", "plc-004", "aut-010"],
+    "availability": "in-stock",
+    "tags": ["featured", "digital-output", "et200sp", "siemens", "plc-module"],
+    "createdAt": "2024-05-15T09:00:00Z",
+    "updatedAt": "2025-06-05T10:00:00Z"
+  },
+  {
+    "id": "plc-006",
+    "slug": "allen-bradley-remote-io-1734-aent",
+    "sku": "ZEN-PLC-AB-17341",
+    "mpn": "1734-AENTR",
+    "name": "Allen-Bradley POINT I/O EtherNet/IP Adapter 1734-AENTR",
+    "brand": "Allen-Bradley",
+    "manufacturer": "Rockwell Automation",
+    "category": "PLC Accessories",
+    "subcategory": "Communication Modules",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Water Treatment"],
+    "series": "POINT I/O",
+    "model": "1734-AENTR",
+    "description": "The Allen-Bradley 1734-AENTR is a dual-port EtherNet/IP adapter for POINT I/O distributed I/O systems. It connects up to 25 I/O modules to a ControlLogix or CompactLogix controller via EtherNet/IP.",
+    "shortDescription": "Dual-port EtherNet/IP adapter for POINT I/O, up to 25 modules, DLR support.",
+    "technicalDescription": "Dual-port EtherNet/IP network adapter for POINT I/O modular distributed I/O. Supports Device Level Ring (DLR) topology, up to 25 I/O modules per adapter, and produces/consumes I/O data via implicit messaging.",
+    "applications": ["Distributed Machine I/O", "Remote I/O Cabinets", "Conveyor Control", "Process Skids"],
+    "features": [
+      "Dual-port EtherNet/IP with DLR support",
+      "Supports up to 25 POINT I/O modules",
+      "Web-based diagnostics and configuration",
+      "Hot-swappable I/O modules",
+      "Compatible with all POINT I/O module types"
+    ],
+    "benefits": [
+      "Reduces wiring with distributed I/O architecture",
+      "Ring topology reduces cable faults with network redundancy",
+      "Quick commissioning with web-based setup"
+    ],
+    "technicalSpecifications": {
+      "Network Protocol": "EtherNet/IP (implicit + explicit messaging)",
+      "Ports": "2 x RJ45 (IEEE 802.3)",
+      "Topology Support": "Star, Line, DLR (Device Level Ring)",
+      "Max I/O Modules": "25 per adapter",
+      "Configuration": "Web browser, RSLogix 5000",
+      "Power Supply": "24 VDC (via backplane)",
+      "Dimensions": "72mm x 110mm x 65mm"
+    },
+    "dimensions": "72mm x 110mm x 65mm",
+    "weight": "0.2 kg",
+    "material": "Plastic Enclosure",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "UL", "CSA", "ODVA Conformance"],
+    "compatibleModels": ["1734-AENT", "1734-IB8", "1734-OB8", "1734-IE4C"],
+    "downloads": [
+      { "name": "POINT I/O Adapter Datasheet", "url": "https://example.com/ab-1734-aentr.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/ab-1734-aentr.pdf"],
+    "images": [
+      { "src": "https://example.com/images/ab-1734-aentr-1.jpg", "alt": "Allen-Bradley 1734-AENTR EtherNet/IP Adapter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/ab-point-io-setup.mp4"],
+    "documents": [
+      { "name": "POINT I/O Installation Guide", "url": "https://example.com/ab-point-io-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Allen-Bradley POINT I/O 1734-AENTR EtherNet/IP Adapter",
+    "seoDescription": "Allen-Bradley 1734-AENTR dual-port EtherNet/IP adapter for POINT I/O distributed I/O. DLR support, 25 modules, web diagnostics.",
+    "seoKeywords": ["Allen-Bradley 1734-AENTR", "POINT I/O", "EtherNet/IP adapter", "remote I/O", "Rockwell distributed I/O"],
+    "canonical": "https://example.com/allen-bradley-remote-io-1734-aent",
+    "ogImage": "https://example.com/images/ab-1734-aentr-og.jpg",
+    "faq": [
+      { "question": "How many modules can be connected?", "answer": "Up to 25 POINT I/O modules can be connected to a single 1734-AENTR adapter." },
+      { "question": "What is DLR topology?", "answer": "DLR (Device Level Ring) provides network redundancy. If a cable is cut, the network continues operating through the alternate path." },
+      { "question": "What configuration software is required?", "answer": "Can be configured via web browser for basic settings or RSLogix 5000 / Studio 5000 for full integration." }
+    ],
+    "relatedProducts": ["plc-002", "plc-003", "aut-009"],
+    "availability": "in-stock",
+    "tags": ["featured", "ethernet-ip", "allen-bradley", "remote-io", "communication"],
+    "createdAt": "2024-06-20T10:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  }
+]

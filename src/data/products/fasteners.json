@@ -1,0 +1,428 @@
+[
+  {
+    "id": "fst-001",
+    "slug": "grade-8-hex-bolt-1-2-13",
+    "sku": "ZEN-FST-ZEN-80001",
+    "mpn": "B-8-1.2-13-3-A",
+    "name": "Grade 8 Hex Cap Screw 1/2-13 x 3\" Zinc Yellow",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Bolts",
+    "industry": ["Manufacturing", "Automotive", "Construction", "Mining"],
+    "series": "Grade 8 Hex Cap Screw",
+    "model": "G8-1/2-13x3-ZY",
+    "description": "Grade 8 hex cap screw made from medium carbon alloy steel, quenched and tempered to 150,000 psi minimum tensile strength. This 1/2-13 x 3-inch bolt with zinc yellow finish provides high-strength fastening for heavy equipment and structural applications.",
+    "shortDescription": "Grade 8 hex bolt, 1/2-13 x 3\", zinc yellow, 150 ksi tensile.",
+    "technicalDescription": "SAE J429 Grade 8 hex cap screw with full thread. Medium carbon alloy steel (4140/4340), heat treated to HRC 33-39. Zinc yellow dichromate plating per ASTM B633. UNC 2A thread per ASME B1.1.",
+    "applications": ["Heavy Equipment Assembly", "Structural Steel Connections", "Machine Tool Fixturing", "Mining Equipment"],
+    "features": [
+      "SAE J429 Grade 8 rating (150,000 psi min tensile)",
+      "4140 alloy steel, heat treated",
+      "Zinc yellow dichromate corrosion protection",
+      "Full thread UNC 2A",
+      "Six-lobe head for positive wrench engagement"
+    ],
+    "benefits": [
+      "Highest standard fastener grade for demanding applications",
+      "Corrosion resistant for industrial environments",
+      "Meets or exceeds OEM specifications"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "1/2-13 UNC",
+      "Length": "3 inches",
+      "Grade": "Grade 8 (SAE J429)",
+      "Tensile Strength": "150,000 psi min",
+      "Proof Load": "120,000 psi",
+      "Material": "4140 Alloy Steel",
+      "Finish": "Zinc Yellow (ASTM B633 Type III)"
+    },
+    "dimensions": "1/2-13 x 3\", heavy hex head",
+    "weight": "0.12 kg",
+    "material": "4140 Alloy Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["SAE J429 Grade 8", "ISO 898-1 Class 10.9", "ASTM F568M"],
+    "compatibleModels": ["Heavy Hex Nut Grade 8", "Washer Grade 8 HD"],
+    "downloads": [
+      { "name": "Fastener Technical Reference", "url": "https://example.com/fastener-ref.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/fasteners-grade8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-bolt-g8-1.jpg", "alt": "Grade 8 Hex Cap Screw", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Fastener Selection Guide", "url": "https://example.com/fastener-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Grade 8 Hex Cap Screw 1/2-13 x 3\" | 150 ksi",
+    "seoDescription": "SAE J429 Grade 8 hex bolt, 1/2-13 x 3\", 4140 alloy steel, zinc yellow, 150,000 psi tensile. For heavy equipment and structural fastening.",
+    "seoKeywords": ["Grade 8 bolt", "hex cap screw", "1/2-13 bolt", "heavy duty fastener", "alloy steel bolt"],
+    "canonical": "https://example.com/grade-8-hex-bolt-1-2-13",
+    "ogImage": "https://example.com/images/fst-bolt-g8-og.jpg",
+    "faq": [
+      { "question": "What torque should be applied?", "answer": "Recommended tightening torque for Grade 8 1/2-13 bolt is 90-110 ft-lbs with lubricated threads." },
+      { "question": "Can this be used for structural steel?", "answer": "Yes, Grade 8 bolts meet structural requirements for steel-to-steel connections in industrial applications." },
+      { "question": "What is the temperature rating?", "answer": "Grade 8 is rated for service temperatures up to +200°C (+400°F). Beyond this, strength decreases." }
+    ],
+    "relatedProducts": ["fst-002", "fst-004", "fst-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "bolt", "grade-8", "hex-head"],
+    "createdAt": "2024-01-10T08:00:00Z",
+    "updatedAt": "2025-06-05T09:00:00Z"
+  },
+  {
+    "id": "fst-002",
+    "slug": "stainless-steel-heavy-hex-nut-5-8-11",
+    "sku": "ZEN-FST-ZEN-90002",
+    "mpn": "N-SS-5.8-11-HH-A",
+    "name": "316 Stainless Steel Heavy Hex Nut 5/8-11 UNC",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Nuts",
+    "industry": ["Chemical", "Marine", "Pharmaceutical", "Food & Beverage"],
+    "series": "Heavy Hex Nut",
+    "model": "316-5/8-11-HH",
+    "description": "316 stainless steel heavy hex nut for corrosive environments. Heat code traceable with full material certification. Ideal for marine, chemical, and pharmaceutical applications where corrosion resistance is critical.",
+    "shortDescription": "316 SS heavy hex nut, 5/8-11 UNC, corrosion resistant, full traceability.",
+    "technicalDescription": "ASTM A194 Grade 8M heavy hex nut. 316 stainless steel (UNS S31600) with full material certification per EN 10204 3.1. UNC 2B thread per ASME B1.1. Passivated per ASTM A967.",
+    "applications": ["Marine Equipment Fastening", "Chemical Plant Piping", "Pharmaceutical Machinery", "Food Processing Equipment"],
+    "features": [
+      "316 stainless steel for maximum corrosion resistance",
+      "ASTM A194 Grade 8M specification",
+      "Full material traceability with heat code",
+      "Passivated surface finish",
+      "Heavy hex pattern for high torque applications"
+    ],
+    "benefits": [
+      "Superior corrosion resistance in salt and chemical environments",
+      "Material certification for critical applications",
+      "Non-magnetic for specialized environments"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "5/8-11 UNC",
+      "Type": "Heavy Hex Nut",
+      "Material": "316 Stainless Steel (UNS S31600)",
+      "Standard": "ASTM A194 Grade 8M",
+      "Proof Load": "100,000 psi",
+      "Finish": "Passivated per ASTM A967",
+      "Width Across Flats": "1.062 inches"
+    },
+    "dimensions": "5/8-11 UNC heavy hex, 1.062\" AF",
+    "weight": "0.08 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASTM A194 8M", "EN 10204 3.1", "NACE MR0175"],
+    "compatibleModels": ["ASTM A193 B8M Stud", "316 SS Flat Washer"],
+    "downloads": [
+      { "name": "Stainless Fastener Catalog", "url": "https://example.com/ss-fastener.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/fst-316-hhn.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-nut-316-1.jpg", "alt": "316 SS Heavy Hex Nut", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Corrosion Resistant Fastener Guide", "url": "https://example.com/corrosion-fasteners.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "316 Stainless Steel Heavy Hex Nut 5/8-11 UNC",
+    "seoDescription": "ASTM A194 8M heavy hex nut, 316 SS, 5/8-11 UNC, passivated, full traceability. For marine, chemical, and pharmaceutical applications.",
+    "seoKeywords": ["316 SS nut", "heavy hex nut", "5/8-11 nut", "stainless nut", "corrosion resistant nut"],
+    "canonical": "https://example.com/stainless-steel-heavy-hex-nut-5-8-11",
+    "ogImage": "https://example.com/images/fst-nut-316-og.jpg",
+    "faq": [
+      { "question": "What is the difference between 304 and 316?", "answer": "316 contains molybdenum, providing superior pitting and crevice corrosion resistance in chloride environments." },
+      { "question": "Can these nuts be used with Grade 8 bolts?", "answer": "Yes, but the assembly strength is limited by the lower strength stainless nut. For full Grade 8 strength, use Grade 8 nuts." },
+      { "question": "What lubricant is recommended?", "answer": "Anti-seize compound is recommended for 316 stainless to prevent galling during installation." }
+    ],
+    "relatedProducts": ["fst-001", "fst-003", "fst-005"],
+    "availability": "in-stock",
+    "tags": ["nut", "stainless", "316", "heavy-hex"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": "fst-003",
+    "slug": "grade-8-hardened-washer",
+    "sku": "ZEN-FST-ZEN-80003",
+    "mpn": "W-G8-1.5-HD-A",
+    "name": "Grade 8 Hardened Washer 1.5\" ID (Box of 100)",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Washers",
+    "industry": ["Manufacturing", "Automotive", "Construction", "Mining"],
+    "series": "Hardened Washer",
+    "model": "G8-1.5-HD-B100",
+    "description": "SAE J429 Grade 8 hardened flat washer for use with Grade 8 bolts in high-strength applications. Heat treated to HRC 38-45 to prevent embedment under high clamp loads.",
+    "shortDescription": "Grade 8 hardened washer, 1.5\" ID, HRC 38-45, for Grade 8 fasteners.",
+    "technicalDescription": "ASTM F436 Type 1 hardened steel washer with 1.5-inch inner diameter. Heat treated to 38-45 HRC. Plain finish with rust-preventive oil. Meets dimensional requirements per ASME B18.22.1.",
+    "applications": ["Structural Steel Joints", "Heavy Equipment Assembly", "High Clamp Load Connections", "Bolt Tension Calibration"],
+    "features": [
+      "Grade 8 hardened to HRC 38-45",
+      "Prevents bolt head/nut embedment",
+      "Uniform clamp load distribution",
+      "Rust-preventive oil coating",
+      "ASTM F436 compliant"
+    ],
+    "benefits": [
+      "Maintains bolt preload in high-vibration applications",
+      "Prevents galling of joint surfaces",
+      "Consistent torque-tension relationship"
+    ],
+    "technicalSpecifications": {
+      "Inner Diameter": "1.5 inches",
+      "Outer Diameter": "2.75 inches",
+      "Thickness": "0.250 inches",
+      "Material": "Carbon Steel (ASTM F436)",
+      "Hardness": "HRC 38-45",
+      "Finish": "Plain Oil-Coated",
+      "Quantity": "100 per box"
+    },
+    "dimensions": "1.5\" ID x 2.75\" OD x 0.250\" thick",
+    "weight": "2.8 kg (box of 100)",
+    "material": "Medium Carbon Steel, Heat Treated",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASTM F436 Type 1", "SAE J429", "ISO 898-1"],
+    "compatibleModels": ["Grade 8 Bolts 1-1/2\" and below", "ASTM F959 Washers"],
+    "downloads": [
+      { "name": "Washer Specification Sheet", "url": "https://example.com/washer-spec.pdf", "type": "application/pdf", "size": "0.3 MB" }
+    ],
+    "datasheets": ["https://example.com/fst-washer-g8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-washer-1.jpg", "alt": "Grade 8 Hardened Washer", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Fastener Washer Selection Guide", "url": "https://example.com/washer-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Grade 8 Hardened Washer 1.5\" ID | Box of 100",
+    "seoDescription": "ASTM F436 Grade 8 hardened washer, 1.5\" ID, HRC 38-45, box of 100. For high-strength bolt assemblies in structural and heavy equipment applications.",
+    "seoKeywords": ["Grade 8 washer", "hardened washer", "F436 washer", "1.5 inch washer", "heavy duty washer"],
+    "canonical": "https://example.com/grade-8-hardened-washer",
+    "ogImage": "https://example.com/images/fst-washer-og.jpg",
+    "faq": [
+      { "question": "Why use hardened washers?", "answer": "Hardened washers distribute clamp load and prevent the bolt head or nut from embedding into the joint surface." },
+      { "question": "Can these be used with Grade 5 bolts?", "answer": "Yes, but Grade 5 bolts do not require Grade 8 washers for full strength." },
+      { "question": "How should they be oriented?", "answer": "Washers should be placed under the turning element (nut or bolt head) that is being torqued." }
+    ],
+    "relatedProducts": ["fst-001", "fst-002", "fst-005"],
+    "availability": "in-stock",
+    "tags": ["washer", "grade-8", "hardened", "structural"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-05-20T09:00:00Z"
+  },
+  {
+    "id": "fst-004",
+    "slug": "b7-alloy-steel-stud-3-4-10",
+    "sku": "ZEN-FST-ZEN-70001",
+    "mpn": "SD-B7-3.4-10-6-A",
+    "name": "ASTM A193 B7 Alloy Steel Stud 3/4-10 x 6\"",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Studs",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants", "Refining"],
+    "series": "ASTM A193 B7 Stud Bolt",
+    "model": "B7-3/4-10x6",
+    "description": "ASTM A193 Grade B7 alloy steel stud bolt for high-temperature and high-pressure flanged connections in process piping. This 3/4-10 x 6-inch continuous thread stud is heat treated and widely used in API and ASME piping applications.",
+    "shortDescription": "B7 alloy steel stud, 3/4-10 x 6\", continuous thread, high-temp service.",
+    "technicalDescription": "ASTM A193 Grade B7 alloy steel (4140/4142) stud bolt with continuous thread UNC 2A. Quenched and tempered to 125,000 psi minimum tensile. Phosphate coated for corrosion resistance. Supplied with two heavy hex nuts per ASME B18.2.2.",
+    "applications": ["Flanged Pipe Connections", "Pressure Vessel Nozzles", "Heat Exchanger Bonnets", "Valve Body Joints"],
+    "features": [
+      "ASTM A193 B7 alloy steel, heat treated",
+      "125,000 psi minimum tensile strength",
+      "Continuous thread design for universal engagement",
+      "Phosphate coated for corrosion protection",
+      "NACE MR0175 compliant for sour service"
+    ],
+    "benefits": [
+      "Suitable for high-temperature service up to +450°C",
+      "NACE compliant for oil and gas applications",
+      "Reliable closure bolting for critical flanged joints"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "3/4-10 UNC (continuous thread)",
+      "Length": "6 inches",
+      "Grade": "ASTM A193 Grade B7",
+      "Tensile Strength": "125,000 psi min",
+      "Yield Strength": "105,000 psi min",
+      "Material": "4140/4142 Alloy Steel",
+      "Finish": "Phosphate Coated per ASTM D5063"
+    },
+    "dimensions": "3/4-10 x 6\", continuous thread",
+    "weight": "0.55 kg (with nuts)",
+    "material": "4140 Alloy Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASTM A193 B7", "NACE MR0175/ISO 15156", "ASME B18.2.2", "EN 10204 3.1"],
+    "compatibleModels": ["ASTM A194 Grade 2H Heavy Hex Nuts"],
+    "downloads": [
+      { "name": "B7 Stud Bolt Datasheet", "url": "https://example.com/b7-stud.pdf", "type": "application/pdf", "size": "0.5 MB" }
+    ],
+    "datasheets": ["https://example.com/fst-b7-stud.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-b7-stud-1.jpg", "alt": "B7 Alloy Steel Stud Bolt", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Stud Bolt Selection Guide for Flanged Joints", "url": "https://example.com/stud-bolt-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ASTM A193 B7 Stud Bolt 3/4-10 x 6\"",
+    "seoDescription": "ASTM A193 Grade B7 alloy steel stud bolt, 3/4-10 x 6\", 125 ksi, phosphate coated, NACE compliant. For flanged connections and pressure vessels.",
+    "seoKeywords": ["B7 stud bolt", "ASTM A193 B7", "3/4-10 stud", "alloy steel stud", "stud bolt for flanges"],
+    "canonical": "https://example.com/b7-alloy-steel-stud-3-4-10",
+    "ogImage": "https://example.com/images/fst-b7-stud-og.jpg",
+    "faq": [
+      { "question": "What nuts are supplied with this stud?", "answer": "Two ASTM A194 Grade 2H heavy hex nuts are provided with each stud bolt." },
+      { "question": "What is the maximum service temperature?", "answer": "ASTM A193 B7 is rated for service from -50°C to +450°C." },
+      { "question": "Is this suitable for hydrogen sulfide service?", "answer": "Yes, the B7 grade is NACE MR0175 compliant for sour service up to HRC 22 hardness maximum." }
+    ],
+    "relatedProducts": ["fst-001", "fst-002", "fst-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "stud-bolt", "b7", "high-temperature"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-06-08T11:00:00Z"
+  },
+  {
+    "id": "fst-005",
+    "slug": "threaded-rod-grade-8-1-2-13-36",
+    "sku": "ZEN-FST-ZEN-80005",
+    "mpn": "TR-G8-1.2-13-36-ZY",
+    "name": "Grade 8 Threaded Rod 1/2-13 x 36\" Zinc Yellow",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Threaded Rods",
+    "industry": ["Manufacturing", "Construction", "Energy", "Mining"],
+    "series": "Grade 8 Threaded Rod",
+    "model": "G8-1/2-13x36-ZY",
+    "description": "Grade 8 threaded rod made from 4140 alloy steel, heat treated to 150,000 psi tensile. Continuous thread UNC 2A along full 36-inch length. Used for high-strength anchor bolts, tie rods, and heavy equipment fastening.",
+    "shortDescription": "Grade 8 threaded rod, 1/2-13 x 36\", 150 ksi, alloy steel, zinc yellow.",
+    "technicalDescription": "Continuous thread alloy steel rod per ASTM A354 Grade BD (equivalent to SAE J429 Grade 8). Full length UNC 2A threads. Zinc yellow finish per ASTM B633. Cut-to-length service available.",
+    "applications": ["Guardrail Anchor Bolts", "Structural Tie Rods", "Heavy Equipment Mounting", "Form and Mold Clamping"],
+    "features": [
+      "Grade 8 strength (150,000 psi min tensile)",
+      "4140 alloy steel, heat treated",
+      "Continuous thread UNC 2A",
+      "Zinc yellow dichromate finish",
+      "Available in 36\" standard length (cut-to-order)"
+    ],
+    "benefits": [
+      "High strength for critical anchoring applications",
+      "Field cuttable to required lengths",
+      "Corrosion resistant for outdoor use"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "1/2-13 UNC (continuous)",
+      "Length": "36 inches",
+      "Grade": "Grade 8 (ASTM A354 BD)",
+      "Tensile Strength": "150,000 psi min",
+      "Material": "4140 Alloy Steel",
+      "Finish": "Zinc Yellow Dichromate",
+      "Weight": "2.5 kg (per 36\" rod)"
+    },
+    "dimensions": "1/2-13 x 36\", continuous thread",
+    "weight": "2.5 kg",
+    "material": "4140 Alloy Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASTM A354 BD", "SAE J429 Grade 8", "ASTM B633"],
+    "compatibleModels": ["Grade 8 Hex Nuts", "Grade 8 Washers"],
+    "downloads": [
+      { "name": "Threaded Rod Technical Data", "url": "https://example.com/threaded-rod.pdf", "type": "application/pdf", "size": "0.4 MB" }
+    ],
+    "datasheets": ["https://example.com/fst-tr-g8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-trod-1.jpg", "alt": "Grade 8 Threaded Rod", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Anchor Bolt Design Guide", "url": "https://example.com/anchor-bolt-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Grade 8 Threaded Rod 1/2-13 x 36\"",
+    "seoDescription": "Grade 8 threaded rod, 1/2-13 x 36\", 150 ksi, 4140 alloy steel, zinc yellow. For anchor bolts, tie rods, and heavy equipment mounting.",
+    "seoKeywords": ["Grade 8 threaded rod", "1/2-13 rod", "all thread rod", "high strength rod", "anchor bolt rod"],
+    "canonical": "https://example.com/threaded-rod-grade-8-1-2-13-36",
+    "ogImage": "https://example.com/images/fst-trod-og.jpg",
+    "faq": [
+      { "question": "Can this be cut to length?", "answer": "Yes, the rod can be cut with a hacksaw or abrasive saw. Deburr the cut end after cutting." },
+      { "question": "What is the maximum temperature rating?", "answer": "Grade 8 is rated for service temperatures up to +200°C." },
+      { "question": "What are the torque recommendations?", "answer": "For Grade 8 1/2-13, recommended torque is 90-110 ft-lbs lubricated. Use a torque wrench for critical applications." }
+    ],
+    "relatedProducts": ["fst-001", "fst-003", "fst-004"],
+    "availability": "in-stock",
+    "tags": ["threaded-rod", "grade-8", "all-thread", "high-strength"],
+    "createdAt": "2024-05-10T09:00:00Z",
+    "updatedAt": "2025-06-05T15:00:00Z"
+  },
+  {
+    "id": "fst-006",
+    "slug": "l9-alloy-steel-socket-head-cap-screw",
+    "sku": "ZEN-FST-ZEN-90001",
+    "mpn": "SHCS-L9-3.8-16-2.5-A",
+    "name": "L9 Alloy Steel Socket Head Cap Screw 3/8-16 x 2.5\"",
+    "brand": "Industrial Fasteners",
+    "manufacturer": "Zenitho Industrial Supply",
+    "category": "Fasteners",
+    "subcategory": "Bolts",
+    "industry": ["Manufacturing", "Automotive", "Machine Tools", "Aerospace"],
+    "series": "L9 Socket Head Cap Screw",
+    "model": "L9-3/8-16x2.5-BLK",
+    "description": "The L9 (Grade 9) socket head cap screw offers the highest strength level available in standard fasteners at 180,000 psi minimum tensile. This 3/8-16 x 2.5-inch bolt is used in extreme loading applications including die clamping and heavy machinery.",
+    "shortDescription": "L9 socket head cap screw, 3/8-16 x 2.5\", 180 ksi, black oxide.",
+    "technicalDescription": "ASTM A574 alloy steel socket head cap screw with 180,000 psi minimum tensile strength. 4140/4340 alloy steel heat treated to HRC 39-45. Black oxide finish. Internal hex drive per ASME B18.3.",
+    "applications": ["Die and Mold Clamping", "Hydraulic Cylinder End Caps", "High-Strength Fixtures", "Connecting Rod Bolts"],
+    "features": [
+      "L9 (Grade 9) strength level - 180,000 psi tensile",
+      "4140/4340 alloy steel, through-hardened",
+      "Black oxide finish for mild corrosion resistance",
+      "Internal hex (Allen) drive socket",
+      "Precision rolled threads UNRC 3A"
+    ],
+    "benefits": [
+      "Highest strength standard fastener for extreme loads",
+      "Reduces number of fasteners required",
+      "Smaller head size allows closer bolt spacing"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "3/8-16 UNRC",
+      "Length": "2.5 inches",
+      "Grade": "L9 (ASTM A574, 180 ksi)",
+      "Tensile Strength": "180,000 psi min",
+      "Material": "4340 Alloy Steel",
+      "Hardness": "HRC 39-45",
+      "Finish": "Black Oxide"
+    },
+    "dimensions": "3/8-16 x 2.5\", socket head cap",
+    "weight": "0.08 kg",
+    "material": "4340 Alloy Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASTM A574", "ASME B18.3", "SAE J429 Grade 9"],
+    "compatibleModels": ["L9 Lock Washers", "L9 Hex Nuts"],
+    "downloads": [
+      { "name": "Socket Head Fastener Catalog", "url": "https://example.com/shcs-catalog.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/fst-l9-shcs.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fst-l9-1.jpg", "alt": "L9 Socket Head Cap Screw", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "High-Strength Fastener Selection Guide", "url": "https://example.com/high-strength-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "L9 Socket Head Cap Screw 3/8-16 x 2.5\" | 180 ksi",
+    "seoDescription": "ASTM A574 L9 alloy steel socket head cap screw, 3/8-16 x 2.5\", 180,000 psi tensile, black oxide. For extreme loading in die clamping and machinery.",
+    "seoKeywords": ["L9 socket head cap screw", "grade 9 bolt", "180 ksi bolt", "Allen bolt", "high strength bolt"],
+    "canonical": "https://example.com/l9-alloy-steel-socket-head-cap-screw",
+    "ogImage": "https://example.com/images/fst-l9-og.jpg",
+    "faq": [
+      { "question": "What torque should be used?", "answer": "Recommended tightening torque for L9 3/8-16 lubricated is 45-55 ft-lbs." },
+      { "question": "Can L9 bolts replace Grade 8?", "answer": "Yes, L9 is stronger (180 ksi vs 150 ksi) and can replace Grade 8 in most applications, but the reverse is not true." },
+      { "question": "Are these suitable for high vibration?", "answer": "Yes, but use appropriate thread locking compound or mechanical locking features for vibration-prone applications." }
+    ],
+    "relatedProducts": ["fst-001", "fst-004", "fst-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "socket-head", "l9", "highest-strength", "shcs"],
+    "createdAt": "2024-06-15T10:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  }
+]

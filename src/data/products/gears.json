@@ -1,0 +1,428 @@
+[
+  {
+    "id": "ger-001",
+    "slug": "sew-helical-gearbox-k-series",
+    "sku": "ZEN-GER-SEW-37001",
+    "mpn": "K37-DRS71S4",
+    "name": "SEW-Eurodrive K37 Helical-Bevel Gearbox",
+    "brand": "SEW",
+    "manufacturer": "SEW-Eurodrive GmbH & Co KG",
+    "category": "Gears",
+    "subcategory": "Helical-Bevel Gearboxes",
+    "industry": ["Manufacturing", "Automotive", "Material Handling", "Packaging"],
+    "series": "K Series",
+    "model": "K37 DRS71S4",
+    "description": "The SEW-Eurodrive K37 helical-bevel gearbox combines high efficiency with compact dimensions for right-angle drive applications. With a 37 frame size and 0.55 kW motor rating, it provides reliable power transmission for conveyors and mixers.",
+    "shortDescription": "Helical-bevel gearbox, K37, 0.55 kW, 33:1 ratio, right-angle output.",
+    "technicalDescription": "Right-angle helical-bevel gear unit with K37 frame size, hollow shaft output, and integrally mounted DRS71S4 AC motor. Ratio 33:1, output torque 175 Nm. Synthetic oil fill for maintenance-free operation.",
+    "applications": ["Conveyor Drives", "Mixer Agitators", "Packaging Lines", "Material Handling Systems"],
+    "features": [
+      "Helical-bevel design for right-angle power transmission",
+      "Hollow shaft output for direct machine mounting",
+      "Integral AC motor for compact installation",
+      "Maintenance-free synthetic lubrication",
+      "High efficiency over 95%"
+    ],
+    "benefits": [
+      "Reduces installation space with right-angle design",
+      "Eliminates coupling alignment with hollow shaft",
+      "Lower operating costs with high efficiency"
+    ],
+    "technicalSpecifications": {
+      "Frame Size": "K37",
+      "Motor Power": "0.55 kW (DRS71S4)",
+      "Ratio": "33:1",
+      "Output Torque": "175 Nm",
+      "Output Speed": "43 rpm",
+      "Mounting": "Hollow Shaft (Foot/Flange optional)",
+      "Weight": "18 kg"
+    },
+    "dimensions": "350mm x 250mm x 200mm",
+    "weight": "18 kg",
+    "material": "Cast Iron Housing, Steel Gears",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "CSA", "IEC 60034", "ATEX Option"],
+    "compatibleModels": ["K39", "K47", "K57"],
+    "downloads": [
+      { "name": "SEW K Series Catalog", "url": "https://example.com/sew-k-series.pdf", "type": "application/pdf", "size": "5.0 MB" }
+    ],
+    "datasheets": ["https://example.com/sew-k37.pdf"],
+    "images": [
+      { "src": "https://example.com/images/sew-k37-1.jpg", "alt": "SEW K37 Helical-Bevel Gearbox", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SEW Drive Selection Guide", "url": "https://example.com/sew-drive-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SEW-Eurodrive K37 Helical-Bevel Gearbox",
+    "seoDescription": "SEW K37 helical-bevel gearbox, 0.55 kW, 33:1 ratio, 175 Nm, hollow shaft. For conveyor, mixer, and packaging drives.",
+    "seoKeywords": ["SEW gearbox", "K37", "helical-bevel", "right-angle gearbox", "gearbox drive"],
+    "canonical": "https://example.com/sew-helical-gearbox-k-series",
+    "ogImage": "https://example.com/images/sew-k37-og.jpg",
+    "faq": [
+      { "question": "What lubrication is required?", "answer": "Factory-filled with synthetic oil (ISO VG 220) for maintenance-free operation. No initial oil change needed." },
+      { "question": "Can this be mounted in any orientation?", "answer": "Yes, but the breather and drain plug positions must be configured for the mounting orientation." },
+      { "question": "What is the service factor?", "answer": "The service factor at the rated torque is 1.4 for uniform loading." }
+    ],
+    "relatedProducts": ["ger-002", "ger-005", "ger-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "gearbox", "sew", "helical-bevel"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "ger-002",
+    "slug": "siemens-flender-gear-unit",
+    "sku": "ZEN-GER-SIE-20001",
+    "mpn": "FLENDER-H2SH-09",
+    "name": "Siemens Flender H2SH 09 Helical Gear Unit",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG (Flender)",
+    "category": "Gears",
+    "subcategory": "Helical Gear Units",
+    "industry": ["Power Plants", "Mining", "Cement", "Manufacturing"],
+    "series": "Flender H2SH",
+    "model": "H2SH 09",
+    "description": "The Siemens Flender H2SH 09 is a heavy-duty parallel shaft helical gear unit for industrial power transmission. Designed for continuous operation in demanding applications, it delivers 50 kW capacity with high shock load resistance.",
+    "shortDescription": "Parallel shaft helical gear unit, H2SH 09, 50 kW, foot-mounted.",
+    "technicalDescription": "Two-stage helical gear reducer with case-hardened and ground gears. Foot-mounted with solid output shaft. Suitable for 24/7 operation in harsh environments. Cast iron housing with high cooling capacity.",
+    "applications": ["Belt Conveyors", "Cement Mill Drives", "Crusher Drives", "Cooling Tower Fans"],
+    "features": [
+      "Case-hardened and ground helical gears",
+      "High overload capacity for shock loads",
+      "Cast iron housing with excellent damping",
+      "Multiple mounting configurations",
+      "Integrated backstop optional"
+    ],
+    "benefits": [
+      "Reliable operation in continuous heavy-duty service",
+      "Compact design with high power density",
+      "Long service life with robust gear design"
+    ],
+    "technicalSpecifications": {
+      "Unit Size": "H2SH 09",
+      "Power Rating": "50 kW at 1,500 rpm input",
+      "Ratio Range": "5:1 to 25:1",
+      "Output Torque": "3,600 Nm (max)",
+      "Input Speed": "1,500 rpm (max 3,000 rpm)",
+      "Mounting": "Foot Mounted",
+      "Weight": "85 kg"
+    },
+    "dimensions": "700mm x 400mm x 350mm",
+    "weight": "85 kg",
+    "material": "Cast Iron Housing, Steel Gears",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ISO 6336", "AGMA 2001", "CE"],
+    "compatibleModels": ["H2SH 07", "H2SH 11", "H2SH 13"],
+    "downloads": [
+      { "name": "Flender H2SH Catalog", "url": "https://example.com/flender-h2sh.pdf", "type": "application/pdf", "size": "4.0 MB" }
+    ],
+    "datasheets": ["https://example.com/flender-h2sh-09.pdf"],
+    "images": [
+      { "src": "https://example.com/images/flender-h2sh-1.jpg", "alt": "Siemens Flender H2SH Helical Gear Unit", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Flender Gear Unit Installation Manual", "url": "https://example.com/flender-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens Flender H2SH 09 Helical Gear Unit",
+    "seoDescription": "Siemens Flender H2SH 09 helical gear unit, 50 kW, parallel shaft, case-hardened gears. For conveyors, crushers, and heavy industrial drives.",
+    "seoKeywords": ["Flender gearbox", "H2SH 09", "Siemens Flender", "helical gear unit", "industrial gearbox"],
+    "canonical": "https://example.com/siemens-flender-gear-unit",
+    "ogImage": "https://example.com/images/flender-h2sh-og.jpg",
+    "faq": [
+      { "question": "What lubrication is required?", "answer": "ISO VG 320 mineral oil for standard applications. Synthetic oil recommended for extreme temperatures." },
+      { "question": "What is the maximum ambient temperature?", "answer": "Standard design allows -20°C to +40°C ambient. Extended temperature range available with synthetic oil." },
+      { "question": "What options are available for shaft mounting?", "answer": "Solid shaft (standard), hollow shaft with shrink disc, or splined hollow shaft." }
+    ],
+    "relatedProducts": ["ger-003", "ger-004", "ger-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "gearbox", "flender", "siemens", "heavy-duty"],
+    "createdAt": "2024-02-20T09:00:00Z",
+    "updatedAt": "2025-06-08T11:00:00Z"
+  },
+  {
+    "id": "ger-003",
+    "slug": "siemens-spur-gear-module-5",
+    "sku": "ZEN-GER-SIE-50001",
+    "mpn": "SG-M5-30T-20-B",
+    "name": "Siemens Spur Gear Module 5, 30 Teeth, 20mm Bore",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Gears",
+    "subcategory": "Spur Gears",
+    "industry": ["Manufacturing", "Automotive", "Machine Tools", "Energy"],
+    "series": "Precision Spur Gears",
+    "model": "M5-30T-20B",
+    "description": "Precision-ground spur gear with module 5, 30 teeth, and 20mm bore. Manufactured from case-hardened steel for high wear resistance in industrial power transmission applications.",
+    "shortDescription": "Spur gear, module 5, 30 teeth, 20mm bore, case-hardened steel.",
+    "technicalDescription": "Involute spur gear with 20° pressure angle, module 5, 30 teeth. ISO 8 quality (AGMA 9). 20mm finished bore with keyway per DIN 6885. Case-hardened to 58-62 HRC.",
+    "applications": ["Machine Tool Drives", "Industrial Transmissions", "Power Take-Offs", "Roller Conveyors"],
+    "features": [
+      "Module 5 involute tooth form",
+      "Case-hardened to 58-62 HRC",
+      "ISO 8 quality for smooth operation",
+      "Finished bore with keyway",
+      "Precision ground teeth for quiet running"
+    ],
+    "benefits": [
+      "Long wear life with hardened teeth",
+      "Interchangeable with standard module 5 gears",
+      "Smooth, quiet operation at high speeds"
+    ],
+    "technicalSpecifications": {
+      "Module": "5",
+      "Number of Teeth": "30",
+      "Pressure Angle": "20°",
+      "Pitch Diameter": "150 mm",
+      "Face Width": "40 mm",
+      "Bore Diameter": "20 mm (with keyway)",
+      "Material Hardness": "58-62 HRC"
+    },
+    "dimensions": "150mm pitch diameter x 40mm face",
+    "weight": "3.5 kg",
+    "material": "Case-Hardened Alloy Steel (18CrNiMo7-6)",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "DIN 3962", "DIN 3967"],
+    "compatibleModels": ["SG-M5-25T", "SG-M5-40T", "SG-M5-30T-25B"],
+    "downloads": [
+      { "name": "Siemens Precision Gears Catalog", "url": "https://example.com/siemens-gears.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-sg-m5-30.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-sg-1.jpg", "alt": "Siemens Spur Gear Module 5", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Gear Selection Guide", "url": "https://example.com/siemens-gear-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens Spur Gear Module 5 | 30 Teeth | 20mm Bore",
+    "seoDescription": "Precision spur gear, module 5, 30 teeth, 20mm bore, case-hardened 58-62 HRC. For machine tool and industrial transmission applications.",
+    "seoKeywords": ["Siemens spur gear", "module 5 gear", "30 tooth gear", "industrial gear", "precision gear"],
+    "canonical": "https://example.com/siemens-spur-gear-module-5",
+    "ogImage": "https://example.com/images/siemens-sg-og.jpg",
+    "faq": [
+      { "question": "What backlash is provided?", "answer": "Standard backlash per DIN 3967 is 0.10-0.16 mm for this gear size." },
+      { "question": "Can the bore be modified?", "answer": "The gear is supplied with finished bore and keyway. Re-boring is possible but may reduce case depth." },
+      { "question": "What mating gear is recommended?", "answer": "A module 5 gear with any tooth count can mate. For a 1:1 ratio, another SA-M5-30T gear is needed." }
+    ],
+    "relatedProducts": ["ger-004", "ger-006", "cou-002"],
+    "availability": "in-stock",
+    "tags": ["spur-gear", "siemens", "module-5", "precision"],
+    "createdAt": "2024-03-10T10:00:00Z",
+    "updatedAt": "2025-05-20T09:00:00Z"
+  },
+  {
+    "id": "ger-004",
+    "slug": "sew-worm-gearbox-s-series",
+    "sku": "ZEN-GER-SEW-40001",
+    "mpn": "S40-DT80K4",
+    "name": "SEW-Eurodrive S40 Worm Gearbox",
+    "brand": "SEW",
+    "manufacturer": "SEW-Eurodrive GmbH & Co KG",
+    "category": "Gears",
+    "subcategory": "Worm Gears",
+    "industry": ["Manufacturing", "Material Handling", "Food & Beverage", "Packaging"],
+    "series": "S Series",
+    "model": "S40 DT80K4",
+    "description": "The SEW S40 worm gearbox provides smooth, quiet, and compact right-angle power transmission. With a 40 frame and 0.75 kW motor, it is ideal for applications requiring low noise and high reduction ratios.",
+    "shortDescription": "Worm gearbox, S40, 0.75 kW, 40:1 ratio, right-angle, compact.",
+    "technicalDescription": "Single-stage worm gear reducer with S40 frame, hollow shaft and torque arm. Ratio 40:1, output torque 120 Nm. Aluminum housing for heat dissipation. Oil-bath lubrication with synthetic oil.",
+    "applications": ["Conveyor Drives", "Packaging Machinery", "Food Processing", "Mixers and Agitators"],
+    "features": [
+      "Single-stage worm gear for compact size",
+      "Aluminum housing for efficient heat dissipation",
+      "Hollow shaft with torque arm mounting",
+      "Synthetic oil lubrication, maintenance-free",
+      "Low noise operation"
+    ],
+    "benefits": [
+      "Quiet operation for noise-sensitive environments",
+      "Compact design fits in tight spaces",
+      "Corrosion-resistant aluminum housing for washdown"
+    ],
+    "technicalSpecifications": {
+      "Frame Size": "S40",
+      "Motor Power": "0.75 kW (DT80K4)",
+      "Ratio": "40:1",
+      "Output Torque": "120 Nm",
+      "Output Speed": "37.5 rpm",
+      "Housing Material": "Aluminum Alloy",
+      "Weight": "12 kg"
+    },
+    "dimensions": "300mm x 200mm x 180mm",
+    "weight": "12 kg",
+    "material": "Aluminum Housing, Bronze Worm Wheel",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "CSA", "IEC 60034", "NSF (food-grade option)"],
+    "compatibleModels": ["S30", "S50", "S60"],
+    "downloads": [
+      { "name": "SEW S Series Catalog", "url": "https://example.com/sew-s-series.pdf", "type": "application/pdf", "size": "3.5 MB" }
+    ],
+    "datasheets": ["https://example.com/sew-s40.pdf"],
+    "images": [
+      { "src": "https://example.com/images/sew-s40-1.jpg", "alt": "SEW S40 Worm Gearbox", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SEW Gear Drive Selection Guide", "url": "https://example.com/sew-gear-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SEW S40 Worm Gearbox | 0.75 kW, 40:1 Ratio",
+    "seoDescription": "SEW S40 worm gearbox, 0.75 kW, 40:1 ratio, 120 Nm, aluminum housing. For packaging, food processing, and conveyor applications.",
+    "seoKeywords": ["SEW worm gearbox", "S40", "worm drive", "right-angle gearbox", "SEW S series"],
+    "canonical": "https://example.com/sew-worm-gearbox-s-series",
+    "ogImage": "https://example.com/images/sew-s40-og.jpg",
+    "faq": [
+      { "question": "What is the efficiency?", "answer": "Worm gear efficiency is typically 75-85% depending on ratio and speed. For high efficiency, use the helical-bevel K series." },
+      { "question": "Is synthetic oil pre-filled?", "answer": "Yes, factory-filled with synthetic worm gear oil for life. No initial oil change required." },
+      { "question": "What mounting options are available?", "answer": "Standard is hollow shaft with torque arm. Flange and foot mounting options are also available." }
+    ],
+    "relatedProducts": ["ger-001", "ger-003", "ger-005"],
+    "availability": "in-stock",
+    "tags": ["worm-gearbox", "sew", "right-angle", "compact"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-06-01T12:00:00Z"
+  },
+  {
+    "id": "ger-005",
+    "slug": "flender-bevel-gear-unit",
+    "sku": "ZEN-GER-FLD-10001",
+    "mpn": "FLENDER-B2SV-05",
+    "name": "Flender B2SV 05 Bevel-Helical Gear Unit",
+    "brand": "Flender",
+    "manufacturer": "Siemens AG (Flender)",
+    "category": "Gears",
+    "subcategory": "Bevel Gears",
+    "industry": ["Mining", "Cement", "Energy", "Bulk Material Handling"],
+    "series": "B2SV",
+    "model": "B2SV 05",
+    "description": "The Flender B2SV 05 is a bevel-helical gear unit designed for heavy-duty bulk material handling applications. With 30 kW capacity and right-angle input, it provides reliable drive for stackers, reclaimers, and belt conveyors.",
+    "shortDescription": "Bevel-helical gear unit, B2SV 05, 30 kW, right-angle input, heavy-duty.",
+    "technicalDescription": "Two-stage bevel-helical gear reducer with spiral bevel gears and helical output stage. Case-hardened and ground gears. Cast iron housing with integrated cooling fan. Shaft-mounted with torque arm.",
+    "applications": ["Belt Conveyor Drives", "Bucket Elevators", "Stacker/Reclaimers", "Agitator Drives"],
+    "features": [
+      "Spiral bevel gears for smooth operation",
+      "Case-hardened and ground gear sets",
+      "Integrated cooling fan for continuous duty",
+      "Shaft-mounted design eliminates foundation",
+      "High shock load capacity"
+    ],
+    "benefits": [
+      "Right-angle input simplifies motor arrangement",
+      "Reduces installation cost with shaft-mount design",
+      "Continuous operation under full load"
+    ],
+    "technicalSpecifications": {
+      "Unit Size": "B2SV 05",
+      "Power Rating": "30 kW at 1,500 rpm",
+      "Ratio Range": "8:1 to 25:1",
+      "Max Output Torque": "6,000 Nm",
+      "Mounting": "Shaft Mount with Torque Arm",
+      "Housing Material": "Cast Iron GG25",
+      "Weight": "140 kg"
+    },
+    "dimensions": "650mm x 500mm x 400mm",
+    "weight": "140 kg",
+    "material": "Cast Iron Housing, Steel Gears",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ISO 6336", "DIN 3990", "CE"],
+    "compatibleModels": ["B2SV 03", "B2SV 07", "B2SV 09"],
+    "downloads": [
+      { "name": "Flender B2SV Catalog", "url": "https://example.com/flender-b2sv.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/flender-b2sv-05.pdf"],
+    "images": [
+      { "src": "https://example.com/images/flender-b2sv-1.jpg", "alt": "Flender B2SV Bevel-Helical Gear Unit", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Flender Bulk Handling Drive Guide", "url": "https://example.com/flender-bulk.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Flender B2SV 05 Bevel-Helical Gear Unit",
+    "seoDescription": "Flender B2SV 05 bevel-helical gear unit, 30 kW, right-angle input, shaft-mounted. For belt conveyors, bucket elevators, and bulk material handling.",
+    "seoKeywords": ["Flender B2SV", "bevel-helical gearbox", "right-angle gearbox", "conveyor drive", "heavy-duty gearbox"],
+    "canonical": "https://example.com/flender-bevel-gear-unit",
+    "ogImage": "https://example.com/images/flender-b2sv-og.jpg",
+    "faq": [
+      { "question": "What is the lubrication method?", "answer": "Splash lubrication with oil bath. Oil change interval is 3,000 hours with mineral oil, 6,000 hours with synthetic." },
+      { "question": "Can a backstop be installed?", "answer": "Yes, an optional backstop can be integrated for incline conveyor applications to prevent reverse rotation." },
+      { "question": "What is the temperature rise?", "answer": "Temperature rise at rated load is approximately 40°C above ambient with integrated cooling fan." }
+    ],
+    "relatedProducts": ["ger-002", "ger-001", "ger-006"],
+    "availability": "made-to-order",
+    "tags": ["featured", "bevel-helical", "flender", "heavy-duty", "conveyor"],
+    "createdAt": "2024-05-15T09:00:00Z",
+    "updatedAt": "2025-06-12T14:00:00Z"
+  },
+  {
+    "id": "ger-006",
+    "slug": "sew-parallel-shaft-gearbox-p-series",
+    "sku": "ZEN-GER-SEW-60001",
+    "mpn": "P60-DRN132S4",
+    "name": "SEW-Eurodrive P60 Parallel Shaft Gearbox",
+    "brand": "SEW",
+    "manufacturer": "SEW-Eurodrive GmbH & Co KG",
+    "category": "Gears",
+    "subcategory": "Helical Gear Units",
+    "industry": ["Manufacturing", "Mining", "Energy", "Cement"],
+    "series": "P Series",
+    "model": "P60 DRN132S4",
+    "description": "The SEW P60 parallel shaft helical gearbox delivers high torque for heavy industrial applications. This 60 frame unit with 5.5 kW motor provides reliable drive for large conveyors, mixers, and crushers.",
+    "shortDescription": "Parallel shaft helical gearbox, P60, 5.5 kW, foot-mounted, high torque.",
+    "technicalDescription": "Two-stage helical gear unit with parallel shafts, foot-mounted with solid output shaft. DRN132S4 IE3 motor. Ratio 20:1, output torque 700 Nm. Cast iron housing with heavy-duty bearing supports.",
+    "applications": ["Large Conveyor Drives", "Industrial Mixers", "Crushers and Shredders", "Pump Drives"],
+    "features": [
+      "Two-stage helical gears for high efficiency",
+      "Cast iron housing for vibration damping",
+      "IE3 premium efficiency motor",
+      "Solid output shaft with keyway",
+      "Lifting eyes for easy handling"
+    ],
+    "benefits": [
+      "High torque capacity in compact package",
+      "Energy-efficient IE3 motor reduces operating cost",
+      "Robust design for 24/7 operation"
+    ],
+    "technicalSpecifications": {
+      "Frame Size": "P60",
+      "Motor Power": "5.5 kW (DRN132S4)",
+      "Ratio": "20:1",
+      "Output Torque": "700 Nm",
+      "Output Speed": "75 rpm",
+      "Mounting": "Foot Mounted (Flange optional)",
+      "Weight": "65 kg"
+    },
+    "dimensions": "550mm x 350mm x 300mm",
+    "weight": "65 kg",
+    "material": "Cast Iron Housing, Steel Gears",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 60034", "ATEX Option"],
+    "compatibleModels": ["P40", "P80", "P100"],
+    "downloads": [
+      { "name": "SEW P Series Catalog", "url": "https://example.com/sew-p-series.pdf", "type": "application/pdf", "size": "4.0 MB" }
+    ],
+    "datasheets": ["https://example.com/sew-p60.pdf"],
+    "images": [
+      { "src": "https://example.com/images/sew-p60-1.jpg", "alt": "SEW P60 Parallel Shaft Gearbox", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SEW Parallel Shaft Gearbox Manual", "url": "https://example.com/sew-p-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SEW P60 Parallel Shaft Helical Gearbox",
+    "seoDescription": "SEW P60 parallel shaft gearbox, 5.5 kW, 20:1 ratio, 700 Nm, IE3 motor. For conveyors, mixers, and heavy industrial drives.",
+    "seoKeywords": ["SEW P60", "parallel shaft gearbox", "helical gearbox", "5.5 kW gearbox", "industrial gear drive"],
+    "canonical": "https://example.com/sew-parallel-shaft-gearbox-p-series",
+    "ogImage": "https://example.com/images/sew-p60-og.jpg",
+    "faq": [
+      { "question": "What is the efficiency?", "answer": "Helical gear efficiency is typically 95-97% per stage, giving total efficiency of 92-94% for a two-stage unit." },
+      { "question": "What is the maximum overhung load?", "answer": "Maximum overhung load on the output shaft is 8,000 N at mid-span." },
+      { "question": "What motor options are available?", "answer": "Standard is IE3 efficiency. NEMA, IEC, and explosion-proof motor options are available." }
+    ],
+    "relatedProducts": ["ger-001", "ger-002", "ger-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "gearbox", "sew", "parallel-shaft", "high-torque"],
+    "createdAt": "2024-06-20T10:00:00Z",
+    "updatedAt": "2025-06-05T13:00:00Z"
+  }
+]

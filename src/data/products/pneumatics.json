@@ -1,0 +1,357 @@
+[
+  {
+    "id": "pnm-001",
+    "slug": "festo-pneumatic-cylinder-dsnu",
+    "sku": "ZEN-PNM-FES-25001",
+    "mpn": "DSNU-25-100-PPV-A",
+    "name": "Festo DSNU Round Cylinder 25mm Bore x 100mm Stroke",
+    "brand": "Festo",
+    "manufacturer": "Festo AG & Co. KG",
+    "category": "Pneumatics",
+    "subcategory": "Cylinders",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Material Handling"],
+    "series": "DSNU",
+    "model": "DSNU-25-100-PPV-A",
+    "description": "The Festo DSNU is a double-acting pneumatic cylinder with piston rod for industrial automation. This 25mm bore by 100mm stroke compact cylinder features adjustable end-position cushioning and a wide range of mounting accessories.",
+    "shortDescription": "Double-acting pneumatic cylinder, 25mm bore, 100mm stroke, adjustable cushioning.",
+    "technicalDescription": "ISO 6432 compliant round cylinder with 25mm bore and 100mm stroke. Double-acting with PPV (adjustable pneumatic cushioning at both ends). Self-adjusting piston seal and integrated wiper. Anodized aluminum barrel.",
+    "applications": ["Pick-and-Place Units", "Pneumatic Clamping", "Conveyor Stops", "Packaging Actuators"],
+    "features": [
+      "Double-acting with piston rod",
+      "Adjustable end-position cushioning (PPV)",
+      "Self-adjusting piston seal for long life",
+      "ISO 6432 compliant for interchangeability",
+      "Anodized aluminum barrel for corrosion resistance"
+    ],
+    "benefits": [
+      "Smooth operation with adjustable cushioning",
+      "Long service life with self-adjusting seals",
+      "Easy installation with multiple mounting options"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "25 mm",
+      "Stroke Length": "100 mm",
+      "Piston Rod Thread": "M10x1.25",
+      "Operating Pressure": "1 - 10 bar",
+      "Operating Temperature": "-20°C to +80°C",
+      "Port Size": "G 1/8\"",
+      "Cushioning": "PPV (adjustable both ends)"
+    },
+    "dimensions": "25mm bore, 315mm retracted length",
+    "weight": "0.35 kg",
+    "material": "Anodized Aluminum Barrel, Steel Rod",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 6432", "CE", "UKCA"],
+    "compatibleModels": ["DSNU-20-100", "DSNU-32-100", "DSNU-25-50"],
+    "downloads": [
+      { "name": "Festo DSNU Cylinder Datasheet", "url": "https://example.com/festo-dsnu.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/festo-dsnu-25-100.pdf"],
+    "images": [
+      { "src": "https://example.com/images/festo-dsnu-1.jpg", "alt": "Festo DSNU Pneumatic Cylinder", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Festo Cylinder Mounting Guide", "url": "https://example.com/festo-cylinder-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Festo DSNU-25-100-PPV-A Pneumatic Cylinder",
+    "seoDescription": "Festo DSNU ISO 6432 pneumatic cylinder, 25mm bore, 100mm stroke, double-acting, adjustable cushioning. For automation and handling applications.",
+    "seoKeywords": ["Festo cylinder", "DSNU", "pneumatic cylinder", "25mm cylinder", "ISO 6432 cylinder"],
+    "canonical": "https://example.com/festo-pneumatic-cylinder-dsnu",
+    "ogImage": "https://example.com/images/festo-dsnu-og.jpg",
+    "faq": [
+      { "question": "What is the maximum operating frequency?", "answer": "With 100mm stroke at 6 bar, maximum frequency is approximately 2-3 Hz depending on load and cushioning setting." },
+      { "question": "What mounting accessories are available?", "answer": "Foot mounts, flange mounts, clevis brackets, and pivot kits are available for the DSNU series." },
+      { "question": "Can this cylinder be used for lateral loads?", "answer": "Minimal lateral loads only. For lateral loads, use a guided cylinder or guide rods." }
+    ],
+    "relatedProducts": ["pnm-002", "pnm-003", "pnm-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "pneumatic-cylinder", "festo", "iso-6432"],
+    "createdAt": "2024-01-10T08:00:00Z",
+    "updatedAt": "2025-06-05T09:00:00Z"
+  },
+  {
+    "id": "pnm-002",
+    "slug": "smc-5-2-way-solenoid-valve",
+    "sku": "ZEN-PNM-SMC-52001",
+    "mpn": "SY5120-5LZD-01",
+    "name": "SMC SY5120 5/2-Way Solenoid Valve",
+    "brand": "SMC",
+    "manufacturer": "SMC Corporation",
+    "category": "Pneumatics",
+    "subcategory": "Valves",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Electronics"],
+    "series": "SY5000",
+    "model": "SY5120-5LZD-01",
+    "description": "The SMC SY5120 is a 5/2-way solenoid pilot-operated valve with a compact body and high flow rate. With a 1/8 inch port size and low power consumption, it provides reliable directional control for pneumatic actuators.",
+    "shortDescription": "5/2-way solenoid valve, single solenoid, spring return, G 1/8, 24 VDC.",
+    "technicalDescription": "Pilot-operated 5/2-way spool valve with single solenoid and spring return. Low power consumption (1.2 W). Plug-in electrical connection with LED indicator. Suitable for lubricated or non-lubricated air.",
+    "applications": ["Pneumatic Cylinder Control", "Actuator Directional Control", "Automated Machinery", "Conveyor Systems"],
+    "features": [
+      "5/2-way function for double-acting cylinder control",
+      "Low power consumption (1.2 W)",
+      "Plug-in connector with LED indicator",
+      "Pilot-operated for high flow capacity",
+      "Suitable for lubricated or non-lubricated air"
+    ],
+    "benefits": [
+      "Reduces energy consumption with low power coil",
+      "High flow reduces actuator cycle time",
+      "Quick installation with plug-in connector"
+    ],
+    "technicalSpecifications": {
+      "Valve Function": "5/2-Way, Single Solenoid (Spring Return)",
+      "Port Size": "G 1/8\"",
+      "Flow Rate": "400 L/min (ANR) at 6 bar",
+      "Operating Pressure": "0.15 - 0.7 MPa (1.5 - 7 bar)",
+      "Operating Voltage": "24 VDC",
+      "Power Consumption": "1.2 W",
+      "Response Time": "10 ms (ON) / 8 ms (OFF)"
+    },
+    "dimensions": "50mm x 35mm x 35mm",
+    "weight": "0.12 kg",
+    "material": "PBT Body, Aluminum Spool",
+    "countryOfOrigin": "Japan",
+    "certifications": ["CE", "UL", "CSA", "RoHS"],
+    "compatibleModels": ["SY5120-5LZ", "SY5320-5LZD", "SY3140-5LZD"],
+    "downloads": [
+      { "name": "SMC SY5000 Valve Catalog", "url": "https://example.com/smc-sy5000.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/smc-sy5120.pdf"],
+    "images": [
+      { "src": "https://example.com/images/smc-sy5120-1.jpg", "alt": "SMC SY5120 Solenoid Valve", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SMC Valve Selection Guide", "url": "https://example.com/smc-valve-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SMC SY5120 5/2-Way Solenoid Valve",
+    "seoDescription": "SMC SY5120 5/2-way pilot-operated solenoid valve, G 1/8, 24 VDC, 400 L/min. For pneumatic cylinder control and automation.",
+    "seoKeywords": ["SMC solenoid valve", "SY5120", "5/2-way valve", "pneumatic valve", "24VDC valve"],
+    "canonical": "https://example.com/smc-5-2-way-solenoid-valve",
+    "ogImage": "https://example.com/images/smc-sy5120-og.jpg",
+    "faq": [
+      { "question": "What is the maximum operating pressure?", "answer": "Maximum operating pressure is 0.7 MPa (7 bar / 100 psi)." },
+      { "question": "Can this valve be mounted in any orientation?", "answer": "Yes, the valve can be mounted in any orientation without performance degradation." },
+      { "question": "What is the IP rating?", "answer": "With the standard electrical connection, the rating is IP40. IP65 is available with a protective cover." }
+    ],
+    "relatedProducts": ["pnm-001", "pnm-003", "mnf-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "solenoid-valve", "smc", "pneumatic-valve", "5-2-way"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-08T10:00:00Z"
+  },
+  {
+    "id": "pnm-003",
+    "slug": "norgren-pneumatic-actuator-rotary",
+    "sku": "ZEN-PNM-NRG-45001",
+    "mpn": "RM-450-DA",
+    "name": "Norgren RM-450 Rack and Pinion Rotary Actuator",
+    "brand": "Norgren",
+    "manufacturer": "Norgren Inc.",
+    "category": "Pneumatics",
+    "subcategory": "Actuators",
+    "industry": ["Manufacturing", "Chemical", "Oil & Gas", "Water Treatment"],
+    "series": "RM Series",
+    "model": "RM-450-DA",
+    "description": "The Norgren RM-450 is a rack and pinion rotary actuator providing 90° rotation for valve automation and material handling. With 450 Nm output torque at 5.5 bar, it provides reliable quarter-turn actuation.",
+    "shortDescription": "Rack and pinion rotary actuator, 90° rotation, 450 Nm, double-acting.",
+    "technicalDescription": "Double-acting rack and pinion pneumatic actuator with 90° rotation (adjustable ±5°). ISO 5211 mounting interface for direct valve mounting. Hard-anodized aluminum body with stainless steel fasteners.",
+    "applications": ["Quarter-Turn Valve Automation", "Conveyor Diverter Gates", "Damper Control", "Process Valve Actuation"],
+    "features": [
+      "Rack and pinion mechanism for reliable rotary motion",
+      "Double-acting with 450 Nm at 5.5 bar",
+      "ISO 5211 mounting interface",
+      "Adjustable rotation stops (±5°)",
+      "Hard-anodized aluminum with SS fasteners"
+    ],
+    "benefits": [
+      "Direct mount to quarter-turn valves without brackets",
+      "Maintenance-free with permanent lubrication",
+      "Corrosion-resistant for harsh environments"
+    ],
+    "technicalSpecifications": {
+      "Output Torque": "450 Nm at 5.5 bar",
+      "Rotation": "90° (adjustable ±5°)",
+      "Mounting Interface": "ISO 5211 F10",
+      "Operating Pressure": "2 - 8 bar",
+      "Operating Temperature": "-20°C to +80°C",
+      "Port Size": "G 1/4\"",
+      "Weight": "12 kg"
+    },
+    "dimensions": "250mm x 180mm x 150mm",
+    "weight": "12 kg",
+    "material": "Hard-Anodized Aluminum, SS Hardware",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 5211", "ATEX", "CE", "IEC 61508 SIL 3"],
+    "compatibleModels": ["RM-300-DA", "RM-600-DA", "RM-1200-DA"],
+    "downloads": [
+      { "name": "Norgren RM Series Catalog", "url": "https://example.com/norgren-rm.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/norgren-rm450.pdf"],
+    "images": [
+      { "src": "https://example.com/images/norgren-rm450-1.jpg", "alt": "Norgren RM-450 Rotary Actuator", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Norgren Actuator Mounting Manual", "url": "https://example.com/norgren-actuator-mount.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Norgren RM-450 Rack & Pinion Rotary Actuator",
+    "seoDescription": "Norgren RM-450 double-acting rotary actuator, 450 Nm, 90°, ISO 5211. For quarter-turn valve automation and damper control.",
+    "seoKeywords": ["Norgren actuator", "rotary actuator", "rack and pinion", "RM-450", "valve actuator"],
+    "canonical": "https://example.com/norgren-pneumatic-actuator-rotary",
+    "ogImage": "https://example.com/images/norgren-rm450-og.jpg",
+    "faq": [
+      { "question": "What is the spring return torque?", "answer": "For spring-return (fail-safe) versions, the spring end torque is typically 80% of the air end torque." },
+      { "question": "What positioners are available?", "answer": "Electropneumatic positioners with 4-20 mA input are available for modulating control." },
+      { "question": "Can this be used for fail-safe operation?", "answer": "Yes, spring-return (single-acting) variants are available for fail-safe open or closed operation." }
+    ],
+    "relatedProducts": ["pnm-002", "pnm-005", "vlv-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "rotary-actuator", "norgren", "valve-actuator"],
+    "createdAt": "2024-03-20T10:00:00Z",
+    "updatedAt": "2025-06-10T12:00:00Z"
+  },
+  {
+    "id": "pnm-004",
+    "slug": "festo-pneumatic-fitting-qsl",
+    "sku": "ZEN-PNM-FES-08001",
+    "mpn": "QSL-1/8-8",
+    "name": "Festo QSL Push-In Fitting G 1/8\" x 8mm Tube",
+    "brand": "Festo",
+    "manufacturer": "Festo AG & Co. KG",
+    "category": "Pneumatics",
+    "subcategory": "Fittings and Tubing",
+    "industry": ["Manufacturing", "Packaging", "Automotive", "Food & Beverage"],
+    "series": "QSL",
+    "model": "QSL-1/8-8",
+    "description": "The Festo QSL is a push-in pneumatic fitting for quick and secure connection of 8mm tubing to G 1/8 ports. With a nickel-plated brass body and O-Ring seal, it provides leak-free connections in pneumatic systems.",
+    "shortDescription": "Push-in fitting, G 1/8\" thread, 8mm tube OD, nickel-plated brass.",
+    "technicalDescription": "Push-in L-type connector with integrated O-ring sealing at the thread. Suitable for 8mm OD PU, PA, or PE tubing. Working pressure range -0.95 to 10 bar with full vacuum capability.",
+    "applications": ["Pneumatic System Piping", "Cylinder Port Connections", "Valve Manifold Piping", "Control Cabinet Tubing"],
+    "features": [
+      "Push-in technology for tool-less installation",
+      "Nickel-plated brass body for corrosion resistance",
+      "O-ring thread seal eliminates need for sealant tape",
+      "Full vacuum capability",
+      "Wide working pressure and temperature range"
+    ],
+    "benefits": [
+      "Reduces installation time by 50% vs threaded fittings",
+      "Leak-free sealing without sealant tape",
+      "Reliable connection even under vibration"
+    ],
+    "technicalSpecifications": {
+      "Thread Size": "G 1/8\"",
+      "Tube Outer Diameter": "8 mm",
+      "Body Material": "Nickel-Plated Brass",
+      "O-Ring Material": "NBR",
+      "Working Pressure": "-0.95 to 10 bar",
+      "Operating Temperature": "-10°C to +80°C",
+      "Release Ring": "Anodized Aluminum"
+    },
+    "dimensions": "25mm height, 22mm width",
+    "weight": "0.015 kg",
+    "material": "Nickel-Plated Brass, NBR O-Ring",
+    "countryOfOrigin": "Germany",
+    "certifications": ["RoHS", "REACH", "UKCA"],
+    "compatibleModels": ["QSL-1/4-8", "QSL-1/8-6", "QSL-1/2-10"],
+    "downloads": [
+      { "name": "Festo Fitting Catalog", "url": "https://example.com/festo-fitting.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/festo-qsl-1-8-8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/festo-qsl-1.jpg", "alt": "Festo QSL Push-In Fitting", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Festo Pneumatic Connection Guide", "url": "https://example.com/festo-connection-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Festo QSL Push-In Fitting G 1/8\" x 8mm",
+    "seoDescription": "Festo QSL-1/8-8 push-in pneumatic fitting, G 1/8\" to 8mm tube, nickel-plated brass. For fast, leak-free pneumatic connections.",
+    "seoKeywords": ["Festo fitting", "push-in fitting", "QSL-1/8-8", "pneumatic fitting", "8mm push fitting"],
+    "canonical": "https://example.com/festo-pneumatic-fitting-qsl",
+    "ogImage": "https://example.com/images/festo-qsl-og.jpg",
+    "faq": [
+      { "question": "What tubing types are compatible?", "answer": "Compatible with PU (polyurethane), PA (polyamide), and PE (polyethylene) tubing of 8mm outer diameter." },
+      { "question": "How do I release the tube?", "answer": "Press the blue release ring evenly while pulling the tube outward to release." },
+      { "question": "What is the maximum operating temperature?", "answer": "Maximum operating temperature is +80°C with standard NBR O-ring." }
+    ],
+    "relatedProducts": ["pnm-001", "pnm-002", "pnm-005"],
+    "availability": "in-stock",
+    "tags": ["fitting", "pneumatic", "festo", "push-in"],
+    "createdAt": "2024-04-10T08:00:00Z",
+    "updatedAt": "2025-05-15T10:00:00Z"
+  },
+  {
+    "id": "pnm-005",
+    "slug": "festo-pneumatic-tubing-pun",
+    "sku": "ZEN-PNM-FES-08050",
+    "mpn": "PUN-8X1.25-BL",
+    "name": "Festo PUN Pneumatic Tubing 8mm x 1.25mm (50m Coil)",
+    "brand": "Festo",
+    "manufacturer": "Festo AG & Co. KG",
+    "category": "Pneumatics",
+    "subcategory": "Fittings and Tubing",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Food & Beverage"],
+    "series": "PUN",
+    "model": "PUN-8X1.25-BL",
+    "description": "Festo PUN polyurethane tubing is a flexible pneumatic connection line for compressed air systems. This 50m coil of 8mm OD tubing is halogen-free, hydrolysis-resistant, and suitable for industrial automation.",
+    "shortDescription": "PU pneumatic tubing, 8mm OD x 1.25mm wall, 50m coil, blue.",
+    "technicalDescription": "Extruded polyurethane tubing with 8mm outer diameter and 1.25mm inner diameter. High flexibility with a minimum bend radius of 35mm. Resistant to hydrolysis, microbes, and UV. Halogen-free per DIN VDE 0472.",
+    "applications": ["Compressed Air Distribution", "Pneumatic Cylinder Supply", "Tube Routing in Control Cabinets", "Robot Air Supply"],
+    "features": [
+      "Polyurethane for high flexibility and durability",
+      "8mm OD x 5.5mm ID",
+      "Halogen-free and hydrolysis-resistant",
+      "UV resistant for long service life",
+      "50m continuous coil length"
+    ],
+    "benefits": [
+      "Tight bend radius simplifies routing in confined spaces",
+      "Resists kinking for reliable air supply",
+      "Long service life in industrial environments"
+    ],
+    "technicalSpecifications": {
+      "Outer Diameter": "8 mm",
+      "Inner Diameter": "5.5 mm",
+      "Wall Thickness": "1.25 mm",
+      "Material": "Polyurethane (PUR)",
+      "Working Pressure": "-0.95 to 10 bar (at 23°C)",
+      "Minimum Bend Radius": "35 mm",
+      "Color": "Blue (RAL 5012)"
+    },
+    "dimensions": "50m coil, 8mm OD",
+    "weight": "1.2 kg (per coil)",
+    "material": "Polyurethane",
+    "countryOfOrigin": "Germany",
+    "certifications": ["RoHS", "REACH", "UL 94 HB", "FDA (for food contact)"],
+    "compatibleModels": ["PUN-6X1-BL", "PUN-10X1.5-BL", "PUN-12X2-BL"],
+    "downloads": [
+      { "name": "Festo Tubing Datasheet", "url": "https://example.com/festo-pun.pdf", "type": "application/pdf", "size": "0.5 MB" }
+    ],
+    "datasheets": ["https://example.com/festo-pun-8x1-25.pdf"],
+    "images": [
+      { "src": "https://example.com/images/festo-pun-1.jpg", "alt": "Festo PUN Pneumatic Tubing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Festo Tubing Selection Guide", "url": "https://example.com/festo-tubing-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Festo PUN Pneumatic Tubing | 8mm x 1.25mm | 50m",
+    "seoDescription": "Festo PUN polyurethane pneumatic tubing, 8mm OD, 50m coil, blue. Flexible, halogen-free, hydrolysis-resistant for industrial compressed air.",
+    "seoKeywords": ["Festo tubing", "PUN 8mm", "pneumatic tubing", "PU air hose", "8mm air line"],
+    "canonical": "https://example.com/festo-pneumatic-tubing-pun",
+    "ogImage": "https://example.com/images/festo-pun-og.jpg",
+    "faq": [
+      { "question": "What is the maximum operating pressure?", "answer": "Maximum working pressure is 10 bar at 23°C. Pressure decreases to 6 bar at 60°C." },
+      { "question": "Can this tubing be used for food applications?", "answer": "Yes, the FDA-compliant variant is available for food contact applications." },
+      { "question": "What colors are available?", "answer": "Blue (standard), transparent, black, yellow, and green are available for color-coded circuits." }
+    ],
+    "relatedProducts": ["pnm-001", "pnm-004", "mnf-003"],
+    "availability": "in-stock",
+    "tags": ["tubing", "pneumatic", "festo", "pu"],
+    "createdAt": "2024-05-05T09:00:00Z",
+    "updatedAt": "2025-06-01T14:00:00Z"
+  }
+]

@@ -1,0 +1,715 @@
+[
+  {
+    "id": "aut-001",
+    "slug": "siemens-s7-1500-plc",
+    "sku": "ZEN-AUT-SIE-15001",
+    "mpn": "6ES7515-2AM01-0AB0",
+    "name": "Siemens S7-1500 PLC CPU 1515-2 PN",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Automation",
+    "subcategory": "Programmable Logic Controllers",
+    "industry": ["Manufacturing", "Energy", "Automotive", "Chemical"],
+    "series": "SIMATIC S7-1500",
+    "model": "CPU 1515-2 PN",
+    "description": "The Siemens SIMATIC S7-1500 CPU 1515-2 PN is a high-performance PLC for mid-range automation applications. With integrated Profinet interfaces and a powerful ARM-based processor, it delivers exceptional computing performance for demanding control tasks in manufacturing and process industries.",
+    "shortDescription": "Mid-range PLC CPU with dual Profinet interfaces, 1 MB program memory, 5 MB data memory.",
+    "technicalDescription": "High-performance CPU with two Profinet IO interfaces (IRT capable), integrated web server, OPC UA server, and security functions. Supports up to 64 I/O modules and 1,000 technology objects. Firmware V3.x compatible.",
+    "applications": ["Factory Automation", "Machine Control", "Process Control", "Material Handling Systems"],
+    "features": [
+      "Dual Profinet IO interfaces for ring topology support",
+      "Integrated OPC UA server for Industry 4.0 connectivity",
+      "1 MB program memory and 5 MB data memory",
+      "Integrated web server for diagnostics and visualization",
+      "Security integrated with know-how protection and copy protection"
+    ],
+    "benefits": [
+      "Reduces engineering time with TIA Portal integration",
+      "Enables IIoT connectivity without additional hardware",
+      "Increases machine availability with advanced diagnostics"
+    ],
+    "technicalSpecifications": {
+      "Memory": "1 MB program / 5 MB data",
+      "Processing Time": "10 ns per bit instruction",
+      "Interfaces": "2x Profinet IRT, 1x Profibus DP",
+      "Number of I/O Modules": "64 max",
+      "Power Supply": "24 VDC, 0.7 A",
+      "Dimensions": "175 x 145 x 75 mm",
+      "Weight": "1.2 kg"
+    },
+    "dimensions": "175mm x 145mm x 75mm",
+    "weight": "1.2 kg",
+    "material": "Plastic Housing with Metal Shielding",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "CSA", "ATEX", "IEC 61131-2"],
+    "compatibleModels": ["CPU 1511-1 PN", "CPU 1513-1 PN", "CPU 1516-3 PN/DP"],
+    "downloads": [
+      { "name": "Siemens S7-1500 Datasheet", "url": "https://example.com/siemens-s71500.pdf", "type": "application/pdf", "size": "2.5 MB" },
+      { "name": "TIA Portal Configuration Guide", "url": "https://example.com/tia-portal-guide.pdf", "type": "application/pdf", "size": "4.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-cpu1515.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-s71500-1.jpg", "alt": "Siemens S7-1500 CPU 1515-2 PN", "width": 800, "height": 800, "isPrimary": true },
+      { "src": "https://example.com/images/siemens-s71500-2.jpg", "alt": "Siemens S7-1500 Front View", "width": 800, "height": 600, "isPrimary": false }
+    ],
+    "videos": ["https://example.com/videos/siemens-s71500-operation.mp4"],
+    "documents": [
+      { "name": "Siemens S7-1500 System Manual", "url": "https://example.com/siemens-s71500-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SIMATIC S7-1500 CPU 1515-2 PN PLC",
+    "seoDescription": "Siemens S7-1500 CPU 1515-2 PN mid-range PLC with dual Profinet, OPC UA, 1 MB program memory. For manufacturing, energy, and automotive automation.",
+    "seoKeywords": ["Siemens S7-1500", "PLC", "CPU 1515-2 PN", "SIMATIC", "industrial PLC"],
+    "canonical": "https://example.com/siemens-s7-1500-plc",
+    "ogImage": "https://example.com/images/siemens-s71500-og.jpg",
+    "faq": [
+      { "question": "What programming software is required?", "answer": "The S7-1500 is programmed using Siemens TIA Portal V17 or higher." },
+      { "question": "Can this CPU be used in safety applications?", "answer": "This is a standard CPU. For safety applications, the F-CPU variants are required." },
+      { "question": "What is the maximum number of Profinet devices?", "answer": "Up to 128 Profinet IO devices can be connected via the two integrated interfaces." }
+    ],
+    "relatedProducts": ["aut-002", "aut-005", "plc-001"],
+    "availability": "in-stock",
+    "tags": ["featured", "plc", "siemens", "automation"],
+    "createdAt": "2024-01-10T08:00:00Z",
+    "updatedAt": "2025-06-15T14:00:00Z"
+  },
+  {
+    "id": "aut-002",
+    "slug": "abb-acs880-drive",
+    "sku": "ZEN-AUT-ABB-88001",
+    "mpn": "ACS880-01-145A-3",
+    "name": "ABB ACS880 Industrial Drive 145A",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Automation",
+    "subcategory": "Variable Frequency Drives",
+    "industry": ["Manufacturing", "Energy", "Mining", "Water Treatment"],
+    "series": "ACS880",
+    "model": "ACS880-01-145A-3",
+    "description": "The ABB ACS880 is a high-performance industrial AC drive for controlling asynchronous and synchronous motors. With direct torque control and a wide range of built-in features, this 145A drive delivers precise motor control for pumps, fans, conveyors, and extruders.",
+    "shortDescription": "High-performance AC drive, 145A, 380-480V, DTC control, IP20.",
+    "technicalDescription": "Wall-mounted AC drive with direct torque control, built-in EMC filter, braking chopper, and STO safety function. Supports multiple motor control modes including scalar, vector, and DTC. Compatible with asynchronous and permanent magnet motors.",
+    "applications": ["Pump Control", "Fan Control", "Conveyor Systems", "Extruder Drives"],
+    "features": [
+      "Direct Torque Control for precise speed and torque regulation",
+      "Built-in STO safety function per SIL 3 / PLe",
+      "Integrated EMC filter for reduced electrical noise",
+      "Multi-language control panel with real-time clock",
+      "Energy efficiency optimizer reduces motor losses"
+    ],
+    "benefits": [
+      "Energy savings of up to 50% compared to fixed-speed operation",
+      "Reduced mechanical stress with soft start/stop",
+      "Minimized installation cost with built-in options"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "145 A",
+      "Supply Voltage": "380-480 VAC, 3-phase",
+      "Power Range": "75 kW at 400V",
+      "Control Method": "Direct Torque Control",
+      "Enclosure Rating": "IP20",
+      "Communication": "Modbus RTU (optional Profinet, EtherNet/IP)",
+      "Dimensions": "497 x 323 x 276 mm"
+    },
+    "dimensions": "497mm x 323mm x 276mm",
+    "weight": "28 kg",
+    "material": "Galvanized Steel with Coated PCB",
+    "countryOfOrigin": "Finland",
+    "certifications": ["CE", "UL", "CSA", "ATEX", "IEC 61800-5-1", "IEC 61800-3"],
+    "compatibleModels": ["ACS880-01-072A-3", "ACS880-01-206A-3", "ACS880-04-145A-3"],
+    "downloads": [
+      { "name": "ABB ACS880 Datasheet", "url": "https://example.com/abb-acs880.pdf", "type": "application/pdf", "size": "3.0 MB" },
+      { "name": "ABB Drive Start-Up Guide", "url": "https://example.com/abb-drive-startup.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-acs880-145a.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-acs880-1.jpg", "alt": "ABB ACS880 Industrial Drive", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/abb-acs880-commissioning.mp4"],
+    "documents": [
+      { "name": "ABB ACS880 Hardware Manual", "url": "https://example.com/abb-acs880-hw.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB ACS880 Industrial Drive | 145A, 75 kW, DTC Control",
+    "seoDescription": "ABB ACS880-01-145A-3 high-performance AC drive, 145A, 75 kW, direct torque control. For pumps, fans, conveyors, and industrial machinery.",
+    "seoKeywords": ["ABB ACS880", "AC drive", "variable frequency drive", "145A drive", "DTC drive"],
+    "canonical": "https://example.com/abb-acs880-drive",
+    "ogImage": "https://example.com/images/abb-acs880-og.jpg",
+    "faq": [
+      { "question": "What motors can this drive control?", "answer": "The ACS880 can control asynchronous induction motors, permanent magnet synchronous motors, and servo motors." },
+      { "question": "What communication protocols are supported?", "answer": "Standard is Modbus RTU. Optional fieldbus adapters include Profinet, EtherNet/IP, Profibus, and CANopen." },
+      { "question": "What is the ambient temperature range?", "answer": "The drive operates from -15°C to +55°C with derating above 40°C." }
+    ],
+    "relatedProducts": ["aut-001", "aut-004", "aut-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "vfd", "abb", "motor-drive", "energy-saving"],
+    "createdAt": "2024-02-05T09:00:00Z",
+    "updatedAt": "2025-06-12T10:00:00Z"
+  },
+  {
+    "id": "aut-003",
+    "slug": "schneider-hmi-magelis-gtu",
+    "sku": "ZEN-AUT-SCH-75000",
+    "mpn": "HMIGTU7500",
+    "name": "Schneider Electric Magelis GTU HMI 15\" Touch",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "Automation",
+    "subcategory": "Human Machine Interfaces",
+    "industry": ["Manufacturing", "Automotive", "Food & Beverage"],
+    "series": "Magelis GTU",
+    "model": "HMIGTU7500",
+    "description": "The Schneider Electric Magelis GTU 15-inch HMI offers advanced visualization and control for industrial automation systems. With a high-resolution widescreen multi-touch display and powerful processor, it provides intuitive operator interface for complex machinery.",
+    "shortDescription": "15-inch multi-touch HMI, widescreen, aluminum bezel, Ethernet/IP ready.",
+    "technicalDescription": "Advanced HMI with 15.6\" TFT widescreen display, projective capacitive multi-touch technology, aluminum front bezel, and ARM Cortex A9 processor. Supports Vijeo Designer runtime with built-in web gateway and OPC UA.",
+    "applications": ["Machine Control Visualization", "Production Line Monitoring", "Packaging Machinery", "CNC Control Panels"],
+    "features": [
+      "15.6\" TFT widescreen display with 1920x1080 resolution",
+      "Projective capacitive multi-touch technology",
+      "Aluminum front bezel for industrial environments",
+      "ARM Cortex A9 1 GHz dual-core processor",
+      "Built-in web gateway and OPC UA server"
+    ],
+    "benefits": [
+      "Intuitive touch interface reduces operator training time",
+      "Higher resolution provides more detailed process visualization",
+      "Rugged aluminum design withstands harsh factory environments"
+    ],
+    "technicalSpecifications": {
+      "Display Size": "15.6\" TFT LCD",
+      "Resolution": "1920 x 1080 Full HD",
+      "Touch Technology": "Projective Capacitive Multi-Touch",
+      "Processor": "ARM Cortex A9 Dual-Core 1 GHz",
+      "RAM": "1 GB DDR3",
+      "Storage": "8 GB Flash",
+      "Communication": "Ethernet, USB, RS-232/485"
+    },
+    "dimensions": "400mm x 250mm x 55mm",
+    "weight": "3.2 kg",
+    "material": "Aluminum Bezel, Plastic Enclosure",
+    "countryOfOrigin": "France",
+    "certifications": ["CE", "UL", "ATEX Zone 22", "IEC 61131-2"],
+    "compatibleModels": ["HMIGTU5300", "HMIGTU6300", "HMIGTU7600"],
+    "downloads": [
+      { "name": "Magelis GTU Catalog", "url": "https://example.com/schneider-magelis.pdf", "type": "application/pdf", "size": "3.2 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-hmigtu7500.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-hmi-1.jpg", "alt": "Schneider Magelis GTU 15\" HMI", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/schneider-hmi-config.mp4"],
+    "documents": [
+      { "name": "Vijeo Designer User Guide", "url": "https://example.com/vijeo-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider Magelis GTU 15\" Touch HMI",
+    "seoDescription": "Schneider Electric Magelis GTU 15.6\" multi-touch HMI, Full HD, aluminum bezel, Ethernet/IP. For machine control and production line visualization.",
+    "seoKeywords": ["Schneider HMI", "Magelis GTU", "15 inch HMI", "touch panel", "industrial HMI"],
+    "canonical": "https://example.com/schneider-hmi-magelis-gtu",
+    "ogImage": "https://example.com/images/schneider-hmi-og.jpg",
+    "faq": [
+      { "question": "What software is needed for configuration?", "answer": "The HMI is configured using Schneider Vijeo Designer software version 6.3 or higher." },
+      { "question": "Can this HMI connect to multiple PLC brands?", "answer": "Yes, it supports connectivity to Schneider, Siemens, Allen-Bradley, Mitsubishi, and many other PLCs." },
+      { "question": "Is the display suitable for use with gloves?", "answer": "Yes, the projective capacitive touch screen works with industrial gloves and responds to finger or stylus input." }
+    ],
+    "relatedProducts": ["aut-001", "aut-005", "plc-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "hmi", "schneider", "touch-screen"],
+    "createdAt": "2024-03-01T10:00:00Z",
+    "updatedAt": "2025-06-01T09:00:00Z"
+  },
+  {
+    "id": "aut-004",
+    "slug": "abb-servo-motor-ismh3",
+    "sku": "ZEN-AUT-ABB-34250",
+    "mpn": "ISMH3-34D-250-MSA",
+    "name": "ABB ISMH3 Series Servo Motor 34D-250",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Automation",
+    "subcategory": "Servo Motors",
+    "industry": ["Automotive", "Manufacturing", "Robotics", "Packaging"],
+    "series": "ISMH3",
+    "model": "ISMH3-34D-250-MSA",
+    "description": "The ABB ISMH3 series servo motor delivers high torque density and dynamic performance for precision motion control applications. With a 250 frame size and built-in multi-turn absolute encoder, this motor is ideal for packaging machines, robotics, and CNC machining.",
+    "shortDescription": "High-performance servo motor, 250 frame, 48 Nm, absolute encoder, IP64.",
+    "technicalDescription": "Permanent magnet synchronous servo motor with SinCos multi-turn absolute encoder, 24 VDC holding brake option, and IP64 protection. Rated for continuous operation with forced ventilation. Optimized for use with ABB ACS380 and ACS880 servo drives.",
+    "applications": ["Packaging Machinery", "Robotics Joints", "CNC Machining", "Printing Presses"],
+    "features": [
+      "High torque density permanent magnet design",
+      "Multi-turn absolute encoder for position retention on power loss",
+      "Low cogging torque for smooth operation at low speeds",
+      "IP64 protection for harsh industrial environments",
+      "Optional 24 VDC holding brake"
+    ],
+    "benefits": [
+      "Higher machine throughput with rapid acceleration/deceleration",
+      "No homing sequence required after power cycle",
+      "Reduces machine footprint with compact design"
+    ],
+    "technicalSpecifications": {
+      "Rated Torque": "48 Nm",
+      "Peak Torque": "120 Nm",
+      "Rated Speed": "2,000 rpm",
+      "Maximum Speed": "4,000 rpm",
+      "Rated Power": "10.1 kW",
+      "Encoder": "SinCos Multi-turn Absolute",
+      "Protection Class": "IP64"
+    },
+    "dimensions": "250mm frame length, 180mm diameter",
+    "weight": "18.5 kg",
+    "material": "Steel Housing, Neodymium Magnets",
+    "countryOfOrigin": "Finland",
+    "certifications": ["CE", "UL", "IEC 60034", "ISO 9001"],
+    "compatibleModels": ["ISMH3-34D-200", "ISMH3-45D-300", "ISMH2-34D-250"],
+    "downloads": [
+      { "name": "ABB ISMH3 Servo Motor Datasheet", "url": "https://example.com/abb-ismh3.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-ismh3-34d.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-servo-1.jpg", "alt": "ABB ISMH3 Servo Motor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ABB Servo Motor Selection Guide", "url": "https://example.com/abb-servo-selection.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB ISMH3 Servo Motor | 48 Nm, 2000 rpm, Absolute Encoder",
+    "seoDescription": "ABB ISMH3-34D-250 servo motor, 48 Nm rated torque, 2000 rpm, SinCos multi-turn absolute encoder. For packaging, robotics, and CNC applications.",
+    "seoKeywords": ["ABB servo motor", "ISMH3", "servo motor", "motion control", "absolute encoder"],
+    "canonical": "https://example.com/abb-servo-motor-ismh3",
+    "ogImage": "https://example.com/images/abb-servo-og.jpg",
+    "faq": [
+      { "question": "What drives are compatible with this motor?", "answer": "The ISMH3 series is designed for use with ABB ACS380 and ACS880 servo drive modules." },
+      { "question": "What is the IP rating?", "answer": "Standard protection is IP64, suitable for dust and splash-proof environments." },
+      { "question": "Can the holding brake be retrofitted?", "answer": "No, the holding brake must be ordered at the same time as the motor. Retrofit kits are not available." }
+    ],
+    "relatedProducts": ["aut-002", "aut-006", "aut-007"],
+    "availability": "in-stock",
+    "tags": ["featured", "servo-motor", "abb", "motion-control"],
+    "createdAt": "2024-04-15T08:30:00Z",
+    "updatedAt": "2025-06-05T11:00:00Z"
+  },
+  {
+    "id": "aut-005",
+    "slug": "siemens-scada-wincc-oa",
+    "sku": "ZEN-AUT-SIE-80500",
+    "mpn": "6AV6381-2BE07-4AV5",
+    "name": "Siemens WinCC OA SCADA System (1000 Tags)",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Automation",
+    "subcategory": "SCADA Systems",
+    "industry": ["Energy", "Oil & Gas", "Power Plants", "Water Treatment"],
+    "series": "WinCC Open Architecture",
+    "model": "OA 3.19",
+    "description": "Siemens WinCC Open Architecture is a scalable SCADA system for monitoring and controlling industrial processes. This 1,000-tag license includes the runtime server, web client access, and OPC UA connectivity for integration with various automation systems.",
+    "shortDescription": "SCADA system license, 1,000 process tags, OPC UA, web client, WinCC OA 3.19.",
+    "technicalDescription": "SCADA runtime system with 1,000 process tag license, redundant server capability, web-based thin client access, OPC UA server/client, SQL database historian, and alarm management. Cross-platform support including Windows and Linux.",
+    "applications": ["Power Plant Monitoring", "Oil Pipeline SCADA", "Water Distribution Management", "Building Automation"],
+    "features": [
+      "1,000 process tags with runtime license",
+      "Redundant server architecture for high availability",
+      "Web client for remote access from any browser",
+      "OPC UA client and server for interoperability",
+      "Built-in historian with SQL database integration"
+    ],
+    "benefits": [
+      "Scalable from small to enterprise-wide installations",
+      "Open architecture avoids vendor lock-in",
+      "Distributed system capability for large-scale deployments"
+    ],
+    "technicalSpecifications": {
+      "Tag Count": "1,000 process tags",
+      "Architecture": "Client-Server with Redundancy",
+      "Operating Systems": "Windows 10/11, Server 2019, Linux",
+      "Connectivity": "OPC UA, OPC DA, Profinet, Modbus",
+      "Database": "Microsoft SQL Server / Oracle",
+      "Web Clients": "Unlimited concurrent web clients",
+      "Version": "Open Architecture 3.19"
+    },
+    "dimensions": "Software License (no physical dimensions)",
+    "weight": "N/A",
+    "material": "Software",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "IEC 61131-2", "ISO 9001"],
+    "compatibleModels": ["WinCC OA 50 Tags", "WinCC OA 5000 Tags", "WinCC OA Unlimited Tags"],
+    "downloads": [
+      { "name": "Siemens WinCC OA Brochure", "url": "https://example.com/siemens-wincc-oa.pdf", "type": "application/pdf", "size": "4.5 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-wincc-oa.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-scada-1.jpg", "alt": "Siemens WinCC OA SCADA System", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/siemens-scada-demo.mp4"],
+    "documents": [
+      { "name": "WinCC OA System Guide", "url": "https://example.com/wincc-oa-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens WinCC OA SCADA System | 1000 Tags",
+    "seoDescription": "Siemens WinCC Open Architecture SCADA system, 1,000 tags, OPC UA, redundant server, web client. For power plants, oil & gas, and water management.",
+    "seoKeywords": ["Siemens SCADA", "WinCC OA", "SCADA system", "1000 tag SCADA", "industrial SCADA"],
+    "canonical": "https://example.com/siemens-scada-wincc-oa",
+    "ogImage": "https://example.com/images/siemens-scada-og.jpg",
+    "faq": [
+      { "question": "Can this be expanded to more tags?", "answer": "Yes, the system is scalable. Additional tags can be purchased in increments of 100, 1,000, or unlimited." },
+      { "question": "What protocols are supported?", "answer": "OPC UA/DA, Modbus RTU/TCP, Profinet, Profibus, IEC 61850, and many more via drivers." },
+      { "question": "Is this a single-user license?", "answer": "This is a server runtime license with unlimited web clients and up to 5 operator workstations." }
+    ],
+    "relatedProducts": ["aut-001", "aut-003", "ctr-002"],
+    "availability": "made-to-order",
+    "tags": ["featured", "scada", "siemens", "wincc", "supervisory"],
+    "createdAt": "2024-05-10T10:00:00Z",
+    "updatedAt": "2025-06-18T13:00:00Z"
+  },
+  {
+    "id": "aut-006",
+    "slug": "schneider-altivar-process-drive",
+    "sku": "ZEN-AUT-SCH-63012",
+    "mpn": "ATV630D12N4",
+    "name": "Schneider Altivar Process ATV630 Drive 12A",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "Automation",
+    "subcategory": "Variable Frequency Drives",
+    "industry": ["Water Treatment", "Oil & Gas", "Manufacturing", "HVAC"],
+    "series": "Altivar Process ATV630",
+    "model": "ATV630D12N4",
+    "description": "The Schneider Altivar Process ATV630 is a variable speed drive designed for pump and fan applications. With built-in pump cleaning cycles, PID control, and energy optimization, this 12A drive reduces energy consumption and extends equipment life.",
+    "shortDescription": "Process drive for pumps and fans, 12A, 380-480V, IP21, with PID control.",
+    "technicalDescription": "Wall-mounted variable speed drive with three-phase input, built-in EMC filter, DC choke, and braking transistor. Features include pump cleaning cycles, multi-pump control, fire mode, and adaptive PID control. Eco-Struxure ready with built-in Ethernet.",
+    "applications": ["Centrifugal Pumps", "Cooling Tower Fans", "HVAC Air Handlers", "Wastewater Aeration"],
+    "features": [
+      "Built-in pump cleaning and anti-jam cycles",
+      "Multi-pump control for up to 5 pumps",
+      "Adaptive PID control with auto-tuning",
+      "Energy optimization algorithm reduces motor losses",
+      "Built-in Ethernet with Modbus TCP"
+    ],
+    "benefits": [
+      "Energy savings of 30-60% on pump and fan applications",
+      "Reduces pump clogging and maintenance costs",
+      "Simplified installation with integrated safety functions"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "12 A",
+      "Supply Voltage": "380-480 VAC, 3-phase",
+      "Power Range": "5.5 kW at 400V",
+      "Enclosure Rating": "IP21 / UL Type 1",
+      "Communication": "Modbus TCP, Modbus RTU, BACnet",
+      "Integrated Safety": "STO per SIL 3",
+      "Dimensions": "250 x 220 x 180 mm"
+    },
+    "dimensions": "250mm x 220mm x 180mm",
+    "weight": "5.8 kg",
+    "material": "Coated Steel Enclosure",
+    "countryOfOrigin": "France",
+    "certifications": ["CE", "UL", "CSA", "ATEX", "IEC 61800-5-1", "IEC 61800-3"],
+    "compatibleModels": ["ATV630D22N4", "ATV630D33N4", "ATV630U55N4"],
+    "downloads": [
+      { "name": "ATV630 Datasheet", "url": "https://example.com/schneider-atv630.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-atv630-12a.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-atv630-1.jpg", "alt": "Schneider Altivar ATV630 Process Drive", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ATV630 Programming Manual", "url": "https://example.com/atv630-prog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider Altivar Process ATV630 Drive | 12A, 5.5 kW",
+    "seoDescription": "Schneider ATV630 process drive, 12A, 5.5 kW, with PID pump control and energy optimization. For pumps, fans, and HVAC applications.",
+    "seoKeywords": ["Schneider ATV630", "Altivar Process", "pump drive", "VFD", "process drive"],
+    "canonical": "https://example.com/schneider-altivar-process-drive",
+    "ogImage": "https://example.com/images/schneider-atv630-og.jpg",
+    "faq": [
+      { "question": "What is the pump cleaning cycle?", "answer": "The drive can automatically run the pump at high speed periodically to clear debris, preventing clogging in wastewater applications." },
+      { "question": "Can this drive be used for fan control?", "answer": "Yes, it includes specific fan control features such as duct cleaning and fire overrides." },
+      { "question": "What building protocols are supported?", "answer": "BACnet MS/TP and BACnet/IP are supported for building management system integration." }
+    ],
+    "relatedProducts": ["aut-002", "aut-004", "ctr-001"],
+    "availability": "in-stock",
+    "tags": ["process-drive", "pump", "fan", "schneider", "energy-saving"],
+    "createdAt": "2024-06-01T08:00:00Z",
+    "updatedAt": "2025-05-30T15:00:00Z"
+  },
+  {
+    "id": "aut-007",
+    "slug": "siemens-linear-motor-1fn3",
+    "sku": "ZEN-AUT-SIE-44500",
+    "mpn": "1FN3450-4MA00-0BA1",
+    "name": "Siemens 1FN3 Linear Motor 450N",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Automation",
+    "subcategory": "Linear Motors",
+    "industry": ["Automotive", "Manufacturing", "Machine Tools", "Robotics"],
+    "series": "1FN3",
+    "model": "1FN3450-4MA00-0BA1",
+    "description": "The Siemens 1FN3 linear motor delivers direct-drive linear motion for high-speed, high-precision positioning applications. With a peak force of 450N and integrated water cooling, this motor achieves exceptional acceleration and accuracy for machining centers and laser cutting systems.",
+    "shortDescription": "Linear motor with 450N peak force, water-cooled, integrated encoder, 1.8m/s.",
+    "technicalDescription": "Permanent magnet synchronous linear motor with integrated water cooling, SinCos absolute linear encoder, and IP54 protection. Primary part with iron core design for optimized force density. Compatible with Siemens SINAMICS S120 drive system.",
+    "applications": ["CNC Machining Centers", "Laser Cutting Tables", "Pick-and-Place Systems", "Electronic Assembly"],
+    "features": [
+      "Direct linear drive with no mechanical transmission",
+      "Integrated water cooling for continuous high thrust",
+      "Built-in absolute linear encoder for position feedback",
+      "Iron core design for high force density",
+      "IP54 protection against coolant and chips"
+    ],
+    "benefits": [
+      "Maximum acceleration up to 5g for reduced cycle times",
+      "Zero backlash for superior positioning accuracy",
+      "Maintenance-free operation with no wear parts"
+    ],
+    "technicalSpecifications": {
+      "Peak Force": "450 N",
+      "Continuous Force": "175 N (water-cooled)",
+      "Maximum Speed": "1.8 m/s",
+      "Maximum Acceleration": "50 m/s²",
+      "Encoder Resolution": "0.1 μm",
+      "Supply Voltage": "560 VDC",
+      "Protection Class": "IP54"
+    },
+    "dimensions": "600mm x 100mm x 55mm (primary part)",
+    "weight": "8.2 kg",
+    "material": "Steel Core, Copper Windings, Neodymium Magnets",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 60034"],
+    "compatibleModels": ["1FN3300-4MA00", "1FN3600-4MA00", "1FN3450-4LA00"],
+    "downloads": [
+      { "name": "Siemens 1FN3 Linear Motor Catalog", "url": "https://example.com/siemens-1fn3.pdf", "type": "application/pdf", "size": "2.8 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-1fn3450.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-linear-1.jpg", "alt": "Siemens 1FN3 Linear Motor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/siemens-linear-operation.mp4"],
+    "documents": [
+      { "name": "Siemens SINAMICS S120 Drive Manual", "url": "https://example.com/siemens-s120.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens 1FN3 Linear Motor | 450N Peak Force",
+    "seoDescription": "Siemens 1FN3450 linear motor, 450N peak force, water-cooled, absolute encoder. For CNC machining centers, laser cutting, and high-speed assembly.",
+    "seoKeywords": ["Siemens linear motor", "1FN3", "linear direct drive", "450N linear motor", "CNC linear motor"],
+    "canonical": "https://example.com/siemens-linear-motor-1fn3",
+    "ogImage": "https://example.com/images/siemens-linear-og.jpg",
+    "faq": [
+      { "question": "What drives are compatible with this motor?", "answer": "The 1FN3 motor is compatible with Siemens SINAMICS S120 drive system with appropriate Motor Module." },
+      { "question": "Is water cooling required?", "answer": "For continuous operation at rated force, water cooling at 4-6 L/min is required. For intermittent duty, natural convection may suffice." },
+      { "question": "What is the maximum travel length?", "answer": "The motor uses modular secondary parts (magnet track) that can be assembled to achieve virtually unlimited travel lengths." }
+    ],
+    "relatedProducts": ["aut-004", "aut-008", "aut-009"],
+    "availability": "made-to-order",
+    "tags": ["featured", "linear-motor", "siemens", "high-speed"],
+    "createdAt": "2024-07-15T09:30:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "aut-008",
+    "slug": "abb-plc-ac500",
+    "sku": "ZEN-AUT-ABB-50001",
+    "mpn": "PM582-ETH",
+    "name": "ABB AC500-eCo PLC CPU PM582-ETH",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Automation",
+    "subcategory": "Programmable Logic Controllers",
+    "industry": ["Manufacturing", "Water Treatment", "Energy", "Building Automation"],
+    "series": "AC500-eCo",
+    "model": "PM582-ETH",
+    "description": "The ABB AC500-eCo PLC CPU PM582-ETH is a compact, cost-effective programmable controller for small to medium automation systems. With built-in Ethernet and high processing speed, it provides reliable control for machine and process applications.",
+    "shortDescription": "Compact PLC CPU with Ethernet, 512 KB program memory, 24 I/O support.",
+    "technicalDescription": "Programmable controller with integrated Ethernet interface, USB programming port, and 512 KB program memory. Supports up to 24 local I/O modules and remote I/O via Profibus or Modbus. Programmable in IEC 61131-3 languages via Automation Builder.",
+    "applications": ["Machine Control", "Building Automation", "Water Pump Stations", "Small Process Lines"],
+    "features": [
+      "Integrated Ethernet interface for programming and communication",
+      "512 KB program memory for medium applications",
+      "Supports up to 24 local I/O modules",
+      "USB port for direct programming connection",
+      "IEC 61131-3 programming with Automation Builder"
+    ],
+    "benefits": [
+      "Cost-effective solution for decentralized automation",
+      "Open communication standards simplify integration",
+      "Compact size saves control panel space"
+    ],
+    "technicalSpecifications": {
+      "Memory": "512 KB program / 4 MB data",
+      "Processing Speed": "0.1 μs per bit instruction",
+      "Interfaces": "Ethernet, USB, RS-232",
+      "Max Local I/O Modules": "24",
+      "Supported Fieldbuses": "Profibus DP, Modbus RTU, CANopen",
+      "Power Supply": "24 VDC, 0.4 A",
+      "Dimensions": "120 x 100 x 75 mm"
+    },
+    "dimensions": "120mm x 100mm x 75mm",
+    "weight": "0.35 kg",
+    "material": "Plastic Enclosure",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["PM581-ETH", "PM583-ETH", "PM585-ETH"],
+    "downloads": [
+      { "name": "ABB AC500-eCo Datasheet", "url": "https://example.com/abb-ac500-eco.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-pm582.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-ac500-1.jpg", "alt": "ABB AC500-eCo PLC CPU", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ABB Automation Builder User Guide", "url": "https://example.com/abb-automation-builder.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB AC500-eCo PLC CPU PM582-ETH",
+    "seoDescription": "ABB AC500-eCo compact PLC controller PM582-ETH with Ethernet, 512 KB memory. For machine control, building automation, and water pump stations.",
+    "seoKeywords": ["ABB PLC", "AC500-eCo", "PM582-ETH", "compact PLC", "industrial controller"],
+    "canonical": "https://example.com/abb-plc-ac500",
+    "ogImage": "https://example.com/images/abb-ac500-og.jpg",
+    "faq": [
+      { "question": "What programming languages are supported?", "answer": "All IEC 61131-3 languages: Ladder Diagram, Structured Text, Function Block Diagram, Sequential Function Chart, and Instruction List." },
+      { "question": "Can this CPU be used in a network?", "answer": "Yes, it supports Ethernet-based communication including Modbus TCP and can act as a Profibus DP master." },
+      { "question": "What is the maximum memory expansion?", "answer": "The PM582 does not support memory expansion. For larger applications, consider the PM583 or PM585 models." }
+    ],
+    "relatedProducts": ["aut-002", "aut-006", "plc-002"],
+    "availability": "in-stock",
+    "tags": ["plc", "abb", "compact", "ethernet"],
+    "createdAt": "2024-08-10T07:00:00Z",
+    "updatedAt": "2025-05-20T10:00:00Z"
+  },
+  {
+    "id": "aut-009",
+    "slug": "schneider-modicon-m580-plc",
+    "sku": "ZEN-AUT-SCH-58001",
+    "mpn": "BMEP582040",
+    "name": "Schneider Modicon M580 PLC CPU (Hot Standby)",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "Automation",
+    "subcategory": "Programmable Logic Controllers",
+    "industry": ["Oil & Gas", "Chemical", "Manufacturing", "Power Plants"],
+    "series": "Modicon M580",
+    "model": "BMEP582040",
+    "description": "The Schneider Modicon M580 is a hot-standby redundant PLC CPU designed for safety-critical and high-availability process applications. With dual-CPU redundancy, automatic failover, and integrated Ethernet, it ensures continuous operation in critical processes.",
+    "shortDescription": "Redundant PLC CPU for hot-standby applications, 4 MB program memory, dual Ethernet.",
+    "technicalDescription": "Hot-standby CPU with 4 MB program memory, dual Ethernet ports for RIO and supervisory networks, and automatic failover. Part of the EcoStruxure platform with native Profinet and Ethernet/IP support. Programmed via Control Expert.",
+    "applications": ["Oil & Gas Processing", "Chemical Reactor Control", "Power Plant DCS", "Water Treatment SCADA"],
+    "features": [
+      "Hot-standby redundancy with automatic failover",
+      "4 MB program memory for large applications",
+      "Dual Ethernet ports for network separation",
+      "Native Profinet and EtherNet/IP support",
+      "Integrated web diagnostics and monitoring"
+    ],
+    "benefits": [
+      "Zero downtime during CPU failover events",
+      "High reliability for critical process control",
+      "Simplified network architecture with native protocols"
+    ],
+    "technicalSpecifications": {
+      "Memory": "4 MB program / 8 MB data",
+      "Redundancy Type": "Hot-Standby (CPU Sync via Fiber)",
+      "Interfaces": "2x Ethernet (RIO + Supervisory), USB",
+      "Supported Protocols": "Modbus TCP, Profinet, EtherNet/IP, OPC UA",
+      "Max RIO Modules": "128",
+      "Power Supply": "24 VDC, 1.0 A",
+      "Operating Temperature": "0°C to +60°C"
+    },
+    "dimensions": "185mm x 160mm x 85mm (per CPU module)",
+    "weight": "2.4 kg (pair with rack)",
+    "material": "Metal Enclosure with Plastic Front",
+    "countryOfOrigin": "France",
+    "certifications": ["CE", "UL", "ATEX Zone 2", "IEC 61131-2", "IEC 61508 SIL 2"],
+    "compatibleModels": ["BMEP581040", "BMEP583040", "BMEP584040"],
+    "downloads": [
+      { "name": "Modicon M580 Hot Standby Guide", "url": "https://example.com/schneider-m580.pdf", "type": "application/pdf", "size": "3.5 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-bmep582040.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-m580-1.jpg", "alt": "Schneider Modicon M580 Redundant PLC", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/schneider-m580-redundancy.mp4"],
+    "documents": [
+      { "name": "Control Expert Programming Guide", "url": "https://example.com/control-expert-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider Modicon M580 Redundant PLC CPU",
+    "seoDescription": "Schneider Modicon M580 hot-standby redundant PLC CPU BMEP582040 with 4 MB memory, dual Ethernet. For critical process control applications.",
+    "seoKeywords": ["Schneider M580", "redundant PLC", "hot standby PLC", "Modicon PLC", "safety-critical PLC"],
+    "canonical": "https://example.com/schneider-modicon-m580-plc",
+    "ogImage": "https://example.com/images/schneider-m580-og.jpg",
+    "faq": [
+      { "question": "How does the failover work?", "answer": "Both CPUs run the same program. The standby CPU synchronizes via fiber link. On primary failure, the standby takes over within 1-2 scan cycles." },
+      { "question": "What software is needed?", "answer": "The M580 is programmed using Schneider Control Expert (Unity Pro) software." },
+      { "question": "Can standard M580 CPUs be upgraded to redundant?", "answer": "No, redundancy requires specific BMEP58x040 CPU models designed for hot-standby operation." }
+    ],
+    "relatedProducts": ["aut-001", "aut-005", "ctr-003"],
+    "availability": "made-to-order",
+    "tags": ["featured", "plc", "redundant", "schneider", "high-availability"],
+    "createdAt": "2024-09-20T10:00:00Z",
+    "updatedAt": "2025-06-15T12:00:00Z"
+  },
+  {
+    "id": "aut-010",
+    "slug": "siemens-remote-io-et-200sp",
+    "sku": "ZEN-AUT-SIE-20010",
+    "mpn": "6ES7155-6AA01-0BN0",
+    "name": "Siemens ET 200SP Remote I/O Interface Module",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Automation",
+    "subcategory": "Remote I/O Systems",
+    "industry": ["Manufacturing", "Automotive", "Chemical", "Energy"],
+    "series": "ET 200SP",
+    "model": "IM 155-6 PN ST",
+    "description": "The Siemens ET 200SP is a modular remote I/O system with a compact form factor. The IM 155-6 PN ST interface module connects distributed I/O stations to a Profinet network, supporting up to 64 I/O modules per station.",
+    "shortDescription": "Remote I/O interface module for Profinet, supports 64 modules, IP20 protection.",
+    "technicalDescription": "Profinet IO interface module with integrated 2-port switch for line/tree topology. Supports up to 64 I/O modules with hot-swapping capability. Provides I&M functions and device identification.",
+    "applications": ["Distributed Machine I/O", "Production Line Sensors", "Material Handling Systems", "Packaging Lines"],
+    "features": [
+      "Integrated 2-port Profinet switch for simple cabling",
+      "Supports up to 64 I/O modules per station",
+      "Hot-swapping of I/O modules without tools",
+      "Compact design saves panel space",
+      "LED diagnostics for each channel"
+    ],
+    "benefits": [
+      "Reduces wiring costs with distributed installation",
+      "Minimizes downtime with module hot-swapping",
+      "Scalable I/O counts for flexible machine design"
+    ],
+    "technicalSpecifications": {
+      "Interface Protocol": "Profinet IO (IRT capable)",
+      "Number of Modules": "64 max per station",
+      "Profinet Ports": "2 (Integrated 2-port switch)",
+      "Supply Voltage": "24 VDC",
+      "Current Consumption": "0.25 A",
+      "Dimensions": "75mm x 165mm x 65mm",
+      "Protection Class": "IP20"
+    },
+    "dimensions": "75mm x 165mm x 65mm",
+    "weight": "0.25 kg",
+    "material": "Plastic Housing",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["ET 200MP", "ET 200eco PN", "ET 200AL"],
+    "downloads": [
+      { "name": "ET 200SP System Manual", "url": "https://example.com/siemens-et200sp.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-im155-6.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-et200sp-1.jpg", "alt": "Siemens ET 200SP Interface Module", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ET 200SP Configuration Manual", "url": "https://example.com/et200sp-config.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens ET 200SP Profinet Remote I/O Interface Module",
+    "seoDescription": "Siemens ET 200SP IM 155-6 PN ST Profinet remote I/O interface module. Supports 64 modules, hot-swapping, IRT capable.",
+    "seoKeywords": ["Siemens ET 200SP", "remote I/O", "Profinet I/O", "IM 155-6 PN", "distributed I/O"],
+    "canonical": "https://example.com/siemens-remote-io-et-200sp",
+    "ogImage": "https://example.com/images/siemens-et200sp-og.jpg",
+    "faq": [
+      { "question": "What is the maximum distance from the controller?", "answer": "Profinet cable length between devices is limited to 100m. For longer distances, fiber optic media converters are available." },
+      { "question": "Can different module types be mixed?", "answer": "Yes, any combination of digital, analog, and function modules can be used in a single station." },
+      { "question": "What is the update time?", "answer": "Minimum Profinet cycle time is 250 μs for fast digital signals." }
+    ],
+    "relatedProducts": ["aut-001", "plc-001", "plc-005"],
+    "availability": "in-stock",
+    "tags": ["remote-io", "profinet", "siemens", "distributed"],
+    "createdAt": "2024-10-05T08:00:00Z",
+    "updatedAt": "2025-06-01T09:00:00Z"
+  }
+]

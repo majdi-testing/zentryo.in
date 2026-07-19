@@ -1,0 +1,357 @@
+[
+  {
+    "id": "mnf-001",
+    "slug": "parker-hydraulic-manifold-d03",
+    "sku": "ZEN-MNF-PRK-03001",
+    "mpn": "M3-D03-4W-GM",
+    "name": "Parker D03 Hydraulic Manifold Block 4-Station",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Manifolds",
+    "subcategory": "Hydraulic Manifolds",
+    "industry": ["Manufacturing", "Automotive", "Mining", "Energy"],
+    "series": "D03 Series",
+    "model": "M3-D03-4W-GM",
+    "description": "The Parker D03 hydraulic manifold block provides a compact fluid distribution solution for four D03-size directional control valves. Precision-machined from 6061-T6 aluminum, it features common pressure and tank ports with individual work port outputs.",
+    "shortDescription": "D03 hydraulic manifold block, 4-station, 6061-T6 aluminum, 300 bar.",
+    "technicalDescription": "4-station subplate manifold for D03/NG6 CETOP valve pattern. Hard-anodized aluminum construction with drilled cross-ports and SAE O-ring boss ports. Maximum operating pressure 300 bar with certified pressure ratings.",
+    "applications": ["Hydraulic Power Units", "Machine Tool Hydraulics", "Mobile Equipment", "Press Control Systems"],
+    "features": [
+      "4-station capacity for D03/NG6 CETOP valves",
+      "6061-T6 aluminum with hard anodized finish",
+      "Common P, T, and optional auxiliary ports",
+      "SAE O-ring boss port connections",
+      "Full pressure rating certification"
+    ],
+    "benefits": [
+      "Reduces piping complexity with integrated fluid distribution",
+      "Lightweight aluminum construction reduces system weight",
+      "Leak-free connections with O-ring seal ports"
+    ],
+    "technicalSpecifications": {
+      "Valve Pattern": "D03 / NG6 (CETOP 03)",
+      "Number of Stations": "4",
+      "Maximum Pressure": "300 bar (4,350 psi)",
+      "Material": "6061-T6 Aluminum",
+      "Port Threads": "SAE O-Ring Boss (3/8\" - 3/4\")",
+      "Finish": "Hard Anodized (MIL-A-8625 Type III)",
+      "Weight": "1.8 kg"
+    },
+    "dimensions": "250mm x 100mm x 70mm",
+    "weight": "1.8 kg",
+    "material": "6061-T6 Aluminum (Hard Anodized)",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ASTM B209", "MIL-A-8625"],
+    "compatibleModels": ["D03 CETOP 3 Valves", "M3-D03-2W", "M3-D03-6W"],
+    "downloads": [
+      { "name": "Parker Manifold Catalog", "url": "https://example.com/parker-manifold.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-m3-d03.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-d03-manifold-1.jpg", "alt": "Parker D03 Hydraulic Manifold", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Manifold Design Guide", "url": "https://example.com/parker-manifold-design.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker D03 Hydraulic Manifold Block | 4-Station",
+    "seoDescription": "Parker D03/NG6 hydraulic manifold block, 4-station, 6061-T6 aluminum, 300 bar. For hydraulic power units and machine tool applications.",
+    "seoKeywords": ["Parker manifold", "D03 manifold", "hydraulic manifold", "CETOP manifold", "valve manifold block"],
+    "canonical": "https://example.com/parker-hydraulic-manifold-d03",
+    "ogImage": "https://example.com/images/parker-d03-manifold-og.jpg",
+    "faq": [
+      { "question": "What valves can be mounted?", "answer": "Any valve with D03/NG6 CETOP 03 mounting pattern including directional, pressure, and flow control valves." },
+      { "question": "What is the maximum flow capacity?", "answer": "Maximum flow capacity through the manifold is 80 L/min depending on port sizes and internal drilling." },
+      { "question": "Can custom porting be added?", "answer": "Yes, custom drilling patterns are available on special order for specific circuit requirements." }
+    ],
+    "relatedProducts": ["mnf-002", "mnf-005", "hyd-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "hydraulic", "manifold", "parker"],
+    "createdAt": "2024-01-20T08:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": "mnf-002",
+    "slug": "bosch-rexroth-pneumatic-manifold-vts",
+    "sku": "ZEN-MNF-BRX-04001",
+    "mpn": "VTS-04-8-KP",
+    "name": "Bosch Rexroth VTS Series Pneumatic Valve Manifold (8 Valves)",
+    "brand": "Bosch Rexroth",
+    "manufacturer": "Bosch Rexroth AG",
+    "category": "Manifolds",
+    "subcategory": "Pneumatic Manifolds",
+    "industry": ["Manufacturing", "Automotive", "Packaging", "Food & Beverage"],
+    "series": "VTS Series",
+    "model": "VTS-04-8-KP",
+    "description": "The Bosch Rexroth VTS Series pneumatic valve manifold integrates up to 8 solenoid valves in one compact assembly with common supply and exhaust ports. The modular manifold system reduces tubing and installation time for automated machinery.",
+    "shortDescription": "Pneumatic valve manifold, 8-station, 24 VDC, IP65, fieldbus ready.",
+    "technicalDescription": "Modular pneumatic valve manifold for up to 8 single or double solenoid valves. Integrated multi-pin or fieldbus connection, common P (1) and R (3) ports, and individual cylinder ports per station. IP65 rated with LED diagnostics.",
+    "applications": ["Assembly Automation", "Packaging Machines", "Robotic End Effectors", "Material Handling Systems"],
+    "features": [
+      "Modular design for up to 8 valve stations",
+      "Common pressure and exhaust ports simplify piping",
+      "Multi-pin or fieldbus (IO-Link, Profinet) connectivity",
+      "IP65 rated for washdown environments",
+      "LED status indicators per valve station"
+    ],
+    "benefits": [
+      "Reduces tubing by up to 80% compared to individual valves",
+      "Faster installation with single multi-pin connection",
+      "Compact design saves control cabinet space"
+    ],
+    "technicalSpecifications": {
+      "Valve Stations": "8 (expandable to 16)",
+      "Valve Type": "5/2 or 5/3 single/double solenoid",
+      "Port Size": "G 1/4\" individual ports",
+      "Supply Port": "G 3/4\"",
+      "Operating Voltage": "24 VDC",
+      "Connection Type": "Multi-pin D-sub 25 / IO-Link",
+      "Protection Class": "IP65"
+    },
+    "dimensions": "350mm x 55mm x 40mm",
+    "weight": "1.2 kg",
+    "material": "Anodized Aluminum Body",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 61131-2"],
+    "compatibleModels": ["VTS-04-4-KP", "VTS-04-12-KP", "VTS-04-8-FB"],
+    "downloads": [
+      { "name": "Bosch Rexroth VTS Catalog", "url": "https://example.com/bosch-vts.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/bosch-vts-04-8.pdf"],
+    "images": [
+      { "src": "https://example.com/images/bosch-vts-1.jpg", "alt": "Bosch Rexroth VTS Pneumatic Manifold", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "VTS Configurator Guide", "url": "https://example.com/bosch-vts-config.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Bosch Rexroth VTS Pneumatic Valve Manifold | 8 Station",
+    "seoDescription": "Bosch Rexroth VTS pneumatic valve manifold, 8-station, 5/2 valves, IP65, IO-Link capable. For assembly and packaging automation.",
+    "seoKeywords": ["Bosch Rexroth manifold", "pneumatic manifold", "valve manifold", "VTS series", "pneumatic valve island"],
+    "canonical": "https://example.com/bosch-rexroth-pneumatic-manifold-vts",
+    "ogImage": "https://example.com/images/bosch-vts-og.jpg",
+    "faq": [
+      { "question": "What fieldbus protocols are supported?", "answer": "Profinet, EtherNet/IP, IO-Link, and PROFIBUS DP fieldbus connection modules are available." },
+      { "question": "Can valve stations be added later?", "answer": "Yes, the modular system allows adding or removing stations to meet changing requirements." },
+      { "question": "What is the flow rate per valve?", "answer": "Each valve station provides 550 L/min (ANR) at 6 bar supply pressure." }
+    ],
+    "relatedProducts": ["mnf-003", "pnm-002", "pnm-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "pneumatic", "manifold", "bosch-rexroth", "valve-island"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  },
+  {
+    "id": "mnf-003",
+    "slug": "smc-manifold-sy3000",
+    "sku": "ZEN-MNF-SMC-30001",
+    "mpn": "SY3000-8GD-6",
+    "name": "SMC SY3000 Series Valve Manifold (10 Station)",
+    "brand": "SMC",
+    "manufacturer": "SMC Corporation",
+    "category": "Manifolds",
+    "subcategory": "Valve Manifolds",
+    "industry": ["Manufacturing", "Automotive", "Electronics", "Packaging"],
+    "series": "SY3000",
+    "model": "SY3000-8GD-6",
+    "description": "The SMC SY3000 is a compact valve manifold system offering 10-station capacity with plug-in electrical connections. Designed for high-density pneumatic applications, it features quick-response valves and a common supply plate.",
+    "shortDescription": "Compact valve manifold, 10-station, plug-in electrical, 24 VDC, 600 L/min.",
+    "technicalDescription": "10-station valve manifold with plug-in power and signal connections, base plate with common pressure and exhaust, and individual 5/2-way valves with coil LED. G 3/8\" supply and individual G 1/4\" ports.",
+    "applications": ["Automotive Assembly Lines", "Electronics Manufacturing", "Packaging Machinery", "Semiconductor Equipment"],
+    "features": [
+      "10-station capacity in compact footprint",
+      "Plug-in electrical connections reduce wiring",
+      "High flow rate of 600 L/min per valve",
+      "Common supply and exhaust base plate",
+      "Manual override on each valve station"
+    ],
+    "benefits": [
+      "Dramatically reduces installation time with plug-in design",
+      "Saves cabinet space with high-density configuration",
+      "Simplifies maintenance with individual valve replacement"
+    ],
+    "technicalSpecifications": {
+      "Valve Stations": "10",
+      "Valve Function": "5/2-way single solenoid",
+      "Flow Rate": "600 L/min (ANR) per station",
+      "Port Size": "G 1/4\" per station / G 3/8\" supply",
+      "Operating Voltage": "24 VDC",
+      "Power Consumption": "1.2 W per valve",
+      "Protection Class": "IP54"
+    },
+    "dimensions": "280mm x 48mm x 35mm",
+    "weight": "0.85 kg",
+    "material": "Aluminum Alloy, PBT Plastic",
+    "countryOfOrigin": "Japan",
+    "certifications": ["CE", "UL", "CSA", "RoHS"],
+    "compatibleModels": ["SY3000-4GD", "SY3000-6GD", "SY5000-10GD"],
+    "downloads": [
+      { "name": "SMC SY3000 Catalog", "url": "https://example.com/smc-sy3000.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/smc-sy3000-10.pdf"],
+    "images": [
+      { "src": "https://example.com/images/smc-sy3000-1.jpg", "alt": "SMC SY3000 Valve Manifold", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/smc-sy3000-assembly.mp4"],
+    "documents": [
+      { "name": "SMC Valve Manifold Guide", "url": "https://example.com/smc-manifold-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SMC SY3000 Valve Manifold | 10-Station Pneumatic",
+    "seoDescription": "SMC SY3000 compact valve manifold system, 10-station, 600 L/min, 24 VDC plug-in. For automotive, electronics, and packaging automation.",
+    "seoKeywords": ["SMC manifold", "SY3000", "valve manifold", "SMC valve island", "pneumatic manifold"],
+    "canonical": "https://example.com/smc-manifold-sy3000",
+    "ogImage": "https://example.com/images/smc-sy3000-og.jpg",
+    "faq": [
+      { "question": "What valve functions are available?", "answer": "Available in 5/2 single solenoid, 5/2 double solenoid, and 5/3 closed-center or pressure-centered configurations." },
+      { "question": "What is the response time?", "answer": "Valve response time is typically 10 ms or less at rated voltage and pressure." },
+      { "question": "Can the manifold be expanded?", "answer": "Yes, SY3000 manifolds can be extended up to 20 stations using additional base plates and tie-rod assemblies." }
+    ],
+    "relatedProducts": ["mnf-002", "pnm-001", "pnm-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "pneumatic", "valve-manifold", "smc", "compact"],
+    "createdAt": "2024-03-10T10:00:00Z",
+    "updatedAt": "2025-06-05T09:00:00Z"
+  },
+  {
+    "id": "mnf-004",
+    "slug": "parker-instrumentation-manifold-3-valve",
+    "sku": "ZEN-MNF-PRK-30001",
+    "mpn": "I3V-MA-A-SS",
+    "name": "Parker 3-Valve Instrumentation Manifold",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Manifolds",
+    "subcategory": "Instrumentation Manifolds",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants", "Pharmaceutical"],
+    "series": "3-Valve Series",
+    "model": "I3V-MA-A-SS",
+    "description": "The Parker 3-valve instrumentation manifold provides isolation and calibration access for differential pressure transmitters. Constructed from 316 stainless steel, it features two isolation valves and one equalizing valve in a compact body.",
+    "shortDescription": "3-valve DP transmitter manifold, 316 SS, 6,000 psi, NPT connections.",
+    "technicalDescription": "Integral 3-valve manifold for DP transmitter mounting. Two isolation valves (HP and LP) and one equalizing valve with non-rotating stems. Mounts directly to transmitter with 1/2\" NPT connections. Packing below thread design.",
+    "applications": ["DP Transmitter Isolation", "Level Transmitter Calibration", "Flow Meter Block & Bleed", "Pressure Measurement"],
+    "features": [
+      "Integral 3-valve design (2 isolation + 1 equalizing)",
+      "Non-rotating stem tips prevent seat galling",
+      "Packing below thread design for cleanliness",
+      "316 stainless steel construction",
+      "Direct mount to DP transmitter"
+    ],
+    "benefits": [
+      "Simplifies transmitter calibration and maintenance",
+      "Eliminates additional fittings and leak points",
+      "Compact design supports transmitter weight"
+    ],
+    "technicalSpecifications": {
+      "Valve Configuration": "2 Isolation + 1 Equalizing",
+      "Material": "316 Stainless Steel",
+      "Pressure Rating": "6,000 psi (413 bar)",
+      "Connections": "1/2\" NPT Female",
+      "Stem Tip": "17-4 PH Stainless Steel",
+      "Packing": "PTFE / Graphite",
+      "Orifice Diameter": "0.187\" (4.75mm)"
+    },
+    "dimensions": "152mm x 95mm x 35mm",
+    "weight": "1.1 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["NACE MR0175", "NACE MR0103", "ISO 9001", "PED"],
+    "compatibleModels": ["I3V-MA-B-SS", "I2V-MA-SS", "I5V-MA-SS"],
+    "downloads": [
+      { "name": "Parker Instrumentation Manifold Catalog", "url": "https://example.com/parker-3v.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-i3v.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-i3v-1.jpg", "alt": "Parker 3-Valve Instrument Manifold", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Instrumentation Product Manual", "url": "https://example.com/parker-instrumentation.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker 3-Valve Instrumentation Manifold | 316 SS",
+    "seoDescription": "Parker 3-valve DP transmitter manifold, 316 stainless steel, 6,000 psi. For transmitter isolation and calibration in oil & gas and chemical processes.",
+    "seoKeywords": ["Parker 3-valve manifold", "instrument manifold", "DP transmitter manifold", "block and bleed manifold", "316 SS manifold"],
+    "canonical": "https://example.com/parker-instrumentation-manifold-3-valve",
+    "ogImage": "https://example.com/images/parker-i3v-og.jpg",
+    "faq": [
+      { "question": "What is the function of the equalizing valve?", "answer": "The equalizing valve allows balancing HP and LP sides before zero calibration of the DP transmitter." },
+      { "question": "Can this be used on oxygen service?", "answer": "Special cleaning for oxygen service is available. Standard manifold is not oxygen-cleaned." },
+      { "question": "What torque should be applied to stem packing?", "answer": "Recommended packing nut torque is 20-25 Nm for PTFE and 30-35 Nm for graphite packing." }
+    ],
+    "relatedProducts": ["mnf-001", "mnf-005", "sen-002"],
+    "availability": "in-stock",
+    "tags": ["instrumentation", "manifold", "parker", "dp-transmitter"],
+    "createdAt": "2024-04-05T08:30:00Z",
+    "updatedAt": "2025-05-25T14:00:00Z"
+  },
+  {
+    "id": "mnf-005",
+    "slug": "bosch-rexroth-hydraulic-manifold-sae",
+    "sku": "ZEN-MNF-BRX-06001",
+    "mpn": "M-SAE-06-4W-SS",
+    "name": "Bosch Rexroth SAE06 Hydraulic Manifold (4-Way)",
+    "brand": "Bosch Rexroth",
+    "manufacturer": "Bosch Rexroth AG",
+    "category": "Manifolds",
+    "subcategory": "Hydraulic Manifolds",
+    "industry": ["Manufacturing", "Mining", "Energy", "Marine"],
+    "series": "SAE06 Series",
+    "model": "M-SAE-06-4W-SS",
+    "description": "The Bosch Rexroth SAE06 hydraulic manifold provides a precision-machined porting block for SAE 06 (1-1/16-12 UN) port size hydraulic valves. Made from 4140 steel with phosphate coating, this 4-way manifold distributes flow to actuators.",
+    "shortDescription": "SAE06 hydraulic manifold, 4-way, 4140 steel, 350 bar, phosphate coated.",
+    "technicalDescription": "4-way hydraulic manifold block for SAE 06 port pattern valves. Manufactured from 4140 alloy steel with drilled and tapped SAE O-ring boss ports. Phosphate surface treatment for corrosion resistance. Certified to 350 bar working pressure.",
+    "applications": ["Mobile Hydraulics", "Industrial Presses", "Marine Hydraulic Systems", "Offshore Equipment"],
+    "features": [
+      "SAE 06 (1-1/16-12 UN) port pattern",
+      "4-way configuration with P, T, A, B ports",
+      "4140 alloy steel construction",
+      "Phosphate coated for corrosion resistance",
+      "Full pressure test certification"
+    ],
+    "benefits": [
+      "Handles extreme pressures for heavy-duty applications",
+      "Steel construction withstands shock loads",
+      "Standard SAE pattern ensures valve compatibility"
+    ],
+    "technicalSpecifications": {
+      "Port Pattern": "SAE 06 (1-1/16-12 UN)",
+      "Configuration": "4-Way (P, T, A, B)",
+      "Material": "4140 Alloy Steel",
+      "Maximum Pressure": "350 bar (5,075 psi)",
+      "Port Type": "SAE O-Ring Boss",
+      "Surface Finish": "Phosphate Coated per MIL-DTL-16232",
+      "Weight": "3.2 kg"
+    },
+    "dimensions": "180mm x 120mm x 60mm",
+    "weight": "3.2 kg",
+    "material": "4140 Alloy Steel",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ASTM A434", "DIN EN 10204 3.1"],
+    "compatibleModels": ["SAE 06 CETOP 7", "M-SAE-06-2W", "M-SAE-08-4W"],
+    "downloads": [
+      { "name": "Bosch Rexroth Manifold Brochure", "url": "https://example.com/bosch-manifold.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/bosch-sae06-4w.pdf"],
+    "images": [
+      { "src": "https://example.com/images/bosch-sae06-1.jpg", "alt": "Bosch Rexroth SAE06 Manifold", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Bosch Hydraulic Manifold Design Guide", "url": "https://example.com/bosch-manifold-design.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Bosch Rexroth SAE06 Hydraulic Manifold | 4-Way 350 bar",
+    "seoDescription": "Bosch Rexroth SAE06 4-way hydraulic manifold block, 4140 steel, 350 bar, phosphate coated. For mobile, industrial, and marine hydraulics.",
+    "seoKeywords": ["Bosch Rexroth manifold", "SAE06 manifold", "hydraulic block", "4-way manifold", "steel manifold"],
+    "canonical": "https://example.com/bosch-rexroth-hydraulic-manifold-sae",
+    "ogImage": "https://example.com/images/bosch-sae06-og.jpg",
+    "faq": [
+      { "question": "What is the port thread specification?", "answer": "SAE 06 uses 1-1/16-12 UN thread with O-ring face seal per SAE J514." },
+      { "question": "Can this manifold be used for water hydraulics?", "answer": "Standard carbon steel is not recommended for water hydraulics. For water service, a stainless steel variant is available." },
+      { "question": "What is the burst pressure?", "answer": "Minimum burst pressure is 1,400 bar (20,300 psi), providing a 4:1 safety factor." }
+    ],
+    "relatedProducts": ["mnf-001", "hyd-001", "hyd-004"],
+    "availability": "in-stock",
+    "tags": ["hydraulic", "manifold", "bosch-rexroth", "sae", "high-pressure"],
+    "createdAt": "2024-05-20T09:00:00Z",
+    "updatedAt": "2025-06-08T12:00:00Z"
+  }
+]

@@ -1,0 +1,861 @@
+[
+  {
+    "id": "brn-001",
+    "slug": "skf-deep-groove-ball-bearing-6205",
+    "sku": "ZEN-BRN-SKF-62005",
+    "mpn": "6205-2RS1/C3",
+    "name": "SKF Deep Groove Ball Bearing 6205-2RS1/C3",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Bearings",
+    "subcategory": "Deep Groove Ball Bearings",
+    "industry": ["Manufacturing", "Automotive", "Energy"],
+    "series": "6200 Series",
+    "model": "6205-2RS1/C3",
+    "description": "The SKF 6205-2RS1/C3 is a single-row deep groove ball bearing with contact seals on both sides and a C3 internal clearance. Designed for high-speed operation with minimal friction, this bearing accommodates radial and axial loads in both directions. Suitable for electric motors, pumps, and industrial gearboxes.",
+    "shortDescription": "Single-row deep groove ball bearing with contact seals, C3 clearance, 25mm bore.",
+    "technicalDescription": "Deep groove ball bearing with pressed steel cage, synthetic rubber seals (NBR) on both sides, and increased radial internal clearance (C3). Lubricated with high-quality lithium-based grease. Operating temperature range -40°C to +100°C.",
+    "applications": ["Electric Motors", "Pumps", "Industrial Gearboxes", "Conveyors"],
+    "features": [
+      "Contact seals on both sides for effective contamination protection",
+      "C3 internal clearance accommodates thermal expansion",
+      "Pressed steel cage reduces weight and improves performance",
+      "Low friction design reduces energy consumption",
+      "Standardized dimensions for easy replacement"
+    ],
+    "benefits": [
+      "Extended service life in contaminated environments",
+      "Reduced maintenance intervals",
+      "Energy-efficient operation"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "25 mm",
+      "Outside Diameter": "52 mm",
+      "Width": "15 mm",
+      "Dynamic Load Rating": "14.0 kN",
+      "Static Load Rating": "7.8 kN",
+      "Limiting Speed (grease)": "12,000 rpm",
+      "Weight": "0.13 kg"
+    },
+    "dimensions": "25mm x 52mm x 15mm",
+    "weight": "0.13 kg",
+    "material": "Chrome Steel (52100)",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001", "ISO 14001", "RoHS"],
+    "compatibleModels": ["6205", "6205-Z", "6205-RS1"],
+    "downloads": [
+      { "name": "SKF 6205 Series Datasheet", "url": "https://example.com/skf-6205-datasheet.pdf", "type": "application/pdf", "size": "1.2 MB" },
+      { "name": "SKF Bearing Installation Guide", "url": "https://example.com/skf-installation-guide.pdf", "type": "application/pdf", "size": "3.5 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-6205-datasheet.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-6205-1.jpg", "alt": "SKF 6205 Deep Groove Ball Bearing Front View", "width": 800, "height": 800, "isPrimary": true },
+      { "src": "https://example.com/images/skf-6205-2.jpg", "alt": "SKF 6205 Deep Groove Ball Bearing Cross Section", "width": 800, "height": 600, "isPrimary": false }
+    ],
+    "videos": ["https://example.com/videos/skf-bearing-installation.mp4"],
+    "documents": [
+      { "name": "SKF Bearing Catalog", "url": "https://example.com/skf-catalog.pdf", "type": "application/pdf" },
+      { "name": "Maintenance Manual", "url": "https://example.com/skf-maintenance.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF 6205-2RS1/C3 Deep Groove Ball Bearing | Industrial Bearings",
+    "seoDescription": "Premium SKF 6205 deep groove ball bearing with contact seals and C3 clearance. 25mm bore, 52mm OD, 15mm width. Ideal for motors, pumps, and gearboxes.",
+    "seoKeywords": ["SKF 6205", "deep groove ball bearing", "6205-2RS1", "sealed bearing", "C3 clearance bearing"],
+    "canonical": "https://example.com/skf-deep-groove-ball-bearing-6205",
+    "ogImage": "https://example.com/images/skf-6205-og.jpg",
+    "faq": [
+      { "question": "What is the temperature range for the SKF 6205-2RS1?", "answer": "The operating temperature range is -40°C to +100°C (-40°F to +212°F) with the standard NBR seals." },
+      { "question": "What does C3 clearance mean?", "answer": "C3 indicates increased radial internal clearance beyond normal range, designed for applications where temperature differences between inner and outer rings may cause expansion." },
+      { "question": "Can this bearing be re-lubricated?", "answer": "The 6205-2RS1 is sealed and pre-lubricated for life. It is not designed for re-lubrication." }
+    ],
+    "relatedProducts": ["brn-002", "brn-003", "brn-004"],
+    "availability": "in-stock",
+    "tags": ["featured", "ball-bearing", "sealed-bearing"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:30:00Z"
+  },
+  {
+    "id": "brn-002",
+    "slug": "nsk-angular-contact-ball-bearing-7206",
+    "sku": "ZEN-BRN-NSK-72006",
+    "mpn": "7206-B-TVP-UA",
+    "name": "NSK Angular Contact Ball Bearing 7206-B-TVP-UA",
+    "brand": "NSK",
+    "manufacturer": "NSK Ltd.",
+    "category": "Bearings",
+    "subcategory": "Angular Contact Ball Bearings",
+    "industry": ["Manufacturing", "Automotive", "Machine Tools"],
+    "series": "7200 Series",
+    "model": "7206-B-TVP-UA",
+    "description": "The NSK 7206-B-TVP-UA is a single-row angular contact ball bearing with a 40° contact angle, designed for high axial loads in one direction. Featuring a polyamide cage and universal pairing design, this bearing is ideal for machine tool spindles and high-precision applications.",
+    "shortDescription": "Single-row angular contact ball bearing, 40° contact angle, universal pairing, 30mm bore.",
+    "technicalDescription": "Angular contact ball bearing with 40° contact angle (B-design), polyamide window-type cage (TVP), and universal face-to-face/back-to-back arrangement (UA). Suitable for high-speed operation with combined radial and axial loads.",
+    "applications": ["Machine Tool Spindles", "High-Speed Motors", "Pumps", "Gearboxes"],
+    "features": [
+      "40° contact angle for high axial load capacity",
+      "Polyamide cage for high-speed operation",
+      "Universal pairing allows tandem, back-to-back, or face-to-face mounting",
+      "Low running noise and vibration levels",
+      "Precision manufacturing to P6 or P5 tolerance classes"
+    ],
+    "benefits": [
+      "Superior spindle accuracy and surface finish",
+      "Reduced heat generation at high speeds",
+      "Flexible mounting configurations reduce inventory"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "30 mm",
+      "Outside Diameter": "62 mm",
+      "Width": "16 mm",
+      "Contact Angle": "40°",
+      "Dynamic Load Rating": "28.0 kN",
+      "Static Load Rating": "18.0 kN",
+      "Limiting Speed (grease)": "10,000 rpm"
+    },
+    "dimensions": "30mm x 62mm x 16mm",
+    "weight": "0.22 kg",
+    "material": "Chrome Steel (52100)",
+    "countryOfOrigin": "Japan",
+    "certifications": ["ISO 9001", "JIS B 1514"],
+    "compatibleModels": ["7206-B", "7206-B-TVP", "7206-B-MP"],
+    "downloads": [
+      { "name": "NSK Angular Contact Bearing Catalog", "url": "https://example.com/nsk-angular-catalog.pdf", "type": "application/pdf", "size": "4.0 MB" }
+    ],
+    "datasheets": ["https://example.com/nsk-7206-datasheet.pdf"],
+    "images": [
+      { "src": "https://example.com/images/nsk-7206-1.jpg", "alt": "NSK 7206 Angular Contact Ball Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "NSK Bearing Selection Guide", "url": "https://example.com/nsk-selection-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "NSK 7206-B-TVP-UA Angular Contact Ball Bearing",
+    "seoDescription": "High-precision NSK 7206 angular contact ball bearing with 40° contact angle, polyamide cage. 30x62x16mm. Ideal for machine tool spindles.",
+    "seoKeywords": ["NSK 7206", "angular contact bearing", "7206-B-TVP-UA", "machine tool bearing", "precision bearing"],
+    "canonical": "https://example.com/nsk-angular-contact-ball-bearing-7206",
+    "ogImage": "https://example.com/images/nsk-7206-og.jpg",
+    "faq": [
+      { "question": "What does 'UA' mean in the bearing designation?", "answer": "UA indicates universal pairing arrangement, allowing two bearings to be mounted directly adjacent in any arrangement without shims or adjustments." },
+      { "question": "What is the contact angle of this bearing?", "answer": "This bearing has a 40° contact angle (B-design), optimized for high axial load capacity in one direction." },
+      { "question": "Can this bearing handle radial loads?", "answer": "Yes, angular contact ball bearings can handle combined radial and axial loads, with the axial load capacity increasing with the contact angle." }
+    ],
+    "relatedProducts": ["brn-001", "brn-003", "brn-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "angular-contact", "precision-bearing"],
+    "createdAt": "2024-02-20T09:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  },
+  {
+    "id": "brn-003",
+    "slug": "timken-tapered-roller-bearing-30208",
+    "sku": "ZEN-BRN-TMK-30208",
+    "mpn": "30208",
+    "name": "Timken Tapered Roller Bearing 30208",
+    "brand": "Timken",
+    "manufacturer": "The Timken Company",
+    "category": "Bearings",
+    "subcategory": "Tapered Roller Bearings",
+    "industry": ["Automotive", "Mining", "Energy", "Manufacturing"],
+    "series": "30000 Series",
+    "model": "30208",
+    "description": "The Timken 30208 is a single-row tapered roller bearing designed to handle combined radial and axial loads. Precision-manufactured from Timken's own premium steel, this bearing delivers exceptional durability in heavy-duty applications such as truck wheel hubs, gearboxes, and mining equipment.",
+    "shortDescription": "Single-row tapered roller bearing, 40mm bore, suitable for heavy radial and axial loads.",
+    "technicalDescription": "Single-row tapered roller bearing with cup (outer ring) and cone (inner ring) assembly. Manufactured from case-hardened steel for optimal fatigue life. Conforms to ISO 355 dimensional standards.",
+    "applications": ["Wheel Hubs", "Gearboxes", "Mining Conveyors", "Agricultural Equipment"],
+    "features": [
+      "Case-hardened steel for superior fatigue resistance",
+      "Optimized internal geometry for reduced friction",
+      "High radial and axial load capacity in one direction",
+      "Interchangeable cup and cone for flexible maintenance",
+      "Premium Timken steel metallurgy"
+    ],
+    "benefits": [
+      "Extended component life in harsh operating conditions",
+      "Reduced fuel consumption through lower friction",
+      "Simplified maintenance with separable components"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "40 mm",
+      "Outside Diameter": "80 mm",
+      "Width": "19.75 mm",
+      "Dynamic Load Rating": "80.0 kN",
+      "Static Load Rating": "90.0 kN",
+      "Limiting Speed (grease)": "4,500 rpm",
+      "Weight": "0.52 kg"
+    },
+    "dimensions": "40mm x 80mm x 19.75mm",
+    "weight": "0.52 kg",
+    "material": "Case-Hardened Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "TS 16949", "AS 9100"],
+    "compatibleModels": ["30208-A", "30208-B"],
+    "downloads": [
+      { "name": "Timken 30208 Datasheet", "url": "https://example.com/timken-30208.pdf", "type": "application/pdf", "size": "800 KB" },
+      { "name": "Timken Tapered Bearing Installation Manual", "url": "https://example.com/timken-installation.pdf", "type": "application/pdf", "size": "2.1 MB" }
+    ],
+    "datasheets": ["https://example.com/timken-30208.pdf"],
+    "images": [
+      { "src": "https://example.com/images/timken-30208-1.jpg", "alt": "Timken 30208 Tapered Roller Bearing Assembly", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Timken Bearing Catalog", "url": "https://example.com/timken-catalog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Timken 30208 Tapered Roller Bearing | Heavy-Duty Industrial Bearing",
+    "seoDescription": "Timken 30208 single-row tapered roller bearing. 40mm bore, 80mm OD. Case-hardened steel. Ideal for automotive, mining, and gearbox applications.",
+    "seoKeywords": ["Timken 30208", "tapered roller bearing", "30208 bearing", "heavy duty bearing", "case-hardened bearing"],
+    "canonical": "https://example.com/timken-tapered-roller-bearing-30208",
+    "ogImage": "https://example.com/images/timken-30208-og.jpg",
+    "faq": [
+      { "question": "What loads can the Timken 30208 handle?", "answer": "The 30208 has a dynamic load rating of 80 kN and static load rating of 90 kN, suitable for heavy combined radial and axial loads." },
+      { "question": "Can the cup and cone be replaced separately?", "answer": "Yes, tapered roller bearings feature separable cup and cone components, allowing individual replacement to reduce maintenance costs." },
+      { "question": "What lubricants are recommended?", "answer": "High-quality EP gear oils or lithium-complex greases are recommended. Operating temperature range is -30°C to +120°C." }
+    ],
+    "relatedProducts": ["brn-001", "brn-004", "brn-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "tapered-roller", "heavy-duty"],
+    "createdAt": "2024-03-10T10:00:00Z",
+    "updatedAt": "2025-05-20T09:00:00Z"
+  },
+  {
+    "id": "brn-004",
+    "slug": "fag-spherical-roller-bearing-22218",
+    "sku": "ZEN-BRN-FAG-22218",
+    "mpn": "22218-E1-XL-C3",
+    "name": "FAG Spherical Roller Bearing 22218-E1-XL-C3",
+    "brand": "FAG",
+    "manufacturer": "Schaeffler Technologies AG",
+    "category": "Bearings",
+    "subcategory": "Spherical Roller Bearings",
+    "industry": ["Mining", "Energy", "Manufacturing", "Marine"],
+    "series": "22200 Series",
+    "model": "22218-E1-XL-C3",
+    "description": "The FAG 22218-E1-XL-C3 is a spherical roller bearing with an optimized internal design for maximum load capacity. Featuring the E1 performance class with a sheet steel cage, this bearing provides exceptional reliability in heavy industrial applications including mining conveyors, wind turbines, and marine propulsion systems.",
+    "shortDescription": "Spherical roller bearing, E1 performance class, C3 clearance, 90mm bore, extra-long life.",
+    "technicalDescription": "Double-row spherical roller bearing with optimized internal geometry (E1), sheet steel window-type cage, increased radial clearance (C3), and X-life quality for extended fatigue life. Self-aligning capability accommodates shaft misalignment.",
+    "applications": ["Mining Conveyors", "Wind Turbine Gearboxes", "Marine Propeller Shafts", "Paper Mill Rollers"],
+    "features": [
+      "X-life quality for up to 60% longer service life",
+      "Self-aligning design compensates for shaft deflection",
+      "Optimized internal geometry for high load capacity",
+      "Sheet steel cage suitable for high temperatures",
+      "C3 clearance for thermal expansion accommodation"
+    ],
+    "benefits": [
+      "Extended service intervals in demanding applications",
+      "Reduces downtime from misalignment-related failures",
+      "Higher operational reliability in contaminated environments"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "90 mm",
+      "Outside Diameter": "160 mm",
+      "Width": "40 mm",
+      "Dynamic Load Rating": "335.0 kN",
+      "Static Load Rating": "375.0 kN",
+      "Limiting Speed (grease)": "3,200 rpm",
+      "Weight": "3.85 kg"
+    },
+    "dimensions": "90mm x 160mm x 40mm",
+    "weight": "3.85 kg",
+    "material": "High-Grade Chrome Steel",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ISO 14001", "OHSAS 18001"],
+    "compatibleModels": ["22218-E1", "22218-E1-XL", "22218-CC"],
+    "downloads": [
+      { "name": "FAG 22218 Datasheet", "url": "https://example.com/fag-22218.pdf", "type": "application/pdf", "size": "1.1 MB" },
+      { "name": "FAG X-Life Brochure", "url": "https://example.com/fag-xlife.pdf", "type": "application/pdf", "size": "5.0 MB" }
+    ],
+    "datasheets": ["https://example.com/fag-22218.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fag-22218-1.jpg", "alt": "FAG 22218 Spherical Roller Bearing", "width": 800, "height": 800, "isPrimary": true },
+      { "src": "https://example.com/images/fag-22218-2.jpg", "alt": "FAG 22218 Cross Section View", "width": 800, "height": 600, "isPrimary": false }
+    ],
+    "videos": ["https://example.com/videos/fag-spherical-installation.mp4"],
+    "documents": [
+      { "name": "FAG Spherical Roller Bearing Catalog", "url": "https://example.com/fag-spherical-catalog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "FAG 22218-E1-XL-C3 Spherical Roller Bearing | Industrial Bearings",
+    "seoDescription": "FAG 22218 spherical roller bearing with X-life quality, E1 design, C3 clearance. 90x160x40mm. For mining, wind energy, and marine applications.",
+    "seoKeywords": ["FAG 22218", "spherical roller bearing", "22218-E1-XL-C3", "X-life bearing", "self-aligning bearing"],
+    "canonical": "https://example.com/fag-spherical-roller-bearing-22218",
+    "ogImage": "https://example.com/images/fag-22218-og.jpg",
+    "faq": [
+      { "question": "What makes X-life bearings different?", "answer": "X-life is FAG's premium quality designation, offering up to 60% longer fatigue life, reduced friction, and higher operating temperatures compared to standard designs." },
+      { "question": "Can this bearing accommodate misalignment?", "answer": "Yes, spherical roller bearings have a self-aligning feature that compensates for angular misalignment up to 1-2° depending on operating conditions." },
+      { "question": "What is the maximum operating temperature?", "answer": "The bearing can operate continuously at temperatures up to +200°C with appropriate lubricant selection." }
+    ],
+    "relatedProducts": ["brn-003", "brn-005", "brn-007"],
+    "availability": "in-stock",
+    "tags": ["featured", "spherical-roller", "x-life", "heavy-duty"],
+    "createdAt": "2024-04-05T07:30:00Z",
+    "updatedAt": "2025-06-15T16:00:00Z"
+  },
+  {
+    "id": "brn-005",
+    "slug": "skf-self-aligning-ball-bearing-1208",
+    "sku": "ZEN-BRN-SKF-12008",
+    "mpn": "1208-ETN9/C3",
+    "name": "SKF Self-Aligning Ball Bearing 1208-ETN9/C3",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Bearings",
+    "subcategory": "Self-Aligning Ball Bearings",
+    "industry": ["Manufacturing", "Chemical", "Pharmaceutical"],
+    "series": "1200 Series",
+    "model": "1208-ETN9/C3",
+    "description": "The SKF 1208-ETN9/C3 is a self-aligning ball bearing designed to accommodate misalignment and shaft deflections. Featuring a glass fiber reinforced polyamide cage and C3 clearance, this bearing is ideal for applications where shaft alignment is difficult to maintain. Widely used in fans, blowers, and textile machinery.",
+    "shortDescription": "Self-aligning ball bearing with polyamide cage, C3 clearance, 40mm bore.",
+    "technicalDescription": "Double-row self-aligning ball bearing with glass fiber reinforced polyamide window-type cage (ETN9), increased radial clearance (C3). The spherical raceway on the outer ring allows angular misalignment without increased stress.",
+    "applications": ["Industrial Fans", "Blowers", "Textile Machinery", "Conveyors"],
+    "features": [
+      "Self-aligning design compensates for shaft deflection",
+      "Glass fiber reinforced polyamide cage for quiet operation",
+      "C3 clearance accommodates thermal expansion",
+      "Low friction for energy-efficient operation",
+      "Minimal maintenance requirements"
+    ],
+    "benefits": [
+      "Simplified installation and alignment procedures",
+      "Reduced vibration and noise levels",
+      "Lower energy consumption compared to other bearing types"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "40 mm",
+      "Outside Diameter": "80 mm",
+      "Width": "18 mm",
+      "Dynamic Load Rating": "20.3 kN",
+      "Static Load Rating": "8.8 kN",
+      "Limiting Speed (grease)": "8,500 rpm",
+      "Weight": "0.36 kg"
+    },
+    "dimensions": "40mm x 80mm x 18mm",
+    "weight": "0.36 kg",
+    "material": "Chrome Steel",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001", "RoHS"],
+    "compatibleModels": ["1208", "1208-TN9", "1208-K"],
+    "downloads": [
+      { "name": "SKF Self-Aligning Bearing Datasheet", "url": "https://example.com/skf-1208-datasheet.pdf", "type": "application/pdf", "size": "0.9 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-1208-datasheet.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-1208-1.jpg", "alt": "SKF 1208 Self-Aligning Ball Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SKF Self-Aligning Bearing Guide", "url": "https://example.com/skf-self-aligning.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF 1208-ETN9/C3 Self-Aligning Ball Bearing",
+    "seoDescription": "SKF 1208 self-aligning ball bearing with polyamide cage and C3 clearance. 40x80x18mm. Perfect for fans, blowers, and textile machinery.",
+    "seoKeywords": ["SKF 1208", "self-aligning ball bearing", "1208-ETN9", "misalignment bearing", "conveyor bearing"],
+    "canonical": "https://example.com/skf-self-aligning-ball-bearing-1208",
+    "ogImage": "https://example.com/images/skf-1208-og.jpg",
+    "faq": [
+      { "question": "How much misalignment can this bearing accommodate?", "answer": "The SKF 1208 can accommodate angular misalignment up to 3-4° depending on operating conditions and load." },
+      { "question": "Is this bearing suitable for high-speed applications?", "answer": "Yes, with a limiting speed of 8,500 rpm with grease lubrication, it is suitable for moderate to high-speed applications like fans and blowers." },
+      { "question": "What type of cage does this bearing use?", "answer": "It uses an ETN9 glass fiber reinforced polyamide cage, which is lightweight, quiet, and suitable for high speeds." }
+    ],
+    "relatedProducts": ["brn-001", "brn-004", "brn-006"],
+    "availability": "in-stock",
+    "tags": ["self-aligning", "polyamide-cage"],
+    "createdAt": "2024-05-12T08:00:00Z",
+    "updatedAt": "2025-04-22T10:30:00Z"
+  },
+  {
+    "id": "brn-006",
+    "slug": "skf-thrust-ball-bearing-51110",
+    "sku": "ZEN-BRN-SKF-51110",
+    "mpn": "51110",
+    "name": "SKF Thrust Ball Bearing 51110",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Bearings",
+    "subcategory": "Thrust Ball Bearings",
+    "industry": ["Manufacturing", "Automotive", "Marine"],
+    "series": "51100 Series",
+    "model": "51110",
+    "description": "The SKF 51110 is a single-direction thrust ball bearing designed to accommodate pure axial loads in one direction. Featuring a shaft washer, housing washer, and ball and cage assembly, this bearing is ideal for vertical shaft applications, machine tool spindles, and steering columns.",
+    "shortDescription": "Single-direction thrust ball bearing, 50mm shaft diameter, for pure axial loads.",
+    "technicalDescription": "Single-direction thrust ball bearing with flat seat washers, machined brass cage. Designed for axial loads in one direction only. Must not be subjected to radial loads.",
+    "applications": ["Vertical Shafts", "Machine Tool Spindles", "Automotive Steering", "Marine Propeller Shafts"],
+    "features": [
+      "Designed for pure axial loads in one direction",
+      "Flat seat washers for simple mounting",
+      "Machined brass cage for durability",
+      "High thrust load capacity relative to size",
+      "Separable components for easy installation"
+    ],
+    "benefits": [
+      "Excellent axial load capacity in compact envelope",
+      "Reliable operation in vertical shaft applications",
+      "Easy maintenance with separable washer design"
+    ],
+    "technicalSpecifications": {
+      "Shaft Washer Bore": "50 mm",
+      "Housing Washer Outside Diameter": "78 mm",
+      "Height": "16 mm",
+      "Dynamic Axial Load Rating": "36.5 kN",
+      "Static Axial Load Rating": "91.5 kN",
+      "Limiting Speed (grease)": "3,800 rpm",
+      "Weight": "0.21 kg"
+    },
+    "dimensions": "50mm x 78mm x 16mm",
+    "weight": "0.21 kg",
+    "material": "Chrome Steel",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001"],
+    "compatibleModels": ["51110-M", "51110-F"],
+    "downloads": [
+      { "name": "SKF Thrust Bearing Datasheet", "url": "https://example.com/skf-51110.pdf", "type": "application/pdf", "size": "0.7 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-51110.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-51110-1.jpg", "alt": "SKF 51110 Thrust Ball Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SKF Thrust Bearing Catalog", "url": "https://example.com/skf-thrust.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF 51110 Thrust Ball Bearing | Single-Direction Axial Bearing",
+    "seoDescription": "SKF 51110 single-direction thrust ball bearing. 50mm shaft bore, 78mm OD. For pure axial loads in vertical shafts and machine spindles.",
+    "seoKeywords": ["SKF 51110", "thrust ball bearing", "axial bearing", "51110 bearing", "vertical shaft bearing"],
+    "canonical": "https://example.com/skf-thrust-ball-bearing-51110",
+    "ogImage": "https://example.com/images/skf-51110-og.jpg",
+    "faq": [
+      { "question": "Can this bearing handle radial loads?", "answer": "No, the 51110 is designed for pure axial loads only. Radial loads must not be applied." },
+      { "question": "What is the difference between shaft and housing washers?", "answer": "The shaft washer has a ground bore for tight fit on the shaft. The housing washer has a ground outer diameter for fit in the housing." },
+      { "question": "Can this bearing be used in a horizontal shaft?", "answer": "It is not recommended for horizontal shafts at high speeds, as the balls may not properly align under gravity alone." }
+    ],
+    "relatedProducts": ["brn-001", "brn-005", "brn-007"],
+    "availability": "low-stock",
+    "tags": ["thrust-bearing", "axial-load"],
+    "createdAt": "2024-06-01T09:00:00Z",
+    "updatedAt": "2025-05-10T08:00:00Z"
+  },
+  {
+    "id": "brn-007",
+    "slug": "fag-cylindrical-roller-bearing-nu210",
+    "sku": "ZEN-BRN-FAG-NU210",
+    "mpn": "NU210-E-XL-TVP2-C3",
+    "name": "FAG Cylindrical Roller Bearing NU210-E-XL-TVP2-C3",
+    "brand": "FAG",
+    "manufacturer": "Schaeffler Technologies AG",
+    "category": "Bearings",
+    "subcategory": "Cylindrical Roller Bearings",
+    "industry": ["Manufacturing", "Energy", "Automotive"],
+    "series": "NU10 Series",
+    "model": "NU210-E-XL-TVP2-C3",
+    "description": "The FAG NU210-E-XL-TVP2-C3 is a single-row cylindrical roller bearing with an optimized internal design for high radial load capacity. Featuring a polyamide cage and C3 clearance, this bearing allows axial displacement of the shaft relative to the housing, making it ideal for non-locating bearing positions in gearboxes and electric motors.",
+    "shortDescription": "Single-row cylindrical roller bearing, NU design, C3 clearance, 50mm bore, X-life quality.",
+    "technicalDescription": "Single-row cylindrical roller bearing with NU design (two integral ribs on outer ring, no ribs on inner ring), E-type optimized internal geometry, X-life quality, polyamide window-type cage (TVP2), C3 radial clearance. Allows axial displacement of the shaft.",
+    "applications": ["Industrial Gearboxes", "Electric Motors", "Pumps", "Compressors"],
+    "features": [
+      "High radial load capacity with optimized roller geometry",
+      "NU design allows axial shaft displacement",
+      "X-life quality for extended service life",
+      "Polyamide cage for quiet, high-speed operation",
+      "Separable design for easy mounting and inspection"
+    ],
+    "benefits": [
+      "Accommodates thermal expansion in shaft systems",
+      "Reduced maintenance frequency with extended life",
+      "Lower noise and vibration in operation"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "50 mm",
+      "Outside Diameter": "90 mm",
+      "Width": "20 mm",
+      "Dynamic Load Rating": "95.0 kN",
+      "Static Load Rating": "93.0 kN",
+      "Limiting Speed (grease)": "6,000 rpm",
+      "Weight": "0.52 kg"
+    },
+    "dimensions": "50mm x 90mm x 20mm",
+    "weight": "0.52 kg",
+    "material": "High-Grade Chrome Steel",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ISO 14001"],
+    "compatibleModels": ["NU210-E", "NU210-TVP2", "NU210-XL"],
+    "downloads": [
+      { "name": "FAG Cylindrical Roller Bearing Catalog", "url": "https://example.com/fag-cylindrical.pdf", "type": "application/pdf", "size": "3.2 MB" }
+    ],
+    "datasheets": ["https://example.com/fag-nu210.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fag-nu210-1.jpg", "alt": "FAG NU210 Cylindrical Roller Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "FAG Rolling Bearing Catalog", "url": "https://example.com/fag-catalog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "FAG NU210-E-XL-TVP2-C3 Cylindrical Roller Bearing",
+    "seoDescription": "FAG NU210 cylindrical roller bearing with X-life quality, polyamide cage, C3 clearance. 50x90x20mm. For gearboxes, motors, and compressors.",
+    "seoKeywords": ["FAG NU210", "cylindrical roller bearing", "NU210-E-XL", "gearbox bearing", "motor bearing"],
+    "canonical": "https://example.com/fag-cylindrical-roller-bearing-nu210",
+    "ogImage": "https://example.com/images/fag-nu210-og.jpg",
+    "faq": [
+      { "question": "What does the NU designation mean?", "answer": "NU indicates a cylindrical roller bearing with two integral ribs on the outer ring and no ribs on the inner ring, allowing axial displacement of the shaft." },
+      { "question": "Can this bearing accommodate axial loads?", "answer": "No, NU-type bearings are designed for pure radial loads. The design allows axial shaft movement but cannot carry axial loads." },
+      { "question": "What is the benefit of the TVP2 cage?", "answer": "The TVP2 polyamide window-type cage is lightweight, provides excellent guidance of the rollers, and operates quietly at high speeds." }
+    ],
+    "relatedProducts": ["brn-004", "brn-006", "brn-008"],
+    "availability": "in-stock",
+    "tags": ["featured", "cylindrical-roller", "xl-quality"],
+    "createdAt": "2024-07-08T11:00:00Z",
+    "updatedAt": "2025-06-01T13:00:00Z"
+  },
+  {
+    "id": "brn-008",
+    "slug": "nsk-needle-roller-bearing-rna4905",
+    "sku": "ZEN-BRN-NSK-RNA4905",
+    "mpn": "RNA4905",
+    "name": "NSK Needle Roller Bearing RNA4905",
+    "brand": "NSK",
+    "manufacturer": "NSK Ltd.",
+    "category": "Bearings",
+    "subcategory": "Needle Roller Bearings",
+    "industry": ["Automotive", "Manufacturing", "Aerospace"],
+    "series": "RNA49 Series",
+    "model": "RNA4905",
+    "description": "The NSK RNA4905 is a drawn-cup needle roller bearing without an inner ring, designed for compact installations where space is constrained. The bearing rollers run directly on a hardened and ground shaft surface. Ideal for automotive transmissions, gear pumps, and aerospace actuation systems.",
+    "shortDescription": "Drawn-cup needle roller bearing without inner ring, 25mm shaft diameter, compact design.",
+    "technicalDescription": "Drawn-cup needle roller bearing without inner ring, machined-ring outer ring design. Suitable for shaft diameters of 25mm. The needle rollers provide high radial load capacity in a minimal cross-section.",
+    "applications": ["Automotive Transmissions", "Gear Pumps", "Aerospace Actuators", "Printing Presses"],
+    "features": [
+      "Compact cross-section for space-constrained installations",
+      "No inner ring - rollers run directly on shaft",
+      "High radial load capacity despite small size",
+      "Hardened steel outer ring for durability",
+      "Precision-ground needle rollers for smooth operation"
+    ],
+    "benefits": [
+      "Reduces housing size and weight requirements",
+      "Increases load capacity in existing envelope",
+      "Cost-effective solution for compact designs"
+    ],
+    "technicalSpecifications": {
+      "Shaft Diameter": "25 mm",
+      "Outside Diameter": "38 mm",
+      "Width": "23 mm",
+      "Dynamic Load Rating": "28.5 kN",
+      "Static Load Rating": "35.0 kN",
+      "Limiting Speed (grease)": "9,000 rpm",
+      "Weight": "0.06 kg"
+    },
+    "dimensions": "25mm x 38mm x 23mm (without inner ring)",
+    "weight": "0.06 kg",
+    "material": "Hardened Bearing Steel",
+    "countryOfOrigin": "Japan",
+    "certifications": ["ISO 9001", "JIS B 1514"],
+    "compatibleModels": ["NA4905", "RNA4905-XL"],
+    "downloads": [
+      { "name": "NSK Needle Bearing Catalog", "url": "https://example.com/nsk-needle.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/nsk-rna4905.pdf"],
+    "images": [
+      { "src": "https://example.com/images/nsk-rna4905-1.jpg", "alt": "NSK RNA4905 Needle Roller Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "NSK Needle Bearing Selection Guide", "url": "https://example.com/nsk-needle-selection.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "NSK RNA4905 Needle Roller Bearing | Compact Radial Bearing",
+    "seoDescription": "NSK RNA4905 drawn-cup needle roller bearing without inner ring. 25mm shaft, 38mm OD. Compact design for automotive and aerospace applications.",
+    "seoKeywords": ["NSK RNA4905", "needle roller bearing", "drawn-cup bearing", "compact bearing", "automotive transmission bearing"],
+    "canonical": "https://example.com/nsk-needle-roller-bearing-rna4905",
+    "ogImage": "https://example.com/images/nsk-rna4905-og.jpg",
+    "faq": [
+      { "question": "Does the shaft need special preparation?", "answer": "Yes, the shaft must be hardened to at least HRC 58 and ground to the appropriate tolerance to serve as the inner ring raceway." },
+      { "question": "What is the advantage of no inner ring?", "answer": "Without an inner ring, the bearing has a smaller cross-section for the same shaft size, allowing more compact designs and higher load capacity within limited space." },
+      { "question": "Can this bearing handle axial loads?", "answer": "No, drawn-cup needle roller bearings are designed for pure radial loads only." }
+    ],
+    "relatedProducts": ["brn-007", "brn-009", "brn-010"],
+    "availability": "in-stock",
+    "tags": ["needle-roller", "compact", "automotive"],
+    "createdAt": "2024-08-20T08:30:00Z",
+    "updatedAt": "2025-05-30T15:00:00Z"
+  },
+  {
+    "id": "brn-009",
+    "slug": "timken-spherical-roller-bearing-22320",
+    "sku": "ZEN-BRN-TMK-22320",
+    "mpn": "22320-CA-W33",
+    "name": "Timken Spherical Roller Bearing 22320-CA-W33",
+    "brand": "Timken",
+    "manufacturer": "The Timken Company",
+    "category": "Bearings",
+    "subcategory": "Spherical Roller Bearings",
+    "industry": ["Mining", "Energy", "Marine", "Oil & Gas"],
+    "series": "22300 Series",
+    "model": "22320-CA-W33",
+    "description": "The Timken 22320-CA-W33 is a heavy-duty spherical roller bearing with a machined brass cage and an annular oil groove with three lubrication holes in the outer ring. Designed for the most demanding industrial applications including crushers, vibratory screens, and heavy conveyor systems.",
+    "shortDescription": "Heavy-duty spherical roller bearing, brass cage, W33 oil groove, 100mm bore.",
+    "technicalDescription": "Double-row spherical roller bearing with machined brass window-type cage (CA), annular oil groove and three lubrication holes in outer ring (W33). Designed for extreme radial and axial loads with self-aligning capability.",
+    "applications": ["Rock Crushers", "Vibratory Screens", "Heavy Conveyors", "Offshore Drilling Equipment"],
+    "features": [
+      "Machined brass cage for high strength and temperature resistance",
+      "W33 oil groove and lubrication holes for effective re-lubrication",
+      "Self-aligning design accommodates shaft deflection",
+      "Optimized internal geometry for extreme load capacity",
+      "Premium Timken steel for enhanced durability"
+    ],
+    "benefits": [
+      "Reliable operation in extreme mining environments",
+      "Extended service life with proper re-lubrication",
+      "Withstands high shock loads and vibration"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "100 mm",
+      "Outside Diameter": "215 mm",
+      "Width": "73 mm",
+      "Dynamic Load Rating": "710.0 kN",
+      "Static Load Rating": "800.0 kN",
+      "Limiting Speed (grease)": "2,000 rpm",
+      "Weight": "11.5 kg"
+    },
+    "dimensions": "100mm x 215mm x 73mm",
+    "weight": "11.5 kg",
+    "material": "Case-Carburized Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "AS 9100", "API Spec Q1"],
+    "compatibleModels": ["22320-CA", "22320-W33", "22320-E"],
+    "downloads": [
+      { "name": "Timken 22320 Datasheet", "url": "https://example.com/timken-22320.pdf", "type": "application/pdf", "size": "1.5 MB" },
+      { "name": "Timken Heavy-Duty Bearing Guide", "url": "https://example.com/timken-heavy-duty.pdf", "type": "application/pdf", "size": "4.8 MB" }
+    ],
+    "datasheets": ["https://example.com/timken-22320.pdf"],
+    "images": [
+      { "src": "https://example.com/images/timken-22320-1.jpg", "alt": "Timken 22320 Spherical Roller Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Timken Spherical Bearing Catalog", "url": "https://example.com/timken-spherical.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Timken 22320-CA-W33 Spherical Roller Bearing | Mining & Heavy Industry",
+    "seoDescription": "Timken 22320 heavy-duty spherical roller bearing with brass cage and W33 oil groove. 100x215x73mm. For crushers, conveyors, and offshore equipment.",
+    "seoKeywords": ["Timken 22320", "spherical roller bearing", "22320-CA-W33", "mining bearing", "crusher bearing"],
+    "canonical": "https://example.com/timken-spherical-roller-bearing-22320",
+    "ogImage": "https://example.com/images/timken-22320-og.jpg",
+    "faq": [
+      { "question": "What does the W33 suffix mean?", "answer": "W33 indicates an annular oil groove and three lubrication holes in the outer ring for effective re-lubrication." },
+      { "question": "What type of cage does this bearing use?", "answer": "It uses a CA-type machined brass window-style cage, offering high strength and excellent heat resistance." },
+      { "question": "What lubricant is recommended for this bearing?", "answer": "For heavy mining applications, an EP lithium-complex grease or ISO VG 460 gear oil is recommended, depending on operating conditions." }
+    ],
+    "relatedProducts": ["brn-004", "brn-010", "brn-011"],
+    "availability": "made-to-order",
+    "tags": ["featured", "spherical-roller", "heavy-duty", "mining"],
+    "createdAt": "2024-09-15T10:00:00Z",
+    "updatedAt": "2025-06-18T09:00:00Z"
+  },
+  {
+    "id": "brn-010",
+    "slug": "nsk-deep-groove-ball-bearing-6310",
+    "sku": "ZEN-BRN-NSK-63110",
+    "mpn": "6310-CM",
+    "name": "NSK Deep Groove Ball Bearing 6310-CM",
+    "brand": "NSK",
+    "manufacturer": "NSK Ltd.",
+    "category": "Bearings",
+    "subcategory": "Deep Groove Ball Bearings",
+    "industry": ["Manufacturing", "Energy", "Chemical", "Pharmaceutical"],
+    "series": "6300 Series",
+    "model": "6310-CM",
+    "description": "The NSK 6310-CM is a standard deep groove ball bearing with a pressed steel cage optimized for electric motor applications. With a 50mm bore and robust construction, this bearing offers excellent performance in pumps, compressors, and industrial machinery.",
+    "shortDescription": "Deep groove ball bearing for electric motors, 50mm bore, pressed steel cage.",
+    "technicalDescription": "Standard deep groove ball bearing with pressed steel cage (CM - electric motor quality). Suitable for moderate to high-speed applications with radial and axial loads in both directions.",
+    "applications": ["Electric Motors", "Centrifugal Pumps", "Compressors", "Industrial Fans"],
+    "features": [
+      "Electric motor quality (CM) for reduced vibration",
+      "Pressed steel cage provides excellent strength",
+      "Deep groove design handles combined loads",
+      "Standardized dimensions worldwide",
+      "Versatile operating parameters"
+    ],
+    "benefits": [
+      "Smooth, quiet operation in motor applications",
+      "Readily available replacement worldwide",
+      "Cost-effective solution for general industrial use"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "50 mm",
+      "Outside Diameter": "110 mm",
+      "Width": "27 mm",
+      "Dynamic Load Rating": "65.0 kN",
+      "Static Load Rating": "38.0 kN",
+      "Limiting Speed (grease)": "5,500 rpm",
+      "Weight": "1.08 kg"
+    },
+    "dimensions": "50mm x 110mm x 27mm",
+    "weight": "1.08 kg",
+    "material": "Chrome Steel (52100)",
+    "countryOfOrigin": "Japan",
+    "certifications": ["ISO 9001", "JIS B 1514", "RoHS"],
+    "compatibleModels": ["6310", "6310-Z", "6310-2RS"],
+    "downloads": [
+      { "name": "NSK 6310 Datasheet", "url": "https://example.com/nsk-6310.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/nsk-6310.pdf"],
+    "images": [
+      { "src": "https://example.com/images/nsk-6310-1.jpg", "alt": "NSK 6310 Deep Groove Ball Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "NSK Standard Bearing Catalog", "url": "https://example.com/nsk-catalog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "NSK 6310-CM Deep Groove Ball Bearing | Electric Motor Quality",
+    "seoDescription": "NSK 6310-CM deep groove ball bearing with electric motor quality. 50x110x27mm. Ideal for motors, pumps, and compressors.",
+    "seoKeywords": ["NSK 6310", "6310 bearing", "deep groove ball bearing", "motor bearing", "6310-CM"],
+    "canonical": "https://example.com/nsk-deep-groove-ball-bearing-6310",
+    "ogImage": "https://example.com/images/nsk-6310-og.jpg",
+    "faq": [
+      { "question": "What does CM suffix mean?", "answer": "CM indicates electric motor quality with reduced vibration levels, specifically designed for electric motor applications." },
+      { "question": "Can this bearing be ordered with shields or seals?", "answer": "Yes, variants include 6310-Z (single shield), 6310-2Z (double shield), 6310-RS1 (single seal), and 6310-2RS1 (double seal)." },
+      { "question": "What is the temperature range?", "answer": "The standard 6310-CM bearing operates from -30°C to +150°C with standard grease fill." }
+    ],
+    "relatedProducts": ["brn-001", "brn-007", "brn-011"],
+    "availability": "in-stock",
+    "tags": ["featured", "ball-bearing", "motor-grade"],
+    "createdAt": "2024-10-01T07:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "brn-011",
+    "slug": "fag-angular-contact-bearing-7214",
+    "sku": "ZEN-BRN-FAG-72114",
+    "mpn": "7214-B-XL-MP-UA",
+    "name": "FAG Angular Contact Ball Bearing 7214-B-XL-MP-UA",
+    "brand": "FAG",
+    "manufacturer": "Schaeffler Technologies AG",
+    "category": "Bearings",
+    "subcategory": "Angular Contact Ball Bearings",
+    "industry": ["Machine Tools", "Automotive", "Aerospace", "Manufacturing"],
+    "series": "7200 Series",
+    "model": "7214-B-XL-MP-UA",
+    "description": "The FAG 7214-B-XL-MP-UA is a high-precision angular contact ball bearing with a 40° contact angle, X-life quality, and a machined brass cage. Designed for high-speed, high-accuracy applications such as CNC spindle assemblies and precision gearboxes.",
+    "shortDescription": "High-precision angular contact bearing, XL quality, brass cage, 70mm bore.",
+    "technicalDescription": "Single-row angular contact ball bearing with 40° contact angle (B), X-life quality for extended service life, machined brass window-type cage (MP), and universal pairing (UA) for flexible mounting arrangements.",
+    "applications": ["CNC Spindles", "Precision Gearboxes", "High-Speed Couplings", "Aerospace Test Stands"],
+    "features": [
+      "X-life quality for up to 50% longer service life",
+      "Machined brass cage for high-speed stability",
+      "40° contact angle for high axial load capacity",
+      "Universal pairing for versatile mounting",
+      "P6 precision tolerance class"
+    ],
+    "benefits": [
+      "Superior spindle running accuracy",
+      "Reduced heat buildup at high speeds",
+      "Extended maintenance intervals"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "70 mm",
+      "Outside Diameter": "125 mm",
+      "Width": "24 mm",
+      "Contact Angle": "40°",
+      "Dynamic Load Rating": "76.0 kN",
+      "Static Load Rating": "58.5 kN",
+      "Limiting Speed (grease)": "7,500 rpm"
+    },
+    "dimensions": "70mm x 125mm x 24mm",
+    "weight": "1.10 kg",
+    "material": "High-Grade Chrome Steel",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "DIN 628-6"],
+    "compatibleModels": ["7214-B", "7214-B-MP", "7214-B-XL"],
+    "downloads": [
+      { "name": "FAG 7214 Datasheet", "url": "https://example.com/fag-7214.pdf", "type": "application/pdf", "size": "0.9 MB" }
+    ],
+    "datasheets": ["https://example.com/fag-7214.pdf"],
+    "images": [
+      { "src": "https://example.com/images/fag-7214-1.jpg", "alt": "FAG 7214 Angular Contact Ball Bearing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "FAG Precision Bearing Catalog", "url": "https://example.com/fag-precision.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "FAG 7214-B-XL-MP-UA Angular Contact Ball Bearing",
+    "seoDescription": "FAG 7214 high-precision angular contact bearing with X-life quality. 70x125x24mm. For CNC spindles and precision gearboxes.",
+    "seoKeywords": ["FAG 7214", "angular contact bearing", "7214-B-XL", "spindle bearing", "precision bearing"],
+    "canonical": "https://example.com/fag-angular-contact-bearing-7214",
+    "ogImage": "https://example.com/images/fag-7214-og.jpg",
+    "faq": [
+      { "question": "What is the contact angle of this bearing?", "answer": "The bearing has a 40° contact angle (B designation), optimized for high axial loads in one direction." },
+      { "question": "What does universal pairing (UA) mean?", "answer": "UA allows two bearings to be mounted directly adjacent in tandem, back-to-back (O), or face-to-face (X) arrangements without requiring any shims or adjustments." },
+      { "question": "What is the X-life advantage?", "answer": "X-life bearings have optimized internal geometry and surface finish, providing up to 50% longer service life and reduced friction compared to standard designs." }
+    ],
+    "relatedProducts": ["brn-002", "brn-007", "brn-012"],
+    "availability": "in-stock",
+    "tags": ["featured", "angular-contact", "xl-quality", "precision"],
+    "createdAt": "2024-11-05T10:30:00Z",
+    "updatedAt": "2025-06-20T08:00:00Z"
+  },
+  {
+    "id": "brn-012",
+    "slug": "skf-bearing-unit-syf-509",
+    "sku": "ZEN-BRN-SKF-SYF509",
+    "mpn": "SYF 509",
+    "name": "SKF SKF Food Line Ball Bearing Unit SYF 509",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Bearings",
+    "subcategory": "Insert Bearings / Bearing Units",
+    "industry": ["Food & Beverage", "Pharmaceutical", "Chemical"],
+    "series": "SYF Food Line",
+    "model": "SYF 509",
+    "description": "The SKF SYF 509 is a food-grade ball bearing unit designed for washdown environments in food processing and pharmaceutical applications. Featuring a stainless steel housing, FDA-approved seal, and food-grade grease, this unit withstands high-pressure cleaning and corrosive detergents.",
+    "shortDescription": "Food-grade bearing unit with stainless steel housing, FDA-approved seals, 45mm bore.",
+    "technicalDescription": "Stainless steel bearing unit with food-grade polyamide housing, FDA-compliant NBR seals, and NSF H1-registered food-grade grease. Y-bearing insert with set screw locking. Designed for washdown duty in hygiene-sensitive environments.",
+    "applications": ["Food Processing Conveyors", "Pharmaceutical Packaging", "Bottling Plants", "Brewery Equipment"],
+    "features": [
+      "Stainless steel housing and bearing for corrosion resistance",
+      "FDA-approved seal material",
+      "NSF H1 food-grade grease lubrication",
+      "Set screw locking for easy mounting",
+      "Smooth outer surfaces prevent bacterial growth"
+    ],
+    "benefits": [
+      "Withstands aggressive washdown cleaning cycles",
+      "Meets food safety and hygiene requirements",
+      "Reduces contamination risk in production areas"
+    ],
+    "technicalSpecifications": {
+      "Bore Diameter": "45 mm",
+      "Housing Width": "51.5 mm",
+      "Center Height": "54 mm",
+      "Dynamic Load Rating": "33.2 kN",
+      "Static Load Rating": "21.6 kN",
+      "Limiting Speed (grease)": "3,800 rpm",
+      "Weight": "1.10 kg"
+    },
+    "dimensions": "45mm bore, flanged oval housing",
+    "weight": "1.10 kg",
+    "material": "Stainless Steel Housing / 52100 Steel Bearing",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001", "FDA 21 CFR", "NSF H1", "EHEDG"],
+    "compatibleModels": ["SYF 508", "SYF 510", "SYF 507"],
+    "downloads": [
+      { "name": "SKF Food Line Brochure", "url": "https://example.com/skf-foodline.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-syf509.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-syf509-1.jpg", "alt": "SKF SYF 509 Food Grade Bearing Unit", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/skf-foodline-installation.mp4"],
+    "documents": [
+      { "name": "SKF Food Grade Bearing Guide", "url": "https://example.com/skf-food-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF SYF 509 Food Grade Bearing Unit | Stainless Steel Washdown",
+    "seoDescription": "SKF SYF 509 food-grade bearing unit with stainless steel housing, FDA seals, NSF H1 grease. 45mm bore. For food processing and pharmaceutical applications.",
+    "seoKeywords": ["SKF SYF 509", "food grade bearing", "washdown bearing", "stainless steel bearing", "FDA bearing"],
+    "canonical": "https://example.com/skf-bearing-unit-syf-509",
+    "ogImage": "https://example.com/images/skf-syf509-og.jpg",
+    "faq": [
+      { "question": "Can this bearing be used in wet environments?", "answer": "Yes, the SYF 509 is specifically designed for washdown environments with stainless steel construction and FDA-approved seals." },
+      { "question": "What type of grease is used?", "answer": "The bearing is filled with NSF H1 registered food-grade grease, safe for incidental food contact." },
+      { "question": "Is the housing stainless steel?", "answer": "Yes, the housing is made from stainless steel for maximum corrosion resistance in harsh cleaning environments." }
+    ],
+    "relatedProducts": ["brn-001", "brn-010", "brn-013"],
+    "availability": "in-stock",
+    "tags": ["featured", "food-grade", "stainless-steel", "washdown"],
+    "createdAt": "2024-12-01T09:00:00Z",
+    "updatedAt": "2025-06-05T12:00:00Z"
+  }
+]

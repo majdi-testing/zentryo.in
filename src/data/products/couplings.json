@@ -1,0 +1,357 @@
+[
+  {
+    "id": "cou-001",
+    "slug": "siemens-flexible-coupling-n-eup",
+    "sku": "ZEN-COU-SIE-20001",
+    "mpn": "N-EUPEX-200-A",
+    "name": "Siemens N-EUPEX Flexible Coupling Size 200",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG (Flender)",
+    "category": "Couplings",
+    "subcategory": "Flexible Couplings",
+    "industry": ["Manufacturing", "Energy", "Pump Systems", "Compressors"],
+    "series": "N-EUPEX",
+    "model": "N-EUPEX 200 A",
+    "description": "The Siemens Flender N-EUPEX is a flexible pin and bush coupling for compensating shaft misalignment and dampening torsional vibrations. Size 200 with max torque 1,400 Nm, suitable for pump, fan, and compressor drives.",
+    "shortDescription": "Flexible pin and bush coupling, size 200, 1,400 Nm, up to 4,000 rpm.",
+    "technicalDescription": "Flexible coupling with elastic polyurethane bushes and steel pins. Two-piece hub design with clamping fit. Axial plug-in assembly for blind installation. Temperature range -30°C to +100°C.",
+    "applications": ["Centrifugal Pumps", "Industrial Fans", "Screw Compressors", "Generators"],
+    "features": [
+      "Elastic polyurethane bushes for vibration dampening",
+      "Compensates for radial, axial, and angular misalignment",
+      "Blind assembly capability with axial plug-in",
+      "Maintenance-free with elastomer elements",
+      "Clamping hub for backlash-free connection"
+    ],
+    "benefits": [
+      "Protects connected machines from torsional shocks",
+      "Simplifies alignment with generous misalignment capability",
+      "Reduces bearing loads in connected equipment"
+    ],
+    "technicalSpecifications": {
+      "Size": "200",
+      "Maximum Torque": "1,400 Nm",
+      "Maximum Speed": "4,000 rpm",
+      "Misalignment (radial)": "0.5 mm",
+      "Misalignment (angular)": "1.0°",
+      "Misalignment (axial)": "±2.0 mm",
+      "Weight": "8.5 kg (complete set)"
+    },
+    "dimensions": "180mm OD x 100mm length (per hub set)",
+    "weight": "8.5 kg",
+    "material": "Steel Hubs, Polyurethane Bushes",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ATEX Option", "CE"],
+    "compatibleModels": ["N-EUPEX 160", "N-EUPEX 250", "N-EUPEX 315"],
+    "downloads": [
+      { "name": "Flender N-EUPEX Catalog", "url": "https://example.com/flender-neupex.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/flender-neupex-200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/flender-neupex-1.jpg", "alt": "Siemens N-EUPEX Flexible Coupling", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Flender Coupling Installation Guide", "url": "https://example.com/flender-coupling-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens N-EUPEX Size 200 Flexible Coupling",
+    "seoDescription": "Siemens Flender N-EUPEX 200 flexible pin and bush coupling, 1,400 Nm, vibration dampening. For pumps, fans, and compressors.",
+    "seoKeywords": ["Siemens coupling", "N-EUPEX", "flexible coupling", "Flender coupling", "pin and bush coupling"],
+    "canonical": "https://example.com/siemens-flexible-coupling-n-eup",
+    "ogImage": "https://example.com/images/flender-neupex-og.jpg",
+    "faq": [
+      { "question": "What is the service life of the elastomer bushes?", "answer": "Typical service life is 3-5 years depending on operating conditions and misalignment." },
+      { "question": "Can the elastomer elements be replaced?", "answer": "Yes, the polyurethane bushes are replaceable without removing the hubs from the shafts." },
+      { "question": "What colors indicate the elastomer hardness?", "answer": "Red (standard, 95 Shore A), Yellow (soft), and Green (hard) are available for different damping requirements." }
+    ],
+    "relatedProducts": ["cou-002", "cou-003", "cou-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "flexible-coupling", "siemens", "flender"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "cou-002",
+    "slug": "lovejoy-jaw-coupling-l099",
+    "sku": "ZEN-COU-LOV-09901",
+    "mpn": "L099-SP-SS",
+    "name": "Lovejoy L099 Jaw Coupling (Spider Insert)",
+    "brand": "Lovejoy",
+    "manufacturer": "Lovejoy, Inc.",
+    "category": "Couplings",
+    "subcategory": "Flexible Couplings",
+    "industry": ["Manufacturing", "Automotive", "Material Handling", "Hydraulic Systems"],
+    "series": "Jaw Type L",
+    "model": "L099",
+    "description": "The Lovejoy L099 jaw coupling with spider insert provides flexible power transmission between shafts in industrial machinery. Size L099 handles 35 Nm with split-in-half assembly without moving connected equipment.",
+    "shortDescription": "Jaw coupling L099, 35 Nm, spider insert, 12-25mm bore range, steel hubs.",
+    "technicalDescription": "Standard jaw coupling with two steel hubs and polyurethane spider insert. Bores available from 12 to 25mm with keyway. Zero-backlash NBR spider standard. Temperature range -40°C to +100°C.",
+    "applications": ["Motor-Pump Connections", "Gearbox Input Drives", "Conveyor Drive Couplings", "Hydraulic Pump Drives"],
+    "features": [
+      "Split-in-half spider for tool-less replacement",
+      "Available in multiple bore sizes (12-25mm)",
+      "Zero-backlash spider insert (NBR standard)",
+      "Compact envelope compared to other coupling types",
+      "Fail-safe design - spider fails first to protect equipment"
+    ],
+    "benefits": [
+      "Quick element replacement without moving equipment",
+      "Protects machinery with fail-safe design",
+      "Cost-effective solution for general industrial drives"
+    ],
+    "technicalSpecifications": {
+      "Size": "L099",
+      "Maximum Torque": "35 Nm",
+      "Maximum Speed": "14,000 rpm",
+      "Bore Range": "12 mm to 25 mm",
+      "Hub Material": "Steel (Zinc Plated)",
+      "Spider Material": "NBR (Polyurethane optional)",
+      "Weight": "0.5 kg (hub set)"
+    },
+    "dimensions": "60mm OD x 50mm length (hub set)",
+    "weight": "0.5 kg",
+    "material": "Zinc-Plated Steel Hubs, NBR Spider",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "REACH", "RoHS"],
+    "compatibleModels": ["L050", "L075", "L150", "L190"],
+    "downloads": [
+      { "name": "Lovejoy Jaw Coupling Catalog", "url": "https://example.com/lovejoy-jaw.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/lovejoy-l099.pdf"],
+    "images": [
+      { "src": "https://example.com/images/lovejoy-l099-1.jpg", "alt": "Lovejoy L099 Jaw Coupling", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Lovejoy Coupling Selection Guide", "url": "https://example.com/lovejoy-selection.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Lovejoy L099 Jaw Coupling | 35 Nm, Steel Hubs",
+    "seoDescription": "Lovejoy L099 jaw coupling with spider insert, 35 Nm, 12-25mm bore, steel hubs. For motor-pump and gearbox drive connections.",
+    "seoKeywords": ["Lovejoy coupling", "L099", "jaw coupling", "spider coupling", "flexible coupling"],
+    "canonical": "https://example.com/lovejoy-jaw-coupling-l099",
+    "ogImage": "https://example.com/images/lovejoy-l099-og.jpg",
+    "faq": [
+      { "question": "What is the maximum misalignment?", "answer": "Angular misalignment up to 1°, parallel misalignment up to 0.38mm, and axial up to 0.8mm." },
+      { "question": "How often should the spider be replaced?", "answer": "Inspect annually. Replace when visible wear, cracking, or set occurs. Typically every 2-3 years." },
+      { "question": "What colors indicate spider hardness?", "answer": "NBR standard (white/beige), Polyurethane (various colors depending on durometer)." }
+    ],
+    "relatedProducts": ["cou-001", "cou-003", "cou-004"],
+    "availability": "in-stock",
+    "tags": ["featured", "jaw-coupling", "lovejoy", "flexible"],
+    "createdAt": "2024-02-10T09:00:00Z",
+    "updatedAt": "2025-06-05T11:00:00Z"
+  },
+  {
+    "id": "cou-003",
+    "slug": "rexnord-gear-coupling-gr-200",
+    "sku": "ZEN-COU-REX-20001",
+    "mpn": "GR-200-GB",
+    "name": "Rexnord GR-200 Gear Coupling Full Flex",
+    "brand": "Rexnord",
+    "manufacturer": "Rexnord Corporation",
+    "category": "Couplings",
+    "subcategory": "Gear Couplings",
+    "industry": ["Mining", "Power Plants", "Steel Mills", "Cement"],
+    "series": "Full Flex GR Series",
+    "model": "GR-200-GB",
+    "description": "The Rexnord GR-200 gear coupling provides high torque transmission in heavy industrial applications. With crowned and barreled tooth design, it accommodates significant misalignment while transmitting 10,000 Nm.",
+    "shortDescription": "Full flex gear coupling, size 200, 10,000 Nm, crowned teeth, continuous lubrication.",
+    "technicalDescription": "Continuous sleeve gear coupling with crowned and barreled hub teeth for high misalignment capacity. Flanged sleeve design with O-ring seals. Grease-packed for maintenance-free operation. AGMA 9 quality.",
+    "applications": ["Steel Mill Drives", "Cement Mill Pinions", "Mine Conveyors", "Pulp and Paper Rollers"],
+    "features": [
+      "Crowned and barreled tooth profile for high misalignment",
+      "Continuous sleeve design with O-ring seals",
+      "Grease-packed for life, maintenance-free",
+      "High torque capacity in compact package",
+      "AGMA 9 quality gear tooth finish"
+    ],
+    "benefits": [
+      "Handles extreme misalignment in heavy machinery",
+      "Eliminates external lubrication equipment",
+      "Long service life in harsh environments"
+    ],
+    "technicalSpecifications": {
+      "Size": "GR-200",
+      "Maximum Torque": "10,000 Nm",
+      "Maximum Speed": "3,600 rpm",
+      "Misalignment (angular)": "2° per gear mesh (4° total)",
+      "Bore Range": "50-90 mm",
+      "Lubrication": "Grease Packed (Maintenance-Free)",
+      "Weight": "25 kg"
+    },
+    "dimensions": "180mm OD x 200mm length",
+    "weight": "25 kg",
+    "material": "Alloy Steel, 40Cr Heat Treated",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "AGMA 9000-C90", "API 671"],
+    "compatibleModels": ["GR-150-GB", "GR-250-GB", "GR-300-GB"],
+    "downloads": [
+      { "name": "Rexnord GR Coupling Catalog", "url": "https://example.com/rexnord-gr.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/rexnord-gr-200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/rexnord-gr200-1.jpg", "alt": "Rexnord GR-200 Gear Coupling", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Rexnord Coupling Installation Manual", "url": "https://example.com/rexnord-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Rexnord GR-200 Gear Coupling | Full Flex",
+    "seoDescription": "Rexnord GR-200 full flex gear coupling, 10,000 Nm, crowned teeth, grease-packed. For steel mills, cement mills, and heavy industry.",
+    "seoKeywords": ["Rexnord coupling", "GR-200", "gear coupling", "heavy duty coupling", "mill coupling"],
+    "canonical": "https://example.com/rexnord-gear-coupling-gr-200",
+    "ogImage": "https://example.com/images/rexnord-gr200-og.jpg",
+    "faq": [
+      { "question": "What is the re-lubrication interval?", "answer": "The grease-packed design is maintenance-free for the life of the coupling. No re-lubrication required." },
+      { "question": "What is the maximum bore available?", "answer": "Standard maximum bore is 90mm. Custom bores up to 110mm available on request." },
+      { "question": "Can this coupling be used in reversing service?", "answer": "Yes, the symmetrical gear tooth design handles bidirectional rotation equally well." }
+    ],
+    "relatedProducts": ["cou-001", "cou-004", "cou-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "gear-coupling", "rexnord", "heavy-duty"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-06-08T09:00:00Z"
+  },
+  {
+    "id": "cou-004",
+    "slug": "siemens-grid-coupling-arnulf",
+    "sku": "ZEN-COU-SIE-10001",
+    "mpn": "ARNULF-100-SG",
+    "name": "Siemens ARNULF Grid Coupling Size 100",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG (Flender)",
+    "category": "Couplings",
+    "subcategory": "Grid Couplings",
+    "industry": ["Compressors", "Pumps", "Conveyors", "Mixers"],
+    "series": "ARNULF",
+    "model": "ARNULF 100",
+    "description": "The Siemens ARNULF grid coupling uses a spring steel grid element for high torque capacity with torsional flexibility. Size 100 transmits 2,500 Nm with excellent shock absorption for reciprocating and variable load drives.",
+    "shortDescription": "Grid coupling size 100, 2,500 Nm, spring steel grid, flexible.",
+    "technicalDescription": "Grid coupling with spring steel serpentine grid element, two flanged hubs, and split cover halves. Grid provides torsional flexibility and dampens shock loads. ATEX certified for hazardous areas.",
+    "applications": ["Reciprocating Compressors", "Centrifugal Pumps", "Belt Conveyors", "Mixers and Agitators"],
+    "features": [
+      "Spring steel grid for torsional flexibility",
+      "High shock load dampening capability",
+      "Split cover for easy grid inspection",
+      "ATEX certified for hazardous environments",
+      "All-metal construction for high temperatures"
+    ],
+    "benefits": [
+      "Protects drive train from torsional shock loads",
+      "High misalignment capacity with grid design",
+      "Suitable for high-temperature and hazardous environments"
+    ],
+    "technicalSpecifications": {
+      "Size": "100",
+      "Maximum Torque": "2,500 Nm",
+      "Maximum Speed": "5,000 rpm",
+      "Misalignment (angular)": "±0.5°",
+      "Misalignment (parallel)": "0.6 mm",
+      "Grid Material": "Spring Steel (76CrMo)",
+      "Weight": "15 kg (complete)"
+    },
+    "dimensions": "120mm OD x 140mm length",
+    "weight": "15 kg",
+    "material": "Steel Hubs, Spring Steel Grid",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ATEX", "ISO 9001", "CE"],
+    "compatibleModels": ["ARNULF 60", "ARNULF 75", "ARNULF 150"],
+    "downloads": [
+      { "name": "ARNULF Grid Coupling Catalog", "url": "https://example.com/arnulf-grid.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/arnulf-100.pdf"],
+    "images": [
+      { "src": "https://example.com/images/arnulf-100-1.jpg", "alt": "Siemens ARNULF Grid Coupling", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ARNULF Grid Coupling Manual", "url": "https://example.com/arnulf-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens ARNULF Grid Coupling Size 100",
+    "seoDescription": "Siemens Flender ARNULF 100 grid coupling, 2,500 Nm, spring steel grid, ATEX. For compressors, pumps, and conveyor drives.",
+    "seoKeywords": ["Siemens grid coupling", "ARNULF", "grid coupling", "spring steel coupling", "shock absorbing coupling"],
+    "canonical": "https://example.com/siemens-grid-coupling-arnulf",
+    "ogImage": "https://example.com/images/arnulf-100-og.jpg",
+    "faq": [
+      { "question": "What is the grid replacement interval?", "answer": "Grid life is typically 3-5 years depending on load cycles. Grids are field-replaceable." },
+      { "question": "What lubrication is required?", "answer": "A special grid coupling grease (NGLI 1) is applied during assembly. Re-lubricate annually or every 2,000 hours." },
+      { "question": "Can this coupling be used vertically?", "answer": "Yes, but special lubrication provisions are recommended for vertical shaft applications." }
+    ],
+    "relatedProducts": ["cou-003", "cou-005", "ger-002"],
+    "availability": "in-stock",
+    "tags": ["grid-coupling", "siemens", "shock-absorbing"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-05-25T14:00:00Z"
+  },
+  {
+    "id": "cou-005",
+    "slug": "rexnord-disc-coupling-dc-150",
+    "sku": "ZEN-COU-REX-15001",
+    "mpn": "DC-150-SS",
+    "name": "Rexnord DC-150 Disc Coupling, Stainless Steel",
+    "brand": "Rexnord",
+    "manufacturer": "Rexnord Corporation",
+    "category": "Couplings",
+    "subcategory": "Disc Couplings",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants", "Marine"],
+    "series": "DC Series",
+    "model": "DC-150-SS",
+    "description": "The Rexnord DC-150 stainless steel disc coupling provides zero-backlash, maintenance-free power transmission for critical turbomachinery. With all-metal construction and 1,500 Nm capacity, it handles high temperatures and corrosive environments.",
+    "shortDescription": "Stainless steel disc coupling, 1,500 Nm, zero-backlash, maintenance-free.",
+    "technicalDescription": "Double-flex disc coupling with 316 stainless steel hubs and discs. Zero-backlash diaphragm disc pack. No lubrication required. Suitable for high-speed turbomachinery up to 10,000 rpm.",
+    "applications": ["Gas Turbine Drives", "Centrifugal Compressors", "High-Speed Pumps", "Marine Propulsion Shafts"],
+    "features": [
+      "Zero-backlash all-metal design",
+      "316 stainless steel for corrosion resistance",
+      "No lubrication required, maintenance-free",
+      "High-speed capability up to 10,000 rpm",
+      "ATEX certified for hazardous areas"
+    ],
+    "benefits": [
+      "Eliminates coupling maintenance in critical service",
+      "Withstands harsh environments and high temperatures",
+      "No wear parts - 20+ year service life"
+    ],
+    "technicalSpecifications": {
+      "Size": "DC-150",
+      "Maximum Torque": "1,500 Nm",
+      "Maximum Speed": "10,000 rpm",
+      "Misalignment (angular)": "±0.5° per flex unit",
+      "Misalignment (parallel)": "0.3 mm",
+      "Material": "316 Stainless Steel",
+      "Weight": "6.5 kg (complete)"
+    },
+    "dimensions": "90mm OD x 110mm length",
+    "weight": "6.5 kg",
+    "material": "316 Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["ATEX", "API 610", "ISO 9001", "PED"],
+    "compatibleModels": ["DC-100-SS", "DC-200-SS", "DC-300-SS"],
+    "downloads": [
+      { "name": "Rexnord DC Disc Coupling Catalog", "url": "https://example.com/rexnord-dc.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/rexnord-dc-150.pdf"],
+    "images": [
+      { "src": "https://example.com/images/rexnord-dc150-1.jpg", "alt": "Rexnord DC-150 Disc Coupling", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Rexnord Turbomachinery Coupling Guide", "url": "https://example.com/rexnord-turbo.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Rexnord DC-150 Stainless Steel Disc Coupling",
+    "seoDescription": "Rexnord DC-150 stainless steel disc coupling, 1,500 Nm, zero-backlash, maintenance-free. For gas turbines, compressors, and high-speed pumps.",
+    "seoKeywords": ["Rexnord disc coupling", "DC-150", "stainless coupling", "zero backlash coupling", "turbomachinery coupling"],
+    "canonical": "https://example.com/rexnord-disc-coupling-dc-150",
+    "ogImage": "https://example.com/images/rexnord-dc150-og.jpg",
+    "faq": [
+      { "question": "What is the maximum temperature rating?", "answer": "The all-metal design operates from -100°C to +300°C." },
+      { "question": "Does this coupling need lubrication?", "answer": "No, the disc coupling is completely maintenance-free with no lubrication required." },
+      { "question": "What is the balance grade?", "answer": "Standard balance is G6.3. Higher balance grades (G2.5, G1.0) are available for high-speed applications." }
+    ],
+    "relatedProducts": ["cou-001", "cou-003", "trb-004"],
+    "availability": "made-to-order",
+    "tags": ["featured", "disc-coupling", "rexnord", "stainless", "high-speed"],
+    "createdAt": "2024-05-20T09:00:00Z",
+    "updatedAt": "2025-06-15T12:00:00Z"
+  }
+]

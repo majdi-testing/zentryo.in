@@ -1,0 +1,428 @@
+[
+  {
+    "id": "flt-001",
+    "slug": "pall-hydraulic-filter-hf-series",
+    "sku": "ZEN-FLT-PAL-40001",
+    "mpn": "HF-400-10-M",
+    "name": "Pall HF Series High-Pressure Hydraulic Filter",
+    "brand": "Pall",
+    "manufacturer": "Pall Corporation",
+    "category": "Filters",
+    "subcategory": "Hydraulic Filters",
+    "industry": ["Manufacturing", "Mining", "Energy", "Automotive"],
+    "series": "HF Series",
+    "model": "HF-400-10-M",
+    "description": "The Pall HF Series high-pressure hydraulic filter removes particulate contamination from hydraulic systems up to 420 bar. This 400 L/min filter with 10 micron absolute media protects sensitive servo and proportional valves.",
+    "shortDescription": "High-pressure hydraulic filter, 400 L/min, 10 micron, 420 bar.",
+    "technicalDescription": "High-pressure inline hydraulic filter with duplex design for continuous operation. 10 micron absolute (ß10 ≥ 200) Micro-Fiberglass media. 420 bar working pressure with bypass valve and clogging indicator.",
+    "applications": ["Hydraulic Power Units", "Mobile Hydraulic Systems", "Servo Valve Protection", "Machine Tool Hydraulics"],
+    "features": [
+      "High-pressure rating up to 420 bar",
+      "10 micron absolute fiberglass media",
+      "Duplex design allows element change without system shutdown",
+      "Visual/electrical clogging indicator",
+      "High dirt-holding capacity"
+    ],
+    "benefits": [
+      "Extends hydraulic component life 3-5x",
+      "Continuous operation with duplex design",
+      "Reduces downtime for element replacement"
+    ],
+    "technicalSpecifications": {
+      "Flow Capacity": "400 L/min",
+      "Filtration Rating": "10 micron absolute (ß10 ≥ 200)",
+      "Maximum Pressure": "420 bar (6,090 psi)",
+      "Element Type": "Micro-Fiberglass with SS Mesh",
+      "Bypass Setting": "6 bar (87 psi)",
+      "Port Size": "SAE 24 (1-5/8-12 UN)",
+      "Weight": "18 kg"
+    },
+    "dimensions": "400mm x 250mm x 200mm",
+    "weight": "18 kg",
+    "material": "Steel Head and Bowl, Fiberglass Media",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ISO 16889", "ASME B31.1"],
+    "compatibleModels": ["HF-200-10-M", "HF-600-10-M", "HF-400-25-M"],
+    "downloads": [
+      { "name": "Pall HF Filter Datasheet", "url": "https://example.com/pall-hf.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/pall-hf-400.pdf"],
+    "images": [
+      { "src": "https://example.com/images/pall-hf-1.jpg", "alt": "Pall HF Series Hydraulic Filter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Pall Hydraulic Filtration Guide", "url": "https://example.com/pall-hyd-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Pall HF Series High-Pressure Hydraulic Filter",
+    "seoDescription": "Pall HF-400 hydraulic filter, 400 L/min, 10 micron, 420 bar. Duplex design for continuous operation. Protects servo valves and hydraulic components.",
+    "seoKeywords": ["Pall filter", "hydraulic filter", "high pressure filter", "10 micron filter", "duplex filter"],
+    "canonical": "https://example.com/pall-hydraulic-filter-hf-series",
+    "ogImage": "https://example.com/images/pall-hf-og.jpg",
+    "faq": [
+      { "question": "What is the filter media composition?", "answer": "Multi-layer micro-fiberglass media with stainless steel wire mesh support layers." },
+      { "question": "How often should the element be changed?", "answer": "When clogging indicator reaches red zone (typically 1-2 bar dp depending on system). Typical element life is 6-12 months." },
+      { "question": "What Beta ratio does this filter achieve?", "answer": "Beta 10 = 200, meaning 99.5% efficiency at 10 microns." }
+    ],
+    "relatedProducts": ["flt-002", "flt-005", "hyd-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "hydraulic-filter", "pall", "high-pressure"],
+    "createdAt": "2024-01-20T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "flt-002",
+    "slug": "donaldson-air-filter-p521089",
+    "sku": "ZEN-FLT-DON-21001",
+    "mpn": "P521089",
+    "name": "Donaldson P521089 Air Filter Element",
+    "brand": "Donaldson",
+    "manufacturer": "Donaldson Company, Inc.",
+    "category": "Filters",
+    "subcategory": "Air Filters",
+    "industry": ["Manufacturing", "Automotive", "Mining", "Power Plants"],
+    "series": "PowerCore",
+    "model": "P521089",
+    "description": "The Donaldson P521089 PowerCore air filter element provides high-efficiency air filtration for heavy-duty engine intakes and industrial compressors. With PowerCore media technology, it delivers superior dust holding capacity in a compact package.",
+    "shortDescription": "PowerCore air filter element, heavy-duty, dust holding, compact design.",
+    "technicalDescription": "Ultra-Web fine fiber media with PowerCore pleat geometry. High dust-holding capacity with low restriction. Synthetic media with 99.99% filtration efficiency at 1 micron. Designed for off-highway and industrial applications.",
+    "applications": ["Engine Air Intakes", "Industrial Compressor Inlets", "Gas Turbine Intake Systems", "Generator Set Air Filtration"],
+    "features": [
+      "PowerCore pleat geometry for higher capacity",
+      "Ultra-Web fine fiber media for high efficiency",
+      "99.99% efficiency at 1 micron",
+      "High dust holding capacity extends service life",
+      "Low restriction improves engine efficiency"
+    ],
+    "benefits": [
+      "Up to 2x longer service life vs conventional filters",
+      "Protects engines from abrasive dust particles",
+      "Reduces fuel consumption with lower restriction"
+    ],
+    "technicalSpecifications": {
+      "Media Type": "PowerCore with Ultra-Web",
+      "Efficiency": "99.99% at 1 micron",
+      "Maximum Flow": "1,500 CFM",
+      "Initial Restriction": "125 Pa (0.5\" H2O)",
+      "Maximum Restriction": "3.75 kPa (15\" H2O)",
+      "Operating Temperature": "-40°C to +80°C",
+      "Weight": "2.8 kg"
+    },
+    "dimensions": "350mm length x 200mm x 200mm",
+    "weight": "2.8 kg",
+    "material": "Synthetic Fiber Media, Urethane Seals",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ISO 5011", "SAE J726"],
+    "compatibleModels": ["P521088", "P521090", "P608975"],
+    "downloads": [
+      { "name": "Donaldson PowerCore Catalog", "url": "https://example.com/donaldson-powercore.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/donaldson-p521089.pdf"],
+    "images": [
+      { "src": "https://example.com/images/donaldson-p521089-1.jpg", "alt": "Donaldson P521089 Air Filter Element", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Donaldson Industrial Filtration Guide", "url": "https://example.com/donaldson-industrial.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Donaldson P521089 PowerCore Air Filter Element",
+    "seoDescription": "Donaldson P521089 PowerCore air filter with Ultra-Web media, 99.99% efficiency. For heavy-duty engine intakes and industrial compressors.",
+    "seoKeywords": ["Donaldson filter", "P521089", "air filter", "PowerCore", "engine air filter"],
+    "canonical": "https://example.com/donaldson-air-filter-p521089",
+    "ogImage": "https://example.com/images/donaldson-p521089-og.jpg",
+    "faq": [
+      { "question": "What is PowerCore technology?", "answer": "PowerCore uses formed pleats in a unique geometry that provides 2x the media area in the same size package for longer life." },
+      { "question": "Can this be cleaned and reused?", "answer": "No, this is a disposable filter element. Attempting to clean it may damage the media." },
+      { "question": "What is the recommended replacement interval?", "answer": "Replace when the restriction indicator reaches the maximum value, typically annually or 1,000-2,000 operating hours." }
+    ],
+    "relatedProducts": ["flt-003", "flt-004", "flt-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "air-filter", "donaldson", "powercore"],
+    "createdAt": "2024-02-15T09:00:00Z",
+    "updatedAt": "2025-06-08T11:00:00Z"
+  },
+  {
+    "id": "flt-003",
+    "slug": "parker-industrial-oil-filter",
+    "sku": "ZEN-FLT-PRK-50001",
+    "mpn": "OF5-20-10-M",
+    "name": "Parker OF5 Industrial Oil Filter",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Filters",
+    "subcategory": "Oil Filters",
+    "industry": ["Manufacturing", "Energy", "Chemical", "Marine"],
+    "series": "OF5",
+    "model": "OF5-20-10-M",
+    "description": "The Parker OF5 oil filter is designed for lubrication oil systems in industrial machinery including gearboxes, compressors, and turbines. With 20 gpm capacity and 10 micron media, it ensures clean oil circulation.",
+    "shortDescription": "Industrial oil filter, 20 gpm, 10 micron, 200 psi, spin-on cartridge.",
+    "technicalDescription": "Inline oil filter with spin-on canister for quick element change. 10 micron absolute media, 200 psi max working pressure, and 3 psi bypass valve. Visual/electrical indicator standard.",
+    "applications": ["Gearbox Lubrication", "Compressor Oil Systems", "Turbine Lube Oil", "Industrial Lubrication Skids"],
+    "features": [
+      "Spin-on cartridge for fast element replacement",
+      "10 micron nominal filtration",
+      "200 psi working pressure",
+      "Integrated bypass valve at 25 psi",
+      "Visual and electrical clogging indicator"
+    ],
+    "benefits": [
+      "Extends equipment life through clean lubrication",
+      "Quick element change reduces maintenance time",
+      "Protects bearings from abrasive particles"
+    ],
+    "technicalSpecifications": {
+      "Flow Capacity": "20 gpm (76 L/min)",
+      "Filtration Rating": "10 micron nominal",
+      "Maximum Pressure": "200 psi (14 bar)",
+      "Element Type": "Spin-on Canister, Cellulose/Glass",
+      "Bypass Setting": "25 psi (1.7 bar)",
+      "Port Size": "1\" NPT",
+      "Weight": "3.5 kg"
+    },
+    "dimensions": "180mm diameter x 250mm height",
+    "weight": "3.5 kg",
+    "material": "Steel Canister, Aluminum Head",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001"],
+    "compatibleModels": ["OF5-10-10-M", "OF5-30-10-M", "OF5-20-25-M"],
+    "downloads": [
+      { "name": "Parker OF5 Filter Datasheet", "url": "https://example.com/parker-of5.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-of5-20.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-of5-1.jpg", "alt": "Parker OF5 Oil Filter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Industrial Filtration Catalog", "url": "https://example.com/parker-filt-catalog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker OF5 Industrial Oil Filter | 20 GPM",
+    "seoDescription": "Parker OF5-20 industrial oil filter, 20 gpm, 10 micron, spin-on cartridge. For gearbox, compressor, and turbine lubrication systems.",
+    "seoKeywords": ["Parker oil filter", "OF5", "lube oil filter", "industrial oil filter", "20 gpm filter"],
+    "canonical": "https://example.com/parker-industrial-oil-filter",
+    "ogImage": "https://example.com/images/parker-of5-og.jpg",
+    "faq": [
+      { "question": "What is the change interval?", "answer": "Typically 6-12 months or when the clogging indicator signals, whichever comes first." },
+      { "question": "Can synthetic oils be filtered?", "answer": "Yes, the media is compatible with mineral and synthetic oils." },
+      { "question": "What replacement cartridge fits?", "answer": "Use Parker RP-20-10-M replacement element for this filter assembly." }
+    ],
+    "relatedProducts": ["flt-001", "flt-004", "flt-005"],
+    "availability": "in-stock",
+    "tags": ["oil-filter", "parker", "lubrication"],
+    "createdAt": "2024-03-10T10:00:00Z",
+    "updatedAt": "2025-05-25T14:00:00Z"
+  },
+  {
+    "id": "flt-004",
+    "slug": "donaldson-fuel-filter-p550777",
+    "sku": "ZEN-FLT-DON-55001",
+    "mpn": "P550777",
+    "name": "Donaldson P550777 Fuel Filter/Water Separator",
+    "brand": "Donaldson",
+    "manufacturer": "Donaldson Company, Inc.",
+    "category": "Filters",
+    "subcategory": "Fuel Filters",
+    "industry": ["Automotive", "Mining", "Energy", "Marine"],
+    "series": "Fuel Pro",
+    "model": "P550777",
+    "description": "The Donaldson P550777 Fuel Pro fuel filter/water separator removes water and particulate from diesel fuel. With a 400 gph capacity and 10 micron media, it protects fuel injection systems from wear and corrosion.",
+    "shortDescription": "Fuel filter/water separator, 400 gph, 10 micron, diesel fuel.",
+    "technicalDescription": "Dual-stage fuel filter with integrated water separator. Primary stage removes bulk water and large particles. Secondary stage filters to 10 microns. Self-priming design with hand primer pump.",
+    "applications": ["Diesel Generator Sets", "Mining Equipment Fuel Systems", "Marine Diesel Engines", "Truck and Heavy Equipment"],
+    "features": [
+      "Dual-stage filtration (water separation + particulate)",
+      "10 micron filtration for injector protection",
+      "400 gph flow capacity",
+      "Integrated hand primer pump",
+      "Drain valve for water removal"
+    ],
+    "benefits": [
+      "Protects sensitive common rail injectors",
+      "Removes water to prevent fuel system corrosion",
+      "Self-priming simplifies filter changes"
+    ],
+    "technicalSpecifications": {
+      "Flow Capacity": "400 gph (1,514 L/h)",
+      "Filtration Rating": "10 micron",
+      "Water Separation Efficiency": "99%",
+      "Media Type": "Synthetic Hydrophobic",
+      "Maximum Pressure": "10 psi (0.7 bar)",
+      "Port Size": "1/2\" NPT",
+      "Weight": "2.5 kg"
+    },
+    "dimensions": "350mm height x 150mm diameter",
+    "weight": "2.5 kg",
+    "material": "Aluminum Head, Steel Canister",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "SAE J1985", "SAE J1839"],
+    "compatibleModels": ["P550776", "P550778", "P550779"],
+    "downloads": [
+      { "name": "Donaldson Fuel Filter Catalog", "url": "https://example.com/donaldson-fuel.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/donaldson-p550777.pdf"],
+    "images": [
+      { "src": "https://example.com/images/donaldson-p550777-1.jpg", "alt": "Donaldson Fuel Filter Water Separator", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Donaldson Fuel Filtration Guide", "url": "https://example.com/donaldson-fuel-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Donaldson P550777 Fuel Filter / Water Separator",
+    "seoDescription": "Donaldson P550777 Fuel Pro fuel filter and water separator, 400 gph, 10 micron. For diesel generators, mining, and marine engines.",
+    "seoKeywords": ["Donaldson fuel filter", "P550777", "fuel water separator", "diesel filter", "Fuel Pro"],
+    "canonical": "https://example.com/donaldson-fuel-filter-p550777",
+    "ogImage": "https://example.com/images/donaldson-p550777-og.jpg",
+    "faq": [
+      { "question": "How often should water be drained?", "answer": "Check and drain water daily in humid conditions or when the water sensor (optional) alerts." },
+      { "question": "What is the change interval?", "answer": "Replace filter element every 500-1,000 operating hours or annually." },
+      { "question": "Can biodiesel be filtered?", "answer": "Yes, this filter is compatible with B20 biodiesel blends." }
+    ],
+    "relatedProducts": ["flt-002", "flt-003", "flt-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "fuel-filter", "donaldson", "water-separator"],
+    "createdAt": "2024-04-05T08:30:00Z",
+    "updatedAt": "2025-06-05T15:00:00Z"
+  },
+  {
+    "id": "flt-005",
+    "slug": "parker-water-filter-cuno",
+    "sku": "ZEN-FLT-PRK-11001",
+    "mpn": "CUNO-1S-10-BB",
+    "name": "Parker CUNO Process Water Filter 10\" Big Blue",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Filters",
+    "subcategory": "Water Filters",
+    "industry": ["Water Treatment", "Chemical", "Pharmaceutical", "Food & Beverage"],
+    "series": "CUNO Big Blue",
+    "model": "1S-10-BB",
+    "description": "The Parker CUNO Big Blue is a 10-inch sediment filter housing for process water and pre-filtration applications. With a 20 gpm capacity and reusable filter element, it removes suspended solids from industrial water systems.",
+    "shortDescription": "10\" Big Blue water filter housing, 20 gpm, single cartridge, 125 psi.",
+    "technicalDescription": "Single-cartridge filter housing with 10-inch length, 4.5-inch diameter. Maximum 125 psi at 100°F. Includes 1-inch NPT ports, pressure relief button, and O-ring seal. Accepts standard 10-inch Big Blue cartridges.",
+    "applications": ["Process Water Pre-Filtration", "Cooling Water Strainer", "RO System Pre-Treatment", "Wastewater Polishing"],
+    "features": [
+      "Standard 10\" Big Blue cartridge size",
+      "20 gpm maximum flow rate",
+      "125 psi maximum working pressure",
+      "1\" NPT inlet/outlet ports",
+      "Pressure relief button for safe servicing"
+    ],
+    "benefits": [
+      "Widely available replacement cartridges",
+      "Simple tool-less cartridge change",
+      "Cost-effective for large-volume filtration"
+    ],
+    "technicalSpecifications": {
+      "Cartridge Size": "10\" Big Blue (4.5\" OD)",
+      "Maximum Flow": "20 gpm (76 L/min)",
+      "Maximum Pressure": "125 psi (8.6 bar)",
+      "Maximum Temperature": "52°C (125°F)",
+      "Housing Material": "Polypropylene",
+      "Port Size": "1\" NPT Female",
+      "Weight": "1.5 kg"
+    },
+    "dimensions": "300mm height x 150mm diameter",
+    "weight": "1.5 kg",
+    "material": "Polypropylene Housing, Buna-N O-Ring",
+    "countryOfOrigin": "USA",
+    "certifications": ["NSF 61", "NSF 372 (Lead-Free)", "FDA"],
+    "compatibleModels": ["CUNO-1S-20-BB", "CUNO-2S-10-BB", "CUNO-1S-10-WB"],
+    "downloads": [
+      { "name": "Parker CUNO Water Filter Catalog", "url": "https://example.com/parker-cuno.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-cuno-1s10.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-cuno-1.jpg", "alt": "Parker CUNO Big Blue Water Filter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Water Filtration Manual", "url": "https://example.com/parker-water-filt.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker CUNO Big Blue 10\" Water Filter Housing",
+    "seoDescription": "Parker CUNO Big Blue 10-inch water filter housing, 20 gpm, polypropylene, NSF certified. For process water and pre-filtration applications.",
+    "seoKeywords": ["Parker water filter", "CUNO Big Blue", "10 inch filter housing", "water sediment filter", "process water filter"],
+    "canonical": "https://example.com/parker-water-filter-cuno",
+    "ogImage": "https://example.com/images/parker-cuno-og.jpg",
+    "faq": [
+      { "question": "What cartridges can be used?", "answer": "Any standard 10\" x 4.5\" Big Blue cartridge including sediment, carbon block, and KDF media." },
+      { "question": "How often should the housing be sanitized?", "answer": "Sanitize the housing with bleach solution every time the cartridge is changed." },
+      { "question": "Can this housing be used for hot water?", "answer": "Maximum continuous temperature is 125°F (52°C). For hot water, use the polypropylene or metal housing variant." }
+    ],
+    "relatedProducts": ["flt-001", "flt-003", "sen-003"],
+    "availability": "in-stock",
+    "tags": ["water-filter", "parker", "cuno", "sediment"],
+    "createdAt": "2024-05-10T09:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": "flt-006",
+    "slug": "pall-gas-turbine-intake-filter",
+    "sku": "ZEN-FLT-PAL-80001",
+    "mpn": "GT-800-3S-MG",
+    "name": "Pall GT Series Gas Turbine Intake Air Filter",
+    "brand": "Pall",
+    "manufacturer": "Pall Corporation",
+    "category": "Filters",
+    "subcategory": "Air Filters",
+    "industry": ["Power Plants", "Energy", "Oil & Gas", "Marine"],
+    "series": "GT Series",
+    "model": "GT-800-3S-MG",
+    "description": "The Pall GT Series intake air filter provides high-efficiency filtration for gas turbine compressor inlets. This 3-stage filter system removes particulate and moisture to protect turbine blades from erosion and fouling.",
+    "shortDescription": "3-stage gas turbine intake filter, high-efficiency, moisture separation.",
+    "technicalDescription": "Three-stage filtration system: pre-filter (G4), fine filter (F9), and HEPA (E12) with moisture separation. Weather hood and bird screen included. Low pressure drop design for maximum turbine efficiency.",
+    "applications": ["Gas Turbine Air Intake", "Centrifugal Compressor Intake", "Industrial Air Handling", "Offshore Platform Ventilation"],
+    "features": [
+      "3-stage filtration: Pre-filter, Fine, HEPA",
+      "Integrated moisture separator",
+      "Low pressure drop design",
+      "Weather hood with bird screen",
+      "Pulse-cleaning optional for harsh environments"
+    ],
+    "benefits": [
+      "Protects turbine blades from erosion and fouling",
+      "Reduces compressor washing frequency",
+      "Maintains turbine power output with low dp"
+    ],
+    "technicalSpecifications": {
+      "Flow Capacity": "800 CFM per cell",
+      "Filtration Stages": "3 (G4, F9, E12 per EN 779)",
+      "Initial Pressure Drop": "150 Pa (0.6\" H2O)",
+      "Final Pressure Drop": "500 Pa (2.0\" H2O)",
+      "Moisture Separation": "99% at 5 m/s",
+      "Housing Material": "Galvanized Steel",
+      "Weight": "85 kg per fully assembled cell"
+    },
+    "dimensions": "1,200mm x 1,200mm x 1,500mm per cell",
+    "weight": "85 kg",
+    "material": "Galvanized Steel Housing, Synthetic Media",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "ASME AG-1", "EN 779", "ISO 16890"],
+    "compatibleModels": ["GT-400-3S", "GT-1200-3S", "GT-800-2S"],
+    "downloads": [
+      { "name": "Pall GT Intake Filter Brochure", "url": "https://example.com/pall-gt.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/pall-gt-800.pdf"],
+    "images": [
+      { "src": "https://example.com/images/pall-gt-1.jpg", "alt": "Pall GT Gas Turbine Intake Filter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Pall Turbine Air Filtration Guide", "url": "https://example.com/pall-turbine-filt.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Pall GT Series Gas Turbine Intake Air Filter",
+    "seoDescription": "Pall GT-800 3-stage gas turbine air intake filter, G4/F9/E12, moisture separation. For power generation and compressor protection.",
+    "seoKeywords": ["Pall air filter", "gas turbine filter", "intake air filter", "GT series", "turbine intake filtration"],
+    "canonical": "https://example.com/pall-gas-turbine-intake-filter",
+    "ogImage": "https://example.com/images/pall-gt-og.jpg",
+    "faq": [
+      { "question": "How often should the filter stages be replaced?", "answer": "Pre-filter every 6 months, fine filter annually, HEPA every 2 years depending on ambient conditions." },
+      { "question": "Does this include pulse cleaning?", "answer": "The standard version is static. For high-dust environments, an optional reverse-pulse cleaning system is available." },
+      { "question": "What is the maximum ambient temperature?", "answer": "Continuous operation is rated at +80°C with standard media." }
+    ],
+    "relatedProducts": ["flt-002", "trb-001", "trb-005"],
+    "availability": "made-to-order",
+    "tags": ["featured", "air-filter", "gas-turbine", "pall", "intake"],
+    "createdAt": "2024-06-15T10:00:00Z",
+    "updatedAt": "2025-06-12T12:00:00Z"
+  }
+]

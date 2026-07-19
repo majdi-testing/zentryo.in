@@ -1,0 +1,499 @@
+[
+  {
+    "id": "sen-001",
+    "slug": "siemens-temperature-transmitter-sitrans-ts100",
+    "sku": "ZEN-SEN-SIE-10001",
+    "mpn": "7NG3211-0NN00",
+    "name": "Siemens SITRANS TS100 Temperature Transmitter",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Sensors",
+    "subcategory": "Temperature Sensors",
+    "industry": ["Chemical", "Oil & Gas", "Power Plants", "Pharmaceutical"],
+    "series": "SITRANS TS100",
+    "model": "7NG3211-0NN00",
+    "description": "The Siemens SITRANS TS100 is a compact, programmable temperature transmitter for Pt100 RTD and thermocouple sensors. With 4-20 mA output and HART protocol, it provides accurate temperature measurement for process industries.",
+    "shortDescription": "Programmable temperature transmitter, 4-20 mA/HART, Pt100 and TC input.",
+    "technicalDescription": "DIN rail mount temperature transmitter with universal sensor input, fully configurable via HART or PC software. Galvanic isolation between input, output, and power supply. 3-year stability guarantee.",
+    "applications": ["Chemical Reactor Temperature", "Pipeline Temperature", "Storage Tank Monitoring", "HVAC Temperature Sensing"],
+    "features": [
+      "Universal input for Pt100, TC, mV, and ohm",
+      "HART communication for remote configuration",
+      "Galvanic isolation for signal integrity",
+      "DIN rail mount for panel installation",
+      "Sensor break detection and diagnostics"
+    ],
+    "benefits": [
+      "Reduces spare parts inventory with universal input",
+      "Simplifies wiring with loop-powered design",
+      "Improves measurement accuracy with sensor matching"
+    ],
+    "technicalSpecifications": {
+      "Input": "Pt100, TC (J, K, T, E, R, S, B), mV, Ohm",
+      "Output": "4-20 mA (2-wire loop powered)",
+      "Communication": "HART Protocol",
+      "Accuracy": "±0.1% of span",
+      "Ambient Temperature": "-40°C to +85°C",
+      "Supply Voltage": "12-42 VDC",
+      "Response Time": "< 500 ms"
+    },
+    "dimensions": "105mm x 75mm x 25mm (DIN rail)",
+    "weight": "0.12 kg",
+    "material": "Polyamide Housing",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ATEX", "IECEx", "FM", "SIL 2", "CE"],
+    "compatibleModels": ["SITRANS TH100", "SITRANS TF100", "SITRANS T320"],
+    "downloads": [
+      { "name": "SITRANS TS100 Datasheet", "url": "https://example.com/siemens-ts100.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-ts100.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-ts100-1.jpg", "alt": "Siemens SITRANS TS100 Temperature Transmitter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SITRANS TS100 Manual", "url": "https://example.com/ts100-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SITRANS TS100 Temperature Transmitter",
+    "seoDescription": "Siemens SITRANS TS100 programmable temperature transmitter, 4-20 mA/HART, universal input for Pt100 and TC. For process temperature measurement.",
+    "seoKeywords": ["Siemens temperature transmitter", "SITRANS TS100", "4-20 mA transmitter", "HART temperature", "Pt100 transmitter"],
+    "canonical": "https://example.com/siemens-temperature-transmitter-sitrans-ts100",
+    "ogImage": "https://example.com/images/siemens-ts100-og.jpg",
+    "faq": [
+      { "question": "What is the minimum span?", "answer": "Minimum span is 10°C for Pt100 and 50°C for thermocouple inputs." },
+      { "question": "Can this be used in hazardous areas?", "answer": "Yes, it is ATEX and IECEx certified for Zone 1 and Zone 2 installations." },
+      { "question": "What software is used for configuration?", "answer": "Siemens SIMATIC PDM or any HART-compatible configuration tool." }
+    ],
+    "relatedProducts": ["sen-002", "sen-005", "ctr-001"],
+    "availability": "in-stock",
+    "tags": ["featured", "temperature", "transmitter", "siemens", "hart"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "sen-002",
+    "slug": "abb-pressure-transmitter-266",
+    "sku": "ZEN-SEN-ABB-26601",
+    "mpn": "266DSHSSA1A1",
+    "name": "ABB 266 Differential Pressure Transmitter",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Sensors",
+    "subcategory": "Pressure Sensors",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants", "Water Treatment"],
+    "series": "2600T Series",
+    "model": "266DSHSSA1A1",
+    "description": "The ABB 266 differential pressure transmitter provides accurate measurement of pressure, flow, and level in process applications. Featuring a MEMS sensor element with advanced digital compensation, it delivers ±0.04% accuracy over a wide turndown range.",
+    "shortDescription": "Differential pressure transmitter, ±0.04% accuracy, HART, 4-20 mA.",
+    "technicalDescription": "Smart differential pressure transmitter with MEMS sensor technology, 4-20 mA with HART 7 protocol, and local LCD display. Features include square root extraction for flow, totalizer, and pressure-temperature compensation.",
+    "applications": ["Flow Measurement (Orifice Plates)", "Tank Level Measurement", "Filter Differential Pressure", "Custody Transfer Metering"],
+    "features": [
+      "MEMS sensor with ±0.04% accuracy",
+      "100:1 turndown ratio for application flexibility",
+      "HART 7 protocol with Device Type Manager",
+      "Local LCD display with engineer units",
+      "Square root extraction for flow applications"
+    ],
+    "benefits": [
+      "Reduces inventory with high turndown ratio",
+      "Improves process efficiency with high accuracy",
+      "Simplifies commissioning with local display and setup"
+    ],
+    "technicalSpecifications": {
+      "Measurement Type": "Differential Pressure",
+      "Range": "0-500 mbar to 0-20 bar",
+      "Accuracy": "±0.04% of span",
+      "Output": "4-20 mA with HART 7",
+      "Turndown Ratio": "100:1",
+      "Process Connection": "1/2\" NPT / 1/2\" BSP",
+      "Wetted Materials": "316L Stainless Steel / Hastelloy"
+    },
+    "dimensions": "180mm x 130mm x 100mm",
+    "weight": "3.5 kg",
+    "material": "316L Stainless Steel Housing",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["ATEX", "IECEx", "FM", "SIL 2/3", "NACE MR0175"],
+    "compatibleModels": ["266DSH", "266DSL", "266AST", "266ART"],
+    "downloads": [
+      { "name": "ABB 2600T Datasheet", "url": "https://example.com/abb-2600t.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-266ds.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-266-1.jpg", "alt": "ABB 266 Differential Pressure Transmitter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/abb-266-setup.mp4"],
+    "documents": [
+      { "name": "ABB 266 Commissioning Guide", "url": "https://example.com/abb-266-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB 266 Differential Pressure Transmitter",
+    "seoDescription": "ABB 2600T Series 266 differential pressure transmitter with ±0.04% accuracy, HART 7, 100:1 turndown. For flow, level, and pressure measurement.",
+    "seoKeywords": ["ABB pressure transmitter", "266 differential pressure", "DP transmitter", "HART pressure", "flow transmitter"],
+    "canonical": "https://example.com/abb-pressure-transmitter-266",
+    "ogImage": "https://example.com/images/abb-266-og.jpg",
+    "faq": [
+      { "question": "What is the maximum working pressure?", "answer": "The maximum working pressure (MWP) is 160 bar (2,320 psi) for standard models." },
+      { "question": "What materials are available for wetted parts?", "answer": "Standard is 316L SST. Options include Hastelloy C-276, Monel, and Tantalum for corrosive services." },
+      { "question": "Can this be used for custody transfer?", "answer": "Yes, with appropriate calibration and certification, it meets custody transfer requirements for natural gas and liquid hydrocarbons." }
+    ],
+    "relatedProducts": ["sen-001", "sen-003", "sen-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "pressure", "differential-pressure", "abb", "hart"],
+    "createdAt": "2024-02-10T09:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  },
+  {
+    "id": "sen-003",
+    "slug": "siemens-magnetic-flow-meter-sitrans-fm",
+    "sku": "ZEN-SEN-SIE-40010",
+    "mpn": "7ME6580-2DF14-1AA1",
+    "name": "Siemens SITRANS FM MAG 1100 Flow Sensor",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Sensors",
+    "subcategory": "Flow Sensors",
+    "industry": ["Water Treatment", "Chemical", "Food & Beverage", "Pharmaceutical"],
+    "series": "SITRANS FM MAG 1100",
+    "model": "7ME6580-2DF14-1AA1",
+    "description": "The Siemens SITRANS FM MAG 1100 is an electromagnetic flow sensor for conductive liquids. With a compact design and no moving parts, it provides maintenance-free flow measurement in water and wastewater applications.",
+    "shortDescription": "Electromagnetic flow sensor, 4-inch, PTFE lined, 4-20 mA/HART, IP68.",
+    "technicalDescription": "Bi-directional electromagnetic flow sensor with PTFE liner, Hastelloy C-22 electrodes, and NEMA 6P (IP68) submersible design. Compatible with SITRANS FM MAG 6000 transmitter. Accuracy ±0.2% of rate.",
+    "applications": ["Water Distribution Flow", "Wastewater Effluent", "Chemical Dosing", "Food Process Liquids"],
+    "features": [
+      "No moving parts for maintenance-free operation",
+      "PTFE liner for wide chemical compatibility",
+      "Hastelloy C-22 electrodes for corrosion resistance",
+      "Submersible IP68 design for vault installations",
+      "Bi-directional measurement capability"
+    ],
+    "benefits": [
+      "Zero maintenance with no moving parts",
+      "Unobstructed flow path minimizes pressure loss",
+      "Accurate measurement regardless of density, viscosity, or temperature"
+    ],
+    "technicalSpecifications": {
+      "Sensor Size": "4 inches (DN 100)",
+      "Flow Range": "0.5 - 12 m/s",
+      "Accuracy": "±0.2% of rate ±1 mm/s",
+      "Liner Material": "PTFE",
+      "Electrode Material": "Hastelloy C-22",
+      "Protection Class": "IP68 (NEMA 6P)",
+      "Ambient Temperature": "-20°C to +60°C"
+    },
+    "dimensions": "200mm length, 180mm OD (flanged)",
+    "weight": "15 kg",
+    "material": "Carbon Steel Body, PTFE Liner",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "MID", "OIML R49", "NSF 61", "ATEX"],
+    "compatibleModels": ["MAG 6000 Transmitter", "MAG 5000 Transmitter"],
+    "downloads": [
+      { "name": "SITRANS FM MAG 1100 Datasheet", "url": "https://example.com/siemens-mag1100.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-mag1100.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-mag1100-1.jpg", "alt": "Siemens MAG 1100 Flow Sensor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SITRANS FM Product Manual", "url": "https://example.com/siemens-fm-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SITRANS FM MAG 1100 Electromagnetic Flow Sensor",
+    "seoDescription": "Siemens MAG 1100 electromagnetic flow sensor, 4-inch, PTFE lined, IP68, ±0.2% accuracy. For water, wastewater, and chemical flow applications.",
+    "seoKeywords": ["Siemens flow meter", "MAG 1100", "electromagnetic flow meter", "water flow sensor", "magmeter"],
+    "canonical": "https://example.com/siemens-magnetic-flow-meter-sitrans-fm",
+    "ogImage": "https://example.com/images/siemens-mag1100-og.jpg",
+    "faq": [
+      { "question": "What minimum conductivity is required?", "answer": "The minimum liquid conductivity required is 5 μS/cm for reliable measurement." },
+      { "question": "Can this sensor be installed underground?", "answer": "Yes, the IP68 submersible rating allows direct burial or installation in flooded vaults." },
+      { "question": "What transmitter options are compatible?", "answer": "Compatible with Siemens MAG 5000 (standard) or MAG 6000 (advanced) transmitters." }
+    ],
+    "relatedProducts": ["sen-002", "sen-004", "ctr-003"],
+    "availability": "in-stock",
+    "tags": ["featured", "flow", "electromagnetic", "siemens"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-06-08T09:00:00Z"
+  },
+  {
+    "id": "sen-004",
+    "slug": "honeywell-radar-level-transmitter",
+    "sku": "ZEN-SEN-HON-80001",
+    "mpn": "STG800-2H3-0AA0-0AA0",
+    "name": "Honeywell SmartLine 80 GHz Radar Level Transmitter",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Sensors",
+    "subcategory": "Level Sensors",
+    "industry": ["Oil & Gas", "Chemical", "Water Treatment", "Mining"],
+    "series": "SmartLine 800",
+    "model": "STG800-2H3-0AA0",
+    "description": "The Honeywell SmartLine 800 uses 80 GHz FMCW radar technology for precise level measurement in storage tanks and process vessels. The focused beam and advanced algorithms provide reliable measurement through steam, dust, and turbulence.",
+    "shortDescription": "80 GHz FMCW radar level transmitter, 30m range, ±1mm accuracy, HART.",
+    "technicalDescription": "Non-contact radar level transmitter with 80 GHz FMCW technology, 4-20 mA with HART, and graphical LCD display. Parabolic or rod antenna options. Suitable for liquids, slurries, and solids in harsh process conditions.",
+    "applications": ["Storage Tank Inventory", "Process Vessel Level", "Chemical Reactor Level", "Bulk Solids Silo"],
+    "features": [
+      "80 GHz FMCW radar for high accuracy and focus",
+      "±1 mm measurement accuracy",
+      "Graphical display with echo profile",
+      "HART 7 with Device Type Manager",
+      "PTFE encapsulated antenna for corrosive environments"
+    ],
+    "benefits": [
+      "Eliminates maintenance with non-contact technology",
+      "Works reliably in steam, foam, and turbulence",
+      "Easy commissioning with graphical echo display"
+    ],
+    "technicalSpecifications": {
+      "Measurement Principle": "80 GHz FMCW Radar",
+      "Measurement Range": "0.1 - 30 m",
+      "Accuracy": "±1 mm",
+      "Output": "4-20 mA + HART 7",
+      "Beam Angle": "3.5° (parabolic antenna)",
+      "Process Temperature": "-40°C to +200°C",
+      "Process Pressure": "-1 to +10 bar"
+    },
+    "dimensions": "270mm x 120mm x 120mm",
+    "weight": "4.0 kg",
+    "material": "316L Stainless Steel / PVDF Antenna",
+    "countryOfOrigin": "USA",
+    "certifications": ["ATEX", "IECEx", "FM", "SIL 2", "NACE MR0175"],
+    "compatibleModels": ["STG700", "STG740", "STG850"],
+    "downloads": [
+      { "name": "SmartLine 800 Radar Datasheet", "url": "https://example.com/honeywell-stg800.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-stg800.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-stg800-1.jpg", "alt": "Honeywell SmartLine 80 GHz Radar Level", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SmartLine Radar Installation Manual", "url": "https://example.com/stg800-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell SmartLine 80 GHz Radar Level Transmitter",
+    "seoDescription": "Honeywell SmartLine 800 80 GHz FMCW radar level transmitter, 30m range, ±1mm accuracy. For tanks, vessels, and silos in process industries.",
+    "seoKeywords": ["Honeywell radar level", "80 GHz radar", "level transmitter", "SmartLine 800", "tank level sensor"],
+    "canonical": "https://example.com/honeywell-radar-level-transmitter",
+    "ogImage": "https://example.com/images/honeywell-stg800-og.jpg",
+    "faq": [
+      { "question": "What is the minimum dielectric constant?", "answer": "The 80 GHz radar can measure media with dielectric constant (DC) as low as 1.4." },
+      { "question": "Can this be used in hygienic applications?", "answer": "Yes, with suitable process connections and PTFE antenna, it meets FDA and EHEDG requirements." },
+      { "question": "What antennas are available?", "answer": "Parabolic (for long range up to 30m), rod (compact), and drip-off (for condensing vapors)." }
+    ],
+    "relatedProducts": ["sen-002", "ctr-004", "sen-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "level", "radar", "honeywell", "non-contact"],
+    "createdAt": "2024-04-20T08:30:00Z",
+    "updatedAt": "2025-06-15T12:00:00Z"
+  },
+  {
+    "id": "sen-005",
+    "slug": "abb-proximity-sensor-nbb20",
+    "sku": "ZEN-SEN-ABB-20010",
+    "mpn": "NBB20-L2M-E2-V1",
+    "name": "ABB NBB20 Inductive Proximity Sensor",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Sensors",
+    "subcategory": "Proximity Sensors",
+    "industry": ["Manufacturing", "Automotive", "Material Handling", "Packaging"],
+    "series": "NBB20",
+    "model": "NBB20-L2M-E2-V1",
+    "description": "The ABB NBB20 is a 20mm inductive proximity sensor for metal object detection in industrial automation. With extended sensing range and rugged metal housing, it provides reliable position detection in machine tools and conveyor systems.",
+    "shortDescription": "Inductive proximity sensor, 20mm sensing range, PNP NO, M30 housing.",
+    "technicalDescription": "Inductive proximity sensor with 20mm flush-mount sensing range, PNP normally open output, M30 x 1.5 cylindrical metal housing, and M12 quick-disconnect connector. LED status indication and short-circuit protection.",
+    "applications": ["Conveyor Position Detection", "Machine Tool Clamping", "Automotive Weld Line", "Packaging Line Presence"],
+    "features": [
+      "20 mm extended sensing range",
+      "Flush mount installation",
+      "PNP normally open output",
+      "M12 quick-disconnect connector",
+      "LED status indicator and short-circuit protection"
+    ],
+    "benefits": [
+      "Increased machine uptime with reliable detection",
+      "Reduces installation time with quick-disconnect connector",
+      "Extended range allows greater mounting distance"
+    ],
+    "technicalSpecifications": {
+      "Sensing Range": "20 mm (flush mount)",
+      "Housing Diameter": "M30 x 1.5",
+      "Output Type": "PNP NO (Normally Open)",
+      "Operating Voltage": "10-30 VDC",
+      "Switching Frequency": "200 Hz",
+      "Connection Type": "M12 4-pin Connector",
+      "Enclosure Rating": "IP68"
+    },
+    "dimensions": "M30 x 1.5, length 60mm",
+    "weight": "0.08 kg",
+    "material": "Nickel-Plated Brass Housing",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["CE", "UL", "CSA", "IEC 60947-5-2"],
+    "compatibleModels": ["NBB15-L2M-E2", "NBB25-L2M-E2", "NBB20-L2-A2"],
+    "downloads": [
+      { "name": "ABB Proximity Sensor Catalog", "url": "https://example.com/abb-proximity.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-nbb20.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-nbb20-1.jpg", "alt": "ABB NBB20 Inductive Proximity Sensor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ABB Sensor Selection Guide", "url": "https://example.com/abb-sensor-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB NBB20 Inductive Proximity Sensor",
+    "seoDescription": "ABB NBB20 M30 inductive proximity sensor, 20mm range, PNP NO, IP68, metal housing. For position detection in manufacturing and material handling.",
+    "seoKeywords": ["ABB proximity sensor", "NBB20", "inductive sensor", "M30 sensor", "position sensor"],
+    "canonical": "https://example.com/abb-proximity-sensor-nbb20",
+    "ogImage": "https://example.com/images/abb-nbb20-og.jpg",
+    "faq": [
+      { "question": "What is the difference between flush and non-flush mount?", "answer": "Flush mount sensors can be embedded in metal with no reduction in sensing range. Non-flush sensors require a non-metallic zone around the sensing face." },
+      { "question": "Can this detect non-metallic objects?", "answer": "No, inductive proximity sensors only detect metallic objects." },
+      { "question": "What is the maximum cable length?", "answer": "With M12 connector and standard cable, maximum length is 100m for 24 VDC operation." }
+    ],
+    "relatedProducts": ["sen-006", "sen-007", "aut-010"],
+    "availability": "in-stock",
+    "tags": ["featured", "proximity", "inductive", "abb"],
+    "createdAt": "2024-05-15T09:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "id": "sen-006",
+    "slug": "honeywell-vibration-sensor-msr-145",
+    "sku": "ZEN-SEN-HON-14501",
+    "mpn": "MSR145-2V-10G",
+    "name": "Honeywell MSR145 Vibration Sensor",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Sensors",
+    "subcategory": "Vibration Sensors",
+    "industry": ["Power Plants", "Manufacturing", "Oil & Gas", "Mining"],
+    "series": "MSR145",
+    "model": "MSR145-2V-10G",
+    "description": "The Honeywell MSR145 is a MEMS-based vibration sensor for condition monitoring of rotating machinery. With dual-axis measurement and digital output, it detects early bearing faults, unbalance, and misalignment in pumps, motors, and fans.",
+    "shortDescription": "Dual-axis MEMS vibration sensor, ±10g range, digital output, IP67.",
+    "technicalDescription": "MEMS capacitive vibration sensor with dual-axis (±10g) measurement, digital SPI output, and wide frequency response. Integrated temperature sensor. Rugged stainless steel housing for industrial environments.",
+    "applications": ["Pump Condition Monitoring", "Motor Bearing Analysis", "Fan Vibration Monitoring", "Compressor Health Monitoring"],
+    "features": [
+      "Dual-axis vibration measurement (X and Y)",
+      "±10g measurement range",
+      "Digital SPI output for direct microcontroller interface",
+      "Integrated temperature sensor",
+      "Stainless steel hermetic housing"
+    ],
+    "benefits": [
+      "Early fault detection prevents catastrophic failure",
+      "Reduces unscheduled downtime with predictive maintenance",
+      "Small form factor allows installation in tight spaces"
+    ],
+    "technicalSpecifications": {
+      "Measurement Range": "±10g (dual axis)",
+      "Frequency Response": "1 Hz - 10 kHz",
+      "Output Interface": "SPI Digital",
+      "Resolution": "14-bit (0.001g)",
+      "Operating Temperature": "-40°C to +125°C",
+      "Protection Class": "IP67",
+      "Power Supply": "3.3 - 5.5 VDC"
+    },
+    "dimensions": "25mm x 20mm x 15mm",
+    "weight": "0.035 kg",
+    "material": "316L Stainless Steel",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "IEC 60068-2-6", "ISO 10816"],
+    "compatibleModels": ["MSR145-2V-2G", "MSR145-3V-10G", "MSR145-2V-50G"],
+    "downloads": [
+      { "name": "MSR145 Vibration Sensor Datasheet", "url": "https://example.com/honeywell-msr145.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-msr145.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-msr145-1.jpg", "alt": "Honeywell MSR145 Vibration Sensor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Honeywell Condition Monitoring Guide", "url": "https://example.com/honeywell-cm-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell MSR145 MEMS Vibration Sensor",
+    "seoDescription": "Honeywell MSR145 dual-axis vibration sensor, ±10g, digital SPI output, IP67. For condition monitoring of pumps, motors, and compressors.",
+    "seoKeywords": ["Honeywell vibration sensor", "MSR145", "MEMS vibration", "condition monitoring", "bearing fault detection"],
+    "canonical": "https://example.com/honeywell-vibration-sensor-msr-145",
+    "ogImage": "https://example.com/images/honeywell-msr145-og.jpg",
+    "faq": [
+      { "question": "What machines can be monitored?", "answer": "Rotating equipment including pumps, motors, fans, compressors, turbines, and gearboxes." },
+      { "question": "What faults can be detected?", "answer": "Bearing faults, rotor unbalance, shaft misalignment, gear damage, and cavitation in pumps." },
+      { "question": "How is data transmitted?", "answer": "The sensor outputs digital SPI. An external data logger or microcontroller is required for FFT processing and analysis." }
+    ],
+    "relatedProducts": ["sen-005", "sen-007", "trb-003"],
+    "availability": "in-stock",
+    "tags": ["vibration", "condition-monitoring", "mems", "honeywell"],
+    "createdAt": "2024-06-10T10:00:00Z",
+    "updatedAt": "2025-06-05T14:00:00Z"
+  },
+  {
+    "id": "sen-007",
+    "slug": "siemens-ph-sensor-sipan-ps",
+    "sku": "ZEN-SEN-SIE-70001",
+    "mpn": "7MA2001-1AA00",
+    "name": "Siemens SIPAN PS pH Sensor",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Sensors",
+    "subcategory": "Analytical Sensors",
+    "industry": ["Chemical", "Pharmaceutical", "Water Treatment", "Food & Beverage"],
+    "series": "SIPAN PS",
+    "model": "7MA2001-1AA00",
+    "description": "The Siemens SIPAN PS is a digital pH sensor with intelligent self-diagnostics for process analytics. With gel-filled reference and double-junction design, it provides accurate pH measurement in chemical, pharmaceutical, and water treatment applications.",
+    "shortDescription": "Digital pH sensor, double-junction, gel-filled, digital output, built-in diagnostics.",
+    "technicalDescription": "Digital pH combination electrode with PTFE double junction, gel-filled reference, and integrated temperature sensor. Digital communication with Memosens protocol for plug-and-play operation. Built-in diagnostics monitor glass impedance and reference health.",
+    "applications": ["Chemical Process pH", "Wastewater Neutralization", "Pharmaceutical Water Systems", "Food Processing Quality"],
+    "features": [
+      "Memosens digital protocol for plug-and-play",
+      "Double-junction reference for contamination resistance",
+      "Built-in diagnostics for predictive maintenance",
+      "Integrated Pt1000 temperature compensation",
+      "Gel-filled reference eliminates refilling"
+    ],
+    "benefits": [
+      "Eliminates connection issues with digital signal",
+      "Reduces calibration frequency with stable reference",
+      "Improves measurement reliability with self-diagnostics"
+    ],
+    "technicalSpecifications": {
+      "Measurement Range": "pH 0-14",
+      "Accuracy": "±0.02 pH",
+      "Reference Type": "Gel-filled, Double Junction",
+      "Junction Material": "PTFE",
+      "Temperature Compensation": "Pt1000 (integrated)",
+      "Process Connection": "PG 13.5 Thread",
+      "Max Temperature": "135°C (sterilizable)"
+    },
+    "dimensions": "120mm length x 12mm diameter",
+    "weight": "0.15 kg",
+    "material": "Glass Stem, PTFE Junction, PEEK Body",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ATEX", "FDA", "USP Class VI", "EHEDG"],
+    "compatibleModels": ["SIPAN PS Transmitter", "SIPAN PS 7MA1001"],
+    "downloads": [
+      { "name": "SIPAN PS pH Sensor Datasheet", "url": "https://example.com/siemens-sipan-ps.pdf", "type": "application/pdf", "size": "1.2 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-sipan-ps.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-sipan-ps-1.jpg", "alt": "Siemens SIPAN PS pH Sensor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Analytical Sensors Catalog", "url": "https://example.com/siemens-analytical.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SIPAN PS Digital pH Sensor",
+    "seoDescription": "Siemens SIPAN PS digital pH sensor with Memosens, double junction, self-diagnostics. For chemical, pharmaceutical, and water treatment pH measurement.",
+    "seoKeywords": ["Siemens pH sensor", "SIPAN PS", "digital pH", "Memosens", "pH measurement"],
+    "canonical": "https://example.com/siemens-ph-sensor-sipan-ps",
+    "ogImage": "https://example.com/images/siemens-sipan-ps-og.jpg",
+    "faq": [
+      { "question": "What is Memosens technology?", "answer": "Memosens is a digital communication protocol that transmits pH, temperature, and diagnostic data via inductive coupling, eliminating galvanic corrosion issues." },
+      { "question": "Can this sensor be sterilized?", "answer": "Yes, it can withstand sterilization cycles up to 135°C at 3 bar for pharmaceutical and biotech applications." },
+      { "question": "How often does calibration last?", "answer": "Calibration interval depends on application. Typical interval is 1-3 months in clean water, 1-4 weeks in chemical processes." }
+    ],
+    "relatedProducts": ["sen-001", "sen-002", "ctr-005"],
+    "availability": "in-stock",
+    "tags": ["ph-sensor", "digital", "analytical", "siemens"],
+    "createdAt": "2024-07-01T08:00:00Z",
+    "updatedAt": "2025-06-10T15:00:00Z"
+  }
+]

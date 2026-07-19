@@ -1,0 +1,47 @@
+export const siteConfig = {
+  name: 'ZENTRYO',
+  tagline: 'Industrial Engineering & Automation Solutions',
+  description: 'ZENTRYO is a premier global supplier of industrial engineering components, automation systems, gas turbine spare parts, OEM components, and industrial solutions for power plants, oil & gas, marine, and manufacturing industries.',
+  url: 'https://zentryo.com',
+  ogImage: '/images/og-image.jpg',
+  keywords: [
+    'Industrial Automation',
+    'Industrial Components',
+    'Gas Turbine Spare Parts',
+    'OEM Spare Parts',
+    'Industrial Bearings',
+    'Industrial Valves',
+    'Industrial Manifolds',
+    'Industrial Engineering',
+    'Power Plant Equipment',
+    'Automation Solutions',
+    'Industrial Equipment Supplier',
+    'Industrial Parts Supplier',
+    'Industrial Maintenance',
+    'Energy Industry Components',
+    'Oil and Gas Equipment',
+    'PLC Components',
+    'Industrial Sensors',
+    'Automation Products',
+    'Engineering Services',
+  ],
+  contact: {
+    email: 'info@zentryo.com',
+    phone: '+1 (800) 555-ZENT',
+    address: '1200 Industrial Parkway, Suite 400, Houston, TX 77001, United States',
+    coordinates: {
+      lat: 29.7604,
+      lng: -95.3698,
+    },
+  },
+  social: {
+    linkedin: 'https://linkedin.com/company/zentryo',
+    twitter: 'https://twitter.com/zentryo',
+    youtube: 'https://youtube.com/@zentryo',
+  },
+  productsPerPage: 24,
+  productsPerPageGrid: 24,
+  productsPerPageList: 12,
+};
+
+export type SiteConfig = typeof siteConfig;

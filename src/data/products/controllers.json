@@ -1,0 +1,570 @@
+[
+  {
+    "id": "ctr-001",
+    "slug": "honeywell-temperature-controller-udc3200",
+    "sku": "ZEN-CTR-HON-32001",
+    "mpn": "UDC3200-V1-000-00-00",
+    "name": "Honeywell UDC3200 Universal Digital Temperature Controller",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Controllers",
+    "subcategory": "Temperature Controllers",
+    "industry": ["Chemical", "Pharmaceutical", "Food & Beverage", "Power Plants"],
+    "series": "UDC3200",
+    "model": "UDC3200-V1",
+    "description": "The Honeywell UDC3200 is a universal digital temperature controller with advanced PID control algorithms. Accepting thermocouple, RTD, mV, and mA inputs, it provides precise temperature regulation for furnaces, ovens, and reactors.",
+    "shortDescription": "Digital temperature controller, universal input, dual output, PID control.",
+    "technicalDescription": "1/4 DIN digital controller with universal analog input, dual control outputs, and remote setpoint capability. Supports auto-tune PID, heat/cool control, and ramp/soak programming. RS485 Modbus communication option.",
+    "applications": ["Industrial Furnaces", "Heat Treatment Ovens", "Chemical Reactors", "Environmental Chambers"],
+    "features": [
+      "Universal input accepts TC, RTD, mV, mA signals",
+      "Auto-tune PID for optimal control response",
+      "Heat/cool dual output configuration",
+      "Configurable ramp/soak profile programming",
+      "RS485 Modbus serial communication"
+    ],
+    "benefits": [
+      "Reduces setup time with auto-tune function",
+      "Single controller handles multiple sensor types",
+      "Improves product quality with precise temperature control"
+    ],
+    "technicalSpecifications": {
+      "Input Type": "TC (J, K, T, E, R, S, B), RTD (Pt100), mV, mA",
+      "Control Type": "Auto-Tune PID",
+      "Output Options": "Relay, SSR Drive, 4-20 mA",
+      "Accuracy": "±0.25% of span",
+      "Display": "Dual 4-digit LED",
+      "Communication": "RS485 Modbus RTU",
+      "Supply Voltage": "100-240 VAC"
+    },
+    "dimensions": "1/4 DIN (96mm x 96mm x 100mm)",
+    "weight": "0.45 kg",
+    "material": "Polycarbonate Front, Metal Case",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "UL", "CSA", "IEC 61010-1"],
+    "compatibleModels": ["UDC3300", "UDC3500", "DC3200"],
+    "downloads": [
+      { "name": "Honeywell UDC3200 Datasheet", "url": "https://example.com/honeywell-udc3200.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-udc3200.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-udc3200-1.jpg", "alt": "Honeywell UDC3200 Temperature Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "UDC3200 Product Manual", "url": "https://example.com/udc3200-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell UDC3200 Universal Digital Temperature Controller",
+    "seoDescription": "Honeywell UDC3200 PID temperature controller with universal input, dual outputs, auto-tune. For furnaces, reactors, and heat treatment ovens.",
+    "seoKeywords": ["Honeywell temperature controller", "UDC3200", "PID controller", "digital temperature controller", "furnace controller"],
+    "canonical": "https://example.com/honeywell-temperature-controller-udc3200",
+    "ogImage": "https://example.com/images/honeywell-udc3200-og.jpg",
+    "faq": [
+      { "question": "What sensor types are supported?", "answer": "Accepts thermocouple types J, K, T, E, R, S, B, 100 ohm platinum RTD, and linear mV/mA inputs." },
+      { "question": "Does this controller have auto-tune?", "answer": "Yes, the one-touch auto-tune function automatically calculates optimal PID parameters." },
+      { "question": "What outputs are available?", "answer": "Configurable with relay, SSR driver, or 4-20 mA analog output. Dual outputs support heat/cool control." }
+    ],
+    "relatedProducts": ["ctr-002", "ctr-004", "ctr-007"],
+    "availability": "in-stock",
+    "tags": ["featured", "temperature-controller", "pid", "honeywell"],
+    "createdAt": "2024-01-25T08:00:00Z",
+    "updatedAt": "2025-06-10T09:00:00Z"
+  },
+  {
+    "id": "ctr-002",
+    "slug": "siemens-pressure-controller-sipart-ps2",
+    "sku": "ZEN-CTR-SIE-20020",
+    "mpn": "6DR5020-0NG01-0AA0",
+    "name": "Siemens SIPART PS2 Smart Pressure Controller",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Controllers",
+    "subcategory": "Pressure Controllers",
+    "industry": ["Oil & Gas", "Chemical", "Power Plants", "Pharmaceutical"],
+    "series": "SIPART PS2",
+    "model": "6DR5020-0NG01-0AA0",
+    "description": "The Siemens SIPART PS2 is a smart electropneumatic positioner and pressure controller for pneumatic control valves. With HART communication and automatic initialization, it provides precise valve position control in process industries.",
+    "shortDescription": "Smart electropneumatic valve positioner, HART, 4-20 mA, IP66.",
+    "technicalDescription": "Electropneumatic positioner for linear and rotary actuators with HART protocol, 4-20 mA input, and integrated pressure sensors. Automatic initialization and adaptation to actuator characteristics. NAMUR mounting compliant.",
+    "applications": ["Control Valve Positioning", "Pressure Reducing Stations", "Flow Control Valves", "Steam Pressure Regulation"],
+    "features": [
+      "Automatic initialization and adaption to actuator",
+      "HART communication for remote diagnostics",
+      "Integrated pressure sensors for monitoring",
+      "NAMUR mounting bracket compatible",
+      "IP66 enclosure for harsh environments"
+    ],
+    "benefits": [
+      "Reduces commissioning time with auto-initialization",
+      "Enables predictive maintenance with diagnostic data",
+      "Low air consumption reduces operating costs"
+    ],
+    "technicalSpecifications": {
+      "Input Signal": "4-20 mA (HART)",
+      "Supply Pressure": "1.4 - 7 bar (20 - 100 psi)",
+      "Output Pressure Range": "0 - 6 bar",
+      "Travel Range": "5 - 130 mm (linear) / 30 - 100° (rotary)",
+      "Accuracy": "≤ 0.5% of span",
+      "Protection Class": "IP66 / NEMA 4X",
+      "Weight": "1.2 kg"
+    },
+    "dimensions": "180mm x 140mm x 100mm",
+    "weight": "1.2 kg",
+    "material": "Polyamide Housing with Stainless Steel Components",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ATEX", "IECEx", "SIL 2", "FM", "CSA"],
+    "compatibleModels": ["6DR5010-0NG01", "6DR5030-0NG01", "6DR5220-0NG01"],
+    "downloads": [
+      { "name": "SIPART PS2 Datasheet", "url": "https://example.com/siemens-sipart.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-6dr5020.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-sipart-1.jpg", "alt": "Siemens SIPART PS2 Positioner", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/siemens-sipart-initialization.mp4"],
+    "documents": [
+      { "name": "SIPART PS2 Operating Instructions", "url": "https://example.com/sipart-ps2-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SIPART PS2 Smart Pressure Controller",
+    "seoDescription": "Siemens SIPART PS2 smart electropneumatic valve positioner with HART, auto-initialization, IP66. For precise control valve positioning.",
+    "seoKeywords": ["Siemens SIPART PS2", "valve positioner", "electropneumatic positioner", "HART positioner", "smart positioner"],
+    "canonical": "https://example.com/siemens-pressure-controller-sipart-ps2",
+    "ogImage": "https://example.com/images/siemens-sipart-og.jpg",
+    "faq": [
+      { "question": "What types of actuators are compatible?", "answer": "Both linear (sliding stem) and rotary (quarter-turn) actuators are supported with appropriate mounting kits." },
+      { "question": "What diagnostic functions are available?", "answer": "Includes partial stroke test, travel deviation monitoring, and I/P module health status." },
+      { "question": "What is the air consumption?", "answer": "Steady-state air consumption is typically 0.05 Nm³/h at 1.4 bar supply pressure." }
+    ],
+    "relatedProducts": ["ctr-003", "ctr-005", "sen-002"],
+    "availability": "in-stock",
+    "tags": ["featured", "positioner", "siemens", "smart", "hart"],
+    "createdAt": "2024-02-20T09:00:00Z",
+    "updatedAt": "2025-06-08T11:00:00Z"
+  },
+  {
+    "id": "ctr-003",
+    "slug": "abb-flow-controller-ft-4000",
+    "sku": "ZEN-CTR-ABB-40001",
+    "mpn": "FT4000-PID-4MA",
+    "name": "ABB FT4000 Flow Controller with PID",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Controllers",
+    "subcategory": "Flow Controllers",
+    "industry": ["Chemical", "Oil & Gas", "Water Treatment", "Pharmaceutical"],
+    "series": "FT4000",
+    "model": "FT4000-PID-4MA",
+    "description": "The ABB FT4000 is a dedicated flow controller with integrated PID control and batch processing capabilities. Accepting pulse, analog, or frequency inputs from flow meters, it provides precise flow regulation and totalization.",
+    "shortDescription": "Flow controller with PID, batch control, dual relay outputs, RS485.",
+    "technicalDescription": "Panel-mount flow controller with multi-input capability, PID control loop, dual relay outputs, totalizer, and batch sequencing. RS485 Modbus for SCADA integration. Password-protected configuration.",
+    "applications": ["Chemical Dosing Control", "Water Flow Regulation", "Fuel Metering Systems", "Batching Processes"],
+    "features": [
+      "Multi-input compatibility with most flow meters",
+      "PID control loop for closed-loop flow regulation",
+      "Batch control with preset and auto-manual operation",
+      "Dual relay outputs for alarms and control",
+      "RS485 Modbus RTU communication"
+    ],
+    "benefits": [
+      "Improves batch consistency with precise flow control",
+      "Reduces waste with accurate totalization",
+      "Simplifies system design with standalone operation"
+    ],
+    "technicalSpecifications": {
+      "Input Types": "4-20 mA, Pulse, Frequency (0-10 kHz)",
+      "Display": "2-line x 16-character LCD",
+      "Control Output": "4-20 mA PID + 2x Relay",
+      "Accuracy": "±0.1% of reading",
+      "Totalizer": "8-digit, resettable",
+      "Communication": "RS485 Modbus RTU",
+      "Power Supply": "85-265 VAC / 24 VDC"
+    },
+    "dimensions": "1/8 DIN (48mm x 96mm x 120mm)",
+    "weight": "0.38 kg",
+    "material": "Polycarbonate Front Panel",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["CE", "UL", "IEC 61010-1"],
+    "compatibleModels": ["FT4000-TOT", "FT4000-BAT", "FT4000-RAT"],
+    "downloads": [
+      { "name": "ABB FT4000 Datasheet", "url": "https://example.com/abb-ft4000.pdf", "type": "application/pdf", "size": "0.9 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-ft4000.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-ft4000-1.jpg", "alt": "ABB FT4000 Flow Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ABB FT4000 User Manual", "url": "https://example.com/abb-ft4000-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB FT4000 Flow Controller with PID",
+    "seoDescription": "ABB FT4000 flow controller with PID, batch control, dual relays, RS485. For chemical dosing, water regulation, and batching processes.",
+    "seoKeywords": ["ABB flow controller", "FT4000", "PID flow controller", "batch controller", "flow totalizer"],
+    "canonical": "https://example.com/abb-flow-controller-ft-4000",
+    "ogImage": "https://example.com/images/abb-ft4000-og.jpg",
+    "faq": [
+      { "question": "What flow meter types are compatible?", "answer": "Compatible with electromagnetic, turbine, vortex, Coriolis, and ultrasonic flow meters with appropriate output signals." },
+      { "question": "Can this be used for custody transfer?", "answer": "The FT4000 can be configured for fiscal metering with password-protected totalizers and audit trail." },
+      { "question": "How many batches can be programmed?", "answer": "Up to 10 preset batch recipes can be stored in non-volatile memory." }
+    ],
+    "relatedProducts": ["ctr-004", "ctr-006", "sen-003"],
+    "availability": "in-stock",
+    "tags": ["flow-controller", "pid", "batch", "abb"],
+    "createdAt": "2024-03-15T10:00:00Z",
+    "updatedAt": "2025-05-25T14:00:00Z"
+  },
+  {
+    "id": "ctr-004",
+    "slug": "siemens-level-controller-sitrans-lr560",
+    "sku": "ZEN-CTR-SIE-56001",
+    "mpn": "7ML5440-0AA00-0AA0",
+    "name": "Siemens SITRANS LR560 Level Controller",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Controllers",
+    "subcategory": "Level Controllers",
+    "industry": ["Oil & Gas", "Chemical", "Water Treatment", "Mining"],
+    "series": "SITRANS LR560",
+    "model": "7ML5440-0AA00-0AA0",
+    "description": "The Siemens SITRANS LR560 is a 80 GHz FMCW radar level controller for continuous level measurement and control in storage tanks and process vessels. With advanced signal processing and remote communication, it handles challenging media including steam, dust, and foam.",
+    "shortDescription": "80 GHz FMCW radar level controller, 100m range, 4-20 mA/HART, IP68.",
+    "technicalDescription": "Continuous level transmitter with 80 GHz FMCW radar technology, 4-20 mA/HART output, and Profibus PA optional. Graphical local display with wizards for quick setup. Suitable for liquids, slurries, and solids.",
+    "applications": ["Storage Tank Level Control", "Process Vessel Monitoring", "Bulk Solids Inventory", "Water Reservoir Level"],
+    "features": [
+      "80 GHz FMCW radar for high accuracy and focus",
+      "100 meter measurement range",
+      "Graphical display with quick-start wizard",
+      "HART, Profibus PA, and Modbus communication",
+      "IP68 housing for submerged installation"
+    ],
+    "benefits": [
+      "Reliable measurement in steam, dust, and foam conditions",
+      "Reduces installation costs with small antenna size",
+      "Non-contact measurement eliminates maintenance"
+    ],
+    "technicalSpecifications": {
+      "Measurement Principle": "80 GHz FMCW Radar",
+      "Measurement Range": "0.1 - 100 m",
+      "Output": "4-20 mA with HART",
+      "Accuracy": "±2 mm",
+      "Beam Angle": "4°",
+      "Antenna Material": "PP / PTFE / PVDF",
+      "Process Temperature": "-40°C to +200°C"
+    },
+    "dimensions": "280mm x 120mm x 120mm",
+    "weight": "3.5 kg",
+    "material": "316L Stainless Steel / PVDF Antenna",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ATEX", "IECEx", "FM", "CSA", "SIL 2"],
+    "compatibleModels": ["SITRANS LR460", "SITRANS LR250", "SITRANS Probe LU"],
+    "downloads": [
+      { "name": "SITRANS LR560 Datasheet", "url": "https://example.com/siemens-lr560.pdf", "type": "application/pdf", "size": "1.8 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-lr560.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-lr560-1.jpg", "alt": "Siemens SITRANS LR560 Radar Level Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/siemens-radar-setup.mp4"],
+    "documents": [
+      { "name": "SITRANS LR560 Operating Instructions", "url": "https://example.com/lr560-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SITRANS LR560 80 GHz Radar Level Controller",
+    "seoDescription": "Siemens SITRANS LR560 80 GHz FMCW radar level controller, 100m range, ±2mm accuracy, HART. For storage tanks and process vessels.",
+    "seoKeywords": ["Siemens level controller", "SITRANS LR560", "80 GHz radar", "radar level transmitter", "level measurement"],
+    "canonical": "https://example.com/siemens-level-controller-sitrans-lr560",
+    "ogImage": "https://example.com/images/siemens-lr560-og.jpg",
+    "faq": [
+      { "question": "What is the minimum dielectric constant for measurement?", "answer": "The 80 GHz radar can measure media with a dielectric constant as low as 1.5 (e.g., hydrocarbons)." },
+      { "question": "Can this be used in hazardous areas?", "answer": "Yes, it is ATEX and IECEx certified for Zone 0 installations with appropriate approvals." },
+      { "question": "What is the antenna cleaning requirement?", "answer": "The non-contact design requires minimal cleaning. For sticky media, optional air-purge connections are available." }
+    ],
+    "relatedProducts": ["ctr-001", "ctr-005", "sen-004"],
+    "availability": "in-stock",
+    "tags": ["featured", "level-controller", "radar", "siemens"],
+    "createdAt": "2024-04-10T08:30:00Z",
+    "updatedAt": "2025-06-12T10:00:00Z"
+  },
+  {
+    "id": "ctr-005",
+    "slug": "honeywell-pid-controller-dc2500",
+    "sku": "ZEN-CTR-HON-25001",
+    "mpn": "DC2500-E0-0R-000-000",
+    "name": "Honeywell DC2500 Digital PID Process Controller",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Controllers",
+    "subcategory": "PID Controllers",
+    "industry": ["Chemical", "Pharmaceutical", "Power Plants", "Food & Beverage"],
+    "series": "DC2500",
+    "model": "DC2500-E0-0R",
+    "description": "The Honeywell DC2500 is a 1/16 DIN digital PID controller offering advanced process control for temperature, pressure, flow, and level applications. With universal input, dual outputs, and Ethernet connectivity, it provides versatile loop control.",
+    "shortDescription": "1/16 DIN PID controller, universal input, Ethernet, dual outputs.",
+    "technicalDescription": "1/16 DIN process controller with universal sensor input, dual analog/relay outputs, and built-in Ethernet communication. Advanced PID with adaptive tuning, fuzzy logic overshoot suppression, and ramp/soak capability.",
+    "applications": ["Process Temperature Loops", "Pressure Control", "Flow Regulation", "Batch Process Control"],
+    "features": [
+      "Universal input for TC, RTD, 4-20 mA, 0-10V",
+      "Adaptive PID with fuzzy logic overshoot suppression",
+      "Built-in Ethernet with Modbus TCP",
+      "Ramp/soak profile programming up to 8 segments",
+      "Compact 1/16 DIN size saves panel space"
+    ],
+    "benefits": [
+      "Faster settling time with adaptive PID tuning",
+      "Reduces overshoot during process start-up",
+      "Simplifies network integration with built-in Ethernet"
+    ],
+    "technicalSpecifications": {
+      "Input Type": "Universal (TC, RTD, 4-20 mA, 0-10V)",
+      "Control Type": "Adaptive PID + Fuzzy Logic",
+      "Output Configuration": "Dual Outputs (Relay + 4-20 mA)",
+      "Accuracy": "±0.1% of span ±1 digit",
+      "Display": "Dual-line 4-digit LED",
+      "Communication": "Ethernet Modbus TCP",
+      "Supply Voltage": "24 VAC/VDC or 100-240 VAC"
+    },
+    "dimensions": "1/16 DIN (48mm x 48mm x 100mm)",
+    "weight": "0.2 kg",
+    "material": "Polycarbonate Front, Metal Case",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "UL", "IEC 61010-1"],
+    "compatibleModels": ["DC2500-E0-0IR", "DC2500-E0-00R", "DC2500-E0-0T"],
+    "downloads": [
+      { "name": "Honeywell DC2500 Datasheet", "url": "https://example.com/honeywell-dc2500.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-dc2500.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-dc2500-1.jpg", "alt": "Honeywell DC2500 PID Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "DC2500 User Guide", "url": "https://example.com/dc2500-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell DC2500 Digital PID Controller",
+    "seoDescription": "Honeywell DC2500 1/16 DIN PID controller with adaptive tuning, universal input, Ethernet Modbus TCP. For temperature, pressure, and flow control.",
+    "seoKeywords": ["Honeywell PID controller", "DC2500", "digital PID", "process controller", "1/16 DIN controller"],
+    "canonical": "https://example.com/honeywell-pid-controller-dc2500",
+    "ogImage": "https://example.com/images/honeywell-dc2500-og.jpg",
+    "faq": [
+      { "question": "What is the fuzzy logic overshoot suppression?", "answer": "It automatically reduces PID output when approaching setpoint to prevent overshoot without slowing the response." },
+      { "question": "Can this controller be used for pressure control?", "answer": "Yes, with 4-20 mA input it can accept pressure transmitter signals and provide PID output." },
+      { "question": "What software is available for configuration?", "answer": "Honeywell DCConfig software provides PC-based configuration, monitoring, and data logging via Ethernet." }
+    ],
+    "relatedProducts": ["ctr-001", "ctr-003", "ctr-007"],
+    "availability": "in-stock",
+    "tags": ["pid-controller", "process-control", "honeywell"],
+    "createdAt": "2024-05-05T09:00:00Z",
+    "updatedAt": "2025-05-30T15:00:00Z"
+  },
+  {
+    "id": "ctr-006",
+    "slug": "abb-pid-controller-commander-260",
+    "sku": "ZEN-CTR-ABB-26001",
+    "mpn": "CM260-PID-HART",
+    "name": "ABB Commander 260 PID Controller",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Controllers",
+    "subcategory": "PID Controllers",
+    "industry": ["Chemical", "Water Treatment", "Manufacturing", "Energy"],
+    "series": "Commander 260",
+    "model": "CM260-PID-HART",
+    "description": "The ABB Commander 260 is a 1/4 DIN process controller providing single-loop PID control with HART communication. Designed for a wide range of process variables including temperature, pressure, flow, and pH.",
+    "shortDescription": "1/4 DIN single-loop PID controller, HART, universal input, dual displays.",
+    "technicalDescription": "Single-loop PID process controller with universal analog input, dual 5-digit displays, HART pass-through, and dual relays. Configurable via front panel or PC software. NEMA 4X front panel for washdown environments.",
+    "applications": ["pH Control Loops", "Temperature Cascade", "Pressure Control", "Flow Ratio Control"],
+    "features": [
+      "Universal analog input with sensor linearization",
+      "HART pass-through for smart transmitter configuration",
+      "Dual 5-digit displays for PV and SP",
+      "Cascade and ratio control modes",
+      "NEMA 4X front panel for wet environments"
+    ],
+    "benefits": [
+      "Simplified integration with HART device connectivity",
+      "Flexible control strategies with cascade and ratio modes",
+      "Durable construction for harsh manufacturing environments"
+    ],
+    "technicalSpecifications": {
+      "Input Type": "Universal (TC, RTD, 4-20 mA, 0-10V)",
+      "Control Output": "4-20 mA, Relay, SSR",
+      "Display": "Dual 5-digit LCD",
+      "Accuracy": "±0.05% of reading",
+      "Control Modes": "PID, On/Off, Cascade, Ratio",
+      "Communication": "HART, Modbus RTU",
+      "Power Supply": "85-265 VAC"
+    },
+    "dimensions": "1/4 DIN (96mm x 96mm x 110mm)",
+    "weight": "0.55 kg",
+    "material": "Polycarbonate Front, Metal Case",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["CE", "UL", "CSA", "IEC 61010-1"],
+    "compatibleModels": ["CM260-PID-MOD", "CM260-PID-PRO", "CM260-DUAL"],
+    "downloads": [
+      { "name": "ABB Commander 260 Datasheet", "url": "https://example.com/abb-cm260.pdf", "type": "application/pdf", "size": "1.1 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-cm260.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-cm260-1.jpg", "alt": "ABB Commander 260 PID Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Commander 260 User Manual", "url": "https://example.com/cm260-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB Commander 260 PID Controller | HART",
+    "seoDescription": "ABB Commander 260 1/4 DIN PID controller with HART, universal input, dual display. For pH, temperature, pressure, and flow control.",
+    "seoKeywords": ["ABB Commander 260", "PID controller", "CM260", "HART controller", "process controller"],
+    "canonical": "https://example.com/abb-pid-controller-commander-260",
+    "ogImage": "https://example.com/images/abb-cm260-og.jpg",
+    "faq": [
+      { "question": "What is HART pass-through?", "answer": "The controller can pass HART digital communication through its analog output to allow configuration of downstream HART field devices." },
+      { "question": "Can this be used for cascade control?", "answer": "Yes, the commander 260 supports cascade control with external setpoint from a secondary loop." },
+      { "question": "Is the front panel washdown rated?", "answer": "Yes, NEMA 4X (IP66) front panel allows direct washdown in food and pharmaceutical environments." }
+    ],
+    "relatedProducts": ["ctr-003", "ctr-005", "ctr-008"],
+    "availability": "in-stock",
+    "tags": ["pid-controller", "abb", "hart", "single-loop"],
+    "createdAt": "2024-06-20T10:00:00Z",
+    "updatedAt": "2025-06-05T12:00:00Z"
+  },
+  {
+    "id": "ctr-007",
+    "slug": "honeywell-multiloop-controller-hc900",
+    "sku": "ZEN-CTR-HON-90001",
+    "mpn": "HC900-2D0-0C0-000",
+    "name": "Honeywell HC900 Hybrid Controller (2 Loop)",
+    "brand": "Honeywell",
+    "manufacturer": "Honeywell Process Solutions",
+    "category": "Controllers",
+    "subcategory": "Multiloop Controllers",
+    "industry": ["Power Plants", "Chemical", "Manufacturing", "Oil & Gas"],
+    "series": "HC900",
+    "model": "HC900-2D0-0C0",
+    "description": "The Honeywell HC900 is a hybrid loop and logic controller combining continuous PID control with ladder logic programming. This 2-loop controller provides an integrated solution for furnace, boiler, and batch applications requiring both analog and digital control.",
+    "shortDescription": "Hybrid loop/logic controller, 2 PID loops, ladder logic, Ethernet.",
+    "technicalDescription": "Hybrid controller with 2 analog PID loops, up to 16 digital I/O, and logic control via ladder diagram programming. Built-in Ethernet with Modbus TCP and OPC UA server. Local operator panel with touchscreen.",
+    "applications": ["Boiler Control", "Furnace Management", "Batch Reactors", "Dryer Control Systems"],
+    "features": [
+      "Combined PID loop control and ladder logic",
+      "Built-in 7-inch touchscreen operator interface",
+      "Ethernet with Modbus TCP and OPC UA server",
+      "Up to 16 digital I/O channels",
+      "SD card slot for data logging and recipe storage"
+    ],
+    "benefits": [
+      "Eliminates separate PLC and loop controller hardware",
+      "Reduces engineering complexity with unified programming",
+      "Improves operator visibility with built-in display"
+    ],
+    "technicalSpecifications": {
+      "PID Loops": "2 (expandable to 4)",
+      "Digital I/O": "8 DI / 8 DO",
+      "Display": "7\" TFT Color Touchscreen",
+      "Communication": "Ethernet Modbus TCP, OPC UA, RS485",
+      "Logic Programming": "Ladder Diagram per IEC 61131-3",
+      "Power Supply": "100-240 VAC",
+      "Enclosure Rating": "NEMA 4X (IP66)"
+    },
+    "dimensions": "250mm x 200mm x 120mm",
+    "weight": "3.0 kg",
+    "material": "Powder-Coated Steel Enclosure",
+    "countryOfOrigin": "USA",
+    "certifications": ["CE", "UL", "CSA", "ATEX Zone 2", "IEC 61010-1"],
+    "compatibleModels": ["HC900-4D0-0C0", "HC900-2D0-1C0", "HC900-4D0-1C0"],
+    "downloads": [
+      { "name": "Honeywell HC900 Brochure", "url": "https://example.com/honeywell-hc900.pdf", "type": "application/pdf", "size": "2.5 MB" }
+    ],
+    "datasheets": ["https://example.com/honeywell-hc900.pdf"],
+    "images": [
+      { "src": "https://example.com/images/honeywell-hc900-1.jpg", "alt": "Honeywell HC900 Hybrid Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/honeywell-hc900-programming.mp4"],
+    "documents": [
+      { "name": "HC900 Programming Manual", "url": "https://example.com/hc900-prog.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Honeywell HC900 Hybrid Loop and Logic Controller",
+    "seoDescription": "Honeywell HC900 hybrid controller with 2 PID loops, ladder logic, 7\" touchscreen, OPC UA. For boiler, furnace, and batch control.",
+    "seoKeywords": ["Honeywell HC900", "hybrid controller", "loop controller", "logic controller", "boiler controller"],
+    "canonical": "https://example.com/honeywell-multiloop-controller-hc900",
+    "ogImage": "https://example.com/images/honeywell-hc900-og.jpg",
+    "faq": [
+      { "question": "What is a hybrid controller?", "answer": "A hybrid controller combines continuous PID loop control with discrete logic (ladder) control in a single device." },
+      { "question": "Can this replace a PLC?", "answer": "For small to medium applications requiring both analog loops and logic, yes. For large logic-only applications, a PLC may be more suitable." },
+      { "question": "What software is used for configuration?", "answer": "Honeywell Hybrid Control Designer software provides configuration and programming in a single environment." }
+    ],
+    "relatedProducts": ["ctr-001", "ctr-005", "ctr-008"],
+    "availability": "made-to-order",
+    "tags": ["featured", "hybrid", "loop-controller", "honeywell"],
+    "createdAt": "2024-07-15T08:00:00Z",
+    "updatedAt": "2025-06-15T13:00:00Z"
+  },
+  {
+    "id": "ctr-008",
+    "slug": "siemens-process-controller-sipart-dr20",
+    "sku": "ZEN-CTR-SIE-20060",
+    "mpn": "6DR5020-0EG01-0AA0",
+    "name": "Siemens SIPART DR20 Process Controller",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Controllers",
+    "subcategory": "PID Controllers",
+    "industry": ["Chemical", "Pharmaceutical", "Water Treatment", "Energy"],
+    "series": "SIPART DR20",
+    "model": "6DR5020-0EG01-0AA0",
+    "description": "The Siemens SIPART DR20 is a compact loop controller for simple PID control tasks in process engineering. With its standardized signal interface and compact housing, it is ideal as a backup controller or for decentralized control points.",
+    "shortDescription": "Compact loop controller, 1/8 DIN, single PID loop, 4-20 mA, RS485.",
+    "technicalDescription": "1/8 DIN single-loop PID controller with universal input, 4-20 mA output, RS485 Modbus, and front panel configuration. Configurable for temperature, pressure, flow, and level control. Fixed setpoint or remote setpoint operation.",
+    "applications": ["Decentralized PID Control", "Backup Controller for DCS", "Simple Temperature Loops", "Small Process Skids"],
+    "features": [
+      "Universal process signal input",
+      "Single PID loop with auto-tune",
+      "RS485 Modbus RTU for remote monitoring",
+      "Compact 1/8 DIN panel-mount design",
+      "Password-protected configuration"
+    ],
+    "benefits": [
+      "Cost-effective solution for simple control tasks",
+      "Minimal panel space requirement",
+      "Easy configuration via clear front panel interface"
+    ],
+    "technicalSpecifications": {
+      "Input": "4-20 mA, Pt100, TC (J, K)",
+      "Output": "4-20 mA (or relay)",
+      "Control Type": "PID with auto-tune",
+      "Display": "Dual 4-digit LED",
+      "Communication": "RS485 Modbus RTU",
+      "Power Supply": "24 VAC/VDC or 230 VAC",
+      "Dimensions": "1/8 DIN (48mm x 96mm x 105mm)"
+    },
+    "dimensions": "48mm x 96mm x 105mm (1/8 DIN)",
+    "weight": "0.25 kg",
+    "material": "Plastic Front, Metal Case",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "IEC 61010-1"],
+    "compatibleModels": ["SIPART DR19", "SIPART DR21", "SIPART DR22"],
+    "downloads": [
+      { "name": "SIPART DR20 Datasheet", "url": "https://example.com/siemens-dr20.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-dr20.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-dr20-1.jpg", "alt": "Siemens SIPART DR20 Controller", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SIPART DR20 Manual", "url": "https://example.com/dr20-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SIPART DR20 Compact Loop Controller",
+    "seoDescription": "Siemens SIPART DR20 1/8 DIN single-loop PID controller with auto-tune, RS485, universal input. For simple temperature and process control.",
+    "seoKeywords": ["Siemens DR20", "SIPART DR20", "loop controller", "compact PID", "process controller"],
+    "canonical": "https://example.com/siemens-process-controller-sipart-dr20",
+    "ogImage": "https://example.com/images/siemens-dr20-og.jpg",
+    "faq": [
+      { "question": "Can this controller accept thermocouple input?", "answer": "Yes, it accepts type J and K thermocouples as well as Pt100 RTD and 4-20 mA signals." },
+      { "question": "Is remote setpoint available?", "answer": "Yes, the controller can accept a remote setpoint from a 4-20 mA signal or via Modbus." },
+      { "question": "What is the accuracy?", "answer": "Accuracy is ±0.25% of span for analog inputs and ±0.5°C for thermocouple inputs." }
+    ],
+    "relatedProducts": ["ctr-005", "ctr-006", "sen-001"],
+    "availability": "in-stock",
+    "tags": ["loop-controller", "compact", "siemens", "pid"],
+    "createdAt": "2024-08-10T09:00:00Z",
+    "updatedAt": "2025-05-20T10:00:00Z"
+  }
+]

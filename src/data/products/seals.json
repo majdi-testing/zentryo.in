@@ -1,0 +1,428 @@
+[
+  {
+    "id": "sl-001",
+    "slug": "parker-mechanical-seal-type-210",
+    "sku": "ZEN-SL-PRK-21001",
+    "mpn": "210-1.125-1.375-SS",
+    "name": "Parker Type 210 Mechanical Seal 1.125\" x 1.375\"",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Seals",
+    "subcategory": "Mechanical Seals",
+    "industry": ["Chemical", "Oil & Gas", "Water Treatment", "Pharmaceutical"],
+    "series": "Type 210",
+    "model": "210-1.125-1.375",
+    "description": "The Parker Type 210 is a general-purpose mechanical seal for centrifugal pumps and mixers. With a 1.125-inch shaft diameter and 1.375-inch bore, this unbalanced seal handles water, light chemicals, and hydrocarbons up to 100°C.",
+    "shortDescription": "General-purpose mechanical seal, 1.125\" shaft, unbalanced design, Buna-N bellows.",
+    "technicalDescription": "Single cartridge mechanical seal with elastomeric bellows, carbon vs ceramic faces, and 316 stainless steel hardware. Unbalanced design suitable for pressures up to 12 bar. Temperature range -20°C to +100°C.",
+    "applications": ["Centrifugal Pump Sealing", "Mixer Shaft Sealing", "Water Circulation Pumps", "Chemical Transfer Pumps"],
+    "features": [
+      "Elastomeric bellows design compensates for misalignment",
+      "Carbon rotating face against ceramic stationary face",
+      "316 stainless steel metal parts",
+      "Pre-assembled cartridge eliminates field measurement",
+      "Interchangeable with most ANSI pump seals"
+    ],
+    "benefits": [
+      "Simplifies pump seal replacement with cartridge design",
+      "Handles misalignment and shaft deflection",
+      "Cost-effective sealing for standard pump applications"
+    ],
+    "technicalSpecifications": {
+      "Shaft Diameter": "1.125 inches (28.6 mm)",
+      "Bore Diameter": "1.375 inches (34.9 mm)",
+      "Pressure Range": "0 - 12 bar",
+      "Temperature Range": "-20°C to +100°C",
+      "Rotary Face": "Carbon Graphite",
+      "Stationary Face": "Ceramic (Alumina 99.5%)",
+      "Bellows Material": "Buna-N (Nitrile)"
+    },
+    "dimensions": "1.125\" shaft x 1.375\" bore, 0.625\" face width",
+    "weight": "0.18 kg",
+    "material": "Carbon, Ceramic, 316 SS, Buna-N",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "FDA (for food-grade variant)"],
+    "compatibleModels": ["210-1.125-1.625", "210-1.375-1.625", "210-1.000-1.375"],
+    "downloads": [
+      { "name": "Parker Type 210 Seal Datasheet", "url": "https://example.com/parker-210.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-210-seal.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-210-1.jpg", "alt": "Parker Type 210 Mechanical Seal", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Seal Installation Manual", "url": "https://example.com/parker-seal-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker Type 210 Mechanical Seal 1.125\" x 1.375\"",
+    "seoDescription": "Parker Type 210 general-purpose mechanical seal, 1.125\" shaft, carbon vs ceramic, Buna-N bellows. For centrifugal pumps and mixers.",
+    "seoKeywords": ["Parker mechanical seal", "Type 210 seal", "pump seal", "1.125 shaft seal", "centrifugal pump seal"],
+    "canonical": "https://example.com/parker-mechanical-seal-type-210",
+    "ogImage": "https://example.com/images/parker-210-og.jpg",
+    "faq": [
+      { "question": "What is the maximum pressure?", "answer": "The unbalanced Type 210 seal handles up to 12 bar (175 psi) standard." },
+      { "question": "Can this seal be used for hot water?", "answer": "Yes, up to 100°C with standard Buna-N bellows. For higher temperatures, EPDM bellows are available." },
+      { "question": "Is this seal bi-directional?", "answer": "Yes, the Type 210 is designed for bi-directional rotation." }
+    ],
+    "relatedProducts": ["sl-002", "sl-003", "sl-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "mechanical-seal", "parker", "pump-seal"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-05T14:00:00Z"
+  },
+  {
+    "id": "sl-002",
+    "slug": "freudenberg-o-ring-nbr-90",
+    "sku": "ZEN-SL-FRD-90001",
+    "mpn": "OR-NBR-90-2.5-50",
+    "name": "Freudenberg NBR O-Ring 90 Shore A (2.5mm x 50mm ID)",
+    "brand": "Freudenberg",
+    "manufacturer": "Freudenberg Sealing Technologies",
+    "category": "Seals",
+    "subcategory": "O-Rings",
+    "industry": ["Manufacturing", "Chemical", "Automotive", "Pharmaceutical"],
+    "series": "O-Ring NBR 90",
+    "model": "90-2.5-50",
+    "description": "Freudenberg premium NBR 90 Shore A O-ring for static and dynamic sealing applications. With 2.5mm cross-section and 50mm inner diameter, it provides reliable sealing in hydraulic and pneumatic systems.",
+    "shortDescription": "NBR 90 Shore A O-ring, 2.5mm cross-section, 50mm ID, premium quality.",
+    "technicalDescription": "Precision-molded nitrile rubber O-ring per ISO 3601-1:2012. 90 Shore A hardness for extrusion resistance. Suitable for mineral oils, greases, water, and compressed air.",
+    "applications": ["Hydraulic Cylinder Sealing", "Pneumatic Piston Seals", "Flange Gaskets", "Valve Stem Seals"],
+    "features": [
+      "90 Shore A hardness for high-pressure sealing",
+      "NBR compound for oil and fuel resistance",
+      "ISO 3601-1:2012 compliant dimensions",
+      "Excellent abrasion resistance",
+      "Wide operating temperature range"
+    ],
+    "benefits": [
+      "Resists extrusion in high-pressure applications",
+      "Long service life with stable material properties",
+      "Standard dimensions ensure easy replacement"
+    ],
+    "technicalSpecifications": {
+      "Inner Diameter": "50 mm",
+      "Cross-Section": "2.5 mm",
+      "Material": "NBR (Nitrile Butadiene Rubber)",
+      "Hardness": "90 Shore A",
+      "Temperature Range": "-30°C to +100°C",
+      "Tensile Strength": "15 MPa min",
+      "Standard": "ISO 3601-1:2012"
+    },
+    "dimensions": "50mm ID x 2.5mm cross-section",
+    "weight": "0.004 kg",
+    "material": "Nitrile Rubber (NBR)",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "ISO 3601-1", "REACH", "RoHS"],
+    "compatibleModels": ["OR-NBR-70-2.5-50", "OR-FKM-90-2.5-50", "OR-EPDM-90-2.5-50"],
+    "downloads": [
+      { "name": "Freudenberg O-Ring Catalog", "url": "https://example.com/freudenberg-o-ring.pdf", "type": "application/pdf", "size": "3.5 MB" }
+    ],
+    "datasheets": ["https://example.com/freudenberg-or90.pdf"],
+    "images": [
+      { "src": "https://example.com/images/freudenberg-or-1.jpg", "alt": "Freudenberg NBR O-Ring", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "O-Ring Selection Guide", "url": "https://example.com/o-ring-selection.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Freudenberg NBR 90 Shore A O-Ring 2.5mm x 50mm ID",
+    "seoDescription": "Freudenberg premium NBR O-ring, 90 Shore A, 50mm ID x 2.5mm cross-section. ISO 3601-1 compliant. For hydraulic and pneumatic sealing.",
+    "seoKeywords": ["Freudenberg O-ring", "NBR O-ring", "90 Shore A", "50mm ID O-ring", "nitrile O-ring"],
+    "canonical": "https://example.com/freudenberg-o-ring-nbr-90",
+    "ogImage": "https://example.com/images/freudenberg-or-og.jpg",
+    "faq": [
+      { "question": "What is the temperature range?", "answer": "Continuous operation from -30°C to +100°C, with peak to +120°C." },
+      { "question": "What fluids is this compatible with?", "answer": "Mineral oils, greases, hydraulic fluids (H, HL, HLP), water, and compressed air." },
+      { "question": "What is the difference between 70 and 90 Shore A?", "answer": "90 Shore A is harder and more resistant to extrusion at high pressures. 70 Shore A provides better low-pressure sealing on rough surfaces." }
+    ],
+    "relatedProducts": ["sl-001", "sl-004", "sl-006"],
+    "availability": "in-stock",
+    "tags": ["o-ring", "nbr", "freudenberg", "seal"],
+    "createdAt": "2024-02-10T09:00:00Z",
+    "updatedAt": "2025-05-20T10:00:00Z"
+  },
+  {
+    "id": "sl-003",
+    "slug": "skf-oil-seal-hms5",
+    "sku": "ZEN-SL-SKF-50001",
+    "mpn": "HMS5-50-72-10",
+    "name": "SKF HMS5 Radial Shaft Oil Seal 50x72x10mm",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Seals",
+    "subcategory": "Oil Seals",
+    "industry": ["Manufacturing", "Automotive", "Energy", "Mining"],
+    "series": "HMS5",
+    "model": "HMS5 50x72x10",
+    "description": "The SKF HMS5 is a radial shaft seal with a nitrile rubber sealing lip and a steel outer case. Designed for oil sealing in rotating shaft applications, this 50x72x10mm seal is widely used in gearboxes, pumps, and electric motors.",
+    "shortDescription": "Radial shaft seal, 50mm shaft x 72mm bore x 10mm width, NBR lip.",
+    "technicalDescription": "Radial shaft seal with rubber-covered outside diameter (HMS5 type), tension spring-loaded NBR sealing lip, and steel case insert. Performs well at shaft speeds up to 12 m/s.",
+    "applications": ["Gearbox Input/Output Seals", "Pump Shaft Seals", "Electric Motor Bearing Seals", "Industrial Roller Conveyors"],
+    "features": [
+      "Rubber-coated outer diameter for bore sealing",
+      "Tension spring maintains lip contact at low speeds",
+      "NBR sealing lip for oil and grease retention",
+      "Steel case insert for robust handling",
+      "Protective dust lip on standard designs"
+    ],
+    "benefits": [
+      "Easy installation with rubber-coated OD",
+      "Prevents oil leakage and contaminant ingress",
+      "Standardized dimensions for simple replacement"
+    ],
+    "technicalSpecifications": {
+      "Shaft Diameter": "50 mm",
+      "Bore Diameter": "72 mm",
+      "Width": "10 mm",
+      "Seal Type": "HMS5 (Rubber Coated OD)",
+      "Lip Material": "NBR (Nitrile Rubber)",
+      "Spring": "Carbon Steel Tension Spring",
+      "Max Shaft Speed": "12 m/s"
+    },
+    "dimensions": "50mm x 72mm x 10mm",
+    "weight": "0.04 kg",
+    "material": "NBR Lip, Steel Case, Rubber Coating",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001", "ISO 6194"],
+    "compatibleModels": ["HMS4-50-72-10", "CR-50-72-10", "HMS5-45-62-8"],
+    "downloads": [
+      { "name": "SKF Seal Selection Guide", "url": "https://example.com/skf-seal.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-hms5-50-72-10.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-hms5-1.jpg", "alt": "SKF HMS5 Oil Seal", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SKF Seal Installation Guide", "url": "https://example.com/skf-seal-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF HMS5 Oil Seal 50x72x10mm",
+    "seoDescription": "SKF HMS5 radial shaft oil seal, 50x72x10mm, NBR lip, rubber-coated OD. For gearboxes, pumps, and electric motor shaft sealing.",
+    "seoKeywords": ["SKF oil seal", "HMS5", "50x72x10 seal", "shaft seal", "radial seal"],
+    "canonical": "https://example.com/skf-oil-seal-hms5",
+    "ogImage": "https://example.com/images/skf-hms5-og.jpg",
+    "faq": [
+      { "question": "What is the maximum operating temperature?", "answer": "NBR lip seals operate from -40°C to +100°C continuously, up to +120°C intermittently." },
+      { "question": "Can this seal handle pressure?", "answer": "Standard HMS5 seals are designed for zero or minimal pressure. For pressurized applications, a PTFE lip seal is recommended." },
+      { "question": "What shaft surface finish is required?", "answer": "A ground surface finish of 0.2-0.8 μm Ra with no machining lead is recommended for seal life." }
+    ],
+    "relatedProducts": ["sl-001", "sl-002", "sl-005"],
+    "availability": "in-stock",
+    "tags": ["oil-seal", "radial-seal", "skf", "shaft-seal"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-06-08T09:00:00Z"
+  },
+  {
+    "id": "sl-004",
+    "slug": "parker-spiral-wound-gasket",
+    "sku": "ZEN-SL-PRK-30002",
+    "mpn": "SWG-150-300-SS-GR",
+    "name": "Parker Spiral Wound Gasket 4\" Class 300",
+    "brand": "Parker",
+    "manufacturer": "Parker Hannifin Corporation",
+    "category": "Seals",
+    "subcategory": "Gaskets",
+    "industry": ["Chemical", "Oil & Gas", "Power Plants", "Refining"],
+    "series": "Spiral Wound",
+    "model": "SWG-4-300-SS-GR",
+    "description": "The Parker spiral wound gasket is designed for high-temperature and high-pressure flange sealing in process piping. This 4-inch Class 300 gasket features 316 stainless steel windings with flexible graphite filler.",
+    "shortDescription": "Spiral wound gasket, 4-inch Class 300, 316 SS winding, graphite filler.",
+    "technicalDescription": "Spiral wound gasket with 316L stainless steel outer ring and graphite filler. Inner ring of 316 SS prevents flange erosion. Suitable for Class 300 raised-face flanges per ASME B16.20.",
+    "applications": ["Piping Flange Sealing", "Heat Exchanger Gasketing", "Valve Bonnet Sealing", "Pressure Vessel Joints"],
+    "features": [
+      "Spiral wound construction for resilience",
+      "316 SS outer ring for centering and blowout resistance",
+      "Flexible graphite filler for high-temperature sealing",
+      "316 SS inner ring prevents flange erosion",
+      "ASME B16.20 compliant dimensions"
+    ],
+    "benefits": [
+      "Reliable sealing under thermal cycling conditions",
+      "Handles high pressures and temperatures",
+      "Compensates for flange irregularities"
+    ],
+    "technicalSpecifications": {
+      "Size": "4 inches (DN 100)",
+      "Pressure Class": "Class 300",
+      "Winding Material": "316L Stainless Steel",
+      "Filler Material": "Flexible Graphite",
+      "Outer Ring": "Carbon Steel (Blue Painted)",
+      "Inner Ring": "316 Stainless Steel",
+      "Thickness": "4.5 mm (compressed)"
+    },
+    "dimensions": "4\" ASME B16.20 / B16.5 Class 300 RF",
+    "weight": "0.45 kg",
+    "material": "316 SS Windings, Graphite Filler",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME B16.20", "API 601", "ISO 9001", "Fire Safe per API 6FB"],
+    "compatibleModels": ["SWG-2-300-SS-GR", "SWG-6-300-SS-GR", "SWG-4-150-SS-GR"],
+    "downloads": [
+      { "name": "Parker Gasket Catalog", "url": "https://example.com/parker-gasket.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/parker-swg-4-300.pdf"],
+    "images": [
+      { "src": "https://example.com/images/parker-swg-1.jpg", "alt": "Parker Spiral Wound Gasket", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Parker Gasket Installation Guide", "url": "https://example.com/parker-gasket-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Parker Spiral Wound Gasket 4\" Class 300",
+    "seoDescription": "Parker spiral wound gasket, 4-inch Class 300, 316 SS winding, graphite filler. For high-temperature and high-pressure flange sealing.",
+    "seoKeywords": ["Parker gasket", "spiral wound gasket", "4 inch gasket", "Class 300 gasket", "flange gasket"],
+    "canonical": "https://example.com/parker-spiral-wound-gasket",
+    "ogImage": "https://example.com/images/parker-swg-og.jpg",
+    "faq": [
+      { "question": "What is the temperature rating?", "answer": "Flexible graphite filler allows operation from -200°C to +450°C continuously." },
+      { "question": "Can this gasket be re-used?", "answer": "No, spiral wound gaskets should be replaced after each disassembly for reliable sealing." },
+      { "question": "What bolt torque is recommended?", "answer": "Recommended bolt stress is 30,000-50,000 psi yield, applied in a cross-pattern sequence." }
+    ],
+    "relatedProducts": ["sl-001", "sl-005", "sl-006"],
+    "availability": "in-stock",
+    "tags": ["gasket", "spiral-wound", "parker", "high-temperature"],
+    "createdAt": "2024-04-20T08:30:00Z",
+    "updatedAt": "2025-05-30T12:00:00Z"
+  },
+  {
+    "id": "sl-005",
+    "slug": "skf-gland-packing-ptfe",
+    "sku": "ZEN-SL-SKF-80001",
+    "mpn": "GP-PTFE-12MM-5KG",
+    "name": "SKF PTFE Gland Packing 12mm (5kg Spool)",
+    "brand": "SKF",
+    "manufacturer": "SKF Group",
+    "category": "Seals",
+    "subcategory": "Gland Packings",
+    "industry": ["Chemical", "Oil & Gas", "Power Plants", "Water Treatment"],
+    "series": "GLAND-PTFE",
+    "model": "12mm x 5kg",
+    "description": "SKF PTFE gland packing is a multi-filament braided packing for valve stem and pump shaft sealing. This 12mm square section packing on a 5kg spool is chemically inert and suitable for aggressive media.",
+    "shortDescription": "PTFE gland packing, 12mm square, 5kg spool, chemically inert.",
+    "technicalDescription": "Multi-filament PTFE yarn braided packing with PTFE lubricant impregnation. Square cross-section for valve stuffing boxes and pump glands. Low friction coefficient with high chemical resistance.",
+    "applications": ["Valve Stem Sealing", "Centrifugal Pump Glands", "Agitator Shaft Sealing", "Chemical Process Equipment"],
+    "features": [
+      "PTFE multi-filament yarn for chemical resistance",
+      "PTFE lubricant impregnation for low friction",
+      "Square cross-section for standard glands",
+      "Temperature range -100°C to +260°C",
+      "Suitable for pH 0-14"
+    ],
+    "benefits": [
+      "Universal chemical compatibility",
+      "Low coefficient of friction reduces shaft wear",
+      "Long service life in corrosive environments"
+    ],
+    "technicalSpecifications": {
+      "Section Size": "12 mm square",
+      "Material": "PTFE Multi-Filament Yarn",
+      "Lubrication": "PTFE Impregnated",
+      "Temperature Range": "-100°C to +260°C",
+      "pH Range": "0 - 14",
+      "Linear Density": "Approx. 1.8 kg/m",
+      "Spool Weight": "5 kg"
+    },
+    "dimensions": "12mm x 12mm section, 5 kg spool",
+    "weight": "5.0 kg (spool)",
+    "material": "PTFE",
+    "countryOfOrigin": "Sweden",
+    "certifications": ["ISO 9001", "FDA 21 CFR 177.1550"],
+    "compatibleModels": ["GP-PTFE-8MM-5KG", "GP-PTFE-16MM-5KG", "GP-PTFE-20MM-5KG"],
+    "downloads": [
+      { "name": "SKF Gland Packing Catalog", "url": "https://example.com/skf-packing.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/skf-ptfe-packing.pdf"],
+    "images": [
+      { "src": "https://example.com/images/skf-packing-1.jpg", "alt": "SKF PTFE Gland Packing", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "SKF Gland Packing Installation Guide", "url": "https://example.com/skf-packing-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "SKF PTFE Gland Packing 12mm | 5kg Spool",
+    "seoDescription": "SKF PTFE multi-filament gland packing, 12mm square, 5kg spool, chemically inert. For valves, pumps, and agitator shaft sealing.",
+    "seoKeywords": ["SKF gland packing", "PTFE packing", "12mm packing", "valve stem packing", "pump packing"],
+    "canonical": "https://example.com/skf-gland-packing-ptfe",
+    "ogImage": "https://example.com/images/skf-packing-og.jpg",
+    "faq": [
+      { "question": "How many rings are needed for a valve?", "answer": "Typically 4-6 rings are required for a standard valve stuffing box, cut at 45° with staggered joints." },
+      { "question": "Can this be used for rotating shafts?", "answer": "Yes, with a lubricated gland follower. For rotating equipment, allow slight leakage for lubrication." },
+      { "question": "What is the shelf life?", "answer": "PTFE packing has an indefinite shelf life when stored in a cool, dry environment." }
+    ],
+    "relatedProducts": ["sl-001", "sl-003", "sl-004"],
+    "availability": "in-stock",
+    "tags": ["gland-packing", "ptfe", "skf", "valve-packing"],
+    "createdAt": "2024-05-10T09:00:00Z",
+    "updatedAt": "2025-06-01T11:00:00Z"
+  },
+  {
+    "id": "sl-006",
+    "slug": "freudenberg-v-ring-seal",
+    "sku": "ZEN-SL-FRD-60010",
+    "mpn": "VR-60-NBR",
+    "name": "Freudenberg V-Ring Seal 60mm Shaft",
+    "brand": "Freudenberg",
+    "manufacturer": "Freudenberg Sealing Technologies",
+    "category": "Seals",
+    "subcategory": "O-Rings",
+    "industry": ["Manufacturing", "Automotive", "Agriculture", "Material Handling"],
+    "series": "V-Ring",
+    "model": "VR-60",
+    "description": "The Freudenberg V-Ring is a versatile axial shaft seal that provides effective protection against dirt, dust, and splash water. This 60mm version fits over a shaft and seals against the bearing housing face.",
+    "shortDescription": "V-ring axial seal, 60mm shaft, NBR, for dirt and moisture exclusion.",
+    "technicalDescription": "One-piece elastomeric V-ring seal with flexible sealing lip. Stretches over shaft and contacts a radial face. Suitable for both rotating and static applications. NBR compound with wide temperature range.",
+    "applications": ["Bearing Housing Protection", "Agricultural Equipment", "Electric Motor Seal", "Conveyor Roller Shafts"],
+    "features": [
+      "One-piece elastomeric design",
+      "Fits multiple shaft sizes (stretch-fit)",
+      "Effective exclusion of dirt and moisture",
+      "No housing bore required",
+      "Quick installation without tools"
+    ],
+    "benefits": [
+      "Extends bearing life by excluding contaminants",
+      "Simplifies design with no housing counterbore needed",
+      "Cost-effective shaft protection solution"
+    ],
+    "technicalSpecifications": {
+      "Shaft Diameter": "60 mm",
+      "Max Shaft Diameter": "65 mm (stretch-fit)",
+      "Material": "NBR (Nitrile Rubber)",
+      "Hardness": "70 Shore A",
+      "Temperature Range": "-30°C to +100°C",
+      "Max Speed": "15 m/s",
+      "Color": "Black"
+    },
+    "dimensions": "60mm shaft, 24mm OD, 12mm axial width",
+    "weight": "0.015 kg",
+    "material": "NBR",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "REACH", "RoHS"],
+    "compatibleModels": ["VR-50-NBR", "VR-70-NBR", "VR-80-NBR"],
+    "downloads": [
+      { "name": "Freudenberg V-Ring Catalog", "url": "https://example.com/freudenberg-vring.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/freudenberg-vr60.pdf"],
+    "images": [
+      { "src": "https://example.com/images/freudenberg-vring-1.jpg", "alt": "Freudenberg V-Ring Seal", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Freudenberg Rotating Seal Guide", "url": "https://example.com/freudenberg-rotating.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Freudenberg V-Ring Seal | 60mm Shaft",
+    "seoDescription": "Freudenberg VR-60 NBR V-ring seal for 60mm shafts. Axial dirt and moisture exclusion for bearings, electric motors, and conveyors.",
+    "seoKeywords": ["Freudenberg V-Ring", "axial seal", "shaft seal", "60mm V-ring", "bearing seal"],
+    "canonical": "https://example.com/freudenberg-v-ring-seal",
+    "ogImage": "https://example.com/images/freudenberg-vring-og.jpg",
+    "faq": [
+      { "question": "Can the V-Ring be used submersed?", "answer": "No, the V-Ring is designed for splash and spray protection, not for submerged applications." },
+      { "question": "What is the shaft tolerance requirement?", "answer": "The V-Ring stretches to fit. For a 60mm V-Ring, shaft tolerance of h9 to h11 is recommended." },
+      { "question": "Can this seal handle axial movement?", "answer": "Yes, the V-Ring can accommodate limited axial shaft movement and angular misalignment." }
+    ],
+    "relatedProducts": ["sl-002", "sl-003", "sl-005"],
+    "availability": "in-stock",
+    "tags": ["v-ring", "axial-seal", "freudenberg", "shaft-protection"],
+    "createdAt": "2024-06-15T08:00:00Z",
+    "updatedAt": "2025-06-05T13:00:00Z"
+  }
+]

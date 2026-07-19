@@ -1,0 +1,570 @@
+[
+  {
+    "id": "trb-001",
+    "slug": "ge-turbine-blade-stage-1",
+    "sku": "ZEN-TRB-GE-50001",
+    "mpn": "GE-7FA-1ST-BLD-G5",
+    "name": "GE 7FA Gas Turbine Stage 1 Blade (Set of 92)",
+    "brand": "GE",
+    "manufacturer": "General Electric Company",
+    "category": "Turbine Parts",
+    "subcategory": "Turbine Blades",
+    "industry": ["Power Plants", "Energy", "Oil & Gas"],
+    "series": "7FA",
+    "model": "7FA.05",
+    "description": "The GE 7FA Stage 1 turbine blade set consists of 92 directionally-solidified superalloy blades for the first-stage rotating assembly. Coated with advanced thermal barrier coating (TBC), these blades withstand inlet temperatures up to 1,370°C in heavy-duty gas turbines.",
+    "shortDescription": "Stage 1 rotating blade set (92 pcs), DS superalloy, TBC coated, for GE 7FA.",
+    "technicalDescription": "Directionally solidified (DS) GTD-444 superalloy blades with internal serpentine cooling passages, showerhead film cooling, and MCrAlY bond coat with YSZ thermal barrier coating. Each blade serialized with full material traceability.",
+    "applications": ["Power Generation Gas Turbines", "Combined Cycle Plants", "Cogeneration Facilities", "Mechanical Drive Turbines"],
+    "features": [
+      "Directionally solidified superalloy for high-temperature creep resistance",
+      "Advanced thermal barrier coating (TBC)",
+      "Internal serpentine cooling with film cooling holes",
+      "Full material traceability with individual serialization",
+      "FOD-resistant leading edge design"
+    ],
+    "benefits": [
+      "Extends hot gas path inspection intervals",
+      "Improves turbine efficiency with optimized aerodynamics",
+      "Reduces lifecycle cost with increased durability"
+    ],
+    "technicalSpecifications": {
+      "Material": "GTD-444 DS Superalloy",
+      "Coating": "MCrAlY + YSZ TBC",
+      "Turbine Type": "GE 7FA.05 / 7FA.04",
+      "Stage": "1st Stage Rotor",
+      "Cooling": "Internal Convection + Film Cooling",
+      "Operating Temperature": "Up to 1,370°C (inlet)",
+      "Set Quantity": "92 blades"
+    },
+    "dimensions": "180mm airfoil length x 45mm root width",
+    "weight": "0.85 kg per blade (78 kg per set)",
+    "material": "GTD-444 DS Nickel-Base Superalloy",
+    "countryOfOrigin": "USA",
+    "certifications": ["ASME B31.1", "ISO 9001", "AS9100", "GE S-421"],
+    "compatibleModels": ["7FA.03", "7FA.04", "7FA.05", "7EA"],
+    "downloads": [
+      { "name": "GE Turbine Hot Gas Path Brochure", "url": "https://example.com/ge-hot-gas-path.pdf", "type": "application/pdf", "size": "5.0 MB" }
+    ],
+    "datasheets": ["https://example.com/ge-7fa-blade.pdf"],
+    "images": [
+      { "src": "https://example.com/images/ge-7fa-blade-1.jpg", "alt": "GE 7FA Stage 1 Turbine Blade", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/ge-blade-coating-process.mp4"],
+    "documents": [
+      { "name": "GE Turbine Blade Installation Manual", "url": "https://example.com/ge-blade-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "GE 7FA Gas Turbine Stage 1 Blade Set",
+    "seoDescription": "GE 7FA stage 1 turbine blade set (92 pcs) made of DS GTD-444 superalloy with TBC coating. For power generation and combined cycle gas turbines.",
+    "seoKeywords": ["GE turbine blade", "7FA blade", "gas turbine blade", "stage 1 blade", "hot gas path"],
+    "canonical": "https://example.com/ge-turbine-blade-stage-1",
+    "ogImage": "https://example.com/images/ge-7fa-blade-og.jpg",
+    "faq": [
+      { "question": "What is the expected service life?", "answer": "Typical service life is 24,000-36,000 operating hours before first inspection, depending on operating conditions and fuel type." },
+      { "question": "Can these blades be repaired?", "answer": "Yes, GE-authorized repair shops can perform tip restoration, coating renewal, and cooling hole reclamation." },
+      { "question": "What fuel types are compatible?", "answer": "Compatible with natural gas, distillate oil, and crude oil. Heavy fuels may reduce interval life." }
+    ],
+    "relatedProducts": ["trb-002", "trb-004", "trb-007"],
+    "availability": "made-to-order",
+    "tags": ["featured", "turbine-blade", "gas-turbine", "ge", "hot-gas-path"],
+    "createdAt": "2024-01-10T08:00:00Z",
+    "updatedAt": "2025-06-15T10:00:00Z"
+  },
+  {
+    "id": "trb-002",
+    "slug": "siemens-turbine-nozzle-sgt-750",
+    "sku": "ZEN-TRB-SIE-75001",
+    "mpn": "SGT-750-1NV-SS",
+    "name": "Siemens SGT-750 Stage 1 Nozzle Ring",
+    "brand": "Siemens",
+    "manufacturer": "Siemens Energy AG",
+    "category": "Turbine Parts",
+    "subcategory": "Nozzles",
+    "industry": ["Power Plants", "Energy", "Marine"],
+    "series": "SGT-750",
+    "model": "1NV-750-01",
+    "description": "The Siemens SGT-750 stage 1 nozzle ring directs hot combustion gases onto the first-stage turbine blades. Each 24-vane segment set is investment cast from Inconel 738 LC with internal cooling and TBC coating.",
+    "shortDescription": "Stage 1 nozzle ring assembly, 24 vanes, Inconel 738 LC, TBC coated for SGT-750.",
+    "technicalDescription": "Stage 1 stationary nozzle ring in 6 four-vane segments. Investment cast IN-738 LC superalloy with internal impingement cooling, showerhead film cooling on trailing edge, and MCrAlY + YSZ TBC. Full dimensional and material certification.",
+    "applications": ["Power Generation Gas Turbines", "Oil & Gas Mechanical Drive", "Marine Propulsion"],
+    "features": [
+      "Investment cast Inconel 738 LC superalloy",
+      "Impingement + film cooling design",
+      "Advanced MCrAlY + YSZ thermal barrier coating",
+      "4-vane segment design for easier handling",
+      "Full material traceability per EN 10204 3.1"
+    ],
+    "benefits": [
+      "Optimized flow path improves stage efficiency",
+      "Reduced cooling air requirement improves cycle efficiency",
+      "Extended inspection interval with durable TBC"
+    ],
+    "technicalSpecifications": {
+      "Material": "Inconel 738 LC (IN-738)",
+      "Number of Vanes": "24 (6 segments x 4 vanes)",
+      "Coating": "MCrAlY + YSZ TBC",
+      "Turbine Type": "Siemens SGT-750",
+      "Stage": "1st Stage Nozzle",
+      "Cooling Method": "Impingement + Film Cooling",
+      "Overall Diameter": "1,200 mm"
+    },
+    "dimensions": "1,200mm OD, 24-vane full ring",
+    "weight": "185 kg (complete set of 6 segments)",
+    "material": "Inconel 738 LC Investment Cast",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "AS9100", "Siemens QM-102"],
+    "compatibleModels": ["SGT-750", "SGT-800 (adaptable)"],
+    "downloads": [
+      { "name": "Siemens SGT-750 Hot Gas Path Manual", "url": "https://example.com/siemens-sgt750.pdf", "type": "application/pdf", "size": "4.5 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-1nv-750.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-sgt750-nozzle-1.jpg", "alt": "Siemens SGT-750 Stage 1 Nozzle Ring", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Turbine Parts Catalog", "url": "https://example.com/siemens-turbine-parts.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SGT-750 Stage 1 Nozzle Ring",
+    "seoDescription": "Siemens SGT-750 stage 1 nozzle ring, 24-vane set, Inconel 738 LC, TBC coated. For power generation and mechanical drive gas turbines.",
+    "seoKeywords": ["Siemens nozzle ring", "SGT-750", "stage 1 nozzle", "gas turbine nozzle", "turbine hot gas path"],
+    "canonical": "https://example.com/siemens-turbine-nozzle-sgt-750",
+    "ogImage": "https://example.com/images/siemens-sgt750-nozzle-og.jpg",
+    "faq": [
+      { "question": "What is the typical service interval?", "answer": "The nozzle ring typically requires inspection at 24,000 hours with major overhaul at 48,000 hours." },
+      { "question": "Can individual segments be replaced?", "answer": "Yes, individual 4-vane segments can be replaced without replacing the entire ring, reducing maintenance costs." },
+      { "question": "What is the material of the TBC?", "answer": "The thermal barrier coating is yttria-stabilized zirconia (YSZ) applied over an MCrAlY bond coat." }
+    ],
+    "relatedProducts": ["trb-001", "trb-003", "trb-005"],
+    "availability": "made-to-order",
+    "tags": ["featured", "nozzle", "turbine", "siemens", "hot-gas-path"],
+    "createdAt": "2024-02-20T09:00:00Z",
+    "updatedAt": "2025-06-12T14:00:00Z"
+  },
+  {
+    "id": "trb-003",
+    "slug": "rolls-royce-combustion-chamber-trent",
+    "sku": "ZEN-TRB-RR-30001",
+    "mpn": "RR-TRNT-LIN-100",
+    "name": "Rolls-Royce Trent Combustion Liner Assembly",
+    "brand": "Rolls-Royce",
+    "manufacturer": "Rolls-Royce plc",
+    "category": "Turbine Parts",
+    "subcategory": "Combustion Chambers",
+    "industry": ["Aerospace", "Energy", "Marine"],
+    "series": "Trent Series",
+    "model": "Trent 60 / Trent 100",
+    "description": "The Rolls-Royce Trent combustion liner is a key component of the annular combustion chamber. Fabricated from high-temperature superalloy sheet metal with effusion cooling, this liner ensures complete fuel combustion and minimal emissions in Trent gas turbine engines.",
+    "shortDescription": "Combustor liner assembly for Rolls-Royce Trent, effusion cooled, CMC tiles.",
+    "technicalDescription": "Annular combustion chamber liner with effusion cooling holes, ceramic matrix composite (CMC) tiles at hot spots, and internal heat shield assembly. Full ring fabricated from Haynes 230 alloy with thermal barrier coating.",
+    "applications": ["Aero-Derivative Gas Turbines", "Offshore Platform Power", "Industrial Power Generation", "Marine Propulsion"],
+    "features": [
+      "Effusion cooling for uniform temperature distribution",
+      "CMC tiles in high-temperature zones",
+      "Haynes 230 sheet metal construction",
+      "Low NOx emission design",
+      "Full ring construction with expansion joints"
+    ],
+    "benefits": [
+      "Reduces emissions to meet environmental regulations",
+      "Extends hot section life with advanced cooling",
+      "Lightweight design improves power-to-weight ratio"
+    ],
+    "technicalSpecifications": {
+      "Material": "Haynes 230 + CMC Tiles",
+      "Type": "Annular Combustion Chamber",
+      "Cooling Method": "Effusion Cooling",
+      "Emissions": "NOx < 25 ppm (dry low emissions)",
+      "Max Temperature": "1,540°C (combustion exit)",
+      "Turbine Type": "Rolls-Royce Trent 60 / 100",
+      "Weight": "220 kg"
+    },
+    "dimensions": "1,500mm OD x 400mm length (annular)",
+    "weight": "220 kg",
+    "material": "Haynes 230 Nickel Superalloy + CMC",
+    "countryOfOrigin": "UK",
+    "certifications": ["ISO 9001", "AS9100", "EASA Part 21", "FAA PMA"],
+    "compatibleModels": ["Trent 60", "Trent 100", "Trent 800"],
+    "downloads": [
+      { "name": "RR Trent Combustion Service Bulletin", "url": "https://example.com/rr-trent-combustion.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/rr-combustion-liner.pdf"],
+    "images": [
+      { "src": "https://example.com/images/rr-combustion-1.jpg", "alt": "Rolls-Royce Trent Combustion Liner", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "RR Hot Section Maintenance Manual", "url": "https://example.com/rr-hot-section.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Rolls-Royce Trent Combustion Liner Assembly",
+    "seoDescription": "Rolls-Royce Trent annular combustion liner with effusion cooling, CMC tiles, Haynes 230 alloy. For aero-derivative gas turbine power generation.",
+    "seoKeywords": ["Rolls-Royce combustion chamber", "Trent combustor", "combustion liner", "gas turbine combustion", "CMC tiles"],
+    "canonical": "https://example.com/rolls-royce-combustion-chamber-trent",
+    "ogImage": "https://example.com/images/rr-combustion-og.jpg",
+    "faq": [
+      { "question": "What is effusion cooling?", "answer": "Effusion cooling uses thousands of tiny laser-drilled holes to create a cool air film over the liner surface, reducing metal temperatures." },
+      { "question": "Are CMC tiles replaceable?", "answer": "Yes, individual CMC tiles can be replaced during shop visits, extending the life of the base liner." },
+      { "question": "What fuel types can this combustor burn?", "answer": "Designed for natural gas with liquid fuel backup. Dual-fuel (gas and liquid) configurations are available." }
+    ],
+    "relatedProducts": ["trb-001", "trb-005", "trb-008"],
+    "availability": "made-to-order",
+    "tags": ["featured", "combustion", "gas-turbine", "rolls-royce", "emissions"],
+    "createdAt": "2024-03-15T10:00:00Z",
+    "updatedAt": "2025-06-10T11:00:00Z"
+  },
+  {
+    "id": "trb-004",
+    "slug": "ge-turbine-bearing-journal",
+    "sku": "ZEN-TRB-GE-70003",
+    "mpn": "GE-7FA-JRN-BRG-03",
+    "name": "GE 7FA Turbine Journal Bearing Assembly",
+    "brand": "GE",
+    "manufacturer": "General Electric Company",
+    "category": "Turbine Parts",
+    "subcategory": "Bearings",
+    "industry": ["Power Plants", "Energy", "Oil & Gas"],
+    "series": "7FA",
+    "model": "7FA.05",
+    "description": "The GE 7FA turbine journal bearing assembly supports the turbine rotor shaft at the exhaust end. This tilting-pad bearing features five shoes with babbit lining, a hardened steel shaft journal, and flood lubrication design.",
+    "shortDescription": "Tilting-pad journal bearing, 5-shoe, babbit lined, for GE 7FA turbine.",
+    "technicalDescription": "5-pad tilting pad journal bearing with steel-backed babbit lining, flood lubrication, and integral temperature sensors. Precision-bored to OEM clearances. Includes oil drain, feed ports, and thermocouple provisions.",
+    "applications": ["Gas Turbine Rotor Support", "Steam Turbine Bearings", "Compressor Rotor Support"],
+    "features": [
+      "5-pad tilting pad design for shaft stability",
+      "Steel-backed babbit bearing lining",
+      "Integral temperature sensor provisions",
+      "Flood lubrication for effective cooling",
+      "Precision match-bored to OEM specifications"
+    ],
+    "benefits": [
+      "Prevents rotor dynamic instability at high speeds",
+      "Reduces vibration with optimum clearance control",
+      "Extends bearing life with proper lubrication"
+    ],
+    "technicalSpecifications": {
+      "Bearing Type": "Tilting Pad Journal",
+      "Number of Pads": "5",
+      "Bearing Diameter": "200 mm",
+      "Bearing Length": "150 mm",
+      "Max Speed": "5,400 rpm",
+      "Lubrication": "Flood Lubricated (ISO VG 32 / 46)",
+      "Babbitt Material": "Tin-Based Babbitt (ASTM B23 Grade 2)"
+    },
+    "dimensions": "300mm OD x 200mm bore x 150mm length",
+    "weight": "45 kg",
+    "material": "Steel Body with Tin Babbitt Lining",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "API 618", "GE S-421"],
+    "compatibleModels": ["7FA.03", "7FA.04", "7FA.05", "6FA"],
+    "downloads": [
+      { "name": "GE Turbine Bearing Manual", "url": "https://example.com/ge-bearing.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/ge-7fa-bearing.pdf"],
+    "images": [
+      { "src": "https://example.com/images/ge-bearing-1.jpg", "alt": "GE 7FA Journal Bearing Assembly", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "GE Turbine Maintenance Guide", "url": "https://example.com/ge-turbine-maintenance.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "GE 7FA Turbine Journal Bearing Assembly",
+    "seoDescription": "GE 7FA tilting-pad journal bearing assembly for turbine rotor support. 5-shoe, babbit lined, flood lubrication. OEM specifications.",
+    "seoKeywords": ["GE turbine bearing", "7FA bearing", "journal bearing", "tilting pad bearing", "gas turbine bearing"],
+    "canonical": "https://example.com/ge-turbine-bearing-journal",
+    "ogImage": "https://example.com/images/ge-bearing-og.jpg",
+    "faq": [
+      { "question": "What is the recommended oil flow?", "answer": "Recommended oil flow is 120 L/min at 1.5 bar supply pressure with ISO VG 32 turbine oil." },
+      { "question": "What temperature alarms are included?", "answer": "Each pad has an embedded thermocouple. Alarm is typically set at 100°C with trip at 115°C." },
+      { "question": "Can this bearing be rebuilt?", "answer": "Yes, babbit re-pouring and re-machining is possible within OEM limits, typically up to 2 times." }
+    ],
+    "relatedProducts": ["trb-001", "trb-002", "brn-009"],
+    "availability": "made-to-order",
+    "tags": ["turbine", "bearing", "journal", "ge", "heavy-duty"],
+    "createdAt": "2024-04-20T08:00:00Z",
+    "updatedAt": "2025-06-05T13:00:00Z"
+  },
+  {
+    "id": "trb-005",
+    "slug": "siemens-fuel-injector-sgt-600",
+    "sku": "ZEN-TRB-SIE-60001",
+    "mpn": "SGT-600-FI-DLE",
+    "name": "Siemens SGT-600 Fuel Injector (Dry Low Emissions)",
+    "brand": "Siemens",
+    "manufacturer": "Siemens Energy AG",
+    "category": "Turbine Parts",
+    "subcategory": "Fuel Injectors",
+    "industry": ["Power Plants", "Energy", "Oil & Gas"],
+    "series": "SGT-600",
+    "model": "DLE-600-FI",
+    "description": "The Siemens SGT-600 dry low emissions fuel injector is a premix burner that reduces NOx emissions by thoroughly mixing fuel and air before combustion. The multi-nozzle design achieves single-digit NOx levels on natural gas.",
+    "shortDescription": "Dry low emissions fuel injector for SGT-600, premix design, NOx < 9 ppm.",
+    "technicalDescription": "Dual-fuel (gas/liquid) premix injector with swirl-stabilized flame. Pilot and main fuel stages for turndown operation. Hastelloy X construction with effusion-cooled burner tip. Includes flame detector port and spark plug access.",
+    "applications": ["Industrial Gas Turbine Combustion", "Low Emissions Retrofit", "Cogeneration Systems", "Distributed Power"],
+    "features": [
+      "Dry low emissions premix combustion design",
+      "Dual-fuel capability (gas and liquid)",
+      "Hastelloy X construction for durability",
+      "Swirl-stabilized flame for stability",
+      "Multi-stage fuel distribution for turndown"
+    ],
+    "benefits": [
+      "Achieves single-digit NOx emissions (< 9 ppm)",
+      "Stable combustion across wide load range",
+      "Fuel flexibility with natural gas and liquid fuel"
+    ],
+    "technicalSpecifications": {
+      "Type": "Dry Low Emissions Premix",
+      "Fuel Compatibility": "Natural Gas (primary), Liquid Fuel (backup)",
+      "NOx Emissions": "< 9 ppm (gas, corrected to 15% O2)",
+      "Material": "Hastelloy X (UNS N06002)",
+      "Turndown Ratio": "10:1",
+      "Flame Temperature": "1,500°C (adiabatic)",
+      "Pressure Drop": "< 5% of inlet pressure"
+    },
+    "dimensions": "350mm length x 120mm diameter",
+    "weight": "8.5 kg",
+    "material": "Hastelloy X Nickel Superalloy",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "AS9100", "EN 10204 3.1"],
+    "compatibleModels": ["SGT-600", "SGT-700", "SGT-800 (adaptable)"],
+    "downloads": [
+      { "name": "Siemens DLE Fuel Injector Manual", "url": "https://example.com/siemens-dle-fi.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-sgt600-fi.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-fi-1.jpg", "alt": "Siemens SGT-600 DLE Fuel Injector", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Emissions Compliance Guide", "url": "https://example.com/siemens-emissions.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SGT-600 DLE Fuel Injector",
+    "seoDescription": "Siemens SGT-600 dry low emissions fuel injector, premix design, < 9 ppm NOx, Hastelloy X. For industrial gas turbine combustion systems.",
+    "seoKeywords": ["Siemens fuel injector", "SGT-600", "DLE", "gas turbine injector", "low emissions injector"],
+    "canonical": "https://example.com/siemens-fuel-injector-sgt-600",
+    "ogImage": "https://example.com/images/siemens-fi-og.jpg",
+    "faq": [
+      { "question": "What is the service interval for this injector?", "answer": "Recommended inspection interval is 8,000 hours with replacement typically at 24,000 hours." },
+      { "question": "Can this be retrofitted on older turbines?", "answer": "Yes, the injector is designed for retrofit of SGT-600 turbines with standard combustion systems to DLE." },
+      { "question": "What liquid fuels are compatible?", "answer": "Compatible with diesel, light crude, and kerosene. Heavy fuel oils require a different injector variant." }
+    ],
+    "relatedProducts": ["trb-003", "trb-007", "trb-008"],
+    "availability": "made-to-order",
+    "tags": ["featured", "fuel-injector", "gas-turbine", "siemens", "low-emissions"],
+    "createdAt": "2024-05-10T09:00:00Z",
+    "updatedAt": "2025-06-08T15:00:00Z"
+  },
+  {
+    "id": "trb-006",
+    "slug": "ge-turbine-seal-ring",
+    "sku": "ZEN-TRB-GE-80002",
+    "mpn": "GE-7FA-INT-SEAL-02",
+    "name": "GE 7FA Interstage Seal Ring",
+    "brand": "GE",
+    "manufacturer": "General Electric Company",
+    "category": "Turbine Parts",
+    "subcategory": "Seals",
+    "industry": ["Power Plants", "Energy"],
+    "series": "7FA",
+    "model": "7FA.05",
+    "description": "The GE 7FA interstage seal ring minimizes leakage between turbine stages, maintaining aerodynamic efficiency and cooling flow integrity. The honeycomb abradable seal design allows tight clearances with rub-tolerant operation during start-up.",
+    "shortDescription": "Interstage honeycomb seal ring for GE 7FA turbine, reduces leakage.",
+    "technicalDescription": "Segmented seal ring with honeycomb abradable seal material (hastelloy honeycomb), steel backing ring, and spring-loaded segments for radial compliance. Designed to fit between stator diaphragm and rotor platform.",
+    "applications": ["Interstage Leakage Control", "Hot Gas Path Sealing", "Axial Flow Turbines"],
+    "features": [
+      "Honeycomb abradable seal for minimal running clearance",
+      "Segmented design for thermal expansion accommodation",
+      "Hastelloy honeycomb material for high-temperature durability",
+      "Spring-loaded segments maintain clearance control",
+      "Full 360-degree coverage"
+    ],
+    "benefits": [
+      "Improves turbine efficiency by reducing interstage leakage",
+      "Minimizes blade tip clearance loss over operating cycle",
+      "Increases power output by maintaining aerodynamic efficiency"
+    ],
+    "technicalSpecifications": {
+      "Seal Type": "Abradable Honeycomb",
+      "Material": "Hastelloy Honeycomb + Steel Backing",
+      "Turbine Type": "GE 7FA.04 / 7FA.05",
+      "Segments": "8 segments per full ring",
+      "Operating Temperature": "Up to 980°C",
+      "Clearance Control": "Spring-loaded radial segments",
+      "Weight": "35 kg (full set)"
+    },
+    "dimensions": "1,350mm OD x 200mm width (full ring set)",
+    "weight": "35 kg",
+    "material": "Hastelloy Honeycomb, Alloy Steel Ring",
+    "countryOfOrigin": "USA",
+    "certifications": ["ISO 9001", "GE S-421", "ASME B31.1"],
+    "compatibleModels": ["7FA.03", "7FA.04", "7FA.05"],
+    "downloads": [
+      { "name": "GE Interstage Seal Tech Sheet", "url": "https://example.com/ge-seal.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/ge-int-seal.pdf"],
+    "images": [
+      { "src": "https://example.com/images/ge-int-seal-1.jpg", "alt": "GE 7FA Interstage Seal Ring", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "GE Seal Replacement Guide", "url": "https://example.com/ge-seal-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "GE 7FA Interstage Honeycomb Seal Ring",
+    "seoDescription": "GE 7FA interstage seal ring with honeycomb abradable material. 8-segment design for leakage control in gas turbine hot gas path.",
+    "seoKeywords": ["GE interstage seal", "turbine seal", "honeycomb seal", "7FA seal", "gas turbine sealing"],
+    "canonical": "https://example.com/ge-turbine-seal-ring",
+    "ogImage": "https://example.com/images/ge-int-seal-og.jpg",
+    "faq": [
+      { "question": "What is an abradable seal?", "answer": "An abradable seal has a soft, rub-tolerant surface that allows rotating parts to cut their own groove during initial operation, minimizing running clearance." },
+      { "question": "What is the replacement interval?", "answer": "Typically replaced during major hot gas path inspections at 48,000 hour intervals." },
+      { "question": "Can the honeycomb be repaired?", "answer": "Minor damage can be repaired. Extensive wear or crushing requires replacement of individual segments." }
+    ],
+    "relatedProducts": ["trb-001", "trb-004", "trb-007"],
+    "availability": "made-to-order",
+    "tags": ["seal", "turbine", "ge", "hot-gas-path", "honeycomb"],
+    "createdAt": "2024-06-20T10:00:00Z",
+    "updatedAt": "2025-05-30T12:00:00Z"
+  },
+  {
+    "id": "trb-007",
+    "slug": "rolls-royce-turbine-discharge-nozzle",
+    "sku": "ZEN-TRB-RR-60005",
+    "mpn": "RR-TRNT-TDN-05",
+    "name": "Rolls-Royce Trent Turbine Discharge Nozzle",
+    "brand": "Rolls-Royce",
+    "manufacturer": "Rolls-Royce plc",
+    "category": "Turbine Parts",
+    "subcategory": "Nozzles",
+    "industry": ["Aerospace", "Energy", "Marine"],
+    "series": "Trent",
+    "model": "Trent 60",
+    "description": "The Rolls-Royce Trent turbine exhaust diffuser collects discharge flow from the power turbine and converts remaining kinetic energy to static pressure. This diffuser minimizes exhaust losses and improves overall engine efficiency.",
+    "shortDescription": "Turbine exhaust diffuser/nozzle for Trent 60, reduces exit losses.",
+    "technicalDescription": "Stainless steel exhaust diffuser with aerodynamic struts, expansion joints, and flange connections. Designed to maximize static pressure recovery with minimal total pressure loss. Includes thermocouple and pressure tap instrumentation ports.",
+    "applications": ["Aero-Derivative Gas Turbine Exhaust", "Combined Cycle Heat Recovery", "Marine Gas Turbine Outlet"],
+    "features": [
+      "Aerodynamic strut design for minimum pressure loss",
+      "High static pressure recovery coefficient",
+      "Expansion joints for thermal stress relief",
+      "Integral instrumentation ports",
+      "304L stainless steel construction"
+    ],
+    "benefits": [
+      "Increases overall cycle efficiency by reducing exhaust losses",
+      "Smooth transition to exhaust ducting or HRSG",
+      "Long service life with corrosion-resistant materials"
+    ],
+    "technicalSpecifications": {
+      "Type": "Annular Exhaust Diffuser",
+      "Material": "304L Stainless Steel",
+      "Turbine Type": "Rolls-Royce Trent 60",
+      "Pressure Recovery Coefficient": "0.75",
+      "Max Temperature": "550°C (continuous)",
+      "Connection": "Flanged (ANSI B16.5 Class 150)",
+      "Weight": "380 kg"
+    },
+    "dimensions": "1,800mm inlet OD x 2,400mm outlet OD x 1,200mm length",
+    "weight": "380 kg",
+    "material": "304L Stainless Steel",
+    "countryOfOrigin": "UK",
+    "certifications": ["ISO 9001", "AS9100", "PED 2014/68/EU", "EN 10204 3.1"],
+    "compatibleModels": ["Trent 60", "Trent 100 (exhaust adapter required)"],
+    "downloads": [
+      { "name": "RR Exhaust Diffuser Spec Sheet", "url": "https://example.com/rr-diffuser.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/rr-tdn-05.pdf"],
+    "images": [
+      { "src": "https://example.com/images/rr-diffuser-1.jpg", "alt": "Rolls-Royce Trent Exhaust Diffuser", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "RR Turbine Exhaust Systems Manual", "url": "https://example.com/rr-exhaust.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Rolls-Royce Trent Turbine Exhaust Diffuser",
+    "seoDescription": "Rolls-Royce Trent exhaust diffuser/nozzle, 304L SS, high pressure recovery. For aero-derivative gas turbine combined cycle and marine applications.",
+    "seoKeywords": ["Rolls-Royce exhaust diffuser", "Trent exhaust", "turbine diffuser", "gas turbine exhaust", "power turbine nozzle"],
+    "canonical": "https://example.com/rolls-royce-turbine-discharge-nozzle",
+    "ogImage": "https://example.com/images/rr-diffuser-og.jpg",
+    "faq": [
+      { "question": "What is static pressure recovery?", "answer": "The diffuser converts exhaust velocity energy into static pressure, reducing back pressure on the turbine and improving efficiency." },
+      { "question": "Can this be connected to a HRSG?", "answer": "Yes, the flanged outlet is designed for direct connection to heat recovery steam generator ducting." },
+      { "question": "What instrumentation is included?", "answer": "Pressure taps and thermocouple ports for exhaust temperature and pressure monitoring." }
+    ],
+    "relatedProducts": ["trb-003", "trb-005", "trb-008"],
+    "availability": "made-to-order",
+    "tags": ["featured", "exhaust-diffuser", "gas-turbine", "rolls-royce"],
+    "createdAt": "2024-07-25T09:00:00Z",
+    "updatedAt": "2025-06-15T10:00:00Z"
+  },
+  {
+    "id": "trb-008",
+    "slug": "siemens-turbine-shaft-seal-carbon",
+    "sku": "ZEN-TRB-SIE-40001",
+    "mpn": "SGT-400-CARB-SEAL",
+    "name": "Siemens SGT-400 Carbon Shaft Seal Assembly",
+    "brand": "Siemens",
+    "manufacturer": "Siemens Energy AG",
+    "category": "Turbine Parts",
+    "subcategory": "Seals",
+    "industry": ["Power Plants", "Energy", "Oil & Gas"],
+    "series": "SGT-400",
+    "model": "SGT-400",
+    "description": "The Siemens SGT-400 carbon shaft seal assembly prevents bearing oil leakage along the turbine shaft. The segmented carbon ring design provides effective sealing with low friction at high shaft speeds.",
+    "shortDescription": "Segmented carbon shaft seal assembly for SGT-400, oil-side sealing.",
+    "technicalDescription": "Segmented carbon ring seal with garter spring loading, integral oil slinger, and labyrinth gas-side seal. Designed for oil-to-atmosphere sealing at turbine shaft penetrations. Carbon grade selected for low wear at high surface speeds.",
+    "applications": ["Turbine Bearing Oil Sealing", "Compressor Shaft Seals", "Generator Shaft Seals"],
+    "features": [
+      "Segmented carbon ring for radial compliance",
+      "Garter spring loading maintains contact",
+      "Integral oil slinger prevents oil migration",
+      "Labyrinth section for gas-side sealing",
+      "Low friction carbon material for high-speed operation"
+    ],
+    "benefits": [
+      "Prevents oil leakage into turbine compartment",
+      "Reduces oil consumption and environmental impact",
+      "Long service life with self-lubricating carbon material"
+    ],
+    "technicalSpecifications": {
+      "Seal Type": "Segmented Carbon Ring",
+      "Shaft Diameter": "150 mm",
+      "Max Surface Speed": "45 m/s",
+      "Operating Temperature": "-20°C to +120°C",
+      "Carbon Grade": "Special Grade Carbon-Graphite",
+      "Housing Material": "Cast Iron / Steel",
+      "Leakage Rate": "< 0.5 L/hour at rated speed"
+    },
+    "dimensions": "250mm OD x 150mm bore x 60mm width",
+    "weight": "8.0 kg",
+    "material": "Carbon-Graphite Rings, Steel Housing",
+    "countryOfOrigin": "Germany",
+    "certifications": ["ISO 9001", "API 614", "Siemens QM-102"],
+    "compatibleModels": ["SGT-400", "SGT-300", "SGT-500"],
+    "downloads": [
+      { "name": "Siemens Carbon Seal Spec", "url": "https://example.com/siemens-carbon-seal.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-sgt400-carbon.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-carbon-seal-1.jpg", "alt": "Siemens SGT-400 Carbon Shaft Seal", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Rotating Seal Manual", "url": "https://example.com/siemens-seal-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens SGT-400 Carbon Shaft Seal Assembly",
+    "seoDescription": "Siemens SGT-400 segmented carbon shaft seal assembly for turbine bearing oil sealing. Low friction, high speed, prevents oil leakage.",
+    "seoKeywords": ["Siemens shaft seal", "carbon seal", "SGT-400", "turbine seal", "oil seal"],
+    "canonical": "https://example.com/siemens-turbine-shaft-seal-carbon",
+    "ogImage": "https://example.com/images/siemens-carbon-seal-og.jpg",
+    "faq": [
+      { "question": "What is the expected seal life?", "answer": "Carbon seal life typically exceeds 24,000 operating hours before replacement." },
+      { "question": "Can the carbon rings be replaced individually?", "answer": "Yes, individual carbon segments are replaceable, reducing replacement cost." },
+      { "question": "What causes carbon seal wear?", "answer": "Normal wear is from start/stop cycles. Abnormal wear may indicate shaft vibration or oil contamination." }
+    ],
+    "relatedProducts": ["trb-004", "trb-006", "sl-003"],
+    "availability": "in-stock",
+    "tags": ["seal", "carbon", "shaft", "siemens", "turbine"],
+    "createdAt": "2024-08-15T08:00:00Z",
+    "updatedAt": "2025-06-01T14:00:00Z"
+  }
+]

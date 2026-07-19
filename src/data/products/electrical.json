@@ -1,0 +1,641 @@
+[
+  {
+    "id": "elc-001",
+    "slug": "abb-molded-case-circuit-breaker-sace",
+    "sku": "ZEN-ELC-ABB-20001",
+    "mpn": "SACE-S2N-160-3P",
+    "name": "ABB SACE S2N Molded Case Circuit Breaker 160A",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Electrical",
+    "subcategory": "Circuit Breakers",
+    "industry": ["Manufacturing", "Energy", "Power Plants", "Marine"],
+    "series": "SACE S2N",
+    "model": "S2N 160A 3P",
+    "description": "The ABB SACE S2N is a molded case circuit breaker (MCCB) with 160A rated current and 36 kA breaking capacity at 415V. Electronic trip unit with adjustable LSI protection for industrial power distribution systems.",
+    "shortDescription": "MCCB 160A, 3-pole, 36 kA, electronic trip, adjustable LSI protection.",
+    "technicalDescription": "3-pole molded case circuit breaker with solid-state electronic trip unit. Rated current 160A with adjustable long-time (L), short-time (S), and instantaneous (I) protection. Withdrawable version available.",
+    "applications": ["Main Switchboards", "Motor Control Centers", "Industrial Power Panels", "Generator Protection"],
+    "features": [
+      "Electronic trip unit with LSI protection curves",
+      "36 kA breaking capacity at 415V AC",
+      "Adjustable current settings and time delays",
+      "Rotary handle for safe switching",
+      "Auxiliary contacts and alarm switches available"
+    ],
+    "benefits": [
+      "Precise protection coordination with adjustable settings",
+      "High breaking capacity handles fault currents reliably",
+      "Reduces arc flash energy with electronic trip characteristics"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "160 A",
+      "Number of Poles": "3",
+      "Breaking Capacity": "36 kA at 415V AC",
+      "Trip Type": "Electronic LSI",
+      "Rated Voltage": "690V AC max",
+      "Mounting": "Fixed (withdrawable optional)",
+      "Weight": "3.5 kg"
+    },
+    "dimensions": "260mm x 200mm x 110mm",
+    "weight": "3.5 kg",
+    "material": "Thermoset Plastic Enclosure",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["IEC 60947-2", "CE", "UL 489", "CCC"],
+    "compatibleModels": ["S1N 160", "S3N 250", "SACE Tmax XT"],
+    "downloads": [
+      { "name": "ABB SACE S2N Datasheet", "url": "https://example.com/abb-s2n.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-sace-s2n.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-s2n-1.jpg", "alt": "ABB SACE S2N Circuit Breaker", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "ABB LV Circuit Breaker Guide", "url": "https://example.com/abb-lv-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB SACE S2N MCCB 160A | 3-Pole, 36 kA",
+    "seoDescription": "ABB SACE S2N molded case circuit breaker, 160A, 3-pole, 36 kA, electronic LSI trip. For main switchboards and motor control centers.",
+    "seoKeywords": ["ABB circuit breaker", "SACE S2N", "MCCB 160A", "molded case breaker", "LSI trip unit"],
+    "canonical": "https://example.com/abb-molded-case-circuit-breaker-sace",
+    "ogImage": "https://example.com/images/abb-s2n-og.jpg",
+    "faq": [
+      { "question": "What is the breaking capacity at 690V?", "answer": "Breaking capacity at 690V AC is 18 kA. At 240V AC it is 65 kA." },
+      { "question": "Can this breaker be used for DC circuits?", "answer": "For DC applications, use ABB SACE DC-rated circuit breakers based on the same platform." },
+      { "question": "What communication options are available?", "answer": "Modbus RTU and Profibus DP communication modules are available for remote monitoring and control." }
+    ],
+    "relatedProducts": ["elc-002", "elc-004", "elc-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "circuit-breaker", "mccb", "abb"],
+    "createdAt": "2024-01-15T08:00:00Z",
+    "updatedAt": "2025-06-10T14:00:00Z"
+  },
+  {
+    "id": "elc-002",
+    "slug": "schneider-contactor-lc1d65",
+    "sku": "ZEN-ELC-SCH-65001",
+    "mpn": "LC1D65A",
+    "name": "Schneider TeSys D-Series Contactor 65A, 110V Coil",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "Electrical",
+    "subcategory": "Contactors",
+    "industry": ["Manufacturing", "HVAC", "Water Treatment", "Packaging"],
+    "series": "TeSys D",
+    "model": "LC1D65A",
+    "description": "The Schneider TeSys D LC1D65 is a 3-pole power contactor rated at 65A AC-3 duty for motor switching. With a 110V 50/60 Hz coil voltage, it provides reliable control of electric motors, lighting, and resistive loads.",
+    "shortDescription": "3-pole power contactor, 65A AC-3, 110V AC coil, motor switching.",
+    "technicalDescription": "IEC 60947-4-1 compliant contactor with 3 main poles, 65A AC-3 utilization (30 kW at 400V). 110V 50/60 Hz coil with integrated surge suppressor. Mirror contact and screw-clamp terminals.",
+    "applications": ["Motor Starting and Stopping", "Lighting Control", "Heating Load Switching", "Pump Control"],
+    "features": [
+      "65A rated current in AC-3 category",
+      "110V AC 50/60 Hz coil with surge protection",
+      "Mechanical and electrical interlocking capability",
+      "Top-mounted auxiliary contact blocks available",
+      "Mirror contact per IEC 60947-4-1"
+    ],
+    "benefits": [
+      "Long electrical and mechanical life (1.5M cycles)",
+      "Compact design saves panel space",
+      "Simple DIN rail or screw mounting"
+    ],
+    "technicalSpecifications": {
+      "Rated Current (AC-3)": "65 A at 400V",
+      "Motor Power": "30 kW at 400V AC",
+      "Coil Voltage": "110V AC, 50/60 Hz",
+      "Number of Poles": "3 (main) + 1 (aux. NO)",
+      "Mechanical Life": "1.5 million cycles",
+      "Electrical Life": "1.0 million cycles at AC-3",
+      "Weight": "0.65 kg"
+    },
+    "dimensions": "95mm x 75mm x 110mm",
+    "weight": "0.65 kg",
+    "material": "Thermoplastic Enclosure",
+    "countryOfOrigin": "France",
+    "certifications": ["IEC 60947-4-1", "UL 508", "CSA", "CE", "CCC"],
+    "compatibleModels": ["LC1D50A", "LC1D80A", "LRD Series Overload Relays"],
+    "downloads": [
+      { "name": "TeSys D Contactor Catalog", "url": "https://example.com/schneider-tesys-d.pdf", "type": "application/pdf", "size": "3.0 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-lc1d65.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-lc1d65-1.jpg", "alt": "Schneider TeSys D Contactor", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "TeSys D Selection Guide", "url": "https://example.com/schneider-tesys-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider TeSys D LC1D65 Contactor | 65A, 110V Coil",
+    "seoDescription": "Schneider TeSys D LC1D65A 3-pole power contactor, 65A AC-3, 110V AC coil. For motor, pump, and lighting control in industrial applications.",
+    "seoKeywords": ["Schneider contactor", "TeSys D", "LC1D65", "power contactor", "65A contactor"],
+    "canonical": "https://example.com/schneider-contactor-lc1d65",
+    "ogImage": "https://example.com/images/schneider-lc1d65-og.jpg",
+    "faq": [
+      { "question": "What is the AC-1 rating?", "answer": "The AC-1 (resistive load) rating is 100A." },
+      { "question": "Can this be used for reversing motor starters?", "answer": "Yes, use two contactors with mechanical and electrical interlocking for reversing applications." },
+      { "question": "What coil voltage options are available?", "answer": "Available in 24V AC/DC, 48V, 110V, 230V, 400V, and 415V AC coil voltages." }
+    ],
+    "relatedProducts": ["elc-001", "elc-003", "elc-005"],
+    "availability": "in-stock",
+    "tags": ["featured", "contactor", "schneider", "motor-control"],
+    "createdAt": "2024-02-10T09:00:00Z",
+    "updatedAt": "2025-06-05T11:00:00Z"
+  },
+  {
+    "id": "elc-003",
+    "slug": "siemens-relay-3th42",
+    "sku": "ZEN-ELC-SIE-42001",
+    "mpn": "3TH4280-0AJ4",
+    "name": "Siemens 3TH42 Industrial Control Relay 4NO+4NC",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Electrical",
+    "subcategory": "Relays",
+    "industry": ["Manufacturing", "Automotive", "Chemical", "Energy"],
+    "series": "3TH42",
+    "model": "3TH4280-0AJ4",
+    "description": "The Siemens 3TH42 is an industrial control relay with 4 normally open (NO) and 4 normally closed (NC) contacts. With a 24V DC coil, this relay provides flexible logic control for industrial automation systems.",
+    "shortDescription": "Industrial control relay, 4NO+4NC, 24VDC coil, screw terminals.",
+    "technicalDescription": "Electromechanical control relay with 4 NO and 4 NC contacts rated at 6A/250V AC. 24V DC coil with LED indicator and protective diode. Screw terminal connections. Snap-on mounting for DIN rail.",
+    "applications": ["PLC Output Interfacing", "Control Logic Expansion", "Signal Isolation", "Motor Starter Control"],
+    "features": [
+      "4 normally open + 4 normally closed contacts",
+      "24V DC coil with LED and protective diode",
+      "6A/250V AC contact rating",
+      "Snap-on DIN rail mounting",
+      "Bridgeable terminals for common wiring"
+    ],
+    "benefits": [
+      "Reduces panel wiring time with bridgeable terminals",
+      "Visual status indication with green LED",
+      "High contact density saves panel space"
+    ],
+    "technicalSpecifications": {
+      "Contact Configuration": "4 NO + 4 NC",
+      "Contact Rating": "6A at 250V AC / 6A at 24V DC",
+      "Coil Voltage": "24V DC",
+      "Coil Power": "2.5 W",
+      "Contact Material": "Silver Alloy (AgNi)",
+      "Mechanical Life": "10 million cycles",
+      "Mounting": "DIN Rail (EN 60715)"
+    },
+    "dimensions": "55mm x 70mm x 90mm",
+    "weight": "0.15 kg",
+    "material": "Thermoplastic Housing",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL", "CSA", "IEC 60947-5-1"],
+    "compatibleModels": ["3TH4244", "3TH4266", "3TH4280-0AL4"],
+    "downloads": [
+      { "name": "Siemens 3TH42 Datasheet", "url": "https://example.com/siemens-3th42.pdf", "type": "application/pdf", "size": "0.6 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-3th42.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-3th42-1.jpg", "alt": "Siemens 3TH42 Control Relay", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Control Relay Catalog", "url": "https://example.com/siemens-relay.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens 3TH42 Relay | 4NO+4NC, 24VDC",
+    "seoDescription": "Siemens 3TH4280 industrial control relay with 4NO+4NC contacts, 24VDC coil, LED indicator. For PLC interfacing and control logic expansion.",
+    "seoKeywords": ["Siemens relay", "3TH42", "control relay", "24V DC relay", "industrial relay"],
+    "canonical": "https://example.com/siemens-relay-3th42",
+    "ogImage": "https://example.com/images/siemens-3th42-og.jpg",
+    "faq": [
+      { "question": "What is the minimum switching capacity?", "answer": "Minimum reliable switching is 0.1A at 5V for gold-plated contacts. Standard contacts at 1A/12V." },
+      { "question": "Can this relay be used for PLC output?", "answer": "Yes, 24V DC coil makes it directly compatible with PLC digital outputs." },
+      { "question": "What accessories are available?", "answer": "Bridge plates, marking tags, and hold-down clips are available." }
+    ],
+    "relatedProducts": ["elc-002", "elc-004", "elc-007"],
+    "availability": "in-stock",
+    "tags": ["relay", "control-relay", "siemens", "dc"],
+    "createdAt": "2024-03-05T10:00:00Z",
+    "updatedAt": "2025-05-25T09:00:00Z"
+  },
+  {
+    "id": "elc-004",
+    "slug": "abb-air-circuit-breaker-emax-2",
+    "sku": "ZEN-ELC-ABB-32002",
+    "mpn": "E2N-3200-3P-W",
+    "name": "ABB Emax 2 Air Circuit Breaker 3200A",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Electrical",
+    "subcategory": "Switchgear",
+    "industry": ["Power Plants", "Energy", "Data Centers", "Manufacturing"],
+    "series": "Emax 2",
+    "model": "E2N 3200A 3P W",
+    "description": "The ABB Emax 2 is a 3200A air circuit breaker (ACB) for low-voltage main distribution. With true RMS electronic trip unit, it provides comprehensive protection for generators, transformers, and large power distribution systems.",
+    "shortDescription": "Air circuit breaker 3200A, 3-pole, withdrawable, electronic trip, 65 kA.",
+    "technicalDescription": "3-pole air circuit breaker rated at 3200A with Ekip Hi-Touch electronic trip unit. Withdrawable version with fully-removable chassis. 65 kA breaking capacity at 415V. Intelligent energy management with Ekip Com Hub.",
+    "applications": ["Main Incomer Breakers", "Generator Output Protection", "Transformer Secondary Protection", "Large Distribution Switchboards"],
+    "features": [
+      "3200A rated current with 65 kA breaking capacity",
+      "Ekip Hi-Touch electronic trip unit with touchscreen",
+      "Withdrawable design for safe maintenance",
+      "Energy management and power metering built-in",
+      "Ekip Com Hub for IoT connectivity"
+    ],
+    "benefits": [
+      "Built-in energy metering eliminates separate meters",
+      "Predictive maintenance with cloud connectivity",
+      "Reduced arc energy with fast trip times"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "3,200 A",
+      "Number of Poles": "3",
+      "Breaking Capacity": "65 kA at 415V AC",
+      "Trip Unit": "Ekip Hi-Touch (Electronic)",
+      "Communication": "Modbus TCP, Profinet, EtherNet/IP",
+      "Mounting": "Withdrawable (Fixed optional)",
+      "Weight": "45 kg"
+    },
+    "dimensions": "400mm x 350mm x 420mm",
+    "weight": "45 kg",
+    "material": "Steel Frame, Plastic Enclosure",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["IEC 60947-2", "CE", "UL 1066", "CCC"],
+    "compatibleModels": ["E1N 1600", "E2N 2000", "E6H 6300"],
+    "downloads": [
+      { "name": "ABB Emax 2 Catalog", "url": "https://example.com/abb-emax2.pdf", "type": "application/pdf", "size": "5.0 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-emax2-e2n.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-emax2-1.jpg", "alt": "ABB Emax 2 Air Circuit Breaker", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/abb-emax2-commissioning.mp4"],
+    "documents": [
+      { "name": "ABB Emax 2 Installation Manual", "url": "https://example.com/abb-emax2-install.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB Emax 2 Air Circuit Breaker | 3200A",
+    "seoDescription": "ABB Emax 2 3200A air circuit breaker, 3-pole, withdrawable, Ekip Hi-Touch trip, 65 kA. For main LV distribution and generator protection.",
+    "seoKeywords": ["ABB ACB", "Emax 2", "air circuit breaker", "3200A breaker", "withdrawable breaker"],
+    "canonical": "https://example.com/abb-air-circuit-breaker-emax-2",
+    "ogImage": "https://example.com/images/abb-emax2-og.jpg",
+    "faq": [
+      { "question": "What is the height dimension?", "answer": "Total height is 400mm for the fixed version, 420mm for the withdrawable version on chassis." },
+      { "question": "What communication protocols are supported?", "answer": "Modbus RTU/TCP, Profinet IO, EtherNet/IP, and OPC UA are supported via Ekip Com Hub modules." },
+      { "question": "Is arc flash protection integrated?", "answer": "Yes, the Ekip Hi-Touch trip unit includes arc flash reduction maintenance setting with fast trip." }
+    ],
+    "relatedProducts": ["elc-001", "elc-006", "elc-007"],
+    "availability": "made-to-order",
+    "tags": ["featured", "air-circuit-breaker", "abb", "switchgear", "high-current"],
+    "createdAt": "2024-04-20T08:30:00Z",
+    "updatedAt": "2025-06-15T12:00:00Z"
+  },
+  {
+    "id": "elc-005",
+    "slug": "schneider-motor-starter-ats22",
+    "sku": "ZEN-ELC-SCH-22001",
+    "mpn": "ATS22D32Q",
+    "name": "Schneider Altistart 22 Soft Starter 32A",
+    "brand": "Schneider Electric",
+    "manufacturer": "Schneider Electric SE",
+    "category": "Electrical",
+    "subcategory": "Motor Starters",
+    "industry": ["Manufacturing", "Water Treatment", "Mining", "HVAC"],
+    "series": "Altistart 22",
+    "model": "ATS22D32Q",
+    "description": "The Schneider Altistart 22 is a soft starter for three-phase induction motors. This 32A unit provides smooth acceleration and deceleration for pumps, fans, and conveyors, reducing mechanical stress and electrical inrush.",
+    "shortDescription": "Soft starter 32A, 200-480V, 15 kW, internal bypass, 6-wire control.",
+    "technicalDescription": "Soft starter with 32A rated current for 15 kW motor at 400V. Internal bypass contactors for energy savings. 6-wire (inside delta) and 3-wire connection support. Integrated overload protection and relay outputs.",
+    "applications": ["Centrifugal Pump Starting", "Fan Speed Control", "Conveyor Soft Start", "Chiller Compressors"],
+    "features": [
+      "Soft start and soft stop for reduced mechanical stress",
+      "Internal bypass contactors for zero heat dissipation",
+      "Integrated electronic motor overload protection",
+      "6-wire (inside delta) and 3-wire connection",
+      "Configurable via front panel keypad or software"
+    ],
+    "benefits": [
+      "Eliminates water hammer in pump systems",
+      "Reduces belt wear in conveyor drives",
+      "Energy savings with built-in bypass contactors"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "32 A",
+      "Motor Power": "15 kW at 400V / 7.5 kW at 230V",
+      "Supply Voltage": "200-480V AC, 3-phase",
+      "Control": "3-wire / 6-wire (inside delta)",
+      "Protection": "Electronic Overload, Phase Loss, PTC",
+      "Communication": "Modbus RTU (optional)",
+      "Weight": "3.5 kg"
+    },
+    "dimensions": "250mm x 185mm x 170mm",
+    "weight": "3.5 kg",
+    "material": "Coated Steel Enclosure",
+    "countryOfOrigin": "France",
+    "certifications": ["IEC 60947-4-2", "CE", "UL 508", "CSA", "CCC"],
+    "compatibleModels": ["ATS22D17Q (17A)", "ATS22D47Q (47A)", "ATS22D62Q (62A)"],
+    "downloads": [
+      { "name": "Altistart 22 Datasheet", "url": "https://example.com/schneider-ats22.pdf", "type": "application/pdf", "size": "2.0 MB" }
+    ],
+    "datasheets": ["https://example.com/schneider-ats22d32q.pdf"],
+    "images": [
+      { "src": "https://example.com/images/schneider-ats22-1.jpg", "alt": "Schneider Altistart 22 Soft Starter", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Altistart 22 User Manual", "url": "https://example.com/ats22-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Schneider Altistart 22 Soft Starter | 32A",
+    "seoDescription": "Schneider ATS22D32Q soft starter, 32A, 15 kW, 200-480V, internal bypass. For pumps, fans, and conveyors in industrial applications.",
+    "seoKeywords": ["Schneider soft starter", "Altistart 22", "ATS22", "soft starter 32A", "motor soft starter"],
+    "canonical": "https://example.com/schneider-motor-starter-ats22",
+    "ogImage": "https://example.com/images/schneider-ats22-og.jpg",
+    "faq": [
+      { "question": "What is inside delta (6-wire) connection?", "answer": "Inside delta connects the soft starter in series with each motor winding, allowing a lower current rating of the starter (58% of motor FLC)." },
+      { "question": "Do I need an external overload relay?", "answer": "No, the Altistart 22 has integrated electronic overload protection." },
+      { "question": "What is the bypass function?", "answer": "Once the motor reaches full speed, internal contactors bypass the thyristors, eliminating heat dissipation and improving efficiency." }
+    ],
+    "relatedProducts": ["elc-002", "aut-006", "elc-006"],
+    "availability": "in-stock",
+    "tags": ["featured", "soft-starter", "schneider", "motor-control"],
+    "createdAt": "2024-05-15T09:00:00Z",
+    "updatedAt": "2025-06-10T10:00:00Z"
+  },
+  {
+    "id": "elc-006",
+    "slug": "siemens-power-transformer-4am61",
+    "sku": "ZEN-ELC-SIE-63001",
+    "mpn": "4AM6142-8DN40-0FA0",
+    "name": "Siemens 4AM61 Control Power Transformer 630VA",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Electrical",
+    "subcategory": "Transformers",
+    "industry": ["Manufacturing", "Energy", "Power Plants", "Automotive"],
+    "series": "4AM61",
+    "model": "4AM6142-8DN40-0FA0",
+    "description": "The Siemens 4AM61 is a single-phase control power transformer for industrial control panels. Rated at 630VA with 480V primary to 120V secondary, it provides isolated power for PLCs, contactors, and instrumentation.",
+    "shortDescription": "Control transformer 630VA, 480V/120V single-phase, industrial enclosure.",
+    "technicalDescription": "Single-phase isolation transformer with 630VA rating. Copper windings with polyester resin impregnation. Steel enclosure with terminal block connection. Fuse holders on primary and secondary. Temperature rise 80°C.",
+    "applications": ["Control Panel Power Supply", "PLC and HMI Isolation", "Contactors and Relays Supply", "Instrumentation Power"],
+    "features": [
+      "630VA continuous rating",
+      "480V delta primary, 120V secondary",
+      "Copper windings for high efficiency",
+      "Steel enclosure with ventilation slots",
+      "Primary and secondary fuse holders"
+    ],
+    "benefits": [
+      "Isolates control circuits from line power",
+      "Reduced voltage for safe control panel operation",
+      "Compact footprint saves panel space"
+    ],
+    "technicalSpecifications": {
+      "Power Rating": "630 VA",
+      "Primary Voltage": "480V AC (200-600V taps available)",
+      "Secondary Voltage": "120V AC",
+      "Frequency": "50/60 Hz",
+      "Insulation Class": "Class B (130°C)",
+      "Enclosure Rating": "IP20 (finger-safe terminals)",
+      "Weight": "9.5 kg"
+    },
+    "dimensions": "200mm x 200mm x 180mm",
+    "weight": "9.5 kg",
+    "material": "Steel Enclosure, Copper Windings",
+    "countryOfOrigin": "Germany",
+    "certifications": ["CE", "UL 5085-2", "CSA", "IEC 61558-2-2"],
+    "compatibleModels": ["4AM6142-8DN40-0FA0 (250VA)", "4AM6142-8DN40-0FA0 (1000VA)"],
+    "downloads": [
+      { "name": "Siemens 4AM61 Catalog", "url": "https://example.com/siemens-4am61.pdf", "type": "application/pdf", "size": "1.0 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-4am61-630va.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-4am61-1.jpg", "alt": "Siemens 4AM61 Control Transformer", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Control Transformer Guide", "url": "https://example.com/siemens-transformer.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens 4AM61 Control Transformer 630VA",
+    "seoDescription": "Siemens 4AM61 single-phase control transformer, 630VA, 480V/120V, copper windings. For control panel power supply in industrial applications.",
+    "seoKeywords": ["Siemens transformer", "4AM61", "control transformer", "630VA transformer", "480V to 120V"],
+    "canonical": "https://example.com/siemens-power-transformer-4am61",
+    "ogImage": "https://example.com/images/siemens-4am61-og.jpg",
+    "faq": [
+      { "question": "What fuse sizes are required?", "answer": "Primary fuse: 4A (time-delay). Secondary fuse: 8A (time-delay). Fuse holders included." },
+      { "question": "Can this be used for DC power supplies?", "answer": "No, this is an AC transformer. For DC, connect a rectifier module to the secondary." },
+      { "question": "What is the efficiency?", "answer": "Efficiency at full load is approximately 92% with copper windings." }
+    ],
+    "relatedProducts": ["elc-001", "elc-003", "elc-007"],
+    "availability": "in-stock",
+    "tags": ["transformer", "control-power", "siemens", "isolation"],
+    "createdAt": "2024-06-10T10:00:00Z",
+    "updatedAt": "2025-06-05T14:00:00Z"
+  },
+  {
+    "id": "elc-007",
+    "slug": "schneider-power-cable-nyy-4x16",
+    "sku": "ZEN-ELC-SCH-16001",
+    "mpn": "NYY-4x16-CU",
+    "name": "Schneider / Nexans NYY Power Cable 4x16mm² (100m)",
+    "brand": "Schneider Electric",
+    "manufacturer": "Nexans (Schneider Partner)",
+    "category": "Electrical",
+    "subcategory": "Cables",
+    "industry": ["Manufacturing", "Energy", "Construction", "Power Plants"],
+    "series": "NYY",
+    "model": "NYY 4x16mm²",
+    "description": "NYY heavy-duty PVC power cable with 4 copper conductors of 16mm² each for low-voltage power distribution in industrial and commercial installations. 100-meter drum for main feeders and sub-distribution.",
+    "shortDescription": "Power cable NYY-J 4x16mm² Cu, 0.6/1kV, PVC, 100m drum.",
+    "technicalDescription": "NYY-J power cable per VDE 0276-603 / IEC 60502-1. 4 copper conductors (4-core) of 16mm² each. PVC insulation and PVC outer sheath. 0.6/1kV rated voltage. Suitable for indoor, outdoor, and underground installations.",
+    "applications": ["Main Power Distribution", "Switchboard Feeders", "Motor Supply Cables", "Underground Power Lines"],
+    "features": [
+      "4 copper conductors, 16mm² each",
+      "0.6/1kV rated voltage",
+      "PVC insulation and PVC outer sheath",
+      "Suitable for indoor, outdoor, and direct burial",
+      "100m continuous length on drum"
+    ],
+    "benefits": [
+      "Universal cable for most industrial power applications",
+      "Flame retardant per IEC 60332-1",
+      "Durable PVC sheath resists mechanical damage"
+    ],
+    "technicalSpecifications": {
+      "Conductor": "Copper (Cu), Class 2 stranded",
+      "Cross Section": "4 x 16 mm²",
+      "Voltage Rating": "0.6/1 kV",
+      "Current Capacity": "81 A (in air, 30°C)",
+      "Outer Diameter": "22.5 mm",
+      "Insulation": "PVC (Type TI1)",
+      "Outer Sheath": "PVC (Type TM2)"
+    },
+    "dimensions": "100m drum, 22.5mm cable OD",
+    "weight": "45 kg (drum)",
+    "material": "Copper Conductor, PVC Insulation",
+    "countryOfOrigin": "France",
+    "certifications": ["VDE 0276-603", "IEC 60502-1", "CE", "CPR Class Eca"],
+    "compatibleModels": ["NYY 5x16mm²", "NYY 4x10mm²", "NYY 4x25mm²"],
+    "downloads": [
+      { "name": "NYY Power Cable Datasheet", "url": "https://example.com/nyy-cable.pdf", "type": "application/pdf", "size": "0.8 MB" }
+    ],
+    "datasheets": ["https://example.com/nyy-4x16.pdf"],
+    "images": [
+      { "src": "https://example.com/images/nyy-cable-1.jpg", "alt": "NYY 4x16mm² Power Cable", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Cable Selection Guide", "url": "https://example.com/cable-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "NYY Power Cable 4x16mm² | 100m Drum",
+    "seoDescription": "NYY-J PVC power cable 4x16mm² copper, 0.6/1kV, VDE certified. For industrial power distribution, switchboards, and motor supply on 100m drum.",
+    "seoKeywords": ["NYY cable", "4x16mm² cable", "power cable", "PVC cable", "copper power cable"],
+    "canonical": "https://example.com/schneider-power-cable-nyy-4x16",
+    "ogImage": "https://example.com/images/nyy-cable-og.jpg",
+    "faq": [
+      { "question": "What is the bending radius?", "answer": "Minimum bending radius is 15x cable diameter (340mm) for fixed installation." },
+      { "question": "Can this be used outdoors?", "answer": "Yes, the PVC sheath is UV-resistant and suitable for outdoor and direct burial installations." },
+      { "question": "What is the maximum operating temperature?", "answer": "Maximum conductor temperature is 70°C continuous, 90°C under fault conditions (short circuit)." }
+    ],
+    "relatedProducts": ["elc-001", "elc-004", "elc-006"],
+    "availability": "in-stock",
+    "tags": ["cable", "power-cable", "nyy", "copper"],
+    "createdAt": "2024-07-10T08:00:00Z",
+    "updatedAt": "2025-06-01T15:00:00Z"
+  },
+  {
+    "id": "elc-008",
+    "slug": "abb-motor-control-center-mns",
+    "sku": "ZEN-ELC-ABB-80001",
+    "mpn": "MNS-800-SS-16",
+    "name": "ABB MNS 800 Motor Control Center Section (16 Drawers)",
+    "brand": "ABB",
+    "manufacturer": "ABB Ltd.",
+    "category": "Electrical",
+    "subcategory": "Motor Control Centers",
+    "industry": ["Manufacturing", "Mining", "Oil & Gas", "Water Treatment"],
+    "series": "MNS 800",
+    "model": "MNS 800 SS-16",
+    "description": "The ABB MNS 800 is a modular motor control center section with 16 pull-out drawers for starting and protecting motors up to 200 kW. The arc-resistant design provides enhanced safety for operators and equipment.",
+    "shortDescription": "MCC section, 16-drawer, arc-resistant, 630A bus, for motors up to 200 kW.",
+    "technicalDescription": "Modular motor control center section with 16 pull-out drawers. 630A vertical bus, 50 kA rated short-time withstand. Arc-resistant per IEC TR 61641. Each drawer configurable with contactor, overload, and fusible disconnect.",
+    "applications": ["Centralized Motor Control", "Pump Station Control", "Conveyor System MCC", "Mine Distribution Centers"],
+    "features": [
+      "16 pull-out motor starter drawers",
+      "630A vertical bus rating",
+      "Arc-resistant construction per IEC 61641",
+      "Drawers interchangeable without tools",
+      "Integrated cabling compartment"
+    ],
+    "benefits": [
+      "Enhanced operator safety with arc-resistant design",
+      "Quick drawer replacement reduces downtime",
+      "Flexible module configuration for changing loads"
+    ],
+    "technicalSpecifications": {
+      "Number of Drawers": "16 (8 per column, 2 columns)",
+      "Bus Rating": "630A vertical, 2000A horizontal (optional)",
+      "Short-Time Withstand": "50 kA for 1 second",
+      "Drawer Ratings": "Up to 200 kW (400A)",
+      "Enclosure Rating": "IP42 (standard) / IP54 (optional)",
+      "Dimensions": "2,200mm H x 800mm W x 600mm D",
+      "Weight": "350 kg (section)"
+    },
+    "dimensions": "2,200mm x 800mm x 600mm",
+    "weight": "350 kg",
+    "material": "Steel Enclosure, Copper Bus Bars",
+    "countryOfOrigin": "Switzerland",
+    "certifications": ["IEC 60439-1", "IEC TR 61641", "IEC 60947", "CE"],
+    "compatibleModels": ["MNS 600", "MNS 1000", "MNS 2000"],
+    "downloads": [
+      { "name": "ABB MNS 800 Brochure", "url": "https://example.com/abb-mns800.pdf", "type": "application/pdf", "size": "4.5 MB" }
+    ],
+    "datasheets": ["https://example.com/abb-mns800-section.pdf"],
+    "images": [
+      { "src": "https://example.com/images/abb-mns800-1.jpg", "alt": "ABB MNS 800 Motor Control Center", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": ["https://example.com/videos/abb-mns800-arc.mp4"],
+    "documents": [
+      { "name": "MNS 800 System Manual", "url": "https://example.com/mns800-manual.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "ABB MNS 800 Motor Control Center | 16 Drawer Section",
+    "seoDescription": "ABB MNS 800 motor control center section with 16 pull-out drawers, 630A bus, arc-resistant. For centralized motor control in industrial plants.",
+    "seoKeywords": ["ABB MCC", "MNS 800", "motor control center", "drawer MCC", "arc resistant MCC"],
+    "canonical": "https://example.com/abb-motor-control-center-mns",
+    "ogImage": "https://example.com/images/abb-mns800-og.jpg",
+    "faq": [
+      { "question": "What size can be accommodated in the drawers?", "answer": "Drawers can accommodate starters from 0.25 kW up to 200 kW with appropriate components." },
+      { "question": "What communication protocols are supported?", "answer": "Profinet, EtherNet/IP, Modbus TCP, and Profibus DP are supported for remote monitoring." },
+      { "question": "What is the arc-resistant classification?", "answer": "Arc tested per IEC TR 61641 at 50 kA for 100 ms, accessible front and rear." }
+    ],
+    "relatedProducts": ["elc-001", "elc-004", "elc-005"],
+    "availability": "made-to-order",
+    "tags": ["featured", "motor-control-center", "mcc", "abb", "arc-resistant"],
+    "createdAt": "2024-08-20T09:00:00Z",
+    "updatedAt": "2025-06-12T11:00:00Z"
+  },
+  {
+    "id": "elc-009",
+    "slug": "siemens-switch-disconnector-3ld2",
+    "sku": "ZEN-ELC-SIE-25001",
+    "mpn": "3LD2500-0TL01",
+    "name": "Siemens 3LD2 Switch Disconnector 250A",
+    "brand": "Siemens",
+    "manufacturer": "Siemens AG",
+    "category": "Electrical",
+    "subcategory": "Switchgear",
+    "industry": ["Manufacturing", "Energy", "Chemical", "Commercial Buildings"],
+    "series": "3LD2",
+    "model": "3LD2500-0TL01",
+    "description": "The Siemens 3LD2 switch disconnector is a 250A load-break switch for safe isolation of electrical circuits. With visible contact gap and padlockable handle, it provides safe isolation for maintenance and emergency switching.",
+    "shortDescription": "Switch disconnector 250A, 3-pole, rotary handle, padlockable, IP65.",
+    "technicalDescription": "3-pole load-break switch disconnector with 250A rating, rotary handle, and padlockable OFF position. Visible contact gap for safe isolation. IP65 enclosure for outdoor and harsh environments.",
+    "applications": ["Main Disconnect Switches", "Machine Isolation Points", "Distribution Board Feeders", "Safety Lockout/Tagout"],
+    "features": [
+      "250A rated current, 3-pole switching",
+      "Visible contact gap for safe isolation",
+      "Rotary handle with padlockable OFF position",
+      "IP65 enclosure for outdoor use",
+      "Auxiliary contact options for status feedback"
+    ],
+    "benefits": [
+      "Safe isolation for maintenance personnel",
+      "Padlockable handle enables lockout/tagout procedures",
+      "Rugged design for industrial environments"
+    ],
+    "technicalSpecifications": {
+      "Rated Current": "250 A",
+      "Number of Poles": "3",
+      "Rated Voltage": "690V AC",
+      "Utilization Category": "AC-22B / AC-23B",
+      "Enclosure Rating": "IP65",
+      "Handle Type": "Red-Yellow Rotary",
+      "Weight": "4.5 kg"
+    },
+    "dimensions": "250mm x 200mm x 150mm",
+    "weight": "4.5 kg",
+    "material": "Thermoplastic Enclosure",
+    "countryOfOrigin": "Germany",
+    "certifications": ["IEC 60947-3", "CE", "UL 508", "CSA"],
+    "compatibleModels": ["3LD2100", "3LD2200", "3LD2320", "3LD2500"],
+    "downloads": [
+      { "name": "Siemens 3LD2 Switch Disconnector Catalog", "url": "https://example.com/siemens-3ld2.pdf", "type": "application/pdf", "size": "1.5 MB" }
+    ],
+    "datasheets": ["https://example.com/siemens-3ld2500.pdf"],
+    "images": [
+      { "src": "https://example.com/images/siemens-3ld2-1.jpg", "alt": "Siemens 3LD2 Switch Disconnector", "width": 800, "height": 800, "isPrimary": true }
+    ],
+    "videos": [],
+    "documents": [
+      { "name": "Siemens Switch Disconnector Guide", "url": "https://example.com/siemens-switch-guide.pdf", "type": "application/pdf" }
+    ],
+    "seoTitle": "Siemens 3LD2 Switch Disconnector 250A",
+    "seoDescription": "Siemens 3LD2500 switch disconnector, 250A, 3-pole, rotary handle, IP65, padlockable. For safe electrical isolation and lockout/tagout.",
+    "seoKeywords": ["Siemens switch disconnector", "3LD2", "250A switch", "load break switch", "safety isolator"],
+    "canonical": "https://example.com/siemens-switch-disconnector-3ld2",
+    "ogImage": "https://example.com/images/siemens-3ld2-og.jpg",
+    "faq": [
+      { "question": "What is the difference between a switch disconnector and a circuit breaker?", "answer": "A switch disconnector provides load switching and isolation but has no overcurrent protection. A circuit breaker provides both switching and protection." },
+      { "question": "Can this be used as a main switch?", "answer": "Yes, it is suitable for use as a main disconnect switch for machinery per IEC 60204-1." },
+      { "question": "What handle color combinations are available?", "answer": "Red handle with yellow marking (standard for disconnect) or gray handle (for non-safety applications)." }
+    ],
+    "relatedProducts": ["elc-001", "elc-004", "elc-006"],
+    "availability": "in-stock",
+    "tags": ["switch-disconnector", "siemens", "isolator", "safety"],
+    "createdAt": "2024-09-15T08:00:00Z",
+    "updatedAt": "2025-06-08T10:00:00Z"
+  }
+]
