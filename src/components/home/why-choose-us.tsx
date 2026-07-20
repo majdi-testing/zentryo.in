@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+
 import { Globe, ShieldCheck, BrainCircuit, Truck, Cpu, Headphones } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -13,27 +13,14 @@ const reasons = [
   { icon: Headphones, title: '24/7 Support', description: 'Round-the-clock technical support and customer service in multiple languages.' },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.1 } },
-};
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 export function WhyChooseUs() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.7 }}
-          >
+          <div className="animate-fade-in-up">
             <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
               Why ZENTRYO
             </h2>
@@ -66,19 +53,12 @@ export function WhyChooseUs() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: '-50px' }}
-            className="grid sm:grid-cols-2 gap-5"
-          >
+          <div className="grid sm:grid-cols-2 gap-5 animate-fade-in-up">
             {reasons.map((reason) => (
-              <motion.div
+              <div
                 key={reason.title}
-                variants={itemVariants}
                 className={cn(
                   'group p-6 rounded-xl border border-steel-100 bg-white',
                   'hover:border-cyan-200 hover:shadow-lg hover:shadow-cyan-500/5',
@@ -90,9 +70,9 @@ export function WhyChooseUs() {
                 </div>
                 <h4 className="text-base font-bold text-navy-800 mb-2">{reason.title}</h4>
                 <p className="text-sm text-steel-500 leading-relaxed">{reason.description}</p>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

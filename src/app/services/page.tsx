@@ -23,6 +23,15 @@ const serviceIcons: Record<string, React.ReactNode> = {
   'custom-fabrication': <Hammer className="h-8 w-8" />,
 };
 
+const serviceImages: Record<string, string> = {
+  'engineering-consulting': 'https://images.pexels.com/photos/3846251/pexels-photo-3846251.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'supply-chain': 'https://images.pexels.com/photos/36694994/pexels-photo-36694994.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'maintenance-repair': 'https://images.pexels.com/photos/35290678/pexels-photo-35290678.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'technical-training': 'https://images.pexels.com/photos/35216547/pexels-photo-35216547.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'quality-inspection': 'https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'custom-fabrication': 'https://images.pexels.com/photos/30117046/pexels-photo-30117046.jpeg?auto=compress&cs=tinysrgb&w=800',
+};
+
 export default async function ServicesPage() {
   const services = await getServices();
 
@@ -42,7 +51,7 @@ export default async function ServicesPage() {
 
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-        <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-1.5 text-sm text-steel-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
@@ -61,40 +70,37 @@ export default async function ServicesPage() {
       </section>
 
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card key={service.id} id={service.slug} className="group border-0 shadow-lg bg-white hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                    <div className="text-cyan-400">{serviceIcons[service.id] || <Wrench className="h-8 w-8" />}</div>
+              <Link key={service.id} href={`/services/${service.slug}`} className="block">
+                <Card id={service.slug} className="group border-0 shadow-lg bg-white hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in-up overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
+                  <div className="aspect-[16/7] relative overflow-hidden">
+                    <img src={serviceImages[service.id]} alt={service.name} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                   </div>
-                  <h2 className="text-xl font-bold text-navy-900 mb-3">{service.name}</h2>
-                  <p className="text-steel-600 mb-4">{service.description}</p>
-                  <div className="mb-4">
-                    <h3 className="text-sm font-semibold text-navy-800 uppercase tracking-wider mb-2">Key Features</h3>
-                    <ul className="space-y-1.5">
-                      {service.features.map((f) => (
-                        <li key={f} className="flex items-center gap-2 text-sm text-steel-600">
-                          <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 shrink-0" />
-                          {f}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-semibold text-navy-800 uppercase tracking-wider mb-2">Benefits</h3>
-                    <ul className="space-y-1.5">
-                      {service.benefits.map((b) => (
-                        <li key={b} className="flex items-center gap-2 text-sm text-steel-600">
-                          <ArrowRight className="h-3.5 w-3.5 text-cyan-500 shrink-0" />
-                          {b}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
+                  <CardContent className="p-8">
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center -mt-10 mb-4 border-2 border-white shadow-lg group-hover:scale-110 transition-transform">
+                      <div className="text-cyan-400">{serviceIcons[service.id] || <Wrench className="h-8 w-8" />}</div>
+                    </div>
+                    <h2 className="text-xl font-bold text-navy-900 mb-3 group-hover:text-cyan-600 transition-colors">{service.name}</h2>
+                    <p className="text-steel-600 mb-4">{service.shortDescription}</p>
+                    <div className="mb-4">
+                      <h3 className="text-sm font-semibold text-navy-800 uppercase tracking-wider mb-2">Key Features</h3>
+                      <ul className="space-y-1.5">
+                        {service.features.slice(0, 3).map((f) => (
+                          <li key={f} className="flex items-center gap-2 text-sm text-steel-600">
+                            <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 shrink-0" />
+                            {f}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="flex items-center gap-1 text-sm font-semibold text-cyan-600 group-hover:gap-2 transition-all mt-4">
+                      View Details <ArrowRight className="h-3.5 w-3.5" />
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
@@ -102,7 +108,7 @@ export default async function ServicesPage() {
 
       {/* CTA */}
       <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
             <div className="relative z-10 max-w-2xl mx-auto">

@@ -117,7 +117,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-sm text-steel-400 hover:text-cyan-400 transition-colors"
                 >
                   <Phone className="h-5 w-5 text-cyan-500 shrink-0" />
-                  <span>{siteInfo.phone}</span>
+                  <span>{siteInfo.phone} | {siteInfo.secondaryPhone}</span>
                 </a>
               </li>
               <li>
@@ -126,7 +126,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-sm text-steel-400 hover:text-cyan-400 transition-colors"
                 >
                   <Mail className="h-5 w-5 text-cyan-500 shrink-0" />
-                  <span>{siteInfo.email}</span>
+                  <span>{siteInfo.email} | {siteInfo.contactEmail}</span>
                 </a>
               </li>
             </ul>

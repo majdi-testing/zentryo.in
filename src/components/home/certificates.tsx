@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+
 import { ShieldCheck, Award, FileCheck, Globe, Sparkles, Flame } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
@@ -18,13 +18,7 @@ export function CertificatesSection() {
   return (
     <section className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
             Certifications
           </h2>
@@ -34,7 +28,7 @@ export function CertificatesSection() {
           <p className="mt-4 text-steel-600 max-w-2xl mx-auto">
             Our commitment to quality is validated by leading international certification bodies
           </p>
-        </motion.div>
+        </div>
       </div>
 
       <div className="relative">

@@ -20,8 +20,8 @@ export function ContactPageContent() {
 
   const contactInfo = [
     { icon: <MapPin className="h-5 w-5" />, title: 'Visit Us', content: siteConfig.contact.address },
-    { icon: <Phone className="h-5 w-5" />, title: 'Call Us', content: siteConfig.contact.phone, link: `tel:${siteConfig.contact.phone}` },
-    { icon: <Mail className="h-5 w-5" />, title: 'Email Us', content: siteConfig.contact.email, link: `mailto:${siteConfig.contact.email}` },
+    { icon: <Phone className="h-5 w-5" />, title: 'Call Us', content: `${siteConfig.contact.phone} | ${siteConfig.contact.secondaryPhone}`, link: `tel:${siteConfig.contact.phone}` },
+    { icon: <Mail className="h-5 w-5" />, title: 'Email Us', content: `${siteConfig.contact.email} | ${siteConfig.contact.contactEmail}`, link: `mailto:${siteConfig.contact.email}` },
     { icon: <Clock className="h-5 w-5" />, title: 'Business Hours', content: 'Mon - Fri: 8:00 AM - 6:00 PM CST' },
   ];
 
@@ -29,7 +29,7 @@ export function ContactPageContent() {
     <>
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-        <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-1.5 text-sm text-steel-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
@@ -48,7 +48,7 @@ export function ContactPageContent() {
       </section>
 
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-5 gap-12">
             <div className="lg:col-span-3 animate-fade-in-up">
               <h2 className="text-2xl font-bold text-navy-900 mb-6">Send Us a Message</h2>
@@ -149,14 +149,24 @@ export function ContactPageContent() {
                 </CardContent>
               </Card>
 
-              {/* Map Placeholder */}
-              <div className="rounded-xl gradient-blue overflow-hidden relative h-48">
-                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="h-8 w-8 text-cyan-400 mx-auto mb-2" />
-                    <p className="text-white/70 text-sm">Houston, TX - Global Headquarters</p>
-                    <p className="text-white/50 text-xs mt-1">Interactive map loading...</p>
+              <div className="rounded-xl overflow-hidden border border-steel-100">
+                <h3 className="font-semibold text-navy-900 px-5 pt-4 pb-2">Our Location</h3>
+                <div className="relative w-full h-[280px]">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3505.0491892946093!2d77.26905737549738!3d28.5382411757164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMyJzE3LjciTiA3N8KwMTYnMTcuOSJF!5e0!3m2!1sen!2sin!4v1784546484695!5m2!1sen!2sin"
+                    width="100%" height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    title="ZENTRYO Office Location"
+                    className="absolute inset-0"
+                  />
+                </div>
+                <div className="px-5 py-3 border-t border-steel-100 bg-steel-50">
+                  <div className="flex items-start gap-2">
+                    <MapPin className="h-4 w-4 text-cyan-600 mt-0.5 shrink-0" />
+                    <p className="text-sm text-steel-600">{siteConfig.contact.address}</p>
                   </div>
                 </div>
               </div>

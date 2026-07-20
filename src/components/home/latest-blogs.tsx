@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import { cn, formatDate } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -37,27 +37,13 @@ const blogPosts = [
   },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.12 } },
-};
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 export function LatestBlogs() {
   return (
     <section className="py-24 bg-steel-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4"
-        >
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4 animate-fade-in-up">
           <div>
             <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
               Insights
@@ -72,17 +58,11 @@ export function LatestBlogs() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-        </motion.div>
+        </div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: '-50px' }}
-          className="grid md:grid-cols-3 gap-8"
-        >
+        <div className="grid md:grid-cols-3 gap-8 animate-fade-in-up">
           {blogPosts.map((post) => (
-            <motion.div key={post.slug} variants={itemVariants}>
+            <div key={post.slug}>
               <Link
                 href={`/blog/${post.slug}`}
                 className={cn(
@@ -120,9 +100,9 @@ export function LatestBlogs() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

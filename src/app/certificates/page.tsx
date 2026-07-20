@@ -42,7 +42,7 @@ export default async function CertificatesPage() {
 
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-        <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-1.5 text-sm text-steel-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
@@ -61,7 +61,7 @@ export default async function CertificatesPage() {
       </section>
 
       <section className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certificates.map((cert, index) => (
               <Card key={cert.id} className="border border-steel-100 hover:border-cyan-300 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: `${index * 0.05}s` }}>
@@ -94,7 +94,7 @@ export default async function CertificatesPage() {
       </section>
 
       <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
             <div className="relative z-10 max-w-2xl mx-auto">

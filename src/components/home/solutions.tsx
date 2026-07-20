@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { Cpu, Zap, Gauge, Droplets } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -38,27 +38,13 @@ const solutions = [
   },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.12 } },
-};
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-};
 
 export function SolutionsSection() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
             Solutions
           </h2>
@@ -68,19 +54,12 @@ export function SolutionsSection() {
           <p className="mt-4 text-steel-600 max-w-2xl mx-auto">
             Integrated engineering solutions designed to optimize your industrial operations
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: '-50px' }}
-          className="grid md:grid-cols-2 gap-8"
-        >
+        <div className="grid md:grid-cols-2 gap-8 animate-fade-in-up">
           {solutions.map((sol) => (
-            <motion.div
+            <div
               key={sol.slug}
-              variants={itemVariants}
               className={cn(
                 'group relative p-8 rounded-xl border border-steel-100 bg-white',
                 'hover:border-cyan-200 hover:shadow-xl hover:shadow-cyan-500/5',
@@ -110,9 +89,9 @@ export function SolutionsSection() {
                   </Link>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -73,7 +73,7 @@ export default async function AboutPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a142b]/95 via-[#0f1f3d]/90 to-[#0a142b]/80" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
         </div>
-        <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-1.5 text-sm text-steel-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
@@ -110,7 +110,7 @@ export default async function AboutPage() {
 
       {/* Who We Are */}
       <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative animate-fade-in-up">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
@@ -170,7 +170,7 @@ export default async function AboutPage() {
 
       {/* Mission, Vision, Values */}
       <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in-up">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 text-cyan-700 border border-cyan-200 mb-4">
               Our Foundation
@@ -232,7 +232,7 @@ export default async function AboutPage() {
       {/* Statistics */}
       <section className="py-16 gradient-blue relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent" />
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center animate-fade-in-up">
@@ -246,7 +246,7 @@ export default async function AboutPage() {
 
       {/* Timeline */}
       <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in-up">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 text-cyan-700 border border-cyan-200 mb-4">
               Our Journey
@@ -278,7 +278,7 @@ export default async function AboutPage() {
 
       {/* Team */}
       <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in-up">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 text-cyan-700 border border-cyan-200 mb-4">
               Leadership Team
@@ -321,7 +321,7 @@ export default async function AboutPage() {
 
       {/* CTA */}
       <section className="py-20 md:py-28">
-        <div className="container mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16">
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
             <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />

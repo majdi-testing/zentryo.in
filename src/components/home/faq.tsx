@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { ArrowRight, HelpCircle } from 'lucide-react';
 import {
   Accordion,
@@ -48,27 +48,16 @@ export function FAQSection() {
   return (
     <section className="py-24 bg-steel-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
             FAQ
           </h2>
           <h3 className="text-4xl sm:text-5xl font-bold text-navy-900">
             Frequently Asked Questions
           </h3>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
+        <div>
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq) => (
               <AccordionItem key={faq.id} value={faq.id} className="bg-white border border-steel-100 rounded-lg mb-3 px-6 data-[state=open]:border-cyan-200 transition-colors">
@@ -81,15 +70,9 @@ export function FAQSection() {
               </AccordionItem>
             ))}
           </Accordion>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-center mt-12"
-        >
+        <div className="text-center mt-12 animate-fade-in-up">
           <div className="inline-flex items-center gap-2 p-4 rounded-xl bg-white border border-steel-100">
             <HelpCircle className="h-5 w-5 text-cyan-500" />
             <span className="text-sm text-steel-600">Have more questions?</span>
@@ -100,7 +83,7 @@ export function FAQSection() {
               </Link>
             </Button>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

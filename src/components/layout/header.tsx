@@ -4,10 +4,12 @@ import { useState, useRef, useEffect, memo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  Menu, Phone, Mail, ChevronDown, Search, Clock,
+  Menu, Phone, Mail, ChevronDown, Search, Clock, Sun, Moon,
+  Cog, Gauge, Cpu, Fan, Droplets, Zap, Fuel, Factory, Ship, Beaker, Pickaxe,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useScroll } from '@/hooks/use-scroll';
+import { useTheme } from '@/components/layout/theme-provider';
 import { mainNavItems, siteInfo } from '@/constants/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet';
@@ -17,12 +19,23 @@ import { SearchCommand } from '@/components/layout/search-command';
 const NAV_ITEMS = mainNavItems;
 const SITE_INFO = siteInfo;
 
+const categoryHighlight: Record<string, { icon: React.ReactNode; bg: string; desc: string }> = {
+  'Industrial Bearings': { icon: <Cog className="h-5 w-5" />, bg: 'from-blue-50 to-blue-100 text-blue-600', desc: 'Precision bearings for every application' },
+  'Industrial Valves': { icon: <Gauge className="h-5 w-5" />, bg: 'from-emerald-50 to-emerald-100 text-emerald-600', desc: 'Flow control solutions' },
+  'Automation': { icon: <Cpu className="h-5 w-5" />, bg: 'from-violet-50 to-violet-100 text-violet-600', desc: 'PLC, sensors & control systems' },
+  'Gas Turbine Parts': { icon: <Fan className="h-5 w-5" />, bg: 'from-orange-50 to-orange-100 text-orange-600', desc: 'Turbine blades & combustion parts' },
+  'Hydraulics & Pneumatics': { icon: <Droplets className="h-5 w-5" />, bg: 'from-cyan-50 to-cyan-100 text-cyan-600', desc: 'Cylinders, pumps & manifolds' },
+  'Electrical Components': { icon: <Zap className="h-5 w-5" />, bg: 'from-amber-50 to-amber-100 text-amber-600', desc: 'Switchgear, transformers & cables' },
+  'By Sector': { icon: <Factory className="h-5 w-5" />, bg: 'from-navy-50 to-navy-100 text-navy-600', desc: 'Industries we serve worldwide' },
+};
+
 const DropdownContent = memo(function DropdownContent({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 });
 
 export function Header() {
   const { isScrolled } = useScroll(50);
+  const { theme, toggleTheme } = useTheme();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -68,10 +81,10 @@ export function Header() {
               <span className="font-medium text-cyan-400 tracking-wider uppercase">{SITE_INFO.tagline}</span>
               <div className="flex items-center gap-6">
                 <a href={`tel:${SITE_INFO.phone}`} className="flex items-center gap-1.5 text-steel-200 hover:text-cyan-400 transition-colors">
-                  <Phone className="h-3 w-3" /> <span>{SITE_INFO.phone}</span>
+                  <Phone className="h-3 w-3" /> <span>{SITE_INFO.phone} | {SITE_INFO.secondaryPhone}</span>
                 </a>
                 <a href={`mailto:${SITE_INFO.email}`} className="flex items-center gap-1.5 text-steel-200 hover:text-cyan-400 transition-colors">
-                  <Mail className="h-3 w-3" /> <span>{SITE_INFO.email}</span>
+                  <Mail className="h-3 w-3" /> <span>{SITE_INFO.email} | {SITE_INFO.contactEmail}</span>
                 </a>
                 <span className="flex items-center gap-1.5 text-steel-200">
                   <Clock className="h-3 w-3" /> <span>Mon-Fri: 8:00 AM - 6:00 PM</span>
@@ -116,26 +129,48 @@ export function Header() {
 
                   {item.children && activeDropdown === item.name && (
                     <div
-                      className="absolute top-full left-0 mt-1 w-[640px] bg-white rounded-xl shadow-xl border border-steel-100 p-5 grid grid-cols-3 gap-4"
+                      className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[780px] bg-white rounded-2xl shadow-2xl border border-steel-100 overflow-hidden"
                       onMouseEnter={() => handleDropdownEnter(item.name)}
                       onMouseLeave={handleDropdownLeave}
                     >
-                      {item.children.map((category) => (
-                        <div key={category.name}>
-                          <Link href={category.slug} className="block text-xs font-semibold uppercase tracking-wider text-cyan-600 mb-2 hover:text-cyan-700 transition-colors">
-                            {category.name}
-                          </Link>
-                          <ul className="space-y-1">
-                            {category.items?.map((subItem) => (
-                              <li key={subItem.name}>
-                                <Link href={subItem.slug} className="block text-sm text-steel-600 hover:text-navy-900 hover:bg-navy-50 rounded-md px-2 py-1.5 transition-colors">
-                                  {subItem.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
+                      <div className="p-6">
+                        <div className="grid grid-cols-3 gap-4">
+                          {item.children.flatMap(cat =>
+                            cat.items ? cat.items.map(sub => ({ ...sub, parentName: cat.name, parentSlug: cat.slug })) : [{ name: cat.name, slug: cat.slug, parentName: cat.name, parentSlug: cat.slug }]
+                          ).slice(0, 9).map((link) => {
+                            const hl = categoryHighlight[link.parentName] || categoryHighlight['Industrial Bearings'];
+                            return (
+                              <Link key={link.slug} href={link.slug}
+                                className="group flex items-center gap-3 p-3 rounded-xl hover:bg-steel-50 transition-all"
+                              >
+                                <div className={cn('w-10 h-10 rounded-xl bg-gradient-to-br flex items-center justify-center shrink-0 transition-transform group-hover:scale-110', hl.bg)}>
+                                  {hl.icon}
+                                </div>
+                                <div className="min-w-0">
+                                  <div className="text-sm font-semibold text-navy-900 group-hover:text-cyan-600 transition-colors">{link.name}</div>
+                                  <div className="text-xs text-steel-400 truncate">{link.parentName}</div>
+                                </div>
+                              </Link>
+                            );
+                          })}
                         </div>
-                      ))}
+                      </div>
+                      <div className="px-6 pb-5">
+                        <div className="border-t border-steel-100 pt-4 flex items-center justify-between">
+                          <Link href={item.slug}
+                            className="text-sm font-semibold text-cyan-600 hover:text-cyan-700 transition-colors"
+                            onClick={() => setActiveDropdown(null)}
+                          >
+                            {item.name === 'Products' ? 'View All Categories →' : 'View All Industries →'}
+                          </Link>
+                          <Link href="/rfq"
+                            className="text-sm text-steel-500 hover:text-navy-900 transition-colors"
+                            onClick={() => setActiveDropdown(null)}
+                          >
+                            Need help? Submit an RFQ →
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -150,6 +185,15 @@ export function Header() {
                 aria-label="Search products"
               >
                 <Search className="h-5 w-5" />
+              </button>
+
+              <button onClick={toggleTheme}
+                className={cn('p-2 rounded-lg transition-colors',
+                  isScrolled ? 'text-steel-600 hover:text-navy-900 hover:bg-navy-50' : 'text-white/80 hover:text-white hover:bg-white/10'
+                )}
+                aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+              >
+                {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
               </button>
 
               <Link href="/rfq" className={cn('hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300',

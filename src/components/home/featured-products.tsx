@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { ArrowRight, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -41,13 +41,7 @@ export function FeaturedProducts() {
   return (
     <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4"
-        >
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4 animate-fade-in-up">
           <div>
             <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
               Products
@@ -62,7 +56,7 @@ export function FeaturedProducts() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
-        </motion.div>
+        </div>
 
         {loading ? (
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -81,21 +75,9 @@ export function FeaturedProducts() {
             <p className="text-steel-500">No featured products available at the moment.</p>
           </div>
         ) : (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-50px' }}
-            transition={{ duration: 0.6, staggerChildren: 0.1 }}
-            className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"
-          >
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in-up">
             {products.slice(0, 4).map((product, i) => (
-              <motion.div
-                key={product.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-              >
+              <div key={product.id}>
                 <Link
                   href={`/products/${product.slug}`}
                   className={cn(
@@ -133,9 +115,9 @@ export function FeaturedProducts() {
                     </span>
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         )}
       </div>
     </section>

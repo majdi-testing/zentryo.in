@@ -3,6 +3,8 @@ import { Inter, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
+import { ThemeProvider } from '@/components/layout/theme-provider';
+import { QuickContact } from '@/components/layout/quick-contact';
 import { siteConfig } from '@/config/site';
 
 const inter = Inter({
@@ -39,6 +41,11 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
+  icons: {
+    icon: { url: '/images/favicon-icon.png', type: 'image/png', sizes: '32x32' },
+    shortcut: '/images/favicon-icon.png',
+    apple: '/images/favicon-icon.png',
+  },
   robots: {
     index: true,
     follow: true,
@@ -49,10 +56,13 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col bg-white text-navy-900 font-sans antialiased">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+      <body className="min-h-screen flex flex-col font-sans antialiased transition-colors duration-300">
+        <ThemeProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <QuickContact />
+        </ThemeProvider>
       </body>
     </html>
   );

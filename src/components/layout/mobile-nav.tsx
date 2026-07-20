@@ -130,7 +130,7 @@ export function MobileNav({ onClose }: MobileNavProps) {
             className="flex items-center gap-2.5 text-sm text-steel-600 hover:text-navy-900 transition-colors"
           >
             <Phone className="h-4 w-4 text-cyan-500 shrink-0" />
-            <span>{siteInfo.phone}</span>
+            <span>{siteInfo.phone} | {siteInfo.secondaryPhone}</span>
           </a>
           <a
             href={`mailto:${siteInfo.email}`}

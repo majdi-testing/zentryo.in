@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { ArrowRight, Phone, FileText } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -26,12 +26,7 @@ export function ContactCTA() {
       </svg>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.7 }}
-        >
+        <div className="animate-fade-in-up">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
             Ready to Discuss Your
             <br />
@@ -68,7 +63,7 @@ export function ContactCTA() {
               </Link>
             </Button>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

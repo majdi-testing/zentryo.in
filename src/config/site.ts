@@ -26,9 +26,11 @@ export const siteConfig = {
     'Engineering Services',
   ],
   contact: {
-    email: 'info@zentryo.com',
-    phone: '+1 (800) 555-ZENT',
-    address: '1200 Industrial Parkway, Suite 400, Houston, TX 77001, United States',
+    email: 'support@zentryo.in',
+    contactEmail: 'contact@zentryo.in',
+    phone: '+91 870-0198095',
+    secondaryPhone: '+91 971-8304073',
+    address: '26/4, Okhla Phase 2, Ram Dulari Tundelkar Ji Road, Near Royal Enfield Showroom, Okhla Industrial Area, New Delhi, Delhi 110020, India',
     coordinates: {
       lat: 29.7604,
       lng: -95.3698,

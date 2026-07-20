@@ -18,7 +18,7 @@ export default function PrivacyPage() {
     <>
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-        <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <nav aria-label="Breadcrumb" className="mb-6">
             <ol className="flex items-center gap-1.5 text-sm text-steel-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
       </section>
 
       <section className="py-20">
-        <div className="container mx-auto px-4 max-w-3xl">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
           <div className="prose prose-lg max-w-none text-steel-700 space-y-6 animate-fade-in-up">
             <h2 className="text-2xl font-bold text-navy-900">1. Introduction</h2>
             <p>

@@ -14,7 +14,7 @@ import { GlobalPresence } from '@/components/home/global-presence';
 import { LatestBlogs } from '@/components/home/latest-blogs';
 import { TestimonialsSection } from '@/components/home/testimonials';
 import { FAQSection } from '@/components/home/faq';
-import { ContactCTA } from '@/components/home/contact-cta';
+import { HomeContactForm } from '@/components/home/contact-form';
 
 export default function HomePage() {
   return (
@@ -33,7 +33,7 @@ export default function HomePage() {
       <LatestBlogs />
       <TestimonialsSection />
       <FAQSection />
-      <ContactCTA />
+      <HomeContactForm />
     </>
   );
 }

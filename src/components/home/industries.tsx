@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { Zap, Fuel, Ship, Bolt, Factory, Beaker, Pickaxe, Plane } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -18,27 +18,13 @@ const industries = [
   { slug: 'aerospace', name: 'Aerospace', description: 'High-precision certified components for aerospace applications.', icon: Plane, image: 'https://images.pexels.com/photos/30210231/pexels-photo-30210231.jpeg?auto=compress&cs=tinysrgb&w=800' },
 ];
 
-const containerVariants = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.08 } },
-};
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
 
 export function IndustriesSection() {
   return (
     <section className="py-24 bg-steel-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
             Industries
           </h2>
@@ -48,17 +34,11 @@ export function IndustriesSection() {
           <p className="mt-4 text-steel-600 max-w-2xl mx-auto">
             Comprehensive industrial solutions tailored to the unique demands of each sector
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: '-50px' }}
-          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"
-        >
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in-up">
           {industries.map((industry) => (
-            <motion.div key={industry.slug} variants={itemVariants}>
+            <div key={industry.slug}>
               <Link
                 href={`/industries/${industry.slug}`}
                 className={cn(
@@ -86,9 +66,9 @@ export function IndustriesSection() {
                   </span>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -127,7 +127,9 @@ export const siteInfo = {
   tagline: siteConfig.tagline,
   description: siteConfig.description,
   email: siteConfig.contact.email,
+  contactEmail: siteConfig.contact.contactEmail,
   phone: siteConfig.contact.phone,
+  secondaryPhone: siteConfig.contact.secondaryPhone,
   address: siteConfig.contact.address,
   social: siteConfig.social,
 };

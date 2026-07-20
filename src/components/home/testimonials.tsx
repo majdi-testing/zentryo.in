@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import { Quote, Star, ArrowLeft, ArrowRight } from 'lucide-react';
@@ -57,13 +57,7 @@ export function TestimonialsSection() {
   return (
     <section className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-50px' }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4"
-        >
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-16 gap-4 animate-fade-in-up">
           <div>
             <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-500 mb-4">
               Testimonials
@@ -88,7 +82,7 @@ export function TestimonialsSection() {
               <ArrowRight className="h-4 w-4 text-steel-600" />
             </button>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       <div className="overflow-hidden" ref={emblaRef}>

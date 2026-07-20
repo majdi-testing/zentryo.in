@@ -1,7 +1,6 @@
 'use client';
 
 import { useRef, useState, useEffect } from 'react';
-import { motion, useInView } from 'framer-motion';
 import { Package, Users, Globe, Target } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -12,9 +11,24 @@ const stats = [
   { value: '99.7%', label: 'Delivery Accuracy', suffix: '%', icon: Target },
 ];
 
+function useInViewOnce(ref: React.RefObject<Element | null>) {
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setInView(true); observer.disconnect(); } },
+      { rootMargin: '-50px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [ref]);
+  return inView;
+}
+
 function CountUp({ target, suffix = '+', duration = 2000 }: { target: string; suffix?: string; duration?: number }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-50px' });
+  const isInView = useInViewOnce(ref);
   const [displayed, setDisplayed] = useState('0');
 
   useEffect(() => {
@@ -49,19 +63,17 @@ function CountUp({ target, suffix = '+', duration = 2000 }: { target: string; su
 
 export function Statistics() {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const isInView = useInView(sectionRef, { once: true, margin: '-50px' });
+  const isInView = useInViewOnce(sectionRef);
 
   return (
     <section ref={sectionRef} className="py-20 bg-navy-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, i) => (
-            <motion.div
+            <div
               key={stat.label}
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: i * 0.15 }}
-              className="text-center"
+              className={`text-center ${isInView ? 'animate-fade-in-up' : 'opacity-0'}`}
+              style={{ animationDelay: `${i * 0.15}s` }}
             >
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-cyan-500/10 border border-cyan-500/20 mb-5">
                 <stat.icon className="h-6 w-6 text-cyan-400" />
@@ -70,7 +82,7 @@ export function Statistics() {
                 <CountUp target={stat.value} suffix={stat.suffix} />
               </div>
               <div className="text-sm text-steel-400 font-medium">{stat.label}</div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

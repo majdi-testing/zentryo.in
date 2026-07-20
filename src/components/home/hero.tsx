@@ -1,9 +1,7 @@
 'use client';
 
-import { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, CheckCircle, Shield, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -15,26 +13,10 @@ const statsCards = [
 ];
 
 export function HomeHero() {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ['start start', 'end start'],
-  });
-  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.3]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.95]);
-  const y = useTransform(scrollYProgress, [0, 1], [0, 150]);
-  const imageY = useTransform(scrollYProgress, [0, 1], [0, -80]);
-
   return (
-    <section
-      ref={ref}
-      className="relative min-h-screen flex items-center overflow-hidden"
-    >
+    <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <motion.div
-          className="absolute inset-0 w-full h-[120%] -top-[10%]"
-          style={{ y: imageY }}
-        >
+        <div className="absolute inset-0 w-full h-[120%] -top-[10%]">
           <Image
             src="https://images.pexels.com/photos/19233057/pexels-photo-19233057.jpeg?auto=compress&cs=tinysrgb&w=1920"
             fill
@@ -44,11 +26,11 @@ export function HomeHero() {
             alt="Advanced manufacturing and automation facility"
             sizes="100vw"
           />
-        </motion.div>
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy-900/85 via-navy-900/65 to-navy-900/90" />
       </div>
 
-      <motion.div
+      <div
         className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -60,10 +42,7 @@ export function HomeHero() {
       <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-cyan-400 rounded-full animate-ping" />
       <div className="absolute top-1/4 left-1/3 w-1 h-1 bg-cyan-300 rounded-full animate-ping" style={{ animationDelay: '1s' }} />
 
-      <motion.div
-        className="absolute inset-0"
-        style={{ opacity, scale }}
-      >
+      <div className="absolute inset-0">
         <svg className="absolute top-40 right-20 w-64 h-64 text-white/[0.02]" viewBox="0 0 200 200" fill="none">
           <circle cx="100" cy="100" r="80" stroke="currentColor" strokeWidth="0.5" />
           <circle cx="100" cy="100" r="50" stroke="currentColor" strokeWidth="0.5" />
@@ -73,53 +52,31 @@ export function HomeHero() {
           <rect x="10" y="10" width="80" height="80" stroke="currentColor" strokeWidth="0.5" />
           <rect x="20" y="20" width="60" height="60" stroke="currentColor" strokeWidth="0.5" />
         </svg>
-      </motion.div>
+      </div>
 
-      <motion.div
-        className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32"
-        style={{ y }}
-      >
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-          >
+          <div className="animate-fade-in-up">
             <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 mb-8">
               Global Industrial Excellence
             </span>
-          </motion.div>
+          </div>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight"
-          >
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight animate-fade-in-up">
             <span className="text-white">Engineering</span>{' '}
             <span className="gradient-text text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-cyan-300 to-cyan-400">
               Industrial
             </span>{' '}
             <span className="text-white">Excellence</span>
-          </motion.h1>
+          </h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
-            className="mt-6 text-lg sm:text-xl text-steel-300 max-w-2xl leading-relaxed"
-          >
+          <p className="mt-6 text-lg sm:text-xl text-steel-300 max-w-2xl leading-relaxed animate-fade-in-up">
             ZENTRYO delivers premium industrial engineering components, automation systems,
             and technical solutions to power plants, oil & gas, marine, and manufacturing
             industries across 80+ countries worldwide.
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
-            className="mt-10 flex flex-wrap gap-4"
-          >
+          <div className="mt-10 flex flex-wrap gap-4 animate-fade-in-up">
             <Button
               asChild
               size="lg"
@@ -140,22 +97,14 @@ export function HomeHero() {
                 Request Quote
               </Link>
             </Button>
-          </motion.div>
+          </div>
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, delay: 1, ease: 'easeOut' }}
-        className="absolute bottom-12 right-8 lg:right-16 flex flex-col gap-3"
-      >
-        {statsCards.map((stat, i) => (
-          <motion.div
+      <div className="absolute bottom-12 right-8 lg:right-16 flex flex-col gap-3 animate-fade-in-up">
+        {statsCards.map((stat) => (
+          <div
             key={stat.label}
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 1.2 + i * 0.15 }}
             className={cn(
               'flex items-center gap-3 px-4 py-3 rounded-lg bg-white/10',
               'hover:bg-white/20 transition-colors cursor-default'
@@ -164,9 +113,9 @@ export function HomeHero() {
             <stat.icon className="h-4 w-4 text-cyan-400 shrink-0" />
             <span className="text-sm font-semibold text-white">{stat.value}</span>
             <span className="text-xs text-steel-400">{stat.label}</span>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
     </section>
   );
 }

@@ -161,6 +161,11 @@ export async function getIndustryBySlug(slug: string): Promise<Industry | null> 
   return industries.find(i => i.slug === slug) || null;
 }
 
+export async function getServiceBySlug(slug: string): Promise<Service | null> {
+  const services = await getServices();
+  return services.find(s => s.slug === slug) || null;
+}
+
 export async function getServices(): Promise<Service[]> {
   return [
     { id: 'engineering-consulting', slug: 'engineering-consulting', name: 'Engineering Consulting', shortDescription: 'Expert engineering consultation for complex industrial challenges.', description: 'End-to-end engineering consulting services covering design, analysis, and optimization of industrial systems.', icon: 'BrainCircuit', image: '', features: ['Technical Assessment', 'Feasibility Studies', 'System Design', 'Performance Optimization'], benefits: ['Reduced downtime', 'Improved efficiency', 'Cost savings'] },

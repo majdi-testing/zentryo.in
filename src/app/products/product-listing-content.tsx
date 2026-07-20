@@ -20,7 +20,7 @@ interface ProductListingContentProps {
 export function ProductListingContent({ initialProducts, categories, brands }: ProductListingContentProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('list');
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const currentPage = parseInt(searchParams.get('page') ?? '1', 10);

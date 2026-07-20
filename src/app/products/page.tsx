@@ -87,7 +87,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <section className="bg-gradient-to-b from-muted/50 to-background border-b">
-        <div className="container mx-auto px-4 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <nav aria-label="Breadcrumb" className="mb-4">
             <ol className="flex items-center gap-1.5 text-sm text-muted-foreground">
               <li>
@@ -106,7 +106,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
         </div>
       </section>
 
-      <section className="container mx-auto px-4 py-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Suspense fallback={<ProductsLoadingSkeleton />}>
           <ProductListingContent
             initialProducts={productsResult}

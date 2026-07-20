@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+
 import { Circle } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -30,13 +30,7 @@ export function ProductCard({ product, viewMode = 'grid' }: ProductCardProps) {
   const imageIndex = product.name.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) % productImages.length;
 
   return (
-    <motion.div
-      layout
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.3 }}
-    >
+    <div>
       <Link href={`/products/${product.slug}`} className="block group">
         <Card
           className={cn(
@@ -93,6 +87,6 @@ export function ProductCard({ product, viewMode = 'grid' }: ProductCardProps) {
           </CardContent>
         </Card>
       </Link>
-    </motion.div>
+    </div>
   );
 }
