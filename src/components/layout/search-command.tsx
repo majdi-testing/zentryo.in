@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
-import { Search, Loader2, ArrowRight } from 'lucide-react';
+import { Search, Loader2, ArrowRight, Globe } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import {
   Dialog,
@@ -18,6 +19,8 @@ interface SearchResult {
   category: string;
   brand: string;
   sku: string;
+  isExternal?: boolean;
+  rfqSlug?: string;
 }
 
 interface SearchCommandProps {
@@ -25,46 +28,85 @@ interface SearchCommandProps {
   onOpenChange: (open: boolean) => void;
 }
 
-const MOCK_PRODUCTS: SearchResult[] = [
-  { id: '1', name: 'Industrial Ball Bearing 6205-2RS', slug: '/products/bearings/ball-bearings/industrial-ball-bearing-6205-2rs', category: 'Bearings', brand: 'SKF', sku: 'ZEN-BRG-SKF-00001' },
-  { id: '2', name: 'Gate Valve Class 150 DN50', slug: '/products/valves/gate-valves/gate-valve-class-150-dn50', category: 'Valves', brand: 'Emerson', sku: 'ZEN-VLV-EMR-00001' },
-  { id: '3', name: 'PLC Controller S7-1200', slug: '/products/automation/plc-controllers/plc-controller-s7-1200', category: 'Automation', brand: 'Siemens', sku: 'ZEN-AUT-SIE-00001' },
-  { id: '4', name: 'Pressure Transmitter 3051S', slug: '/products/automation/sensors/pressure-transmitter-3051s', category: 'Sensors', brand: 'Rosemount', sku: 'ZEN-SEN-ROS-00001' },
-  { id: '5', name: 'Hydraulic Cylinder HCD-100x500', slug: '/products/hydraulics-pneumatics/cylinders/hydraulic-cylinder-hcd-100x500', category: 'Hydraulics', brand: 'Parker', sku: 'ZEN-HYD-PRK-00001' },
-  { id: '6', name: 'Gas Turbine Blade GE 7FA', slug: '/products/gas-turbine-parts/blades/gas-turbine-blade-ge-7fa', category: 'Gas Turbine Parts', brand: 'GE', sku: 'ZEN-GTB-GE-00001' },
-  { id: '7', name: 'Spherical Roller Bearing 22320', slug: '/products/bearings/roller-bearings/spherical-roller-bearing-22320', category: 'Bearings', brand: 'FAG', sku: 'ZEN-BRG-FAG-00001' },
-  { id: '8', name: 'Butterfly Valve DN200 PN16', slug: '/products/valves/butterfly-valves/butterfly-valve-dn200-pn16', category: 'Valves', brand: 'Bray', sku: 'ZEN-VLV-BRY-00001' },
-];
+const SEARCH_CACHE = new Map<string, SearchResult[]>();
+let searchCachePromise: Promise<SearchResult[]> | null = null;
+
+async function loadAllSearchProducts(): Promise<SearchResult[]> {
+  if (searchCachePromise) return searchCachePromise;
+  searchCachePromise = fetch('/api/products/featured')
+    .then(r => r.json())
+    .then((data: { id: string; slug: string; name: string; brand: string; category: string; sku: string }[]) =>
+      data.map(p => ({
+        id: p.id,
+        name: p.name,
+        slug: `/products/${p.slug}`,
+        category: p.category,
+        brand: p.brand,
+        sku: p.sku,
+      }))
+    )
+    .catch(() => [])
+    .finally(() => { searchCachePromise = null; });
+  return searchCachePromise;
+}
 
 export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
+  const [externalResults, setExternalResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [isExternalSearching, setIsExternalSearching] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const performSearch = useCallback((searchQuery: string) => {
+  const totalResults = results.length + externalResults.length;
+
+  const performSearch = useCallback(async (searchQuery: string) => {
     if (!searchQuery.trim()) {
       setResults([]);
+      setExternalResults([]);
       setIsSearching(false);
+      setIsExternalSearching(false);
       return;
     }
 
     setIsSearching(true);
+    setIsExternalSearching(true);
     const lower = searchQuery.toLowerCase();
-    const filtered = MOCK_PRODUCTS.filter(
+    const allProducts = await loadAllSearchProducts();
+    const filtered = allProducts.filter(
       (p) =>
         p.name.toLowerCase().includes(lower) ||
         p.brand.toLowerCase().includes(lower) ||
         p.sku.toLowerCase().includes(lower) ||
         p.category.toLowerCase().includes(lower)
     );
-    setTimeout(() => {
-      setResults(filtered);
-      setSelectedIndex(0);
-      setIsSearching(false);
-    }, 150);
+    setResults(filtered);
+    setIsSearching(false);
+
+    try {
+      const res = await fetch(`/api/external-search?q=${encodeURIComponent(searchQuery)}&page=1`);
+      const data = await res.json();
+      if (data.data?.length) {
+        const ext: SearchResult[] = data.data.map((p: { id: string; name: string; brand: string; category: string; sku: string; shortDescription: string }) => ({
+          id: `ext-${p.id}`,
+          name: p.name,
+          slug: `/rfq?productName=${encodeURIComponent(p.name)}&productSKU=${p.sku}`,
+          category: p.category,
+          brand: p.brand,
+          sku: p.sku,
+          isExternal: true,
+          rfqSlug: `/rfq?productName=${encodeURIComponent(p.name)}&productSKU=${p.sku}`,
+        }));
+        setExternalResults(ext);
+      }
+    } catch {
+      setExternalResults([]);
+    } finally {
+      setIsExternalSearching(false);
+    }
+    setSelectedIndex(0);
   }, []);
 
   const handleChange = (value: string) => {
@@ -75,9 +117,16 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
 
   useEffect(() => {
     if (open) {
-      setTimeout(() => inputRef.current?.focus(), 100);
-      setQuery('');
-      setResults([]);
+      const focusTimer = setTimeout(() => inputRef.current?.focus(), 100);
+      const resetTimer = setTimeout(() => {
+        setQuery('');
+        setResults([]);
+        setExternalResults([]);
+      }, 0);
+      return () => {
+        clearTimeout(focusTimer);
+        clearTimeout(resetTimer);
+      };
     }
   }, [open]);
 
@@ -90,12 +139,15 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowDown') {
       e.preventDefault();
-      setSelectedIndex((prev) => Math.min(prev + 1, results.length - 1));
+      setSelectedIndex((prev) => Math.min(prev + 1, totalResults - 1));
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
       setSelectedIndex((prev) => Math.max(prev - 1, 0));
-    } else if (e.key === 'Enter' && results[selectedIndex]) {
-      onOpenChange(false);
+    } else if (e.key === 'Enter') {
+      const allResults = [...results, ...externalResults];
+      if (allResults[selectedIndex]) {
+        onOpenChange(false);
+      }
     }
   };
 
@@ -117,55 +169,114 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
             className="flex-1 py-4 text-base text-navy-900 placeholder-steel-400 bg-transparent border-0 outline-none focus:outline-none"
             aria-label="Search products"
             role="combobox"
-            aria-expanded={results.length > 0}
+            aria-expanded={totalResults > 0}
             aria-controls="search-results"
           />
-          {isSearching && (
+          {(isSearching || isExternalSearching) && (
             <Loader2 className="h-4 w-4 animate-spin text-cyan-500" />
           )}
         </div>
 
-        {query && !isSearching && (
+        {query && (
           <div
             id="search-results"
             role="listbox"
             className={cn(
-              'max-h-80 overflow-y-auto',
-              results.length === 0 && 'p-8 text-center'
+              'max-h-96 overflow-y-auto',
+              totalResults === 0 && !isExternalSearching && 'p-8 text-center'
             )}
           >
-            {results.length === 0 ? (
+            {results.length > 0 && (
+              <>
+                <div className="px-4 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider text-steel-400">
+                  Zentryo Catalog
+                </div>
+                <ul>
+                  {results.map((result, index) => (
+                    <li key={result.id} role="option" aria-selected={index === selectedIndex}>
+                      <Link
+                        href={result.slug}
+                        onClick={() => onOpenChange(false)}
+                        className={cn(
+                          'flex items-center justify-between px-4 py-2.5 transition-colors',
+                          index === selectedIndex
+                            ? 'bg-navy-50'
+                            : 'hover:bg-navy-50'
+                        )}
+                      >
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-medium text-navy-900 truncate">
+                            {result.name}
+                          </p>
+                          <p className="text-xs text-steel-500 mt-0.5">
+                            {result.brand} &middot; {result.category} &middot;{' '}
+                            <span className="font-mono">{result.sku}</span>
+                          </p>
+                        </div>
+                        <ArrowRight className="h-4 w-4 text-steel-400 shrink-0 ml-3" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            {isExternalSearching && results.length > 0 && (
+              <div className="px-4 py-2 flex items-center gap-2 text-xs text-cyan-600">
+                <Loader2 className="h-3 w-3 animate-spin" />
+                Searching network sources...
+              </div>
+            )}
+
+            {externalResults.length > 0 && (
+              <>
+                <div className="px-4 pt-3 pb-1 text-[10px] font-semibold uppercase tracking-wider text-cyan-600 flex items-center gap-1.5">
+                  <Globe className="h-3 w-3" />
+                  Sourced Products
+                </div>
+                <ul>
+                  {externalResults.map((result, i) => {
+                    const idx = results.length + i;
+                    return (
+                      <li key={result.id} role="option" aria-selected={idx === selectedIndex}>
+                        <Link
+                          href={result.rfqSlug || result.slug}
+                          onClick={() => onOpenChange(false)}
+                          className={cn(
+                            'flex items-center justify-between px-4 py-2.5 transition-colors',
+                            idx === selectedIndex
+                              ? 'bg-cyan-50'
+                              : 'hover:bg-cyan-50'
+                          )}
+                        >
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2">
+                              <p className="text-sm font-medium text-navy-900 truncate">
+                                {result.name}
+                              </p>
+                              <Badge className="shrink-0 text-[10px] bg-cyan-600 text-white border-none px-1.5 py-0">
+                                Sourced
+                              </Badge>
+                            </div>
+                            <p className="text-xs text-steel-500 mt-0.5">
+                              {result.brand} &middot; {result.category}
+                            </p>
+                          </div>
+                          <span className="text-[10px] font-medium text-cyan-600 shrink-0 ml-2">
+                            Get Quote
+                          </span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
+            )}
+
+            {totalResults === 0 && !isExternalSearching && (
               <p className="text-sm text-steel-500">
                 No products found for &quot;{query}&quot;
               </p>
-            ) : (
-              <ul className="py-2">
-                {results.map((result, index) => (
-                  <li key={result.id} role="option" aria-selected={index === selectedIndex}>
-                    <Link
-                      href={result.slug}
-                      onClick={() => onOpenChange(false)}
-                      className={cn(
-                        'flex items-center justify-between px-4 py-3 transition-colors',
-                        index === selectedIndex
-                          ? 'bg-navy-50'
-                          : 'hover:bg-navy-50'
-                      )}
-                    >
-                      <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-navy-900 truncate">
-                          {result.name}
-                        </p>
-                        <p className="text-xs text-steel-500 mt-0.5">
-                          {result.brand} &middot; {result.category} &middot;{' '}
-                          <span className="font-mono">{result.sku}</span>
-                        </p>
-                      </div>
-                      <ArrowRight className="h-4 w-4 text-steel-400 shrink-0 ml-3" />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
             )}
           </div>
         )}

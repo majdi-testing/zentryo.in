@@ -1,10 +1,12 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, FileText, Download, CheckCircle2, Circle } from 'lucide-react';
+import { FileText, Download, CheckCircle2, Circle } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 import { getProductBySlug, getRelatedProducts, getCategories } from '@/lib/repository';
-import { cn, getAvailabilityColor, getAvailabilityLabel } from '@/lib/utils';
+import { cn, getAvailabilityColor, getAvailabilityLabel, productImages, getImageIndex } from '@/lib/utils';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
@@ -16,25 +18,7 @@ import {
 } from '@/components/ui/accordion';
 import { ProductCard } from '@/components/products/product-card';
 
-const productImages = [
-  'https://images.pexels.com/photos/35568191/pexels-photo-35568191.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/12527113/pexels-photo-12527113.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/18471536/pexels-photo-18471536.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/18471565/pexels-photo-18471565.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/20640842/pexels-photo-20640842.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/6654764/pexels-photo-6654764.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/36237165/pexels-photo-36237165.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/4494653/pexels-photo-4494653.jpeg?auto=compress&cs=tinysrgb&w=600',
-];
 
-function getImageIndex(str: string): number {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    hash = ((hash << 5) - hash) + str.charCodeAt(i);
-    hash |= 0;
-  }
-  return Math.abs(hash) % productImages.length;
-}
 
 interface ProductPageProps {
   params: Promise<{ slug: string }>;
@@ -131,35 +115,15 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
       />
 
-      {/* Breadcrumbs */}
-      <section className="bg-muted/30 border-b">
-        <div className="container mx-auto px-4 py-4">
-          <nav aria-label="Breadcrumb">
-            <ol className="flex items-center gap-1.5 text-sm text-muted-foreground flex-wrap">
-              <li>
-                <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-              </li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li>
-                <Link href="/products" className="hover:text-primary transition-colors">Products</Link>
-              </li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li>
-                <Link
-                  href={`/products?category=${product.category.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="hover:text-primary transition-colors"
-                >
-                  {product.category}
-                </Link>
-              </li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-foreground font-medium truncate max-w-[200px]" aria-current="page">
-                {product.name}
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </section>
+      <Breadcrumbs
+        variant="default"
+        items={[
+          { label: 'Home', href: '/' },
+          { label: 'Products', href: '/products' },
+          { label: product.category, href: `/products?category=${product.category.toLowerCase().replace(/\s+/g, '-')}` },
+          { label: product.name },
+        ]}
+      />
 
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -192,11 +156,12 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
               <h2 className="text-xl font-semibold mb-4">Product Gallery</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="aspect-square rounded-lg overflow-hidden">
-                  <img
+                  <Image
                     src={productImages[baseIdx]}
                     alt={product.name}
-                    loading="lazy"
-                    className="h-full w-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
                   />
                 </div>
                 <div className="grid grid-cols-2 gap-4">
@@ -205,11 +170,12 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                       key={i}
                       className="aspect-square rounded-lg overflow-hidden"
                     >
-                      <img
+                      <Image
                         src={productImages[(baseIdx + i) % productImages.length]}
                         alt={`${product.name} view ${i}`}
-                        loading="lazy"
-                        className="h-full w-full object-cover"
+                        fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
+                        className="object-cover"
                       />
                     </div>
                   ))}

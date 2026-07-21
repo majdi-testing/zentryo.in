@@ -3,6 +3,7 @@
 import Link from 'next/link';
 
 import { Zap, Fuel, Ship, Bolt, Factory, Beaker, Pickaxe, Plane } from 'lucide-react';
+import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -47,11 +48,12 @@ export function IndustriesSection() {
                   'transition-all duration-500'
                 )}
               >
-                <img
+                <Image
                   src={industry.image}
                   alt={industry.name}
-                  loading="lazy"
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-navy-900/60 to-navy-900/40" />
                 <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-bl-full transition-all duration-500 group-hover:bg-cyan-500/20 group-hover:scale-110" />

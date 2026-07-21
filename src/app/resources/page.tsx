@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, ArrowRight, FileText, Award, HelpCircle, BookOpen, Download, Calendar } from 'lucide-react';
+import { ArrowRight, FileText, Award, HelpCircle, BookOpen, Download, Calendar } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
@@ -32,13 +33,7 @@ export default async function ResourcesPage() {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">Resources</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Resources' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Resource Center</h1>
             <p className="text-xl text-steel-200 leading-relaxed">

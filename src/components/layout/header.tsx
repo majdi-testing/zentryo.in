@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, memo } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import {
   Menu, Phone, Mail, ChevronDown, Search, Clock, Sun, Moon,
@@ -34,8 +35,10 @@ const DropdownContent = memo(function DropdownContent({ children }: { children: 
 });
 
 export function Header() {
+  const pathname = usePathname();
+  const isHome = pathname === '/';
   const { isScrolled } = useScroll(50);
-  const { theme, toggleTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -67,13 +70,13 @@ export function Header() {
         style={{ willChange: 'background-color' }}
         className={cn(
           'fixed top-0 left-0 right-0 z-40 transition-colors duration-300',
-          isScrolled ? 'bg-white shadow-sm' : 'bg-transparent'
+          isHome && !isScrolled ? 'bg-transparent' : 'bg-white shadow-sm'
         )}
       >
         <div
           className={cn(
             'hidden lg:block overflow-hidden transition-all duration-300',
-            isScrolled ? 'h-0 opacity-0' : 'h-auto opacity-100'
+            isHome && !isScrolled ? 'h-auto opacity-100' : 'h-0 opacity-0'
           )}
         >
           <div className="bg-navy-900 text-white text-xs">
@@ -109,7 +112,7 @@ export function Header() {
                   {item.children ? (
                     <button
                       className={cn('flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isScrolled ? 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50' : 'text-white/90 hover:text-white hover:bg-white/10'
+                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50'
                       )}
                       aria-expanded={activeDropdown === item.name}
                       aria-haspopup="true"
@@ -120,7 +123,7 @@ export function Header() {
                   ) : (
                     <Link href={item.slug}
                       className={cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isScrolled ? 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50' : 'text-white/90 hover:text-white hover:bg-white/10'
+                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50'
                       )}
                     >
                       {item.name}
@@ -180,16 +183,16 @@ export function Header() {
             <div className="flex items-center gap-2">
               <button onClick={() => setSearchOpen(true)}
                 className={cn('p-2 rounded-lg transition-colors',
-                  isScrolled ? 'text-steel-600 hover:text-navy-900 hover:bg-navy-50' : 'text-white/80 hover:text-white hover:bg-white/10'
+                  isHome && !isScrolled ? 'text-white/80 hover:text-white hover:bg-white/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
                 )}
                 aria-label="Search products"
               >
                 <Search className="h-5 w-5" />
               </button>
 
-              <button onClick={toggleTheme}
+              <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                 className={cn('p-2 rounded-lg transition-colors',
-                  isScrolled ? 'text-steel-600 hover:text-navy-900 hover:bg-navy-50' : 'text-white/80 hover:text-white hover:bg-white/10'
+                  isHome && !isScrolled ? 'text-white/80 hover:text-white hover:bg-white/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
                 )}
                 aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
               >
@@ -197,7 +200,7 @@ export function Header() {
               </button>
 
               <Link href="/rfq" className={cn('hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300',
-                isScrolled ? 'bg-cyan-500 text-white hover:bg-cyan-600 shadow-sm' : 'bg-cyan-500 text-white hover:bg-cyan-400 shadow-lg shadow-cyan-500/25'
+                isHome && !isScrolled ? 'bg-cyan-500 text-white hover:bg-cyan-400 shadow-lg shadow-cyan-500/25' : 'bg-cyan-500 text-white hover:bg-cyan-600 shadow-sm'
               )}>
                 Request Quote
               </Link>
@@ -205,7 +208,7 @@ export function Header() {
               <Sheet open={mobileNavOpen} onOpenChange={setMobileNavOpen}>
                 <SheetTrigger asChild>
                   <button className={cn('lg:hidden p-2 rounded-lg transition-colors',
-                    isScrolled ? 'text-navy-900 hover:bg-navy-50' : 'text-white hover:bg-white/10'
+                    isHome && !isScrolled ? 'text-white hover:bg-white/10' : 'text-navy-900 hover:bg-navy-50'
                   )}
                     aria-label="Open navigation menu"
                   >

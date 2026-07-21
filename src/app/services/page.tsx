@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, ArrowRight, BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
 import { getServices } from '@/lib/repository';
+import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -52,13 +55,7 @@ export default async function ServicesPage() {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">Services</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Services' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Our Services</h1>
             <p className="text-xl text-steel-200 leading-relaxed">
@@ -76,7 +73,7 @@ export default async function ServicesPage() {
               <Link key={service.id} href={`/services/${service.slug}`} className="block">
                 <Card id={service.slug} className="group border-0 shadow-lg bg-white hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in-up overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
                   <div className="aspect-[16/7] relative overflow-hidden">
-                    <img src={serviceImages[service.id]} alt={service.name} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                    <Image src={serviceImages[service.id]} alt={service.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-110" />
                   </div>
                   <CardContent className="p-8">
                     <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center -mt-10 mb-4 border-2 border-white shadow-lg group-hover:scale-110 transition-transform">
@@ -106,32 +103,14 @@ export default async function ServicesPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-            <div className="relative z-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Need a Custom Service Solution?</h2>
-              <p className="text-steel-200 text-lg mb-8">
-                Our engineering team will work with you to develop tailored solutions for your specific industrial requirements.
-              </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/contact">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
-                    Request a Consultation <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
-                <Link href="/rfq">
-                  <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
-                    Submit an RFQ
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        heading="Need a Custom Service Solution?"
+        description="Our engineering team will work with you to develop tailored solutions for your specific industrial requirements."
+        buttons={[
+          { label: 'Request a Consultation', href: '/contact', variant: 'primary', icon: <ArrowRight className="h-4 w-4" /> },
+          { label: 'Submit an RFQ', href: '/rfq', variant: 'secondary' },
+        ]}
+      />
     </>
   );
 }

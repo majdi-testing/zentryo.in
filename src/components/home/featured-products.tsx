@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { ArrowRight, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { cn, getAvailabilityColor, getAvailabilityLabel } from '@/lib/utils';
+import { cn, getAvailabilityColor, getAvailabilityLabel, productImages } from '@/lib/utils';
 
 interface ProductCard {
   id: string;
@@ -18,13 +19,6 @@ interface ProductCard {
   availability: string;
   image: string;
 }
-
-const productImages = [
-  'https://images.pexels.com/photos/35568191/pexels-photo-35568191.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/20640842/pexels-photo-20640842.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/18471536/pexels-photo-18471536.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'https://images.pexels.com/photos/6654764/pexels-photo-6654764.jpeg?auto=compress&cs=tinysrgb&w=800',
-];
 
 export function FeaturedProducts() {
   const [products, setProducts] = useState<ProductCard[]>([]);
@@ -87,11 +81,12 @@ export function FeaturedProducts() {
                   )}
                 >
                   <div className="aspect-[4/3] relative overflow-hidden">
-                    <img
+                    <Image
                       src={productImages[i % productImages.length]}
                       alt={product.name}
-                      loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2">

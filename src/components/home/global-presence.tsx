@@ -55,7 +55,7 @@ export function GlobalPresence() {
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-br from-navy-900/80 via-navy-900/60 to-cyan-900/70" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.15),transparent_70%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.25),transparent_70%)]" />
 
             <div className="relative z-10 w-full h-full p-8 flex items-center justify-center">
               <div className="relative w-full h-full">

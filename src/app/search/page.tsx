@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, Search, Package, ArrowRight } from 'lucide-react';
+import { Search } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getProducts, getCategories } from '@/lib/repository';
+import { getProducts } from '@/lib/repository';
+import { ExternalResults } from '@/components/search/external-results';
 
 interface SearchPageProps { searchParams: Promise<{ q?: string; page?: string }> }
 
@@ -23,10 +25,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const q = params.q || '';
   const page = Math.max(1, parseInt(params.page || '1', 10) || 1);
 
-  const [productsResult, categories] = await Promise.all([
-    getProducts({ search: q, page, limit: siteConfig.productsPerPage }),
-    getCategories(),
-  ]);
+  const productsResult = await getProducts({ search: q, page, limit: siteConfig.productsPerPage });
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -43,13 +42,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">Search</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Search' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               {q ? `Search Results for "${q}"` : 'Search Products'}
@@ -105,31 +98,24 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     ))}
                   </div>
                 )}
+
+                <ExternalResults query={q} />
               </>
             ) : (
-              <div className="text-center py-20 animate-fade-in-up">
-                <Search className="h-16 w-16 text-steel-300 mx-auto mb-4" />
-                <h2 className="text-2xl font-bold text-navy-900 mb-2">No Results Found</h2>
-                <p className="text-steel-500 max-w-md mx-auto mb-6">
-                  We couldn&apos;t find any products matching &ldquo;{q}&rdquo;. Try different keywords, check your spelling, or browse our categories.
-                </p>
-                <div className="flex flex-wrap gap-3 justify-center">
-                  <Link href="/products"><Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button></Link>
-                  <Link href="/categories"><Button variant="outline" className="border-navy-200 text-navy-700">View Categories</Button></Link>
-                </div>
-
-                <div className="mt-12 max-w-lg mx-auto">
-                  <h3 className="text-lg font-semibold text-navy-900 mb-4">Suggestions</h3>
-                  <div className="flex flex-wrap gap-2 justify-center">
-                    {categories.slice(0, 8).map((cat) => (
-                      <Link key={cat.slug} href={`/search?q=${encodeURIComponent(cat.name)}`}
-                        className="px-3 py-1.5 rounded-full text-sm bg-navy-50 text-navy-700 hover:bg-navy-100 transition-colors">
-                        {cat.name}
-                      </Link>
-                    ))}
+              <>
+                <div className="text-center py-20 animate-fade-in-up">
+                  <Search className="h-16 w-16 text-steel-300 mx-auto mb-4" />
+                  <h2 className="text-2xl font-bold text-navy-900 mb-2">No Results Found in Catalog</h2>
+                  <p className="text-steel-500 max-w-md mx-auto mb-6">
+                    We couldn&apos;t find any products matching &ldquo;{q}&rdquo; in our catalog. However, check our sourced products from our network below.
+                  </p>
+                  <div className="flex flex-wrap gap-3 justify-center">
+                    <Link href="/products"><Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button></Link>
+                    <Link href="/categories"><Button variant="outline" className="border-navy-200 text-navy-700">View Categories</Button></Link>
                   </div>
                 </div>
-              </div>
+                <ExternalResults query={q} />
+              </>
             )
           ) : (
             <div className="text-center py-20 animate-fade-in-up">

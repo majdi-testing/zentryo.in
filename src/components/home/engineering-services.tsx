@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer, ArrowRight,
 } from 'lucide-react';
@@ -45,11 +46,12 @@ export function EngineeringServices() {
               )}
             >
               <div className="aspect-[16/9] relative overflow-hidden">
-                <img
+                <Image
                   src={svc.image}
                   alt={svc.title}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
               <div className="relative z-10 p-6 pt-0 -mt-12">

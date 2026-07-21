@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="bg-navy-900 text-steel-200">
       <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-12">
           <div>
             <Link href="/" className="flex items-center mb-5">
               <Image src="/images/logo.png" alt="ZENTRYO" width={180} height={52} className="object-contain" />
@@ -135,7 +135,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-navy-800">
-        <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-steel-500">
             &copy; {currentYear} {siteInfo.name}. All rights reserved.
           </p>

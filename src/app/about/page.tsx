@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, Target, Eye, Heart, Award, ArrowRight, CheckCircle, Globe, ShieldCheck, Users, Factory, Headphones, Mail, Building2, TrendingUp, Clock, Package } from 'lucide-react';
+import { Target, Eye, Heart, Award, ArrowRight, CheckCircle, Globe, ShieldCheck, Users, Factory, Headphones, Mail, TrendingUp, Clock, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { getTeamMembers, getStatistics } from '@/lib/repository';
+import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -70,17 +72,11 @@ export default async function AboutPage() {
             priority
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a142b]/95 via-[#0f1f3d]/90 to-[#0a142b]/80" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1f42]/95 via-[#0a1f42]/90 to-[#0a1f42]/80" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/25 via-transparent to-transparent" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">About</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/30 text-cyan-300 mb-4">
               Since 2000
@@ -114,13 +110,14 @@ export default async function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative animate-fade-in-up">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden relative">
-                <img
+                <Image
                   src="https://images.pexels.com/photos/32845680/pexels-photo-32845680.jpeg?auto=compress&cs=tinysrgb&w=750"
                   alt="ZENTRYO engineering team at work"
-                  className="h-full w-full object-cover"
-                  loading="lazy"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a142b]/60 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1f42]/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="grid grid-cols-3 gap-4">
                     <div className="text-center p-3 rounded-xl bg-white/20">
@@ -255,12 +252,12 @@ export default async function AboutPage() {
             <p className="text-steel-600 max-w-2xl mx-auto text-lg">From our founding in 2000 to becoming a global industry leader.</p>
           </div>
           <div className="relative max-w-3xl mx-auto">
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-500 via-cyan-400 to-navy-800 hidden md:block" />
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-500 via-cyan-400 to-navy-600 hidden md:block" />
             <div className="space-y-12">
               {milestones.map((milestone, index) => (
                 <div key={milestone.year} className="relative md:pl-20 animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
-                  <div className="hidden md:flex absolute left-4 top-1 w-8 h-8 rounded-full bg-white border-4 border-cyan-500 items-center justify-center">
-                    <div className="w-2 h-2 rounded-full bg-cyan-500" />
+                  <div className="hidden md:flex absolute left-4 top-1 w-10 h-10 rounded-full bg-white border-4 border-cyan-500 items-center justify-center shadow-lg shadow-cyan-500/30">
+                    <div className="w-3 h-3 rounded-full bg-cyan-500" />
                   </div>
                   <div className="flex items-center gap-3 mb-2">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-cyan-50 text-cyan-700 border border-cyan-200">
@@ -291,11 +288,12 @@ export default async function AboutPage() {
               <Card key={member.id} className="group border-0 shadow-lg bg-white hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in-up">
                 <CardContent className="p-6">
                   <div className="text-center mb-4">
-                    <img
+                    <Image
                       src="https://images.pexels.com/photos/32845680/pexels-photo-32845680.jpeg?auto=compress&cs=tinysrgb&w=400"
                       alt={member.name}
-                      className="w-24 h-24 rounded-full object-cover mx-auto border-4 border-cyan-100 group-hover:border-cyan-500 transition-colors"
-                      loading="lazy"
+                      width={96}
+                      height={96}
+                      className="rounded-full object-cover mx-auto border-4 border-cyan-100 group-hover:border-cyan-500 transition-colors"
                     />
                   </div>
                   <div className="text-center mb-4">
@@ -319,35 +317,14 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-            <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />
-            <div className="relative z-10 text-center max-w-2xl mx-auto">
-              <Building2 className="h-12 w-12 text-cyan-400 mx-auto mb-6" />
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Partner with Industry Leaders?</h2>
-              <p className="text-steel-200 text-lg mb-8">
-                Contact our team today to discover how ZENTRYO can support your industrial component and automation needs. Our experts are standing by.
-              </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/contact">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
-                    Contact Us <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
-                <Link href="/products">
-                  <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent gap-2">
-                    Browse Products
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        heading="Ready to Partner with Industry Leaders?"
+        description="Contact our team today to discover how ZENTRYO can support your industrial component and automation needs. Our experts are standing by."
+        buttons={[
+          { label: 'Contact Us', href: '/contact', variant: 'primary', icon: <ArrowRight className="h-4 w-4" /> },
+          { label: 'Browse Products', href: '/products', variant: 'secondary' },
+        ]}
+      />
     </>
   );
 }

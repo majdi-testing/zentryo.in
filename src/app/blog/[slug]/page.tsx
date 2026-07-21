@@ -1,13 +1,19 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronRight, Calendar, Clock, User, ArrowLeft, ExternalLink, Share2, Link2 } from 'lucide-react';
+import { Calendar, Clock, User, ArrowLeft, ExternalLink, Share2, Link2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { siteConfig } from '@/config/site';
 import { getBlogPostBySlug, getBlogPosts } from '@/lib/repository';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { formatDate } from '@/lib/utils';
+
+export async function generateStaticParams() {
+  const posts = await getBlogPosts();
+  return posts.map(p => ({ slug: p.slug }));
+}
 
 interface BlogPostPageProps { params: Promise<{ slug: string }> }
 
@@ -51,15 +57,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="relative overflow-hidden gradient-blue">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
           <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
-            <nav aria-label="Breadcrumb" className="mb-6">
-              <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-                <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-                <ChevronRight className="h-3.5 w-3.5" />
-                <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-                <ChevronRight className="h-3.5 w-3.5" />
-                <li className="text-white font-medium truncate max-w-[200px]" aria-current="page">{post.title}</li>
-              </ol>
-            </nav>
+            <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: post.title }]} />
             <div className="max-w-3xl animate-fade-in-up">
               <div className="flex items-center gap-3 mb-4">
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/20 text-white">

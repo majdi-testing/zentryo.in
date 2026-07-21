@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col font-sans antialiased transition-colors duration-300">
         <ThemeProvider>
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
           <Footer />
           <QuickContact />
         </ThemeProvider>

@@ -251,3 +251,20 @@ export interface RFQFormData {
   requirements: string;
   urgent: boolean;
 }
+
+export interface ExternalProduct {
+  id: string;
+  slug: string;
+  name: string;
+  brand: string;
+  description: string;
+  shortDescription: string;
+  imageUrl: string;
+  category: string;
+  sourceUrl: string;
+  source: 'google' | 'bing' | 'amazon' | 'industrial-directory' | 'fallback';
+  availability: 'subject-to-confirmation';
+  sku: string;
+  tags: string[];
+  isExternal: true;
+}

@@ -1,9 +1,15 @@
+import fs from 'fs';
+import path from 'path';
 import type { Product, ProductFilters, PaginatedResponse, Category, Brand, Industry, Service, Solution, BlogPost, Testimonial, Certificate, DownloadResource, FAQ, TeamMember, Statistic } from '@/types';
 import { paginate } from '@/lib/utils';
 import { siteConfig } from '@/config/site';
 
 // Repository pattern - swap implementation to API later
 // Products
+export async function loadAllProducts(): Promise<Product[]> {
+  return loadProducts();
+}
+
 async function loadProducts(): Promise<Product[]> {
   const files = [
     'bearings.json', 'valves.json', 'automation.json', 'controllers.json',
@@ -11,11 +17,12 @@ async function loadProducts(): Promise<Product[]> {
     'hydraulics.json', 'pneumatics.json', 'seals.json', 'filters.json',
     'gears.json', 'couplings.json', 'fasteners.json', 'electrical.json'
   ];
+  const dataDir = path.join(process.cwd(), 'src', 'data', 'products');
   const allProducts: Product[] = [];
   for (const file of files) {
     try {
-      const mod = await import(`@/data/products/${file}`);
-      const products = mod.default || mod;
+      const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
+      const products: Product[] = JSON.parse(content);
       allProducts.push(...products);
     } catch {
       // File not found, skip
@@ -55,7 +62,9 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
 
 export async function getFeaturedProducts(): Promise<Product[]> {
   const products = await loadProducts();
-  return products.filter(p => p.tags.includes('featured')).slice(0, 8);
+  const featured = products.filter(p => p.tags.includes('featured')).slice(0, 8);
+  if (featured.length > 0) return featured;
+  return products.slice(0, 8);
 }
 
 export async function getRelatedProducts(product: Product): Promise<Product[]> {

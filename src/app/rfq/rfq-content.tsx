@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ChevronRight, Send, CheckCircle, Clock, Phone, Mail, FileText, ArrowRight } from 'lucide-react';
+import { Send, CheckCircle, Clock, Phone, Mail, FileText, ArrowRight } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -30,13 +31,7 @@ export function RFQContent() {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">Request for Quote</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Request for Quote' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Request for Quote</h1>
             <p className="text-xl text-steel-200 leading-relaxed">

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { ChevronRight, ArrowRight, CheckCircle, BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { ArrowRight, CheckCircle, BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer } from 'lucide-react';
 import { siteConfig } from '@/config/site';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { getServiceBySlug, getServices } from '@/lib/repository';
+import { CTASection } from '@/components/layout/cta-section';
 
 const iconMap: Record<string, React.ReactNode> = {
   'engineering-consulting': <BrainCircuit className="h-8 w-8" />,
@@ -59,19 +60,11 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={serviceImages[slug]} alt={service.name} className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0a142b]/95 via-[#0f1f3d]/90 to-[#0a142b]/80" />
+          <Image src={serviceImages[slug]} alt={service.name} fill sizes="100vw" className="object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0a1f42]/95 via-[#0a1f42]/90 to-[#0a1f42]/80" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">{service.name}</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/services' }, { label: service.name }]} />
           <div className="max-w-3xl">
             <div className="w-16 h-16 rounded-xl bg-cyan-500/20 flex items-center justify-center mb-6">
               <div className="text-cyan-400">{iconMap[slug]}</div>
@@ -114,24 +107,15 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         </div>
       </section>
 
-      <section className="py-20 bg-steel-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-navy-900 mb-4">Ready to Get Started?</h2>
-          <p className="text-steel-600 text-lg max-w-2xl mx-auto mb-8">Contact our team to discuss how our {service.name.toLowerCase()} can benefit your operations.</p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/contact">
-              <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
-                Contact Us <ArrowRight className="h-4 w-4" />
-              </Button>
-            </Link>
-            <Link href="/rfq">
-              <Button size="lg" variant="outline" className="border-navy-200 text-navy-700 hover:bg-navy-50 gap-2">
-                Submit RFQ
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        variant="light"
+        heading="Ready to Get Started?"
+        description={`Contact our team to discuss how our ${service.name.toLowerCase()} can benefit your operations.`}
+        buttons={[
+          { label: 'Contact Us', href: '/contact', variant: 'primary', icon: <ArrowRight className="h-4 w-4" /> },
+          { label: 'Submit RFQ', href: '/rfq', variant: 'secondary' },
+        ]}
+      />
     </>
   );
 }

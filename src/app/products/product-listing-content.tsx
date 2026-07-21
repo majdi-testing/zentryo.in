@@ -2,12 +2,13 @@
 
 import { useState, useCallback } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { LayoutGrid, List, SlidersHorizontal, X } from 'lucide-react';
+import { LayoutGrid, List, SlidersHorizontal, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { ProductGrid } from '@/components/products/product-grid';
 import { ProductFilters } from '@/components/products/product-filters';
 import { ProductPagination } from '@/components/products/product-pagination';
+import { ExternalResults } from '@/components/search/external-results';
 import { cn } from '@/lib/utils';
 import type { Category, Brand, PaginatedResponse, Product } from '@/types';
 
@@ -24,10 +25,14 @@ export function ProductListingContent({ initialProducts, categories, brands }: P
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const currentPage = parseInt(searchParams.get('page') ?? '1', 10);
+  const searchQuery = searchParams.get('search') || '';
+  const categoryFilter = searchParams.get('category') || '';
 
   const toggleMobileFilters = useCallback(() => {
     setMobileFiltersOpen((prev) => !prev);
   }, []);
+
+  const externalQuery = searchQuery || categoryFilter.replace(/-/g, ' ');
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -114,6 +119,10 @@ export function ProductListingContent({ initialProducts, categories, brands }: P
           total={initialProducts.total}
           limit={initialProducts.limit}
         />
+
+        {externalQuery && (
+          <ExternalResults query={externalQuery} />
+        )}
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { siteConfig } from '@/config/site';
 import { getProducts, getCategories, getBrands } from '@/lib/repository';
 import { ProductListingContent } from './product-listing-content';
@@ -88,15 +88,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
       />
       <section className="bg-gradient-to-b from-muted/50 to-background border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <nav aria-label="Breadcrumb" className="mb-4">
-            <ol className="flex items-center gap-1.5 text-sm text-muted-foreground">
-              <li>
-                <Link href="/" className="hover:text-primary transition-colors">Home</Link>
-              </li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-foreground font-medium" aria-current="page">Products</li>
-            </ol>
-          </nav>
+          <Breadcrumbs variant="default" items={[{ label: 'Home', href: '/' }, { label: 'Products' }]} />
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
             {search ? `Search: "${search}"` : 'Products'}
           </h1>

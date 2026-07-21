@@ -14,7 +14,7 @@ const statsCards = [
 
 export function HomeHero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen lg:min-h-screen flex items-center overflow-hidden -mt-16 lg:-mt-24">
       <div className="absolute inset-0">
         <div className="absolute inset-0 w-full h-[120%] -top-[10%]">
           <Image
@@ -54,7 +54,7 @@ export function HomeHero() {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-28">
         <div className="max-w-3xl">
           <div className="animate-fade-in-up">
             <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 mb-8">

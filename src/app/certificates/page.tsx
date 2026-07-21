@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChevronRight, Award, Download, Calendar, ExternalLink, ArrowRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Award, Download, Calendar, ExternalLink, ArrowRight } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
 import { getCertificates } from '@/lib/repository';
 import { formatDate } from '@/lib/utils';
+import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -43,13 +44,7 @@ export default async function CertificatesPage() {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">Certificates</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Certificates' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Certifications & Compliance</h1>
             <p className="text-xl text-steel-200 leading-relaxed">
@@ -93,24 +88,13 @@ export default async function CertificatesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-            <div className="relative z-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Need Compliance Documentation for Your Order?</h2>
-              <p className="text-steel-200 text-lg mb-8">
-                Every product from ZENTRYO comes with the appropriate certification and compliance documentation.
-              </p>
-              <Link href="/contact">
-                <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
-                  Request Documentation <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        heading="Need Compliance Documentation for Your Order?"
+        description="Every product from ZENTRYO comes with the appropriate certification and compliance documentation."
+        buttons={[
+          { label: 'Request Documentation', href: '/contact', variant: 'primary', icon: <ArrowRight className="h-4 w-4" /> },
+        ]}
+      />
     </>
   );
 }

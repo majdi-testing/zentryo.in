@@ -1,15 +1,15 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { ChevronRight, Search, ArrowRight, HelpCircle } from 'lucide-react';
+import { Search, ArrowRight, HelpCircle } from 'lucide-react';
+import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 import { Card, CardContent } from '@/components/ui/card';
 import { getFAQs } from '@/lib/repository';
-
-interface FAQ { id: string; question: string; answer: string; category: string; order: number; }
+import type { FAQ } from '@/types';
+import { CTASection } from '@/components/layout/cta-section';
 
 export default function FAQPage() {
   const [faqs, setFaqs] = useState<FAQ[]>([]);
@@ -29,13 +29,7 @@ export default function FAQPage() {
       <section className="relative overflow-hidden gradient-blue">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-1.5 text-sm text-steel-300">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <ChevronRight className="h-3.5 w-3.5" />
-              <li className="text-white font-medium" aria-current="page">FAQ</li>
-            </ol>
-          </nav>
+          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]} />
           <div className="max-w-3xl animate-fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Frequently Asked Questions</h1>
             <p className="text-xl text-steel-200 leading-relaxed">
@@ -101,31 +95,10 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-            <div className="relative z-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Still Have Questions?</h2>
-              <p className="text-steel-200 text-lg mb-8">
-                Our team is ready to provide personalized answers to your specific questions.
-              </p>
-              <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/contact">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
-                    Contact Us <ArrowRight className="h-4 w-4" />
-                  </Button>
-                </Link>
-                <Link href="/rfq">
-                  <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
-                    Submit an RFQ
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection
+        heading="Still Have Questions?"
+        description="Our team is ready to provide personalized answers to your specific questions."
+      />
     </>
   );
 }
