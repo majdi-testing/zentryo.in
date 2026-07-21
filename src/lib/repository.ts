@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import type { Product, ProductFilters, PaginatedResponse, Category, Brand, Industry, Service, Solution, BlogPost, Testimonial, Certificate, DownloadResource, FAQ, TeamMember, Statistic } from '@/types';
 import { paginate } from '@/lib/utils';
 import { siteConfig } from '@/config/site';
@@ -17,12 +15,11 @@ async function loadProducts(): Promise<Product[]> {
     'hydraulics.json', 'pneumatics.json', 'seals.json', 'filters.json',
     'gears.json', 'couplings.json', 'fasteners.json', 'electrical.json'
   ];
-  const dataDir = path.join(process.cwd(), 'src', 'data', 'products');
   const allProducts: Product[] = [];
   for (const file of files) {
     try {
-      const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-      const products: Product[] = JSON.parse(content);
+      const mod = await import(`@/data/products/${file}`);
+      const products = mod.default || mod;
       allProducts.push(...products);
     } catch {
       // File not found, skip

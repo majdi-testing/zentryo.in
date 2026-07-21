@@ -75,7 +75,7 @@ export function ContactPageContent() {
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="phone">Phone Number</Label>
-                      <Input id="phone" type="tel" value={formData.phone} onChange={(e) => setFormData(p => ({ ...p, phone: e.target.value }))} placeholder="+1 (800) 555-0000" />
+                      <Input id="phone" type="tel" value={formData.phone} onChange={(e) => setFormData(p => ({ ...p, phone: e.target.value }))} placeholder="+91 9718303073" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="company">Company</Label>

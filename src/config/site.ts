@@ -28,8 +28,8 @@ export const siteConfig = {
   contact: {
     email: 'support@zentryo.in',
     contactEmail: 'contact@zentryo.in',
-    phone: '+91 870-0198095',
-    secondaryPhone: '+91 971-8304073',
+    phone: '+919718303073',
+    secondaryPhone: '+91 9718303073',
     address: '26/4, Okhla Phase 2, Ram Dulari Tundelkar Ji Road, Near Royal Enfield Showroom, Okhla Industrial Area, New Delhi, Delhi 110020, India',
     coordinates: {
       lat: 29.7604,
