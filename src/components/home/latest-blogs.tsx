@@ -135,7 +135,7 @@ export function LatestBlogs() {
                 at the best prices. Get a personalized quote within 4 hours.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:+919718303073" className="inline-flex items-center gap-2.5 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl text-sm font-semibold transition-all border border-white/20">
+                <a href="tel:+918700198095" className="inline-flex items-center gap-2.5 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl text-sm font-semibold transition-all border border-white/20">
                   <Phone className="h-4 w-4 text-cyan-400" />
                   Call Us Now
                 </a>
