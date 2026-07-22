@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { ThemeProvider } from '@/components/layout/theme-provider';
 import { QuickContact } from '@/components/layout/quick-contact';
+import { WhatsAppButton } from '@/components/layout/whatsapp-button';
 import { siteConfig } from '@/config/site';
 
 const inter = Inter({
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
           <Footer />
           <QuickContact />
+          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>
