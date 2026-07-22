@@ -72,18 +72,18 @@ export function getAvailabilityLabel(status: string): string {
 }
 
 export const productImages = [
-  'https://cdn.pixabay.com/photo/2019/06/19/10/44/industrial-4284329_640.jpg',
-  'https://cdn.pixabay.com/photo/2020/04/29/09/14/valve-5107810_640.jpg',
-  'https://cdn.pixabay.com/photo/2016/10/10/15/59/valves-1729045_640.jpg',
-  'https://cdn.pixabay.com/photo/2018/07/17/10/19/industrial-3544509_640.jpg',
-  'https://cdn.pixabay.com/photo/2017/07/10/14/49/gear-2490614_640.jpg',
-  'https://cdn.pixabay.com/photo/2014/09/19/20/05/pressure-gauge-453427_640.jpg',
-  'https://cdn.pixabay.com/photo/2016/11/19/15/17/automation-1839548_640.jpg',
-  'https://cdn.pixabay.com/photo/2021/08/26/04/51/industry-6575623_640.jpg',
-  'https://cdn.pixabay.com/photo/2016/11/01/12/42/motor-1788422_640.jpg',
-  'https://cdn.pixabay.com/photo/2018/02/26/18/20/gears-3183582_640.jpg',
-  'https://cdn.pixabay.com/photo/2018/07/17/10/19/industrial-3544506_640.jpg',
-  'https://cdn.pixabay.com/photo/2016/11/29/05/48/automation-1867754_640.jpg',
+  'https://images.pexels.com/photos/12527113/pexels-photo-12527113.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/35568191/pexels-photo-35568191.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/18471536/pexels-photo-18471536.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/18471537/pexels-photo-18471537.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/6654764/pexels-photo-6654764.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/36237165/pexels-photo-36237165.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/20640842/pexels-photo-20640842.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/18471565/pexels-photo-18471565.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/12270481/pexels-photo-12270481.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/15970032/pexels-photo-15970032.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/12583030/pexels-photo-12583030.jpeg?auto=compress&cs=tinysrgb&w=800',
+  'https://images.pexels.com/photos/19233057/pexels-photo-19233057.jpeg?auto=compress&cs=tinysrgb&w=800',
 ];
 
 export const heroImages = [
