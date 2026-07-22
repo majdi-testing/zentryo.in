@@ -4,7 +4,7 @@ import { ArrowRight, Package, Wrench, Cpu, Gauge, Settings, Zap, Thermometer, Wi
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getCategories } from '@/lib/repository';
+import { getCategories } from '@/lib/data-service';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {

@@ -16,7 +16,7 @@ import { TestimonialsSection } from '@/components/home/testimonials';
 import { LatestBlogs } from '@/components/home/latest-blogs';
 import { FAQSection } from '@/components/home/faq';
 import { HomeContactForm } from '@/components/home/contact-form';
-import { getCategories, loadAllProducts } from '@/lib/repository';
+import { getCategories, loadAllProducts } from '@/lib/data-service';
 
 async function getCategoriesWithSubcategories(): Promise<CategoryCard[]> {
   const categories = await getCategories();

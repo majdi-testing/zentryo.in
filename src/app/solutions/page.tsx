@@ -5,7 +5,8 @@ import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getSolutions, getIndustries } from '@/lib/repository';
+import { getIndustries } from '@/lib/data-service';
+import { getSolutions } from '@/lib/repository';
 import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {

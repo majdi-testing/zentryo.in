@@ -4,7 +4,7 @@ import { ArrowRight, Zap, Fuel, Ship, Bolt, Factory, Car, Plane, FlaskRound, Pic
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getIndustries } from '@/lib/repository';
+import { getIndustries } from '@/lib/data-service';
 import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {

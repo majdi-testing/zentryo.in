@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FileText, Download, CheckCircle2, Circle } from 'lucide-react';
 import { siteConfig } from '@/config/site';
-import { getProductBySlug, getRelatedProducts, getCategories } from '@/lib/repository';
+import { getProductBySlug, getRelatedProducts, getCategories } from '@/lib/data-service';
 import { cn, getAvailabilityColor, getAvailabilityLabel, productImages, getImageIndex } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';

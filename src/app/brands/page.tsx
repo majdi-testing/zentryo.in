@@ -4,7 +4,7 @@ import { ArrowRight, Shield, Globe, Award } from 'lucide-react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getBrands } from '@/lib/repository';
+import { getBrands } from '@/lib/data-service';
 import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {

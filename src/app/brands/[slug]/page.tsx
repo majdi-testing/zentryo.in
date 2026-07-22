@@ -6,12 +6,12 @@ import { ArrowRight, Globe, Shield, Award, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getBrandBySlug, getProducts } from '@/lib/repository';
+import { getBrandBySlug, getProducts } from '@/lib/data-service';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
 export async function generateStaticParams() {
-  const { getBrands } = await import('@/lib/repository');
+  const { getBrands } = await import('@/lib/data-service');
   const brands = await getBrands();
   return brands.map(b => ({ slug: b.slug }));
 }

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getCategories, loadAllProducts } from '@/lib/repository';
+import { getCategories, loadAllProducts } from '@/lib/data-service';
 
 export async function GET() {
   const categories = await getCategories();

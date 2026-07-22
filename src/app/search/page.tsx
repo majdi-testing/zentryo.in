@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getProducts } from '@/lib/repository';
+import { getProducts } from '@/lib/data-service';
 import { ExternalResults } from '@/components/search/external-results';
 
 interface SearchPageProps { searchParams: Promise<{ q?: string; page?: string }> }

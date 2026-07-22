@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { siteConfig } from '@/config/site';
-import { getProducts, getCategories, getBrands } from '@/lib/repository';
+import { getProducts, getCategories, getBrands } from '@/lib/data-service';
 import { ProductListingContent } from './product-listing-content';
 
 interface ProductsPageProps {

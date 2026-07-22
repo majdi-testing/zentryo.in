@@ -6,13 +6,13 @@ import { Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getCategoryBySlug, getProducts, loadAllProducts } from '@/lib/repository';
+import { getCategoryBySlug, getProducts, loadAllProducts } from '@/lib/data-service';
 import { ExternalResults } from '@/components/search/external-results';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
 export async function generateStaticParams() {
-  const { getCategories } = await import('@/lib/repository');
+  const { getCategories } = await import('@/lib/data-service');
   const categories = await getCategories();
   return categories.map(c => ({ slug: c.slug }));
 }

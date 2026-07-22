@@ -6,12 +6,13 @@ import { ArrowRight, CheckCircle, Zap, Fuel, Ship, Bolt, Factory, Car, Plane, Fl
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getIndustryBySlug, getProducts, getSolutions, getBrands } from '@/lib/repository';
+import { getIndustryBySlug, getProducts, getBrands } from '@/lib/data-service';
+import { getSolutions } from '@/lib/repository';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
 export async function generateStaticParams() {
-  const { getIndustries } = await import('@/lib/repository');
+  const { getIndustries } = await import('@/lib/data-service');
   const industries = await getIndustries();
   return industries.map(i => ({ slug: i.slug }));
 }
