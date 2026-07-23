@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Circle, HelpCircle, ExternalLink, FileText } from 'lucide-react';
+import { Circle, HelpCircle, FileText } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -13,6 +13,12 @@ interface ProductCardProps {
   viewMode?: 'grid' | 'list';
   isExternal?: boolean;
 }
+
+const sourceLabels: Record<string, string> = {
+  google: 'Google Shopping',
+  bing: 'Bing Shopping',
+  fallback: 'Industrial Network',
+};
 
 export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductCardProps) {
   const extProduct = product as ExternalProduct;
@@ -26,13 +32,12 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
     ? `/rfq?productName=${encodeURIComponent(product.name)}&productSKU=${product.sku}&requirements=${encodeURIComponent(product.shortDescription || '')}`
     : '';
 
-  const sourceUrl = isExt ? (product as ExternalProduct).sourceUrl : '';
   const source = isExt ? (product as ExternalProduct).source : '';
 
   const cardContent = (
     <Card
       className={cn(
-        'overflow-hidden border-muted transition-all duration-500',
+        'overflow-hidden border-muted transition-all duration-500 h-full flex flex-col',
         'hover:shadow-xl hover:-translate-y-2 hover:border-primary/30',
         viewMode === 'list' && 'flex flex-row'
       )}
@@ -40,7 +45,7 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
       <div
         className={cn(
           'relative overflow-hidden',
-          isExt ? 'h-36 w-36 shrink-0' : viewMode === 'grid' ? 'h-48 w-full' : 'h-40 w-40 shrink-0'
+          viewMode === 'grid' ? 'h-48 w-full' : 'h-40 w-40 shrink-0'
         )}
       >
         <img
@@ -65,7 +70,7 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
           </Badge>
         </div>
       </div>
-      <CardContent className={cn('flex flex-col gap-2', isExt || viewMode === 'list' ? 'flex-1 p-4' : 'p-4')}>
+      <CardContent className="flex flex-col gap-2 p-4 flex-1">
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-base leading-tight line-clamp-2">
             {product.name}
@@ -73,35 +78,25 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
           <p className="text-xs text-muted-foreground mt-0.5">{product.brand}</p>
         </div>
         {isExt && (
-          <>
-            <p className="text-sm text-muted-foreground line-clamp-2">
-              {truncate(product.shortDescription, 120)}
-            </p>
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
-              <span className="inline-flex items-center gap-1">
-                <FileText className="h-3 w-3" />
-                {product.sku}
-              </span>
-              {source && (
-                <span className="inline-flex items-center gap-1">
-                  Source: <span className="font-medium capitalize">{source}</span>
-                </span>
-              )}
-              {sourceUrl && sourceUrl !== '#' && (
-                <a
-                  href={sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-cyan-600 hover:text-cyan-700 hover:underline"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <ExternalLink className="h-3 w-3" />
-                  View Source
-                </a>
-              )}
-            </div>
-          </>
+          <p className="text-sm text-muted-foreground line-clamp-2">
+            {truncate(product.shortDescription, 120)}
+          </p>
         )}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+          {isExt && (
+            <span className="inline-flex items-center gap-1">
+              <FileText className="h-3 w-3" />
+              {product.sku}
+            </span>
+          )}
+          {isExt && source ? (
+            <span className="inline-flex items-center gap-1">
+              {sourceLabels[source] || source}
+            </span>
+          ) : !isExt && (
+            <span className="text-xs text-muted-foreground">SKU: {product.sku}</span>
+          )}
+        </div>
         <div className="flex items-center gap-3 pt-2">
           <span className={cn(
             'inline-flex items-center gap-1.5 text-xs font-medium px-2 py-0.5 rounded-full',
@@ -110,16 +105,13 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
             <Circle className={cn('h-2 w-2 fill-current', isExt && 'text-amber-500')} />
             {isExt ? 'Subject to Confirmation' : getAvailabilityLabel(product.availability)}
           </span>
-          {!isExt && (
-            <span className="text-xs text-muted-foreground">SKU: {product.sku}</span>
-          )}
         </div>
         {isExt && (
-          <div className="mt-2 pt-2 border-t border-muted">
+          <div className="mt-auto pt-3">
             <Button size="sm" className="w-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs gap-1.5" asChild>
               <Link href={rfqHref}>
                 <HelpCircle className="h-3.5 w-3.5" />
-                Request Quote
+                Get Quote & Details
               </Link>
             </Button>
           </div>
