@@ -193,7 +193,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
                 </div>
                 <ul>
                   {results.map((result, index) => (
-                    <li key={result.id} role="option" aria-selected={index === selectedIndex}>
+                    <li key={`cat-${result.id}-${index}`} role="option" aria-selected={index === selectedIndex}>
                       <Link
                         href={result.slug}
                         onClick={() => onOpenChange(false)}
@@ -238,7 +238,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
                   {externalResults.map((result, i) => {
                     const idx = results.length + i;
                     return (
-                      <li key={result.id} role="option" aria-selected={idx === selectedIndex}>
+                      <li key={`ext-${result.id}-${i}`} role="option" aria-selected={idx === selectedIndex}>
                         <Link
                           href={result.rfqSlug || result.slug}
                           onClick={() => onOpenChange(false)}

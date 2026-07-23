@@ -25,9 +25,14 @@ export function inferCategory(query: string): string {
   return 'Industrial Components';
 }
 
-export function generateId(title: string, sourceUrl: string): string {
-  const hash = title.slice(0, 8).replace(/\s/g, '') + sourceUrl.length;
-  return `ext-${hash}-${Buffer.from(title + sourceUrl).toString('base64').slice(0, 10).toLowerCase()}`;
+let idCounter = 0;
+
+export function generateId(title: string, sourceUrl: string, source?: string): string {
+  idCounter++;
+  const clean = title.replace(/[^a-zA-Z0-9]/g, '').slice(0, 12).toLowerCase();
+  const src = source || 'ext';
+  const hash = Buffer.from(title + sourceUrl + idCounter).toString('base64').slice(0, 8).toLowerCase();
+  return `${src}-${clean}-${hash}`;
 }
 
 export function normalizeProduct(item: {
@@ -38,7 +43,7 @@ export function normalizeProduct(item: {
   source: ExternalProduct['source'];
   category?: string;
 }): ExternalProduct {
-  const id = generateId(item.title, item.sourceUrl);
+  const id = generateId(item.title, item.sourceUrl, item.source);
   const name = item.title.replace(/\s+/g, ' ').trim();
   const brand = extractBrand(name, item.snippet);
   return {

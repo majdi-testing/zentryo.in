@@ -18,6 +18,7 @@ export function ExternalResults({ query }: ExternalResultsProps) {
   const [error, setError] = useState(false);
   const loaderRef = useRef<HTMLDivElement>(null);
   const fetchIdRef = useRef(0);
+  const timerRef = useRef<ReturnType<typeof setTimeout>>(null);
 
   const fetchExternal = useCallback(async (pageNum: number, fetchId: number) => {
     if (!query.trim()) return;
@@ -49,33 +50,36 @@ export function ExternalResults({ query }: ExternalResultsProps) {
 
   useEffect(() => {
     if (!query.trim()) return;
+    if (timerRef.current) clearTimeout(timerRef.current);
     fetchIdRef.current += 1;
     const currentFetchId = fetchIdRef.current;
-    const timer = setTimeout(() => {
-      setPage(1);
-      setInitialLoading(true);
-      setProducts([]);
-      setHasMore(true);
-      setError(false);
+    setPage(1);
+    setInitialLoading(true);
+    setProducts([]);
+    setHasMore(true);
+    setError(false);
+    timerRef.current = setTimeout(() => {
       fetchExternal(1, currentFetchId);
     }, 0);
-    return () => clearTimeout(timer);
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
   }, [query, fetchExternal]);
 
   useEffect(() => {
-    if (!query.trim()) return;
+    if (!query.trim() || !hasMore || loading) return;
     const el = loaderRef.current;
-    if (!el || !hasMore || loading) return;
+    if (!el) return;
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && hasMore && !loading) {
-          const nextPage = page + 1;
-          setPage(nextPage);
+          const nextPageNum = page + 1;
+          setPage(nextPageNum);
           const currentFetchId = fetchIdRef.current;
-          const timer = setTimeout(() => {
-            fetchExternal(nextPage, currentFetchId);
-          }, 0);
-          return () => clearTimeout(timer);
+          const t = setTimeout(() => {
+            fetchExternal(nextPageNum, currentFetchId);
+          }, 200);
+          return () => clearTimeout(t);
         }
       },
       { threshold: 0.1 }
@@ -106,8 +110,8 @@ export function ExternalResults({ query }: ExternalResultsProps) {
         </span>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} isExternal />
+        {products.map((product, index) => (
+          <ProductCard key={`${product.id}-${index}`} product={product} isExternal />
         ))}
       </div>
       <div ref={loaderRef} className="flex justify-center items-center py-8 gap-2">
