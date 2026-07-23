@@ -1,6 +1,5 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { siteConfig } from '@/config/site';
 import { getProducts, getCategories, getBrands } from '@/lib/data-service';
@@ -80,22 +79,59 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
     ],
   };
 
+  const isSearch = !!search;
+  const headerTitle = search
+    ? `Search results for "${search}"`
+    : category
+      ? `${category.split(',').map(s => s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, ' ')).join(', ')} Products`
+      : 'Products';
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="bg-gradient-to-b from-muted/50 to-background border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <Breadcrumbs variant="default" items={[{ label: 'Home', href: '/' }, { label: 'Products' }]} />
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-            {search ? `Search: "${search}"` : 'Products'}
-          </h1>
-          <p className="text-muted-foreground mt-2 max-w-2xl">
-            Browse our extensive catalog of industrial components from leading manufacturers.
-          </p>
+      <section className={isSearch
+        ? 'relative overflow-hidden gradient-blue border-b'
+        : 'bg-gradient-to-b from-muted/50 to-background border-b'
+      }>
+        {isSearch && (
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        )}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+          <Breadcrumbs
+            variant={isSearch ? 'hero' : 'default'}
+            items={[
+              { label: 'Home', href: '/' },
+              ...(isSearch
+                ? [{ label: 'Products', href: '/products' }, { label: `Search: "${search}"` }]
+                : [{ label: 'Products' }]
+              ),
+            ]}
+          />
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-2">
+            <div>
+              <h1 className={`text-3xl md:text-4xl font-bold tracking-tight ${isSearch ? 'text-white' : ''}`}>
+                {headerTitle}
+                {!isSearch && productsResult.total > 0 && (
+                  <span className="text-muted-foreground text-2xl ml-2 font-normal">
+                    ({productsResult.total})
+                  </span>
+                )}
+              </h1>
+              <p className={`mt-2 max-w-2xl ${isSearch ? 'text-steel-200' : 'text-muted-foreground'}`}>
+                {isSearch
+                  ? `${productsResult.total} product${productsResult.total !== 1 ? 's' : ''} found matching your search`
+                  : 'Browse our extensive catalog of industrial components from leading manufacturers.'
+                }
+              </p>
+            </div>
+          </div>
         </div>
+        {isSearch && (
+          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
+        )}
       </section>
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -119,7 +155,15 @@ function ProductsLoadingSkeleton() {
           <div key={i} className="h-6 bg-muted rounded animate-pulse" />
         ))}
       </div>
-      <div className="lg:col-span-3">
+      <div className="lg:col-span-3 space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="h-5 w-48 bg-muted rounded animate-pulse" />
+          <div className="flex gap-2">
+            <div className="h-8 w-[160px] bg-muted rounded animate-pulse" />
+            <div className="h-8 w-8 bg-muted rounded animate-pulse" />
+            <div className="h-8 w-8 bg-muted rounded animate-pulse" />
+          </div>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
           {Array.from({ length: 9 }).map((_, i) => (
             <div key={i} className="rounded-lg border bg-card overflow-hidden">
@@ -131,6 +175,9 @@ function ProductsLoadingSkeleton() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center">
+          <div className="h-10 w-64 bg-muted rounded animate-pulse" />
         </div>
       </div>
     </div>

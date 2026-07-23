@@ -278,6 +278,19 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
                 No products found for &quot;{query}&quot;
               </p>
             )}
+
+            {query && (
+              <div className="border-t border-steel-100 px-4 py-2">
+                <Link
+                  href={`/products?search=${encodeURIComponent(query)}`}
+                  onClick={() => onOpenChange(false)}
+                  className="flex items-center justify-center gap-1.5 text-sm font-medium text-cyan-600 hover:text-cyan-700 transition-colors py-1"
+                >
+                  <Search className="h-3.5 w-3.5" />
+                  View all results for &ldquo;{query}&rdquo;
+                </Link>
+              </div>
+            )}
           </div>
         )}
 

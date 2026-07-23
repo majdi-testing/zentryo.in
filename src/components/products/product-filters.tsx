@@ -8,13 +8,6 @@ import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
 import { cn } from '@/lib/utils';
 import { getAvailabilityLabel } from '@/lib/utils';
 import type { Category, Brand, AvailabilityStatus } from '@/types';
@@ -131,27 +124,6 @@ export function ProductFilters({ categories, brands }: ProductFiltersProps) {
             className="pl-9 h-9 text-sm"
           />
         </div>
-      </div>
-
-      <Separator />
-
-      <div className="space-y-3">
-        <div className="flex items-center justify-between">
-          <h3 className="text-sm font-medium">Sort By</h3>
-        </div>
-        <Select
-          value={currentSort}
-          onValueChange={(value) => updateParams({ sort: value === 'popular' ? null : value })}
-        >
-          <SelectTrigger className="h-9 text-sm">
-            <SelectValue />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="popular">Most Popular</SelectItem>
-            <SelectItem value="alphabetical">Alphabetical (A-Z)</SelectItem>
-            <SelectItem value="newest">Newest First</SelectItem>
-          </SelectContent>
-        </Select>
       </div>
 
       <Separator />
