@@ -184,7 +184,9 @@ export function ProductListingContent({ initialProducts, categories, brands }: P
 
       {/* Desktop Filters sidebar */}
       <aside className="hidden lg:block">
-        <ProductFilters categories={categories} brands={brands} />
+        <div className="sticky top-24 h-fit max-h-[calc(100vh-8rem)] overflow-y-auto">
+          <ProductFilters categories={categories} brands={brands} />
+        </div>
       </aside>
 
       {/* Main content */}
