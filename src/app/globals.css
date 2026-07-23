@@ -5,6 +5,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains-mono);
 
@@ -72,6 +74,8 @@
 
   --background: #ffffff;
   --foreground: #0a1f42;
+  --popover: #ffffff;
+  --popover-foreground: #0a1f42;
   --muted: #f0f4f8;
   --muted-foreground: #486581;
   --border: #d9e2ec;
@@ -104,6 +108,8 @@
 
   --background: #0a1f42;
   --foreground: #e8effb;
+  --popover: #0a1f42;
+  --popover-foreground: #e8effb;
   --muted: #1a2e4a;
   --muted-foreground: #829ab1;
   --border: #334e68;
