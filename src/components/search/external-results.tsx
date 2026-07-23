@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef, useCallback } from 'react';
-import { Loader2, Globe, AlertTriangle } from 'lucide-react';
+import { Loader2, Globe, AlertTriangle, PackageSearch } from 'lucide-react';
 import { ProductCard } from '@/components/products/product-card';
 import type { ExternalProduct } from '@/types';
 
@@ -16,6 +16,7 @@ export function ExternalResults({ query }: ExternalResultsProps) {
   const [initialLoading, setInitialLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
   const [error, setError] = useState(false);
+  const [searchDone, setSearchDone] = useState(false);
   const loaderRef = useRef<HTMLDivElement>(null);
   const fetchIdRef = useRef(0);
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null);
@@ -44,6 +45,7 @@ export function ExternalResults({ query }: ExternalResultsProps) {
       if (fetchId === fetchIdRef.current) {
         setLoading(false);
         setInitialLoading(false);
+        if (pageNum === 1) setSearchDone(true);
       }
     }
   }, [query]);
@@ -58,6 +60,7 @@ export function ExternalResults({ query }: ExternalResultsProps) {
     setProducts([]);
     setHasMore(true);
     setError(false);
+    setSearchDone(false);
     timerRef.current = setTimeout(() => {
       fetchExternal(1, currentFetchId);
     }, 0);
@@ -97,8 +100,18 @@ export function ExternalResults({ query }: ExternalResultsProps) {
       </div>
     );
   }
-  if (error && products.length === 0) return null;
-  if (products.length === 0) return null;
+  if (products.length === 0) {
+    if (!searchDone) return null;
+    return (
+      <div className="flex flex-col items-center justify-center py-24 text-center">
+        <PackageSearch className="h-16 w-16 text-muted-foreground/40 mb-4" />
+        <h3 className="text-xl font-semibold text-muted-foreground mb-2">No products found</h3>
+        <p className="text-sm text-muted-foreground/60 max-w-md">
+          We couldn&apos;t find any products matching &ldquo;{query}&rdquo;. Try adjusting your search terms or browse our categories.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="mt-16">

@@ -9,10 +9,12 @@ import type { Product } from '@/types';
 interface ProductGridProps {
   products: Product[];
   viewMode: 'grid' | 'list';
+  hideEmptyState?: boolean;
 }
 
-export function ProductGrid({ products, viewMode }: ProductGridProps) {
+export function ProductGrid({ products, viewMode, hideEmptyState }: ProductGridProps) {
   if (products.length === 0) {
+    if (hideEmptyState) return null;
     return (
       <div className="flex flex-col items-center justify-center py-24 text-center">
         <PackageSearch className="h-16 w-16 text-muted-foreground/40 mb-4" />

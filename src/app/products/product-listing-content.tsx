@@ -278,9 +278,13 @@ export function ProductListingContent({ initialProducts, categories, brands }: P
           </div>
         )}
 
-        <Separator />
+        {initialProducts.data.length > 0 && <Separator />}
 
-        <ProductGrid products={initialProducts.data} viewMode={viewMode} />
+        <ProductGrid
+          products={initialProducts.data}
+          viewMode={viewMode}
+          hideEmptyState={initialProducts.data.length === 0 && !!externalQuery}
+        />
 
         <ProductPagination
           currentPage={currentPage}
