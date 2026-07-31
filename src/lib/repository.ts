@@ -25,6 +25,11 @@ export async function getSolutions(): Promise<Solution[]> {
   ];
 }
 
+export async function getSolutionBySlug(slug: string): Promise<Solution | null> {
+  const solutions = await getSolutions();
+  return solutions.find(s => s.slug === slug) || null;
+}
+
 export async function getBlogPosts(): Promise<BlogPost[]> {
   return [
     { id: '1', slug: 'industrial-automation-trends-2026', title: 'Top Industrial Automation Trends Shaping 2026', excerpt: 'Explore the cutting-edge automation technologies transforming industrial operations.', content: 'The industrial automation landscape continues to evolve rapidly...', author: 'Dr. James Mitchell', category: 'Automation', tags: ['Automation', 'Industry 4.0', 'Digital Transformation'], image: '/images/blog/automation-trends.jpg', publishedAt: '2026-06-15', readTime: 8, seoTitle: 'Industrial Automation Trends 2026 | ZENTRYO', seoDescription: 'Discover the top industrial automation trends for 2026 and how they impact your operations.' },

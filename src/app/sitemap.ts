@@ -1,0 +1,118 @@
+import type { MetadataRoute } from 'next';
+import { siteConfig } from '@/config/site';
+import { loadAllProducts } from '@/lib/data-service';
+import { getBlogPosts } from '@/lib/repository';
+import { slugify } from '@/lib/utils';
+import { productCatalog } from '@/lib/product-catalog';
+
+const STATIC_ROUTES = [
+  '',
+  '/about',
+  '/products',
+  '/categories',
+  '/brands',
+  '/industries',
+  '/solutions',
+  '/services',
+  '/blog',
+  '/downloads',
+  '/certificates',
+  '/resources',
+  '/faq',
+  '/contact',
+  '/rfq',
+  '/privacy',
+  '/terms',
+];
+
+const SERVICES = ['automation-integration', 'predictive-maintenance', 'spare-parts-sourcing', 'engineering-consulting'];
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = siteConfig.url;
+  const now = new Date().toISOString();
+
+  const staticEntries: MetadataRoute.Sitemap = STATIC_ROUTES.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: now,
+    changeFrequency: route === '' ? 'daily' : 'weekly',
+    priority: route === '' ? 1 : route === '/products' ? 0.9 : 0.7,
+  }));
+
+  const products = await loadAllProducts();
+  const productEntries: MetadataRoute.Sitemap = products.slice(0, 50000).map((p) => ({
+    url: `${baseUrl}/products/${p.slug}`,
+    lastModified: p.updatedAt || p.createdAt || now,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
+  const serviceEntries: MetadataRoute.Sitemap = SERVICES.map((slug) => ({
+    url: `${baseUrl}/services/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
+
+  let blogEntries: MetadataRoute.Sitemap = [];
+  try {
+    const blogPosts = await getBlogPosts();
+    blogEntries = blogPosts.map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: post.publishedAt || now,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    }));
+  } catch {
+    // repository not available at build time — skip
+  }
+
+  const categoryEntries: MetadataRoute.Sitemap = Array.from(new Set(products.map(p => slugify(p.category)))).map((slug) => ({
+    url: `${baseUrl}/categories/${slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  const catalogEntries: MetadataRoute.Sitemap = productCatalog.flatMap((cat): MetadataRoute.Sitemap => [
+    {
+      url: `${baseUrl}/products/${cat.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    ...cat.subcategories.map((sub): MetadataRoute.Sitemap[number] => ({
+      url: `${baseUrl}/products/${cat.slug}/${sub.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    })),
+  ]);
+
+  const brandEntries: MetadataRoute.Sitemap = Array.from(new Set(products.map(p => slugify(p.brand)))).map((slug) => ({
+    url: `${baseUrl}/brands/${slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  const industryEntries: MetadataRoute.Sitemap = [
+    'power-plants', 'oil-gas', 'marine', 'energy', 'manufacturing',
+    'automotive', 'aerospace', 'chemical', 'mining', 'pharmaceutical',
+  ].map((slug) => ({
+    url: `${baseUrl}/industries/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
+
+  return [
+    ...staticEntries,
+    ...productEntries,
+    ...serviceEntries,
+    ...categoryEntries,
+    ...catalogEntries,
+    ...brandEntries,
+    ...industryEntries,
+    ...blogEntries,
+  ].slice(0, 50000);
+}

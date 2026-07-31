@@ -11,11 +11,8 @@ import { getSolutions } from '@/lib/repository';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export async function generateStaticParams() {
-  const { getIndustries } = await import('@/lib/data-service');
-  const industries = await getIndustries();
-  return industries.map(i => ({ slug: i.slug }));
-}
+export const dynamicParams = false;
+export const revalidate = 3600;
 
 interface IndustryPageProps { params: Promise<{ slug: string }> }
 

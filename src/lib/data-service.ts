@@ -65,6 +65,22 @@ export async function getFeaturedProducts(): Promise<Product[]> {
   return products.slice(0, 8);
 }
 
+export async function getProductsByCatalog(
+  categories?: string[],
+  subcategories?: string[],
+  page = 1,
+  limit = siteConfig.productsPerPage
+): Promise<PaginatedResponse<Product>> {
+  let products = await loadProducts();
+  if (categories && categories.length > 0) {
+    products = products.filter(p => categories.includes(p.category));
+  }
+  if (subcategories && subcategories.length > 0) {
+    products = products.filter(p => subcategories.includes(p.subcategory));
+  }
+  return paginate(products, page, limit);
+}
+
 export async function getRelatedProducts(product: Product): Promise<Product[]> {
   const products = await loadProducts();
   return products
@@ -106,6 +122,54 @@ export async function getCategoryBySlug(slug: string): Promise<Category | null> 
 
 export async function getBrands(): Promise<Brand[]> {
   const products = await loadProducts();
+  const brandCountryMap: Record<string, string> = {
+    'SKF': 'Sweden', 'FAG': 'Germany', 'INA': 'Germany', 'Timken': 'USA',
+    'NSK': 'Japan', 'NTN': 'Japan', 'KOYO': 'Japan', 'NACHI': 'Japan',
+    'ZWZ': 'China', 'HRB': 'China', 'Bauer': 'Germany',
+    'Bosch Rexroth': 'Germany', 'Siemens': 'Germany', 'SEW': 'Germany',
+    'Flender': 'Germany', 'Siemens/Flender': 'Germany', 'Festo': 'Germany',
+    'Parker': 'USA', 'Eaton': 'USA', 'Emerson': 'USA', 'Honeywell': 'USA',
+    'ABB': 'Switzerland', 'Schneider': 'France', 'Legrand': 'France',
+    'Omron': 'Japan', 'Panasonic': 'Japan', 'Mitsubishi': 'Japan',
+    'Yokogawa': 'Japan', 'Fuji Electric': 'Japan', 'SMC': 'Japan',
+    'CKD': 'Japan', 'Danfoss': 'Denmark',
+    'Atos': 'Italy', 'Bonfiglioli': 'Italy', 'Motovario': 'Italy',
+    'Rossi': 'Italy', 'Varvel': 'Italy', 'Cameron': 'USA',
+    'Flowserve': 'USA', 'Crane': 'USA', 'Velan': 'France',
+    'Kitz': 'Japan', 'Bray': 'USA', 'Neles': 'Finland', 'Metso': 'Finland',
+    'Samson': 'Germany', 'Spirax Sarco': 'UK', 'SICK': 'Germany',
+    'Balluff': 'Germany', 'Turck': 'Germany', 'Pepperl+Fuchs': 'Germany',
+    'Phoenix Contact': 'Germany', 'Wago': 'Germany', 'Weidmuller': 'Germany',
+    'Rittal': 'Germany', 'Hilti': 'Liechtenstein', 'Endress+Hauser': 'Switzerland',
+    'Krohne': 'Germany', 'Vega': 'Germany', 'Rosemount': 'USA',
+    'Allen-Bradley': 'USA', 'GE': 'USA', 'GE Fanuc': 'USA',
+    'Woodward': 'USA', 'B&R': 'Austria', 'Red Lion': 'USA',
+    'West Control': 'UK', 'Eurotherm': 'UK', 'RKC': 'Japan',
+    'Watlow': 'USA', 'Donaldson': 'USA', 'Pall': 'USA',
+    'Mann+Hummel': 'Germany', 'Camfil': 'Sweden', 'AAF International': 'USA',
+    'Gore': 'USA', 'Freudenberg': 'Germany', 'Trelleborg': 'Sweden',
+    'Garlock': 'USA', 'Burgmann': 'Germany', 'James Walker': 'UK',
+    'Bal-Seal': 'USA', 'A.W. Chesterton': 'USA', 'Klinger': 'Austria',
+    'Hydac': 'Germany', 'Voith': 'Germany',
+    'Sun Hydraulics': 'USA', 'Hydraforce': 'USA', 'Bucher': 'Switzerland',
+    'Walvoil': 'Italy', 'Hydrocontrol': 'Italy', 'Deltrol': 'USA',
+    'Vickers': 'USA', 'Sauer-Danfoss': 'Denmark',
+    'Norgren': 'UK', 'Clippard': 'USA',
+    'Camozzi': 'Italy', 'AirTac': 'China', 'Metal Work': 'Italy',
+    'AVENTICS': 'Germany', 'Humphrey': 'USA',
+    'M+S': 'Germany', 'Daman': 'USA', 'Bibby': 'UK', 'Lovejoy': 'USA', 'Rexnord': 'USA',
+    'Falk': 'USA', 'Kop-Flex': 'USA', 'Jaure': 'Italy', 'Mayr': 'Germany',
+    'KTR': 'Germany', 'Ringfeder': 'Germany', 'Centaflex': 'Germany',
+    'Boston Gear': 'USA', 'Cleveland': 'USA', 'Sumitomo': 'Japan',
+    'NORD': 'Germany', 'Wittenstein': 'Germany',
+    'Ansaldo': 'Italy', 'MAN Energy': 'Germany', 'Solar Turbines': 'USA',
+    'Chromalloy': 'USA', 'Alstom': 'France', 'Kawasaki': 'Japan', 'Anvil': 'USA',
+    'Simpson': 'USA', 'McMaster-Carr': 'USA', 'Fastenal': 'USA',
+    'LISI': 'France', 'Unbrako': 'USA', 'Parker Fasteners': 'USA',
+    'Hager': 'Germany', 'Sperian': 'France', 'ITW': 'USA',
+    'Mee Industries': 'USA', 'RBC': 'USA', 'Precision Castparts': 'USA',
+    'Dyson': 'UK', 'Yates': 'USA',
+  };
   const brandMap = new Map<string, Brand>();
   for (const p of products) {
     if (!brandMap.has(p.brand)) {
@@ -116,7 +180,7 @@ export async function getBrands(): Promise<Brand[]> {
         logo: `/images/brands/${p.brand.toLowerCase().replace(/\s+/g, '-')}.png`,
         description: `${p.brand} - Trusted industrial manufacturer.`,
         website: `https://www.${p.brand.toLowerCase().replace(/\s+/g, '')}.com`,
-        country: 'United States',
+        country: brandCountryMap[p.brand] || 'Global',
         productCount: 1,
         categories: [p.category],
         industries: p.industry,

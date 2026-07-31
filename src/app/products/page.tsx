@@ -5,6 +5,8 @@ import { siteConfig } from '@/config/site';
 import { getProducts, getCategories, getBrands } from '@/lib/data-service';
 import { ProductListingContent } from './product-listing-content';
 
+export const dynamic = 'force-dynamic';
+
 interface ProductsPageProps {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }

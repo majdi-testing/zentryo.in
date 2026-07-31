@@ -112,7 +112,8 @@ export function Header() {
                   {item.children ? (
                     <button
                       className={cn('flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50'
+                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
+                        !isHome && pathname.startsWith(item.slug) && 'text-cyan-600 bg-cyan-50'
                       )}
                       aria-expanded={activeDropdown === item.name}
                       aria-haspopup="true"
@@ -123,7 +124,8 @@ export function Header() {
                   ) : (
                     <Link href={item.slug}
                       className={cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50'
+                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
+                        pathname === item.slug && (isHome && !isScrolled ? 'text-cyan-400' : 'text-cyan-600 bg-cyan-50')
                       )}
                     >
                       {item.name}

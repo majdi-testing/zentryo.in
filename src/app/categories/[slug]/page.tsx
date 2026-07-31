@@ -11,11 +11,8 @@ import { ExternalResults } from '@/components/search/external-results';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export async function generateStaticParams() {
-  const { getCategories } = await import('@/lib/data-service');
-  const categories = await getCategories();
-  return categories.map(c => ({ slug: c.slug }));
-}
+export const dynamicParams = false;
+export const revalidate = 3600;
 
 interface CategoryPageProps { params: Promise<{ slug: string }> }
 

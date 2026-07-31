@@ -40,7 +40,7 @@ export function QuickContact() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-3 py-4 rounded-l-lg shadow-lg transition-all hover:pr-4 group"
+        className="fixed right-0 top-1/2 -translate-y-1/2 z-40 flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-3 py-4 rounded-l-lg shadow-lg transition-all hover:pr-4 group"
         aria-label="Quick Contact"
       >
         <HelpCircle className="h-5 w-5" />

@@ -58,9 +58,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
       <body className="min-h-screen flex flex-col font-sans antialiased transition-colors duration-300">
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:px-4 focus:py-2 focus:bg-white focus:text-navy-900 focus:rounded-lg focus:shadow-xl focus:outline-none">
+          Skip to content
+        </a>
         <ThemeProvider>
           <Header />
-          <main className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
+          <main id="main-content" className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
           <Footer />
           <QuickContact />
           <WhatsAppButton />

@@ -69,7 +69,7 @@ export function ProductPagination({ currentPage, totalPages, total, limit }: Pro
         </Button>
         {getVisiblePages().map((page, index) =>
           page === 'ellipsis' ? (
-            <span key={`ellipsis-${index}`} className="px-2 text-muted-foreground text-sm">
+            <span key={`ellipsis-${index}`} className="px-2 text-muted-foreground text-sm" aria-hidden="true">
               ...
             </span>
           ) : (

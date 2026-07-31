@@ -10,11 +10,8 @@ import { getBrandBySlug, getProducts } from '@/lib/data-service';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export async function generateStaticParams() {
-  const { getBrands } = await import('@/lib/data-service');
-  const brands = await getBrands();
-  return brands.map(b => ({ slug: b.slug }));
-}
+export const dynamicParams = false;
+export const revalidate = 3600;
 
 interface BrandPageProps { params: Promise<{ slug: string }> }
 

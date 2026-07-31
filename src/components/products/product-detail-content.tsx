@@ -1,10 +1,8 @@
-import { notFound } from 'next/navigation';
-import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FileText, Download, CheckCircle2, Circle } from 'lucide-react';
 import { siteConfig } from '@/config/site';
-import { getProductBySlug, getRelatedProducts, getCategories } from '@/lib/data-service';
+import { getRelatedProducts, getCategories } from '@/lib/data-service';
 import { cn, getAvailabilityColor, getAvailabilityLabel, productImages, getImageIndex } from '@/lib/utils';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
@@ -17,46 +15,9 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { ProductCard } from '@/components/products/product-card';
+import type { Product } from '@/types';
 
-
-
-interface ProductPageProps {
-  params: Promise<{ slug: string }>;
-}
-
-export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const product = await getProductBySlug(slug);
-
-  if (!product) {
-    return { title: `Product Not Found | ${siteConfig.name}` };
-  }
-
-  return {
-    title: product.seoTitle,
-    description: product.seoDescription,
-    keywords: product.seoKeywords,
-    alternates: {
-      canonical: `${siteConfig.url}/products/${product.slug}`,
-    },
-    openGraph: {
-      title: product.seoTitle,
-      description: product.seoDescription,
-      images: product.images.length > 0
-        ? [{ url: product.images[0].src, width: 800, height: 800 }]
-        : undefined,
-    },
-  };
-}
-
-export default async function ProductDetailPage({ params }: ProductPageProps) {
-  const { slug } = await params;
-  const product = await getProductBySlug(slug);
-
-  if (!product) {
-    notFound();
-  }
-
+export async function ProductDetailContent({ product }: { product: Product }) {
   const [relatedProducts, categories] = await Promise.all([
     getRelatedProducts(product),
     getCategories(),
@@ -205,7 +166,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-muted/50">
-                    {Object.entries(product.technicalSpecifications).map(([key, value], index) => (
+                    {Object.entries(product.technicalSpecifications).map(([key, value]) => (
                       <tr key={key} className="transition-colors hover:bg-muted/20">
                         <td className="px-5 py-3.5 font-medium text-muted-foreground w-1/3">{key}</td>
                         <td className="px-5 py-3.5">{value}</td>
