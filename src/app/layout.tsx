@@ -21,26 +21,40 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: `${siteConfig.name} - ${siteConfig.tagline}`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  metadataBase: new URL(siteConfig.url),
+  applicationName: siteConfig.name,
+  alternates: {
+    canonical: siteConfig.url,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
+    url: siteConfig.url,
     siteName: siteConfig.name,
     title: `${siteConfig.name} - ${siteConfig.tagline}`,
     description: siteConfig.description,
-    images: [{ url: siteConfig.ogImage, width: 1200, height: 630 }],
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} - Industrial Engineering & Automation Solutions`,
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${siteConfig.name} - ${siteConfig.tagline}`,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
+    site: '@zentryo',
+    creator: '@zentryo',
   },
   icons: {
     icon: { url: '/images/favicon-icon.png', type: 'image/png', sizes: '32x32' },
@@ -52,6 +66,12 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  category: 'Industrial Automation & Engineering',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

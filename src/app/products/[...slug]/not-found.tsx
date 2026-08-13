@@ -2,10 +2,9 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { PackageSearch } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: `Product Not Found | ${siteConfig.name}`,
+  title: 'Product Not Found',
 };
 
 export default function ProductNotFound() {

@@ -6,12 +6,11 @@ import { Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getCategoryBySlug, getProducts, loadAllProducts } from '@/lib/data-service';
+import { getCategoryBySlug, getCategories, getProducts } from '@/lib/data-service';
 import { ExternalResults } from '@/components/search/external-results';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export const dynamicParams = false;
 export const revalidate = 3600;
 
 interface CategoryPageProps { params: Promise<{ slug: string }> }
@@ -21,9 +20,14 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const category = await getCategoryBySlug(slug);
   if (!category) return { title: 'Category Not Found' };
   return {
-    title: `${category.name} | Categories | ${siteConfig.name}`,
+    title: `${category.name} Products - Industrial Components`,
     description: category.seoDescription,
     alternates: { canonical: `${siteConfig.url}/categories/${slug}` },
+    openGraph: {
+      title: `${category.name} Products - Industrial Components`,
+      description: category.seoDescription,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: category.name }],
+    },
   };
 }
 

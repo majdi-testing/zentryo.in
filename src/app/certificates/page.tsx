@@ -10,8 +10,8 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Certificates | ${siteConfig.name}`,
-    description: `View quality certifications and compliance documents from ${siteConfig.name}: ISO 9001, ISO 14001, AS9100D, API Q1, CE, ATEX, and more.`,
+    title: 'Quality Certifications - ISO 9001, AS9100D, API Q1, ATEX',
+    description: `View quality certifications and compliance documents from ${siteConfig.name}: ISO 9001, ISO 14001, AS9100D, API Q1, CE, ATEX, and more. Certified industrial parts supplier.`,
     alternates: { canonical: `${siteConfig.url}/certificates` },
   };
 }

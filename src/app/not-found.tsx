@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 
 export const metadata: Metadata = {
-  title: '404 - Page Not Found | ZENTRYO',
-  description: 'The page you are looking for does not exist. Browse our products or contact us for assistance.',
+  title: '404 - Page Not Found',
+  description: 'The page you are looking for does not exist. Browse our industrial products or contact us for assistance.',
 };
 
 export default function NotFound() {

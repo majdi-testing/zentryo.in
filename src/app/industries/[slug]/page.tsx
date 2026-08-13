@@ -6,12 +6,11 @@ import { ArrowRight, CheckCircle, Zap, Fuel, Ship, Bolt, Factory, Car, Plane, Fl
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getIndustryBySlug, getProducts, getBrands } from '@/lib/data-service';
+import { getIndustryBySlug, getProducts, getBrands, getIndustries } from '@/lib/data-service';
 import { getSolutions } from '@/lib/repository';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export const dynamicParams = false;
 export const revalidate = 3600;
 
 interface IndustryPageProps { params: Promise<{ slug: string }> }
@@ -21,9 +20,14 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
   const industry = await getIndustryBySlug(slug);
   if (!industry) return { title: 'Industry Not Found' };
   return {
-    title: `${industry.name} | Industries | ${siteConfig.name}`,
+    title: `${industry.name} - Industrial Components & Solutions`,
     description: industry.description,
     alternates: { canonical: `${siteConfig.url}/industries/${slug}` },
+    openGraph: {
+      title: `${industry.name} - Industrial Components & Solutions`,
+      description: industry.description,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: industry.name }],
+    },
   };
 }
 

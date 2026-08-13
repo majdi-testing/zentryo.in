@@ -1,17 +1,16 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Search, ArrowRight, HelpCircle } from 'lucide-react';
+import { Search, HelpCircle } from 'lucide-react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
-import { Card, CardContent } from '@/components/ui/card';
 import { getFAQs } from '@/lib/repository';
 import type { FAQ } from '@/types';
 import { CTASection } from '@/components/layout/cta-section';
 
-export default function FAQPage() {
+export function FAQContent() {
   const [faqs, setFaqs] = useState<FAQ[]>([]);
   const [search, setSearch] = useState('');
 

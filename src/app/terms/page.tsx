@@ -5,8 +5,8 @@ import { siteConfig } from '@/config/site';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Terms of Service | ${siteConfig.name}`,
-    description: `Terms of service for ${siteConfig.name}. Read our terms and conditions for using our website and services.`,
+    title: 'Terms of Service',
+    description: `Terms of service for ${siteConfig.name}. Read our terms and conditions for using our website, purchasing industrial components, and engaging our services.`,
     alternates: { canonical: `${siteConfig.url}/terms` },
   };
 }

@@ -11,7 +11,7 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Solutions | ${siteConfig.name}`,
+    title: 'Industrial Solutions - Automation, Power & Process Control',
     description: `Comprehensive industrial solutions from ${siteConfig.name}: automation systems, power generation, process control, and fluid power systems for diverse industries.`,
     alternates: { canonical: `${siteConfig.url}/solutions` },
   };

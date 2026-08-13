@@ -23,8 +23,8 @@ export async function generateMetadata({ searchParams }: ProductsPageProps): Pro
       : 'Products';
 
   return {
-    title: `${title} | ${siteConfig.name}`,
-    description: `Browse our extensive catalog of industrial products${search ? ` matching "${search}"` : ''}.`,
+    title,
+    description: `Browse our extensive catalog of industrial products${search ? ` matching "${search}"` : ''} from leading manufacturers. Find OEM-compatible industrial parts and components.`,
     alternates: {
       canonical: `${siteConfig.url}/products`,
     },

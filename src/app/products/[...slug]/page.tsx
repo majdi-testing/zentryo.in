@@ -22,7 +22,7 @@ function titleCase(str: string) {
 export async function generateMetadata({ params }: CatchAllProps): Promise<Metadata> {
   const { slug: segments } = await params;
   if (!Array.isArray(segments) || segments.length === 0 || segments.length > 2) {
-    return { title: `Not Found | ${siteConfig.name}` };
+    return { title: 'Not Found' };
   }
 
   // Two segments → category/subcategory
@@ -31,12 +31,17 @@ export async function generateMetadata({ params }: CatchAllProps): Promise<Metad
     const subcategory = getSubcategoryDef(segments[0], segments[1]);
     if (category && subcategory) {
       return {
-        title: `${subcategory.name} | ${siteConfig.name}`,
+        title: `${subcategory.name} - Industrial Products`,
         description: subcategory.description,
         alternates: { canonical: `${siteConfig.url}/products/${category.slug}/${subcategory.slug}` },
+        openGraph: {
+          title: `${subcategory.name} - Industrial Products`,
+          description: subcategory.description,
+          images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: subcategory.name }],
+        },
       };
     }
-    return { title: `Not Found | ${siteConfig.name}` };
+    return { title: 'Not Found' };
   }
 
   // Single segment → product or category
@@ -44,21 +49,39 @@ export async function generateMetadata({ params }: CatchAllProps): Promise<Metad
   const category = getCategoryDef(slug);
   if (category) {
     return {
-      title: `${category.name} | ${siteConfig.name}`,
+      title: `${category.name} - Industrial Products`,
       description: category.description,
       alternates: { canonical: `${siteConfig.url}/products/${category.slug}` },
+      openGraph: {
+        title: `${category.name} - Industrial Products`,
+        description: category.description,
+        images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: category.name }],
+      },
     };
   }
 
   const product = await getProductBySlug(slug);
   if (!product) {
-    return { title: `Product Not Found | ${siteConfig.name}` };
+    return { title: 'Product Not Found' };
   }
   return {
-    title: product.seoTitle,
+    title: product.seoTitle.replace(/\s*\|\s*ZENTRYO.*$/i, ''),
     description: product.seoDescription,
     keywords: product.seoKeywords,
     alternates: { canonical: `${siteConfig.url}/products/${product.slug}` },
+    openGraph: {
+      title: product.name,
+      description: product.seoDescription,
+      url: `${siteConfig.url}/products/${product.slug}`,
+      siteName: siteConfig.name,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: product.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.name,
+      description: product.seoDescription,
+      images: [siteConfig.ogImage],
+    },
   };
 }
 

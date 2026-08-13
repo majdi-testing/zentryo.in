@@ -1,10 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { Download, FileText, Search, ArrowRight } from 'lucide-react';
+import { Download, FileText, Search } from 'lucide-react';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
-import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { getDownloads } from '@/lib/repository';
@@ -20,7 +18,7 @@ const typeColors: Record<string, string> = {
   drawing: 'bg-rose-50 text-rose-700',
 };
 
-export default function DownloadsPage() {
+export function DownloadsContent() {
   const [resources, setResources] = useState<DownloadResource[]>([]);
   const [search, setSearch] = useState('');
   const [activeCategory, setActiveCategory] = useState('All');

@@ -35,9 +35,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const service = await getServiceBySlug(slug);
   if (!service) return {};
   return {
-    title: `${service.name} | ${siteConfig.name}`,
+    title: service.name,
     description: service.shortDescription,
     alternates: { canonical: `${siteConfig.url}/services/${slug}` },
+    openGraph: {
+      title: service.name,
+      description: service.shortDescription,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: service.name }],
+    },
   };
 }
 

@@ -17,6 +17,30 @@ import { LatestBlogs } from '@/components/home/latest-blogs';
 import { FAQSection } from '@/components/home/faq';
 import { HomeContactForm } from '@/components/home/contact-form';
 import { getCategories, loadAllProducts } from '@/lib/data-service';
+import { siteConfig } from '@/config/site';
+import type { Metadata } from 'next';
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Industrial Components Supplier - Bearings, Valves & Automation',
+    description:
+      `${siteConfig.name} is a trusted industrial components supplier in India offering OEM spare parts, gas turbine parts, bearings, valves, automation systems & engineering solutions. Trusted by 2,500+ clients across 80+ countries. Get a quote today.`,
+    alternates: { canonical: siteConfig.url },
+    openGraph: {
+      type: 'website',
+      url: siteConfig.url,
+      title: `${siteConfig.name} - Industrial Components & Automation Solutions`,
+      description: siteConfig.description,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${siteConfig.name} - Industrial Components & Automation Solutions`,
+      description: siteConfig.description,
+      images: [siteConfig.ogImage],
+    },
+  };
+}
 
 async function getCategoriesWithSubcategories(): Promise<CategoryCard[]> {
   const categories = await getCategories();
@@ -38,8 +62,57 @@ async function getCategoriesWithSubcategories(): Promise<CategoryCard[]> {
 export default async function HomePage() {
   const categories = await getCategoriesWithSubcategories();
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${siteConfig.url}/#organization`,
+        name: siteConfig.name,
+        url: siteConfig.url,
+        logo: `${siteConfig.url}/images/og-image.jpg`,
+        description: siteConfig.description,
+        foundingDate: siteConfig.organization.foundingDate,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: siteConfig.contact.streetAddress,
+          addressLocality: siteConfig.contact.locality,
+          addressRegion: siteConfig.contact.region,
+          postalCode: siteConfig.contact.postalCode,
+          addressCountry: siteConfig.contact.country,
+        },
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: siteConfig.contact.phone,
+          contactType: 'sales',
+          email: siteConfig.contact.email,
+          availableLanguage: ['English'],
+        },
+        sameAs: siteConfig.organization.sameAs,
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${siteConfig.url}/#website`,
+        url: siteConfig.url,
+        name: siteConfig.name,
+        description: siteConfig.description,
+        publisher: { '@id': `${siteConfig.url}/#organization` },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: `${siteConfig.url}/products?search={search_term_string}`,
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
       <HomeHero />
       <TrustedBrands />
       <ProductRange />

@@ -10,8 +10,8 @@ import { formatDate } from '@/lib/utils';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Blog | ${siteConfig.name}`,
-    description: `Industry insights, technical guides, and engineering articles from ${siteConfig.name}. Stay updated on industrial automation, maintenance best practices, and component selection.`,
+    title: 'Blog - Industrial Insights & Technical Guides',
+    description: `Industry insights, technical guides, and engineering articles from ${siteConfig.name}. Stay updated on industrial automation, component selection, power generation, and engineering best practices.`,
     alternates: { canonical: `${siteConfig.url}/blog` },
   };
 }

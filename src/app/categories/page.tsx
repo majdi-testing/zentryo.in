@@ -8,8 +8,8 @@ import { getCategories } from '@/lib/data-service';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Categories | ${siteConfig.name}`,
-    description: `Browse industrial product categories at ${siteConfig.name}: bearings, valves, automation, sensors, hydraulics, pneumatics, electrical components, and more.`,
+    title: 'Industrial Product Categories - Bearings, Valves & More',
+    description: `Browse industrial product categories at ${siteConfig.name}: bearings, valves, automation, sensors, hydraulics, pneumatics, electrical components, and more. Source OEM-compatible industrial parts from leading manufacturers.`,
     alternates: { canonical: `${siteConfig.url}/categories` },
   };
 }

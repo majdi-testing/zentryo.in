@@ -6,11 +6,10 @@ import { ArrowRight, Globe, Shield, Award, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { siteConfig } from '@/config/site';
-import { getBrandBySlug, getProducts } from '@/lib/data-service';
+import { getBrandBySlug, getBrands, getProducts } from '@/lib/data-service';
 import { Breadcrumbs } from '@/components/layout/breadcrumbs';
 import { productImages, heroImages, getImageIndex, getHeroIndex } from '@/lib/utils';
 
-export const dynamicParams = false;
 export const revalidate = 3600;
 
 interface BrandPageProps { params: Promise<{ slug: string }> }
@@ -20,9 +19,14 @@ export async function generateMetadata({ params }: BrandPageProps): Promise<Meta
   const brand = await getBrandBySlug(slug);
   if (!brand) return { title: 'Brand Not Found' };
   return {
-    title: `${brand.name} | Brands | ${siteConfig.name}`,
+    title: `${brand.name} Products & Parts - Industrial Supplier`,
     description: brand.description,
     alternates: { canonical: `${siteConfig.url}/brands/${slug}` },
+    openGraph: {
+      title: `${brand.name} Products & Parts - Industrial Supplier`,
+      description: brand.description,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: brand.name }],
+    },
   };
 }
 

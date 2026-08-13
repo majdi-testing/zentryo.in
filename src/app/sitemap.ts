@@ -1,8 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
-import { loadAllProducts } from '@/lib/data-service';
-import { getBlogPosts } from '@/lib/repository';
-import { slugify } from '@/lib/utils';
+import { loadAllProducts, getCategories, getBrands, getIndustries } from '@/lib/data-service';
+import { getBlogPosts, getServices, getSolutions } from '@/lib/repository';
 import { productCatalog } from '@/lib/product-catalog';
 
 const STATIC_ROUTES = [
@@ -25,8 +24,6 @@ const STATIC_ROUTES = [
   '/terms',
 ];
 
-const SERVICES = ['automation-integration', 'predictive-maintenance', 'spare-parts-sourcing', 'engineering-consulting'];
-
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = siteConfig.url;
   const now = new Date().toISOString();
@@ -46,8 +43,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  const serviceEntries: MetadataRoute.Sitemap = SERVICES.map((slug) => ({
-    url: `${baseUrl}/services/${slug}`,
+  const serviceEntries: MetadataRoute.Sitemap = (await getServices()).map((s) => ({
+    url: `${baseUrl}/services/${s.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
+
+  const solutionEntries: MetadataRoute.Sitemap = (await getSolutions()).map((s) => ({
+    url: `${baseUrl}/solutions/${s.slug}`,
     lastModified: now,
     changeFrequency: 'monthly',
     priority: 0.6,
@@ -66,11 +70,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // repository not available at build time — skip
   }
 
-  const categoryEntries: MetadataRoute.Sitemap = Array.from(new Set(products.map(p => slugify(p.category)))).map((slug) => ({
-    url: `${baseUrl}/categories/${slug}`,
+  const categoryEntries: MetadataRoute.Sitemap = (await getCategories()).map((c) => ({
+    url: `${baseUrl}/categories/${c.slug}`,
     lastModified: now,
     changeFrequency: 'weekly',
     priority: 0.7,
+  }));
+
+  const brandEntries: MetadataRoute.Sitemap = (await getBrands()).map((b) => ({
+    url: `${baseUrl}/brands/${b.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }));
+
+  const industryEntries: MetadataRoute.Sitemap = (await getIndustries()).map((i) => ({
+    url: `${baseUrl}/industries/${i.slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.6,
   }));
 
   const catalogEntries: MetadataRoute.Sitemap = productCatalog.flatMap((cat): MetadataRoute.Sitemap => [
@@ -88,27 +106,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   ]);
 
-  const brandEntries: MetadataRoute.Sitemap = Array.from(new Set(products.map(p => slugify(p.brand)))).map((slug) => ({
-    url: `${baseUrl}/brands/${slug}`,
-    lastModified: now,
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }));
-
-  const industryEntries: MetadataRoute.Sitemap = [
-    'power-plants', 'oil-gas', 'marine', 'energy', 'manufacturing',
-    'automotive', 'aerospace', 'chemical', 'mining', 'pharmaceutical',
-  ].map((slug) => ({
-    url: `${baseUrl}/industries/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.6,
-  }));
-
   return [
     ...staticEntries,
     ...productEntries,
     ...serviceEntries,
+    ...solutionEntries,
     ...categoryEntries,
     ...catalogEntries,
     ...brandEntries,

@@ -9,8 +9,8 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Industries | ${siteConfig.name}`,
-    description: `${siteConfig.name} serves 10+ industrial sectors including power generation, oil & gas, marine, manufacturing, aerospace, chemical processing, and more.`,
+    title: 'Industries We Serve - Power, Oil & Gas, Marine & More',
+    description: `${siteConfig.name} serves 10+ industrial sectors including power generation, oil & gas, marine, manufacturing, aerospace, chemical processing, and more with industrial components and automation solutions.`,
     alternates: { canonical: `${siteConfig.url}/industries` },
   };
 }

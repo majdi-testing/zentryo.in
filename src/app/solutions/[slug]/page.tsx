@@ -32,11 +32,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const solution = await getSolutionBySlug(slug);
-  if (!solution) return { title: `Solution Not Found | ${siteConfig.name}` };
+  if (!solution) return { title: 'Solution Not Found' };
   return {
-    title: `${solution.name} | ${siteConfig.name}`,
+    title: solution.name,
     description: solution.shortDescription,
     alternates: { canonical: `${siteConfig.url}/solutions/${slug}` },
+    openGraph: {
+      title: solution.name,
+      description: solution.shortDescription,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: solution.name }],
+    },
   };
 }
 

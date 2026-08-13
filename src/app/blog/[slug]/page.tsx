@@ -21,11 +21,27 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const { slug } = await params;
   const post = await getBlogPostBySlug(slug);
   if (!post) return { title: 'Post Not Found' };
+  const postTitle = post.seoTitle.replace(/\s*\|\s*ZENTRYO.*$/i, '');
   return {
-    title: `${post.seoTitle}`,
+    title: postTitle,
     description: post.seoDescription,
     alternates: { canonical: `${siteConfig.url}/blog/${slug}` },
-    openGraph: { title: post.seoTitle, description: post.seoDescription, type: 'article', publishedTime: post.publishedAt, authors: [post.author] },
+    openGraph: {
+      title: postTitle,
+      description: post.seoDescription,
+      type: 'article',
+      url: `${siteConfig.url}/blog/${slug}`,
+      siteName: siteConfig.name,
+      publishedTime: post.publishedAt,
+      authors: [post.author],
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: postTitle,
+      description: post.seoDescription,
+      images: [siteConfig.ogImage],
+    },
   };
 }
 

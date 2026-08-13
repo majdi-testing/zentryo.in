@@ -5,8 +5,8 @@ import { siteConfig } from '@/config/site';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `Privacy Policy | ${siteConfig.name}`,
-    description: `Privacy policy for ${siteConfig.name}. Learn how we collect, use, and protect your personal information.`,
+    title: 'Privacy Policy',
+    description: `Privacy policy for ${siteConfig.name}. Learn how we collect, use, and protect your personal information when purchasing industrial components and services.`,
     alternates: { canonical: `${siteConfig.url}/privacy` },
   };
 }

@@ -11,18 +11,19 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `About Us | ${siteConfig.name}`,
-    description: `Learn about ${siteConfig.name} - a premier global supplier of industrial engineering components, automation systems, and industrial solutions with 25+ years of experience.`,
+    title: 'About Us - Industrial Components & Automation Supplier',
+    description: `Learn about ${siteConfig.name} - a premier global supplier of industrial engineering components, automation systems, and industrial solutions with 25+ years of experience, trusted by 2,500+ clients worldwide.`,
     alternates: { canonical: `${siteConfig.url}/about` },
     openGraph: {
-      title: `About ${siteConfig.name}`,
-      description: `Discover our mission, vision, and commitment to industrial excellence.`,
+      title: `About ${siteConfig.name} | Industrial Components & Automation Supplier`,
+      description: `Discover our mission, vision, and commitment to industrial excellence as a trusted supplier of industrial components, automation systems, and OEM spare parts.`,
+      images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
     },
   };
 }
 
 const milestones = [
-  { year: '2000', title: 'Founded', description: 'ZENTRYO established in Houston, TX with a vision to revolutionize industrial component supply.' },
+  { year: '2000', title: 'Founded', description: 'ZENTRYO established with a vision to revolutionize industrial component supply.' },
   { year: '2005', title: 'Global Expansion', description: 'Expanded operations to 20+ countries with strategic partnerships across Europe and Asia.' },
   { year: '2010', title: 'ISO Certification', description: 'Achieved ISO 9001 quality management certification, setting new standards for excellence.' },
   { year: '2015', title: '10,000 Products', description: 'Catalog surpassed 10,000 industrial components serving 15 major industries.' },
@@ -50,7 +51,7 @@ export default async function AboutPage() {
     url: siteConfig.url,
     logo: `${siteConfig.url}/images/og-image.jpg`,
     foundingDate: '2000',
-    address: { '@type': 'PostalAddress', streetAddress: siteConfig.contact.address, addressLocality: 'Houston', addressRegion: 'TX', postalCode: '77001', addressCountry: 'US' },
+    address: { '@type': 'PostalAddress', streetAddress: siteConfig.contact.streetAddress, addressLocality: siteConfig.contact.locality, addressRegion: siteConfig.contact.region, postalCode: siteConfig.contact.postalCode, addressCountry: siteConfig.contact.country },
     contactPoint: { '@type': 'ContactPoint', telephone: siteConfig.contact.phone, contactType: 'customer service', email: siteConfig.contact.email },
     sameAs: [siteConfig.social.linkedin, siteConfig.social.twitter, siteConfig.social.youtube],
     numberOfEmployees: { '@type': 'QuantitativeValue', value: '500+' },
@@ -143,7 +144,7 @@ export default async function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Your Trusted Industrial Partner</h2>
               <div className="w-20 h-1 bg-cyan-500 mb-6" />
               <p className="text-steel-600 text-lg leading-relaxed mb-6">
-                ZENTRYO is a premier global supplier of industrial engineering components, automation systems, gas turbine spare parts, OEM components, and comprehensive industrial solutions. Headquartered in Houston, Texas, we serve the power generation, oil & gas, marine, manufacturing, aerospace, chemical processing, mining, and pharmaceutical industries.
+                ZENTRYO is a premier global supplier of industrial engineering components, automation systems, gas turbine spare parts, OEM components, and comprehensive industrial solutions. Serving clients across 80+ countries from our base, we support the power generation, oil & gas, marine, manufacturing, aerospace, chemical processing, mining, and pharmaceutical industries.
               </p>
               <div className="space-y-3 mb-8">
                 {highlights.map((item) => (
