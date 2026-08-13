@@ -12,7 +12,7 @@ import { CTASection } from '@/components/layout/cta-section';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: `Services | ${siteConfig.name}`,
-    description: `Comprehensive industrial services from ${siteConfig.name}: engineering consulting, supply chain management, maintenance & repair, technical training, quality inspection, and custom fabrication.`,
+    description: `Comprehensive industrial services from ${siteConfig.name}: engineering consulting, supply chain management, technical training, quality inspection, and custom fabrication.`,
     alternates: { canonical: `${siteConfig.url}/services` },
   };
 }
@@ -20,7 +20,6 @@ export async function generateMetadata(): Promise<Metadata> {
 const serviceIcons: Record<string, React.ReactNode> = {
   'engineering-consulting': <BrainCircuit className="h-8 w-8" />,
   'supply-chain': <Truck className="h-8 w-8" />,
-  'maintenance-repair': <Wrench className="h-8 w-8" />,
   'technical-training': <GraduationCap className="h-8 w-8" />,
   'quality-inspection': <SearchCheck className="h-8 w-8" />,
   'custom-fabrication': <Hammer className="h-8 w-8" />,
@@ -29,7 +28,6 @@ const serviceIcons: Record<string, React.ReactNode> = {
 const serviceImages: Record<string, string> = {
   'engineering-consulting': 'https://images.pexels.com/photos/3846251/pexels-photo-3846251.jpeg?auto=compress&cs=tinysrgb&w=800',
   'supply-chain': 'https://images.pexels.com/photos/36694994/pexels-photo-36694994.jpeg?auto=compress&cs=tinysrgb&w=800',
-  'maintenance-repair': 'https://images.pexels.com/photos/35290678/pexels-photo-35290678.jpeg?auto=compress&cs=tinysrgb&w=800',
   'technical-training': 'https://images.pexels.com/photos/35216547/pexels-photo-35216547.jpeg?auto=compress&cs=tinysrgb&w=800',
   'quality-inspection': 'https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg?auto=compress&cs=tinysrgb&w=800',
   'custom-fabrication': 'https://images.pexels.com/photos/30117046/pexels-photo-30117046.jpeg?auto=compress&cs=tinysrgb&w=800',
