@@ -9,8 +9,8 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Industrial Brands We Supply - GE, Siemens, ABB & More',
-    description: `Browse brands available at ${siteConfig.name}. We supply OEM-compatible industrial parts from leading manufacturers including GE, Siemens, ABB, Honeywell, Emerson, Parker, and more.`,
+    title: 'Industrial Brands We Supply - GE & Siemens',
+    description: `Browse OEM-compatible industrial parts from leading brands at ${siteConfig.name}: GE, Siemens, ABB, Honeywell, Emerson, and Parker.`,
     alternates: { canonical: `${siteConfig.url}/brands` },
   };
 }

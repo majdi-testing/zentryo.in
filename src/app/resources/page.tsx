@@ -10,7 +10,7 @@ import { formatDate } from '@/lib/utils';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Technical Resources - Guides, Catalogs & Downloads',
+    title: 'Technical Resources - Guides & Catalogs',
     description: `Technical resources from ${siteConfig.name}: blog articles, product downloads, quality certificates, and frequently asked questions for industrial component selection.`,
     alternates: { canonical: `${siteConfig.url}/resources` },
   };

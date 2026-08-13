@@ -2,8 +2,8 @@ export const siteConfig = {
   name: 'ZENTRYO',
   tagline: 'Industrial Engineering & Automation Solutions',
   description:
-    'ZENTRYO is a premier global supplier of industrial engineering components, automation systems, gas turbine spare parts, OEM components, and industrial solutions for power plants, oil & gas, marine, and manufacturing industries. Trusted by 2,500+ clients across 80+ countries.',
-  url: 'https://zentryo.com',
+    'ZENTRYO is a trusted supplier of industrial components, automation systems, gas turbine spare parts, and OEM parts for power, oil & gas, and marine industries.',
+  url: 'https://zentryo.in',
   ogImage: '/images/og-image.jpg',
   keywords: [
     'Industrial Automation',

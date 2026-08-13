@@ -11,7 +11,7 @@ import { formatDate } from '@/lib/utils';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Blog - Industrial Insights & Technical Guides',
-    description: `Industry insights, technical guides, and engineering articles from ${siteConfig.name}. Stay updated on industrial automation, component selection, power generation, and engineering best practices.`,
+    description: `Industry insights and technical guides from ${siteConfig.name} on automation, component selection, and power generation best practices.`,
     alternates: { canonical: `${siteConfig.url}/blog` },
   };
 }

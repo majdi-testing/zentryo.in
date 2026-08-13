@@ -22,9 +22,9 @@ import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'Industrial Components Supplier - Bearings, Valves & Automation',
+    title: 'Industrial Components & Automation Supplier',
     description:
-      `${siteConfig.name} is a trusted industrial components supplier in India offering OEM spare parts, gas turbine parts, bearings, valves, automation systems & engineering solutions. Trusted by 2,500+ clients across 80+ countries. Get a quote today.`,
+      `${siteConfig.name} supplies industrial components, OEM spare parts, bearings, valves, and automation systems for power, oil & gas, and marine industries in India.`,
     alternates: { canonical: siteConfig.url },
     openGraph: {
       type: 'website',

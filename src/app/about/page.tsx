@@ -11,12 +11,12 @@ import { CTASection } from '@/components/layout/cta-section';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'About Us - Industrial Components & Automation Supplier',
-    description: `Learn about ${siteConfig.name} - a premier global supplier of industrial engineering components, automation systems, and industrial solutions with 25+ years of experience, trusted by 2,500+ clients worldwide.`,
+    title: 'About Us - Industrial Components Supplier',
+    description: `Learn about ${siteConfig.name}, a trusted supplier of industrial components, automation systems, and engineering solutions with 25+ years of experience.`,
     alternates: { canonical: `${siteConfig.url}/about` },
     openGraph: {
-      title: `About ${siteConfig.name} | Industrial Components & Automation Supplier`,
-      description: `Discover our mission, vision, and commitment to industrial excellence as a trusted supplier of industrial components, automation systems, and OEM spare parts.`,
+      title: `About ${siteConfig.name} - Industrial Components Supplier`,
+      description: `Discover our mission, vision, and commitment to industrial excellence as a trusted supplier of industrial components and automation systems.`,
       images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
     },
   };

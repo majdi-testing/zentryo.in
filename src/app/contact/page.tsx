@@ -5,7 +5,7 @@ import { ContactPageContent } from './contact-content';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Contact Us - Industrial Components Supplier',
-    description: `Contact ${siteConfig.name} for industrial components, automation solutions, and engineering services. Call ${siteConfig.contact.phone} or email ${siteConfig.contact.email}. Get a free quote today.`,
+    description: `Contact ${siteConfig.name} for industrial components, automation solutions, and engineering services. Call ${siteConfig.contact.phone} or email ${siteConfig.contact.email}.`,
     alternates: { canonical: `${siteConfig.url}/contact` },
   };
 }
