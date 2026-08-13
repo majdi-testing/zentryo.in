@@ -3,14 +3,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  BrainCircuit, Truck, Wrench, GraduationCap, SearchCheck, Hammer, ArrowRight,
+  BrainCircuit, Truck, GraduationCap, SearchCheck, Hammer, ArrowRight,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const services = [
   { slug: 'engineering-consulting', icon: BrainCircuit, title: 'Engineering Consulting', description: 'Expert engineering consultation for complex industrial challenges from design to optimization.', image: 'https://images.pexels.com/photos/3846251/pexels-photo-3846251.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'supply-chain', icon: Truck, title: 'Supply Chain Management', description: 'End-to-end supply chain solutions ensuring timely delivery of critical industrial components.', image: 'https://images.pexels.com/photos/36694994/pexels-photo-36694994.jpeg?auto=compress&cs=tinysrgb&w=800' },
-  { slug: 'maintenance-repair', icon: Wrench, title: 'Maintenance & Repair', description: 'Professional maintenance and repair services to maximize equipment lifespan and reliability.', image: 'https://images.pexels.com/photos/35290678/pexels-photo-35290678.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'technical-training', icon: GraduationCap, title: 'Technical Training', description: 'Industry-specific technical training programs for engineering teams and operators.', image: 'https://images.pexels.com/photos/35216547/pexels-photo-35216547.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'quality-inspection', icon: SearchCheck, title: 'Quality Inspection', description: 'Advanced quality inspection services ensuring components meet the highest industry standards.', image: 'https://images.pexels.com/photos/32845674/pexels-photo-32845674.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { slug: 'custom-fabrication', icon: Hammer, title: 'Custom Fabrication', description: 'Custom engineering and fabrication of specialized components to exact specifications.', image: 'https://images.pexels.com/photos/30117046/pexels-photo-30117046.jpeg?auto=compress&cs=tinysrgb&w=800' },

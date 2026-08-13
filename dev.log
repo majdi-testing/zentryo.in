@@ -1,0 +1,32 @@
+
+> zentryo@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.14:3000
+✓ Ready in 549ms
+
+ GET / 200 in 4.0s (next.js: 754ms, application-code: 3.3s)
+ GET /manifest.webmanifest 200 in 212ms (next.js: 188ms, application-code: 24ms)
+ GET /api/products/featured 200 in 1348ms (next.js: 49ms, application-code: 1299ms)
+ GET /api/products/featured 200 in 999ms (next.js: 6ms, application-code: 993ms)
+ GET /api/products/featured 200 in 981ms (next.js: 5ms, application-code: 976ms)
+ GET / 200 in 2.8s (next.js: 5ms, application-code: 2.8s)
+ GET /services 200 in 240ms (next.js: 49ms, application-code: 191ms)
+ GET /services/supply-chain 200 in 935ms (next.js: 807ms, generate-params: 749ms, application-code: 128ms)
+ GET /services/engineering-consulting 200 in 174ms (next.js: 18ms, generate-params: 10ms, application-code: 155ms)
+ GET /categories 200 in 1314ms (next.js: 52ms, application-code: 1262ms)
+ GET /categories/bearings 200 in 4.0s (next.js: 593ms, application-code: 3.4s)
+ GET /brands 200 in 3.3s (next.js: 45ms, application-code: 3.2s)
+ GET /brands/skf 200 in 4.2s (next.js: 529ms, application-code: 3.7s)
+ GET /industries 200 in 1852ms (next.js: 117ms, application-code: 1735ms)
+ GET /industries/power-plants 200 in 5.3s (next.js: 805ms, application-code: 4.5s)
+ GET /products 200 in 3.8s (next.js: 50ms, application-code: 3.7s)
+ GET /blog 200 in 363ms (next.js: 58ms, application-code: 305ms)
+ GET /blog/industrial-automation-trends-2026 200 in 739ms (next.js: 579ms, generate-params: 523ms, application-code: 161ms)
+ GET /about 200 in 365ms (next.js: 44ms, application-code: 321ms)
+ GET /solutions 200 in 1346ms (next.js: 40ms, application-code: 1306ms)
+ GET /solutions/automation-systems 200 in 2.1s (next.js: 613ms, generate-params: 560ms, application-code: 1479ms)
+ GET /downloads 200 in 338ms (next.js: 142ms, application-code: 196ms)
+ GET /faq 200 in 307ms (next.js: 120ms, application-code: 187ms)
