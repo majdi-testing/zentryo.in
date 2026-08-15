@@ -29,17 +29,17 @@ export function RFQContent() {
   return (
     <>
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Request for Quote' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Request for Quote</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Request for Quote</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Submit your requirements and our team will provide a competitive quote within 4 hours during business hours.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -61,7 +61,7 @@ export function RFQContent() {
                         Submit Another RFQ
                       </Button>
                       <Link href="/products">
-                        <Button className="bg-green-600 hover:bg-green-700 text-white">Continue Browsing</Button>
+                        <Button className="bg-green-600 hover:bg-green-700 text-[#ffffff]">Continue Browsing</Button>
                       </Link>
                     </div>
                   </CardContent>
@@ -110,7 +110,7 @@ export function RFQContent() {
                           <Checkbox id="urgent" />
                           <span>Urgent Request</span>
                         </Label>
-                        <p className="text-xs text-steel-400 mt-1">Check if you need expedited processing</p>
+                        <p className="text-xs text-[#829ab1] mt-1">Check if you need expedited processing</p>
                       </div>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export function RFQContent() {
                     <CheckCircle className="h-4 w-4 text-cyan-500" />
                     <span>Our team typically responds within 4 hours during business hours</span>
                   </div>
-                  <Button type="submit" size="lg" className="bg-navy-800 hover:bg-navy-900 text-white gap-2">
+                  <Button type="submit" size="lg" className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff] gap-2">
                     <Send className="h-4 w-4" /> Submit RFQ
                   </Button>
                 </form>

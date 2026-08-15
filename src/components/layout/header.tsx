@@ -16,6 +16,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet';
 import { MobileNav } from '@/components/layout/mobile-nav';
 import { SearchCommand } from '@/components/layout/search-command';
+import { ColorPicker } from '@/components/ui/color-picker';
 
 const NAV_ITEMS = mainNavItems;
 const SITE_INFO = siteInfo;
@@ -79,17 +80,17 @@ export function Header() {
             isHome && !isScrolled ? 'h-auto opacity-100' : 'h-0 opacity-0'
           )}
         >
-          <div className="bg-navy-900 text-white text-xs">
+          <div className="bg-navy-950 text-[#ffffff] text-xs">
             <div className="max-w-7xl mx-auto px-4 h-9 flex items-center justify-between">
               <span className="font-medium text-cyan-400 tracking-wider uppercase">{SITE_INFO.tagline}</span>
               <div className="flex items-center gap-6">
-                <a href={`tel:${SITE_INFO.phone}`} className="flex items-center gap-1.5 text-steel-200 hover:text-cyan-400 transition-colors">
+                <a href={`tel:${SITE_INFO.phone}`} className="flex items-center gap-1.5 text-[#bcccdc] hover:text-cyan-400 transition-colors">
                   <Phone className="h-3 w-3" /> <span>{SITE_INFO.phone} | {SITE_INFO.secondaryPhone}</span>
                 </a>
-                <a href={`mailto:${SITE_INFO.email}`} className="flex items-center gap-1.5 text-steel-200 hover:text-cyan-400 transition-colors">
+                <a href={`mailto:${SITE_INFO.email}`} className="flex items-center gap-1.5 text-[#bcccdc] hover:text-cyan-400 transition-colors">
                   <Mail className="h-3 w-3" /> <span>{SITE_INFO.email} | {SITE_INFO.contactEmail}</span>
                 </a>
-                <span className="flex items-center gap-1.5 text-steel-200">
+                <span className="flex items-center gap-1.5 text-[#bcccdc]">
                   <Clock className="h-3 w-3" /> <span>Mon-Fri: 8:00 AM - 6:00 PM</span>
                 </span>
               </div>
@@ -100,7 +101,7 @@ export function Header() {
         <nav className={cn('transition-all duration-300', isScrolled ? 'py-2' : 'py-3 lg:py-4')}>
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
             <Link href="/" className="flex items-center shrink-0">
-              <Image src="/images/logo.png" alt="ZENTRYO" width={180} height={52} className="object-contain" priority />
+              <Image src="/images/logo-main.png" alt="ZENTRYO" width={180} height={52} className="object-contain" priority />
             </Link>
 
             <div className="hidden lg:flex items-center gap-1">
@@ -112,7 +113,7 @@ export function Header() {
                   {item.children ? (
                     <button
                       className={cn('flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
+                        isHome && !isScrolled ? 'text-[#ffffff]/90 hover:text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
                         !isHome && pathname.startsWith(item.slug) && 'text-cyan-600 bg-cyan-50'
                       )}
                       aria-expanded={activeDropdown === item.name}
@@ -124,7 +125,7 @@ export function Header() {
                   ) : (
                     <Link href={item.slug}
                       className={cn('px-3 py-2 rounded-lg text-sm font-medium transition-colors',
-                        isHome && !isScrolled ? 'text-white/90 hover:text-white hover:bg-white/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
+                        isHome && !isScrolled ? 'text-[#ffffff]/90 hover:text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-navy-800 hover:text-cyan-600 hover:bg-navy-50',
                         pathname === item.slug && (isHome && !isScrolled ? 'text-cyan-400' : 'text-cyan-600 bg-cyan-50')
                       )}
                     >
@@ -153,7 +154,7 @@ export function Header() {
                                 </div>
                                 <div className="min-w-0">
                                   <div className="text-sm font-semibold text-navy-900 group-hover:text-cyan-600 transition-colors">{link.name}</div>
-                                  <div className="text-xs text-steel-400 truncate">{link.parentName}</div>
+                                  <div className="text-xs text-[#829ab1] truncate">{link.parentName}</div>
                                 </div>
                               </Link>
                             );
@@ -185,7 +186,7 @@ export function Header() {
             <div className="flex items-center gap-2">
               <button onClick={() => setSearchOpen(true)}
                 className={cn('p-2 rounded-lg transition-colors',
-                  isHome && !isScrolled ? 'text-white/80 hover:text-white hover:bg-white/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
+                  isHome && !isScrolled ? 'text-[#ffffff]/80 hover:text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
                 )}
                 aria-label="Search products"
               >
@@ -194,15 +195,19 @@ export function Header() {
 
               <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
                 className={cn('p-2 rounded-lg transition-colors',
-                  isHome && !isScrolled ? 'text-white/80 hover:text-white hover:bg-white/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
+                  isHome && !isScrolled ? 'text-[#ffffff]/80 hover:text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
                 )}
                 aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
               >
                 {theme === 'light' ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
               </button>
 
+              <ColorPicker className={cn('p-2 rounded-lg transition-colors',
+                isHome && !isScrolled ? 'text-[#ffffff]/80 hover:text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-steel-600 hover:text-navy-900 hover:bg-navy-50'
+              )} />
+
               <Link href="/rfq" className={cn('hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300',
-                isHome && !isScrolled ? 'bg-cyan-500 text-white hover:bg-cyan-400 shadow-lg shadow-cyan-500/25' : 'bg-cyan-500 text-white hover:bg-cyan-600 shadow-sm'
+                isHome && !isScrolled ? 'bg-cyan-500 text-[#ffffff] hover:bg-cyan-400 shadow-lg shadow-cyan-500/25' : 'bg-cyan-500 text-[#ffffff] hover:bg-cyan-600 shadow-sm'
               )}>
                 Request Quote
               </Link>
@@ -210,7 +215,7 @@ export function Header() {
               <Sheet open={mobileNavOpen} onOpenChange={setMobileNavOpen}>
                 <SheetTrigger asChild>
                   <button className={cn('lg:hidden p-2 rounded-lg transition-colors',
-                    isHome && !isScrolled ? 'text-white hover:bg-white/10' : 'text-navy-900 hover:bg-navy-50'
+                    isHome && !isScrolled ? 'text-[#ffffff] hover:bg-[#ffffff]/10' : 'text-navy-900 hover:bg-navy-50'
                   )}
                     aria-label="Open navigation menu"
                   >

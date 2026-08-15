@@ -68,7 +68,7 @@ export function SolutionsSection() {
             >
               <div className="flex items-start gap-5">
                 <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shrink-0 shadow-lg shadow-cyan-500/20">
-                  <sol.icon className="h-7 w-7 text-white" />
+                  <sol.icon className="h-7 w-7 text-[#ffffff]" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="text-xl font-bold text-navy-800 mb-2">{sol.title}</h4>

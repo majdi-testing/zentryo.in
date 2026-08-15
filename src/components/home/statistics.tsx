@@ -66,7 +66,7 @@ export function Statistics() {
   const isInView = useInViewOnce(sectionRef);
 
   return (
-    <section ref={sectionRef} className="py-20 bg-navy-900">
+    <section ref={sectionRef} className="py-20 bg-navy-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, i) => (
@@ -78,10 +78,10 @@ export function Statistics() {
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-cyan-500/10 border border-cyan-500/20 mb-5">
                 <stat.icon className="h-6 w-6 text-cyan-400" />
               </div>
-              <div className="text-4xl sm:text-5xl font-bold text-white mb-2 font-mono tracking-tight">
+              <div className="text-4xl sm:text-5xl font-bold text-[#ffffff] mb-2 font-mono tracking-tight">
                 <CountUp target={stat.value} suffix={stat.suffix} />
               </div>
-              <div className="text-sm text-steel-400 font-medium">{stat.label}</div>
+              <div className="text-sm text-[#829ab1] font-medium">{stat.label}</div>
             </div>
           ))}
         </div>

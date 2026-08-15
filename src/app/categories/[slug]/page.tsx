@@ -65,20 +65,20 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/80 to-navy-900/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/80 to-navy-950/60" />
         </div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent" />
         <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Categories', href: '/categories' }, { label: category.name }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{category.name}</h1>
-            <p className="text-xl text-steel-200">{category.description}</p>
-            <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/20 text-sm text-steel-200">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff] mb-4">{category.name}</h1>
+            <p className="text-xl text-[#bcccdc]">{category.description}</p>
+            <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#ffffff]/20 text-sm text-[#bcccdc]">
               <span>{category.productCount} products available</span>
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -117,7 +117,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                           <p className="text-xs text-steel-500 mb-2">{product.brand} | {product.sku}</p>
                           <p className="text-sm text-steel-600 line-clamp-2">{product.shortDescription}</p>
                           <div className="flex items-center justify-between mt-3 pt-3 border-t border-steel-100">
-                            <span className="text-xs text-steel-400">MPN: {product.mpn}</span>
+                            <span className="text-xs text-[#829ab1]">MPN: {product.mpn}</span>
                             <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${
                               product.availability === 'in-stock' ? 'bg-emerald-50 text-emerald-600' :
                               product.availability === 'low-stock' ? 'bg-amber-50 text-amber-600' :
@@ -155,7 +155,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 <h2 className="text-2xl font-bold text-navy-900 mb-2">No Products Found in Catalog</h2>
                 <p className="text-steel-500 mb-6">No products currently available in this category in our catalog. Check sourced products from our network below.</p>
                 <Link href="/products">
-                  <Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button>
+                  <Button className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff]">Browse All Products</Button>
                 </Link>
               </div>
               <ExternalResults query={category.name} />

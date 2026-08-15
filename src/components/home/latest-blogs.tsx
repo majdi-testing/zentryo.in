@@ -69,11 +69,11 @@ export function LatestBlogs() {
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-navy-900/20 to-transparent" />
-                    <Badge className="absolute top-3 left-3 bg-cyan-500 text-white text-xs font-semibold border-0">
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-navy-950/10 to-transparent" />
+                    <Badge className="absolute top-3 left-3 bg-cyan-500 text-[#ffffff] text-xs font-semibold border-0">
                       {product.brand}
                     </Badge>
-                    <Badge variant="secondary" className="absolute top-3 right-3 bg-white/95 text-xs">
+                    <Badge variant="secondary" className="absolute top-3 right-3 bg-[#ffffff]/95 text-xs">
                       {product.category}
                     </Badge>
                   </div>
@@ -94,7 +94,7 @@ export function LatestBlogs() {
                       </span>
                     </div>
                     <div className="flex gap-2">
-                      <Link href={`/${product.slug}`} className="flex-1 text-center px-3 py-2 bg-cyan-500 hover:bg-cyan-600 text-white text-sm font-semibold rounded-lg transition-colors">
+                      <Link href={`/${product.slug}`} className="flex-1 text-center px-3 py-2 bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] text-sm font-semibold rounded-lg transition-colors">
                         Get Quote
                       </Link>
                       <Link href="/contact" className="flex-1 text-center px-3 py-2 border border-steel-300 text-navy-700 hover:bg-steel-50 text-sm font-semibold rounded-lg transition-colors">
@@ -109,7 +109,7 @@ export function LatestBlogs() {
 
           <div className="text-center mt-12 animate-fade-in-up">
             <Link href="/products">
-              <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white px-10 shadow-lg shadow-cyan-500/25">
+              <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] px-10 shadow-lg shadow-cyan-500/25">
                 View All Products <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -119,38 +119,38 @@ export function LatestBlogs() {
 
       {/* Lead Generation CTA */}
       <section className="relative overflow-hidden py-20 gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
-        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl dark:blur-xl" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-up">
               <h2 className="text-sm font-semibold tracking-widest uppercase text-cyan-400 mb-4">
                 Get In Touch
               </h2>
-              <h3 className="text-3xl sm:text-4xl font-bold text-white mb-4 leading-tight">
+              <h3 className="text-3xl sm:text-4xl font-bold text-[#ffffff] mb-4 leading-tight">
                 Need a Quote or Technical Support?
               </h3>
-              <p className="text-steel-300 text-lg mb-8 leading-relaxed">
+              <p className="text-[#9fb3c8] text-lg mb-8 leading-relaxed">
                 Our team of industry experts is ready to help you find the right products
                 at the best prices. Get a personalized quote within 4 hours.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a href="tel:+918700198095" className="inline-flex items-center gap-2.5 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl text-sm font-semibold transition-all border border-white/20">
+                <a href="tel:+918700198095" className="inline-flex items-center gap-2.5 px-6 py-3 bg-[#ffffff]/10 hover:bg-[#ffffff]/20 text-[#ffffff] rounded-xl text-sm font-semibold transition-all border border-[#ffffff]/20">
                   <Phone className="h-4 w-4 text-cyan-400" />
                   Call Us Now
                 </a>
-                <a href="mailto:sales@zentryo.com" className="inline-flex items-center gap-2.5 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-xl text-sm font-semibold transition-all border border-white/20">
+                <a href="mailto:sales@zentryo.com" className="inline-flex items-center gap-2.5 px-6 py-3 bg-[#ffffff]/10 hover:bg-[#ffffff]/20 text-[#ffffff] rounded-xl text-sm font-semibold transition-all border border-[#ffffff]/20">
                   <Mail className="h-4 w-4 text-cyan-400" />
                   Email Sales
                 </a>
-                <Link href="/rfq" className="inline-flex items-center gap-2.5 px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white rounded-xl text-sm font-semibold transition-all shadow-lg shadow-cyan-500/30">
+                <Link href="/rfq" className="inline-flex items-center gap-2.5 px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] rounded-xl text-sm font-semibold transition-all shadow-lg shadow-cyan-500/30">
                   Submit RFQ <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </div>
             <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8">
-                <h4 className="text-xl font-bold text-white mb-6">Stay Updated</h4>
+              <div className="bg-[#ffffff]/5 backdrop-blur-sm border border-[#ffffff]/10 rounded-2xl p-8">
+                <h4 className="text-xl font-bold text-[#ffffff] mb-6">Stay Updated</h4>
                 {submitted ? (
                   <div className="flex items-center gap-3 text-emerald-400 bg-emerald-400/10 rounded-xl px-5 py-4">
                     <CheckCircle className="h-6 w-6 shrink-0" />
@@ -158,7 +158,7 @@ export function LatestBlogs() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4">
-                    <p className="text-sm text-steel-300 mb-4">
+                    <p className="text-sm text-[#9fb3c8] mb-4">
                       Subscribe to get exclusive product updates, industry insights, and special offers directly in your inbox.
                     </p>
                     <input
@@ -167,12 +167,12 @@ export function LatestBlogs() {
                       placeholder="Enter your work email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white placeholder-steel-400 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
+                      className="w-full px-4 py-3 rounded-xl bg-[#ffffff]/10 border border-[#ffffff]/20 text-[#ffffff] placeholder-steel-400 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent"
                     />
-                    <Button type="submit" className="w-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-3">
+                    <Button type="submit" className="w-full bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] font-semibold py-3">
                       Subscribe for Updates
                     </Button>
-                    <p className="text-xs text-steel-400 text-center">No spam. Unsubscribe anytime.</p>
+                    <p className="text-xs text-[#829ab1] text-center">No spam. Unsubscribe anytime.</p>
                   </form>
                 )}
               </div>

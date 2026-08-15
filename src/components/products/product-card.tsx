@@ -56,7 +56,7 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
         {isExt ? (
-          <Badge className="absolute top-2 left-2 text-xs bg-cyan-600 hover:bg-cyan-700 text-white border-none">
+          <Badge className="absolute top-2 left-2 text-xs bg-cyan-600 hover:bg-cyan-700 text-[#ffffff] border-none">
             Sourced
           </Badge>
         ) : product.tags.includes('featured') && (
@@ -108,7 +108,7 @@ export function ProductCard({ product, viewMode = 'grid', isExternal }: ProductC
         </div>
         {isExt && (
           <div className="mt-auto pt-3">
-            <Button size="sm" className="w-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs gap-1.5" asChild>
+            <Button size="sm" className="w-full bg-cyan-600 hover:bg-cyan-700 text-[#ffffff] text-xs gap-1.5" asChild>
               <Link href={rfqHref}>
                 <HelpCircle className="h-3.5 w-3.5" />
                 Get Quote & Details

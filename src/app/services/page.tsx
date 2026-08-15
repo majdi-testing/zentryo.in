@@ -51,17 +51,17 @@ export default async function ServicesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Services' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Our Services</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Our Services</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               End-to-end industrial services designed to optimize your operations, reduce downtime, and drive engineering excellence across every phase of your project lifecycle.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -74,7 +74,7 @@ export default async function ServicesPage() {
                     <Image src={serviceImages[service.id]} alt={service.name} fill sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition-transform duration-500 group-hover:scale-110" />
                   </div>
                   <CardContent className="p-8">
-                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center -mt-10 mb-4 border-2 border-white shadow-lg group-hover:scale-110 transition-transform">
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-950 to-navy-800 flex items-center justify-center -mt-10 mb-4 border-2 border-white shadow-lg group-hover:scale-110 transition-transform">
                       <div className="text-cyan-400">{serviceIcons[service.id] || <Wrench className="h-8 w-8" />}</div>
                     </div>
                     <h2 className="text-xl font-bold text-navy-900 mb-3 group-hover:text-cyan-600 transition-colors">{service.name}</h2>

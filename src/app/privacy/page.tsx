@@ -17,15 +17,15 @@ export default function PrivacyPage() {
   return (
     <>
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Privacy Policy</h1>
-            <p className="text-steel-300">Last updated: {lastUpdated}</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff] mb-4">Privacy Policy</h1>
+            <p className="text-[#9fb3c8]">Last updated: {lastUpdated}</p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">

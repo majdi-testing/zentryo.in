@@ -74,7 +74,7 @@ export default async function AboutPage() {
             className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1f42]/95 via-[#0a1f42]/90 to-[#0a1f42]/80" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/25 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About' }]} />
@@ -82,27 +82,27 @@ export default async function AboutPage() {
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/30 text-cyan-300 mb-4">
               Since 2000
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-6 leading-tight">
               Powering Industry Forward
             </h1>
-            <p className="text-xl text-steel-200 leading-relaxed mb-8">
+            <p className="text-xl text-[#bcccdc] leading-relaxed mb-8">
               For over 25 years, ZENTRYO has been the trusted partner for industrial engineering components, automation systems, and mission-critical solutions worldwide.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact">
-                <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
+                <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] gap-2">
                   Get in Touch <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
               <Link href="/products">
-                <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent gap-2">
+                <Button size="lg" variant="outline" className="border-[#ffffff]/30 text-[#ffffff] hover:bg-[#ffffff]/10 bg-transparent gap-2">
                   Explore Products
                 </Button>
               </Link>
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-navy-900/50 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-navy-950/50 to-transparent" />
       </section>
 
       {/* Who We Are */}
@@ -121,17 +121,17 @@ export default async function AboutPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a1f42]/60 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="grid grid-cols-3 gap-4">
-                    <div className="text-center p-3 rounded-xl bg-white/20">
+                    <div className="text-center p-3 rounded-xl bg-[#ffffff]/20">
                       <div className="text-2xl font-bold text-cyan-400">50K+</div>
-                      <div className="text-xs text-steel-200">Products</div>
+                      <div className="text-xs text-[#bcccdc]">Products</div>
                     </div>
-                    <div className="text-center p-3 rounded-xl bg-white/20">
+                    <div className="text-center p-3 rounded-xl bg-[#ffffff]/20">
                       <div className="text-2xl font-bold text-cyan-400">2.5K+</div>
-                      <div className="text-xs text-steel-200">Clients</div>
+                      <div className="text-xs text-[#bcccdc]">Clients</div>
                     </div>
-                    <div className="text-center p-3 rounded-xl bg-white/20">
+                    <div className="text-center p-3 rounded-xl bg-[#ffffff]/20">
                       <div className="text-2xl font-bold text-cyan-400">80+</div>
-                      <div className="text-xs text-steel-200">Countries</div>
+                      <div className="text-xs text-[#bcccdc]">Countries</div>
                     </div>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ export default async function AboutPage() {
                 ))}
               </div>
               <Link href="/contact">
-                <Button className="bg-navy-900 hover:bg-navy-800 text-white gap-2">
+                <Button className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff] gap-2">
                   Learn More <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
@@ -235,7 +235,7 @@ export default async function AboutPage() {
             {stats.map((stat) => (
               <div key={stat.label} className="text-center animate-fade-in-up">
                 <div className="text-3xl md:text-4xl font-bold text-cyan-400 mb-1">{stat.value}</div>
-                <div className="text-sm text-steel-300">{stat.label}</div>
+                <div className="text-sm text-[#9fb3c8]">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -300,14 +300,14 @@ export default async function AboutPage() {
                   <div className="text-center mb-4">
                     <h3 className="text-lg font-bold text-navy-900">{member.name}</h3>
                     <p className="text-cyan-600 text-sm font-medium">{member.designation}</p>
-                    <p className="text-steel-400 text-xs mt-1">{member.department}</p>
+                    <p className="text-[#829ab1] text-xs mt-1">{member.department}</p>
                   </div>
                   <p className="text-steel-500 text-sm text-center leading-relaxed">{member.bio}</p>
                   <div className="flex justify-center gap-3 mt-4 pt-4 border-t border-steel-100">
-                    <Link href={`mailto:${member.name.toLowerCase().replace(/\s+/g, '.').replace(/^dr\.\s*/i, '')}@zentryo.com`} className="text-steel-400 hover:text-cyan-600 transition-colors">
+                    <Link href={`mailto:${member.name.toLowerCase().replace(/\s+/g, '.').replace(/^dr\.\s*/i, '')}@zentryo.com`} className="text-[#829ab1] hover:text-cyan-600 transition-colors">
                       <Mail className="h-4 w-4" />
                     </Link>
-                    <Link href={siteConfig.social.linkedin} className="text-steel-400 hover:text-cyan-600 transition-colors">
+                    <Link href={siteConfig.social.linkedin} className="text-[#829ab1] hover:text-cyan-600 transition-colors">
                       <Globe className="h-4 w-4" />
                     </Link>
                   </div>

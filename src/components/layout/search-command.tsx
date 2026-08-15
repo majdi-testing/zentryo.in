@@ -158,7 +158,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
           <DialogTitle>Search Products</DialogTitle>
         </DialogHeader>
         <div className="flex items-center gap-3 px-4 border-b border-steel-100">
-          <Search className="h-5 w-5 text-steel-400 shrink-0" />
+          <Search className="h-5 w-5 text-[#829ab1] shrink-0" />
           <input
             ref={inputRef}
             type="text"
@@ -188,7 +188,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
           >
             {results.length > 0 && (
               <>
-                <div className="px-4 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider text-steel-400">
+                <div className="px-4 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider text-[#829ab1]">
                   Zentryo Catalog
                 </div>
                 <ul>
@@ -213,7 +213,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
                             <span className="font-mono">{result.sku}</span>
                           </p>
                         </div>
-                        <ArrowRight className="h-4 w-4 text-steel-400 shrink-0 ml-3" />
+                        <ArrowRight className="h-4 w-4 text-[#829ab1] shrink-0 ml-3" />
                       </Link>
                     </li>
                   ))}
@@ -254,7 +254,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
                               <p className="text-sm font-medium text-navy-900 truncate">
                                 {result.name}
                               </p>
-                              <Badge className="shrink-0 text-[10px] bg-cyan-600 text-white border-none px-1.5 py-0">
+                              <Badge className="shrink-0 text-[10px] bg-cyan-600 text-[#ffffff] border-none px-1.5 py-0">
                                 Sourced
                               </Badge>
                             </div>
@@ -296,7 +296,7 @@ export function SearchCommand({ open, onOpenChange }: SearchCommandProps) {
 
         {!query && (
           <div className="p-4 text-center">
-            <p className="text-sm text-steel-400">
+            <p className="text-sm text-[#829ab1]">
               Type to search products, brands, or categories
             </p>
           </div>

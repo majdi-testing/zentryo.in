@@ -65,7 +65,7 @@ export function FeaturedProducts() {
           </div>
         ) : products.length === 0 ? (
           <div className="text-center py-16">
-            <Package className="h-12 w-12 text-steel-300 mx-auto mb-4" />
+            <Package className="h-12 w-12 text-[#9fb3c8] mx-auto mb-4" />
             <p className="text-steel-500">No featured products available at the moment.</p>
           </div>
         ) : (
@@ -90,8 +90,8 @@ export function FeaturedProducts() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2">
-                      <span className="text-xs font-medium text-white/80 uppercase tracking-wider drop-shadow-sm">{product.brand}</span>
-                      <Badge variant="secondary" className="text-[10px] px-2 py-0.5 bg-white/95">{product.category}</Badge>
+                      <span className="text-xs font-medium text-[#ffffff]/80 uppercase tracking-wider drop-shadow-sm">{product.brand}</span>
+                      <Badge variant="secondary" className="text-[10px] px-2 py-0.5 bg-[#ffffff]/95">{product.category}</Badge>
                     </div>
                   </div>
                   <div className="p-5">

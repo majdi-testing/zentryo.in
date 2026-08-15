@@ -40,7 +40,7 @@ export function QuickContact() {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed right-0 top-1/2 -translate-y-1/2 z-40 flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-white px-3 py-4 rounded-l-lg shadow-lg transition-all hover:pr-4 group"
+        className="fixed right-0 top-1/2 -translate-y-1/2 z-40 flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] px-3 py-4 rounded-l-lg shadow-lg transition-all hover:pr-4 group"
         aria-label="Quick Contact"
       >
         <HelpCircle className="h-5 w-5" />
@@ -59,11 +59,11 @@ export function QuickContact() {
             <div className="flex items-center justify-between p-4 border-b border-steel-100">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-lg bg-cyan-500 flex items-center justify-center">
-                  <HelpCircle className="h-4 w-4 text-white" />
+                  <HelpCircle className="h-4 w-4 text-[#ffffff]" />
                 </div>
                 <h3 className="font-semibold text-navy-900 text-sm">Quick Contact</h3>
               </div>
-              <button onClick={() => setOpen(false)} className="p-1.5 rounded-lg hover:bg-steel-50 text-steel-400 hover:text-navy-900 transition-colors">
+              <button onClick={() => setOpen(false)} className="p-1.5 rounded-lg hover:bg-steel-50 text-[#829ab1] hover:text-navy-900 transition-colors">
                 <X className="h-4 w-4" />
               </button>
             </div>
@@ -85,7 +85,7 @@ export function QuickContact() {
             ) : (
               <form onSubmit={handleSubmit} className="p-4 space-y-3">
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-steel-400" />
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#829ab1]" />
                   <input
                     required
                     placeholder="Your Name"
@@ -95,7 +95,7 @@ export function QuickContact() {
                   />
                 </div>
                 <div className="relative">
-                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-steel-400" />
+                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#829ab1]" />
                   <input
                     type="email"
                     required
@@ -106,7 +106,7 @@ export function QuickContact() {
                   />
                 </div>
                 <div className="relative">
-                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-steel-400" />
+                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#829ab1]" />
                   <input
                     placeholder="Phone (optional)"
                     value={form.phone}
@@ -125,7 +125,7 @@ export function QuickContact() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-2.5 bg-cyan-500 hover:bg-cyan-600 text-white text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
+                  className="w-full py-2.5 bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-60"
                 >
                   {loading ? 'Sending...' : <><Send className="h-4 w-4" /> Send Message</>}
                 </button>
@@ -133,7 +133,7 @@ export function QuickContact() {
             )}
 
             <div className="px-4 pb-3 text-center">
-              <a href="mailto:support@zentryo.in" className="text-xs text-steel-400 hover:text-cyan-600 transition-colors">support@zentryo.in</a>
+              <a href="mailto:support@zentryo.in" className="text-xs text-[#829ab1] hover:text-cyan-600 transition-colors">support@zentryo.in</a>
             </div>
           </div>
         </div>

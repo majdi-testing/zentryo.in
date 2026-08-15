@@ -74,7 +74,7 @@ export default async function SolutionDetailPage({ params }: { params: Promise<{
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image src={solutionImages[slug]} alt={solution.name} fill sizes="100vw" className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/90 to-navy-900/75" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/90 to-navy-950/75" />
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Solutions', href: '/solutions' }, { label: solution.name }]} />
@@ -82,11 +82,11 @@ export default async function SolutionDetailPage({ params }: { params: Promise<{
             <div className="w-16 h-16 rounded-xl bg-cyan-500/20 flex items-center justify-center mb-6">
               <div className="text-cyan-400">{solutionIcons[slug] || <Cpu className="h-8 w-8" />}</div>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">{solution.name}</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">{solution.description}</p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">{solution.name}</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">{solution.description}</p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">

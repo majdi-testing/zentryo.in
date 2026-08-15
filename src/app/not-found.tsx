@@ -13,9 +13,9 @@ export default function NotFound() {
   return (
     <div className="min-h-[80vh] flex items-center justify-center relative overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-navy-800/10 rounded-full blur-3xl" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-navy-900/5 to-cyan-500/5 rounded-full blur-3xl" />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/5 rounded-full blur-3xl dark:blur-xl" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-navy-950/10 rounded-full blur-3xl dark:blur-xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-navy-950/5 to-cyan-500/5 rounded-full blur-3xl dark:blur-xl" />
 
       <div className="container mx-auto px-4 text-center relative z-10">
         {/* Large 404 */}
@@ -26,7 +26,7 @@ export default function NotFound() {
         </div>
 
         {/* Decorative line */}
-        <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-navy-800 mx-auto mb-8 rounded-full" />
+        <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-navy-950 mx-auto mb-8 rounded-full" />
 
         <div className="max-w-lg mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Page Not Found</h2>
@@ -37,7 +37,7 @@ export default function NotFound() {
           {/* Search */}
           <div className="relative max-w-md mx-auto mb-8">
             <form action="/search" method="GET">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-steel-400" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-[#829ab1]" />
               <Input
                 name="q"
                 placeholder="Search for products..."
@@ -49,7 +49,7 @@ export default function NotFound() {
           {/* Links */}
           <div className="flex flex-wrap gap-3 justify-center">
             <Link href="/">
-              <Button size="lg" className="bg-navy-800 hover:bg-navy-900 text-white gap-2">
+              <Button size="lg" className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff] gap-2">
                 <Home className="h-4 w-4" /> Go Home
               </Button>
             </Link>

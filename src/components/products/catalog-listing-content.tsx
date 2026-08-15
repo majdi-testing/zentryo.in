@@ -58,7 +58,7 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-24 relative z-10">
           <Breadcrumbs
             variant="hero"
@@ -72,20 +72,20 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
           <div className="max-w-3xl animate-fade-in-up">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center shadow-lg shadow-cyan-500/25">
-                <category.icon className="h-8 w-8 text-white" />
+                <category.icon className="h-8 w-8 text-[#ffffff]" />
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{title}</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">{description}</p>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff] mb-4">{title}</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">{description}</p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 text-sm text-white font-medium backdrop-blur-sm">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#ffffff]/15 text-sm text-[#ffffff] font-medium backdrop-blur-sm">
                 <Package className="h-4 w-4" />
                 {productsResult.total.toLocaleString()} products available
               </span>
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-navy-900/60 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-navy-950/60 to-transparent" />
       </section>
 
       {/* Subcategory navigation */}
@@ -95,7 +95,7 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
             <Link
               key={sub.slug}
               href={`/products/${category.slug}/${sub.slug}`}
-              className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy-50 text-navy-700 hover:bg-cyan-500 hover:text-white transition-colors"
+              className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy-50 text-navy-700 hover:bg-cyan-500 hover:text-[#ffffff] transition-colors"
             >
               {sub.name}
             </Link>
@@ -103,7 +103,7 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
           {isSubcategory && (
             <Link
               href={`/products/${category.slug}`}
-              className="px-4 py-1.5 rounded-full text-sm font-medium bg-cyan-50 text-cyan-700 hover:bg-cyan-500 hover:text-white transition-colors"
+              className="px-4 py-1.5 rounded-full text-sm font-medium bg-cyan-50 text-cyan-700 hover:bg-cyan-500 hover:text-[#ffffff] transition-colors"
             >
               ← All {category.name}
             </Link>
@@ -148,7 +148,7 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
                           <p className="text-xs text-steel-500 mb-2">{product.brand} | {product.sku}</p>
                           <p className="text-sm text-steel-600 line-clamp-2">{product.shortDescription}</p>
                           <div className="flex items-center justify-between mt-3 pt-3 border-t border-steel-100">
-                            <span className="text-xs text-steel-400">MPN: {product.mpn}</span>
+                            <span className="text-xs text-[#829ab1]">MPN: {product.mpn}</span>
                             <span className={`text-xs font-medium px-2 py-0.5 rounded-full ${
                               product.availability === 'in-stock' ? 'bg-emerald-50 text-emerald-600' :
                               product.availability === 'low-stock' ? 'bg-amber-50 text-amber-600' :
@@ -206,7 +206,7 @@ export async function CatalogListingContent({ category, subcategory, page = 1 }:
               <h2 className="text-2xl font-bold text-navy-900 mb-2">No Products Found in Catalog</h2>
               <p className="text-steel-500 mb-6">No products currently available in this {isSubcategory ? 'subcategory' : 'category'} in our catalog. Check sourced products from our network below.</p>
               <Link href="/products">
-                <Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button>
+                <Button className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff]">Browse All Products</Button>
               </Link>
             </div>
           )}

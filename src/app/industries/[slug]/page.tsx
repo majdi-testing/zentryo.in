@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { ArrowRight, CheckCircle, Zap, Fuel, Ship, Bolt, Factory, Car, Plane, FlaskRound, Pickaxe, Pill } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
 }
 
 const industryIcons: Record<string, React.ReactNode> = {
-  'power-plants': <Zap className="h-8 w-8" />,
+  'power-generation': <Zap className="h-8 w-8" />,
   'oil-gas': <Fuel className="h-8 w-8" />,
   'marine': <Ship className="h-8 w-8" />,
   'energy': <Bolt className="h-8 w-8" />,
@@ -46,6 +46,7 @@ const industryIcons: Record<string, React.ReactNode> = {
 
 export default async function IndustryPage({ params }: IndustryPageProps) {
   const { slug } = await params;
+  if (slug === 'power-plants') redirect('/industries/power-generation');
   const [industry, productsResult, solutions, brandsList] = await Promise.all([
     getIndustryBySlug(slug),
     getProducts({ industry: slug, limit: 8 }),
@@ -82,22 +83,22 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/80 to-navy-900/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/80 to-navy-950/60" />
         </div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent" />
         <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Industries', href: '/industries' }, { label: industry.name }]} />
           <div className="flex items-center gap-4 mb-4">
-            <div className="w-16 h-16 rounded-xl bg-white/20 flex items-center justify-center text-white">
+            <div className="w-16 h-16 rounded-xl bg-[#ffffff]/20 flex items-center justify-center text-[#ffffff]">
               {industryIcons[slug] || <Factory className="h-8 w-8" />}
             </div>
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-white">{industry.name}</h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff]">{industry.name}</h1>
             </div>
           </div>
-          <p className="text-xl text-steel-200 max-w-3xl mt-4">{industry.description}</p>
+          <p className="text-xl text-[#bcccdc] max-w-3xl mt-4">{industry.description}</p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -147,7 +148,7 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
             <div className="text-center py-12 text-steel-500">
               <p className="text-lg">Browse our full catalog for {industry.name} components.</p>
               <Link href="/products" className="mt-4 inline-block">
-                <Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button>
+                <Button className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff]">Browse All Products</Button>
               </Link>
             </div>
           )}
@@ -208,22 +209,22 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
       <section className="py-20 bg-gradient-to-b from-muted/50 to-background">
         <div className="container mx-auto px-4">
           <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
             <div className="relative z-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#ffffff] mb-4">
                 Need {industry.name} Components?
               </h2>
-              <p className="text-steel-200 text-lg mb-8">
+              <p className="text-[#bcccdc] text-lg mb-8">
                 Our team has decades of experience serving the {industry.name} industry. Let us help you find the right solution.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/contact">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
+                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] gap-2">
                     Contact Our Team <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
                 <Link href="/rfq">
-                  <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
+                  <Button size="lg" variant="outline" className="border-[#ffffff]/30 text-[#ffffff] hover:bg-[#ffffff]/10 bg-transparent">
                     Submit RFQ
                   </Button>
                 </Link>

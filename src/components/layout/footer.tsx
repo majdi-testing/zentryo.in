@@ -15,14 +15,14 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-navy-900 text-steel-200">
+    <footer className="bg-navy-950 text-[#bcccdc]">
       <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-12">
           <div>
             <Link href="/" className="flex items-center mb-5">
               <Image src="/images/logo.png" alt="ZENTRYO" width={180} height={52} className="object-contain" />
             </Link>
-            <p className="text-sm text-steel-400 leading-relaxed mb-6">
+            <p className="text-sm text-[#829ab1] leading-relaxed mb-6">
               {siteInfo.description}
             </p>
             <div className="flex items-center gap-3">
@@ -30,7 +30,7 @@ export function Footer() {
                 href={siteInfo.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-800 text-steel-400 hover:bg-cyan-500 hover:text-white transition-all duration-300"
+                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-950 text-[#829ab1] hover:bg-cyan-500 hover:text-[#ffffff] transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -41,7 +41,7 @@ export function Footer() {
                 href={siteInfo.social.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-800 text-steel-400 hover:bg-cyan-500 hover:text-white transition-all duration-300"
+                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-950 text-[#829ab1] hover:bg-cyan-500 hover:text-[#ffffff] transition-all duration-300"
                 aria-label="Twitter"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -52,7 +52,7 @@ export function Footer() {
                 href={siteInfo.social.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-800 text-steel-400 hover:bg-cyan-500 hover:text-white transition-all duration-300"
+                className="flex items-center justify-center w-10 h-10 rounded-lg bg-navy-950 text-[#829ab1] hover:bg-cyan-500 hover:text-[#ffffff] transition-all duration-300"
                 aria-label="YouTube"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -63,7 +63,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-5">
+            <h3 className="text-[#ffffff] text-sm font-semibold uppercase tracking-wider mb-5">
               Quick Links
             </h3>
             <ul className="space-y-2.5">
@@ -71,7 +71,7 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.slug}
-                    className="flex items-center gap-1.5 text-sm text-steel-400 hover:text-cyan-400 transition-colors group"
+                    className="flex items-center gap-1.5 text-sm text-[#829ab1] hover:text-cyan-400 transition-colors group"
                   >
                     <ChevronRight className="h-3 w-3 text-cyan-500 opacity-0 -ml-1 group-hover:opacity-100 group-hover:ml-0 transition-all duration-200" />
                     <span>{link.name}</span>
@@ -82,7 +82,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-5">
+            <h3 className="text-[#ffffff] text-sm font-semibold uppercase tracking-wider mb-5">
               Products
             </h3>
             <ul className="space-y-2.5">
@@ -90,7 +90,7 @@ export function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.slug}
-                    className="flex items-center gap-1.5 text-sm text-steel-400 hover:text-cyan-400 transition-colors group"
+                    className="flex items-center gap-1.5 text-sm text-[#829ab1] hover:text-cyan-400 transition-colors group"
                   >
                     <ChevronRight className="h-3 w-3 text-cyan-500 opacity-0 -ml-1 group-hover:opacity-100 group-hover:ml-0 transition-all duration-200" />
                     <span>{link.name}</span>
@@ -101,20 +101,20 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white text-sm font-semibold uppercase tracking-wider mb-5">
+            <h3 className="text-[#ffffff] text-sm font-semibold uppercase tracking-wider mb-5">
               Contact Us
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-cyan-500 shrink-0 mt-0.5" />
-                <span className="text-sm text-steel-400 leading-relaxed">
+                <span className="text-sm text-[#829ab1] leading-relaxed">
                   {siteInfo.address}
                 </span>
               </li>
               <li>
                 <a
                   href={`tel:${siteInfo.phone}`}
-                  className="flex items-center gap-3 text-sm text-steel-400 hover:text-cyan-400 transition-colors"
+                  className="flex items-center gap-3 text-sm text-[#829ab1] hover:text-cyan-400 transition-colors"
                 >
                   <Phone className="h-5 w-5 text-cyan-500 shrink-0" />
                   <span>{siteInfo.phone} | {siteInfo.secondaryPhone}</span>
@@ -123,7 +123,7 @@ export function Footer() {
               <li>
                 <a
                   href={`mailto:${siteInfo.email}`}
-                  className="flex items-center gap-3 text-sm text-steel-400 hover:text-cyan-400 transition-colors"
+                  className="flex items-center gap-3 text-sm text-[#829ab1] hover:text-cyan-400 transition-colors"
                 >
                   <Mail className="h-5 w-5 text-cyan-500 shrink-0" />
                   <span>{siteInfo.email} | {siteInfo.contactEmail}</span>

@@ -31,17 +31,17 @@ export default async function ResourcesPage() {
   return (
     <>
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Resources' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Resource Center</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Resource Center</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Your central hub for technical knowledge, product documentation, certifications, and industry expertise from ZENTRYO.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -51,7 +51,7 @@ export default async function ResourcesPage() {
               <Link key={resource.title} href={resource.href} className="group animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
                 <Card className="h-full border border-steel-100 hover:border-cyan-300 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
                   <CardContent className="p-6">
-                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center mb-4 text-cyan-400">
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-950 to-navy-800 flex items-center justify-center mb-4 text-cyan-400">
                       {resource.icon}
                     </div>
                     <h2 className="text-lg font-bold text-navy-900 group-hover:text-cyan-600 transition-colors mb-2">{resource.title}</h2>
@@ -79,7 +79,7 @@ export default async function ResourcesPage() {
                         </div>
                         <div className="min-w-0">
                           <p className="text-sm font-medium text-navy-900 truncate">{dl.title}</p>
-                          <p className="text-xs text-steel-400">{dl.size} | {dl.downloadCount} downloads</p>
+                          <p className="text-xs text-[#829ab1]">{dl.size} | {dl.downloadCount} downloads</p>
                         </div>
                       </div>
                       <a href={dl.file} download className="shrink-0 text-cyan-600 hover:text-cyan-700">
@@ -105,7 +105,7 @@ export default async function ResourcesPage() {
                   <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
                     <Card className="border border-steel-100 hover:border-cyan-300 transition-all">
                       <CardContent className="p-4">
-                        <div className="flex items-center gap-2 text-xs text-steel-400 mb-2">
+                        <div className="flex items-center gap-2 text-xs text-[#829ab1] mb-2">
                           <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-navy-50 text-navy-600 font-medium">{post.category}</span>
                           <span className="flex items-center gap-1"><Calendar className="h-3 w-3" /> {formatDate(post.publishedAt)}</span>
                         </div>

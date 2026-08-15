@@ -34,12 +34,12 @@ export function OurProcess() {
             {steps.map((step, i) => (
               <div key={step.title} className="relative md:flex items-start gap-8 group">
                 <div className="hidden md:flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 shadow-lg shadow-cyan-500/20 shrink-0 z-10 group-hover:scale-110 transition-transform duration-300">
-                  <step.icon className="h-7 w-7 text-white" />
+                  <step.icon className="h-7 w-7 text-[#ffffff]" />
                 </div>
 
                 <div className="flex items-start gap-4 md:hidden mb-3">
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 shadow-lg shadow-cyan-500/20 flex items-center justify-center shrink-0">
-                    <step.icon className="h-6 w-6 text-white" />
+                    <step.icon className="h-6 w-6 text-[#ffffff]" />
                   </div>
                   <div>
                     <span className="text-xs font-bold text-cyan-500 uppercase tracking-wider">Step {i + 1}</span>

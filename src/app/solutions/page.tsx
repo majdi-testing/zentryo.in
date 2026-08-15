@@ -41,12 +41,12 @@ export default async function SolutionsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Solutions' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Industrial Solutions</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Industrial Solutions</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Integrated engineering solutions that combine world-class components, advanced automation, and deep industry expertise to solve your toughest operational challenges.
             </p>
           </div>
@@ -62,7 +62,7 @@ export default async function SolutionsPage() {
               return (
                 <Card key={solution.id} className="border-0 shadow-lg bg-white hover:shadow-xl transition-all hover:-translate-y-1 animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
                   <CardContent className="p-8">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center mb-6">
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-navy-950 to-navy-800 flex items-center justify-center mb-6">
                       <div className="text-cyan-400">{solutionIcons[solution.id] || <Cpu className="h-8 w-8" />}</div>
                     </div>
                     <h2 className="text-2xl font-bold text-navy-900 mb-3">{solution.name}</h2>

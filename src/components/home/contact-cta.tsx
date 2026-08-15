@@ -12,22 +12,22 @@ export function ContactCTA() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
 
-      <div className="absolute top-10 left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-cyan-400/5 rounded-full blur-3xl" />
+      <div className="absolute top-10 left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl dark:blur-xl" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-cyan-400/5 rounded-full blur-3xl dark:blur-xl" />
 
-      <svg className="absolute top-1/2 left-10 w-32 h-32 text-white/[0.03]" viewBox="0 0 100 100" fill="none">
+      <svg className="absolute top-1/2 left-10 w-32 h-32 text-[#ffffff]/[0.03]" viewBox="0 0 100 100" fill="none">
         <circle cx="50" cy="50" r="40" stroke="currentColor" strokeWidth="0.5" />
         <circle cx="50" cy="50" r="25" stroke="currentColor" strokeWidth="0.5" />
         <circle cx="50" cy="50" r="10" stroke="currentColor" strokeWidth="0.5" />
       </svg>
-      <svg className="absolute top-1/4 right-16 w-24 h-24 text-white/[0.03]" viewBox="0 0 100 100" fill="none">
+      <svg className="absolute top-1/4 right-16 w-24 h-24 text-[#ffffff]/[0.03]" viewBox="0 0 100 100" fill="none">
         <rect x="10" y="10" width="80" height="80" stroke="currentColor" strokeWidth="0.5" />
         <rect x="25" y="25" width="50" height="50" stroke="currentColor" strokeWidth="0.5" />
       </svg>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#ffffff] leading-tight mb-6">
             Ready to Discuss Your
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-400">
@@ -35,7 +35,7 @@ export function ContactCTA() {
             </span>
             ?
           </h2>
-          <p className="text-lg text-steel-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-lg text-[#9fb3c8] max-w-2xl mx-auto mb-10 leading-relaxed">
             Our team of engineering experts is ready to help you find the right solutions
             for your specific industrial needs. Get in touch today for a consultation.
           </p>
@@ -43,7 +43,7 @@ export function ContactCTA() {
             <Button
               asChild
               size="lg"
-              className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-6 text-base shadow-lg shadow-cyan-500/25"
+              className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] font-semibold px-8 py-6 text-base shadow-lg shadow-cyan-500/25"
             >
               <Link href="/contact">
                 <Phone className="mr-2 h-5 w-5" />
@@ -55,7 +55,7 @@ export function ContactCTA() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white/20 text-white hover:bg-white/10 hover:text-white bg-transparent px-8 py-6 text-base"
+              className="border-[#ffffff]/20 text-[#ffffff] hover:bg-[#ffffff]/10 hover:text-[#ffffff] bg-transparent px-8 py-6 text-base"
             >
               <Link href="/rfq">
                 <FileText className="mr-2 h-5 w-5" />

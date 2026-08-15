@@ -50,17 +50,17 @@ export default async function CategoriesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Categories' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Product Categories</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Product Categories</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Explore our comprehensive range of industrial product categories, from bearings and valves to automation systems and electrical components.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -70,7 +70,7 @@ export default async function CategoriesPage() {
               <Link key={category.slug} href={`/categories/${category.slug}`} className="group animate-fade-in-up" style={{ animationDelay: `${index * 0.05}s` }}>
                 <Card className="h-full border border-steel-100 hover:border-cyan-300 shadow-sm hover:shadow-xl transition-all hover:-translate-y-1">
                   <CardContent className="p-6">
-                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-50 to-navy-100 flex items-center justify-center mb-4 group-hover:from-navy-800 group-hover:to-navy-900 transition-all">
+                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-navy-50 to-navy-100 flex items-center justify-center mb-4 group-hover:from-navy-950 group-hover:to-navy-800 transition-all">
                       <div className="text-navy-700 group-hover:text-cyan-400 transition-colors">
                         {categoryIconMap[category.slug] || <Package className="h-7 w-7" />}
                       </div>

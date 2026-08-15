@@ -54,8 +54,7 @@ export function GlobalPresence() {
               loading="lazy"
               className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-navy-900/80 via-navy-900/60 to-cyan-900/70" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.25),transparent_70%)]" />
+            <div className="absolute inset-0 bg-gradient-to-br from-navy-950/60 via-navy-950/25 to-transparent" />
 
             <div className="relative z-10 w-full h-full p-8 flex items-center justify-center">
               <div className="relative w-full h-full">
@@ -81,19 +80,19 @@ export function GlobalPresence() {
                 </svg>
 
                 <div className="absolute top-1/4 left-1/4 text-center">
-                  <div className="text-2xl font-bold text-white drop-shadow-lg">NA</div>
+                  <div className="text-2xl font-bold text-[#ffffff] drop-shadow-lg">NA</div>
                   <div className="text-[10px] text-cyan-300">North America</div>
                 </div>
                 <div className="absolute top-1/4 right-1/4 text-center">
-                  <div className="text-2xl font-bold text-white drop-shadow-lg">EU</div>
+                  <div className="text-2xl font-bold text-[#ffffff] drop-shadow-lg">EU</div>
                   <div className="text-[10px] text-cyan-300">Europe</div>
                 </div>
                 <div className="absolute bottom-1/4 left-1/3 text-center">
-                  <div className="text-2xl font-bold text-white drop-shadow-lg">ME</div>
+                  <div className="text-2xl font-bold text-[#ffffff] drop-shadow-lg">ME</div>
                   <div className="text-[10px] text-cyan-300">Middle East</div>
                 </div>
                 <div className="absolute bottom-1/4 right-1/4 text-center">
-                  <div className="text-2xl font-bold text-white drop-shadow-lg">AP</div>
+                  <div className="text-2xl font-bold text-[#ffffff] drop-shadow-lg">AP</div>
                   <div className="text-[10px] text-cyan-300">Asia-Pacific</div>
                 </div>
               </div>

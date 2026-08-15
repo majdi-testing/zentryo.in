@@ -42,17 +42,17 @@ export default async function CertificatesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Certificates' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Certifications & Compliance</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Certifications & Compliance</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               ZENTRYO maintains the highest quality standards with internationally recognized certifications across all our operations and products.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -73,7 +73,7 @@ export default async function CertificatesPage() {
                     </div>
                   </div>
                   <p className="text-sm text-steel-600 mb-4">{cert.description}</p>
-                  <div className="text-xs text-steel-400 space-y-1 mb-4">
+                  <div className="text-xs text-[#829ab1] space-y-1 mb-4">
                     <p className="flex items-center gap-1"><Award className="h-3.5 w-3.5" /> Issued by: {cert.issuer}</p>
                     <p className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> Issued: {formatDate(cert.issueDate)}</p>
                     <p className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> Expires: {formatDate(cert.expiryDate)}</p>

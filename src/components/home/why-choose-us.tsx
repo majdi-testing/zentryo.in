@@ -42,13 +42,13 @@ export function WhyChooseUs() {
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-navy-900/30 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy-950/75 via-navy-950/15 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="flex items-center gap-3">
                   <Cpu className="h-8 w-8 text-cyan-400" />
                   <div>
-                    <h4 className="text-lg font-bold text-white">Trusted by Industry Leaders</h4>
-                    <p className="text-sm text-steel-300">Fortune 500 companies across power, oil & gas, marine, and manufacturing</p>
+                    <h4 className="text-lg font-bold text-[#ffffff]">Trusted by Industry Leaders</h4>
+                    <p className="text-sm text-[#9fb3c8]">Fortune 500 companies across power, oil & gas, marine, and manufacturing</p>
                   </div>
                 </div>
               </div>

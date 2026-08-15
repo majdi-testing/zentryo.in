@@ -58,7 +58,7 @@ export function QualityAssurance() {
               className="group relative p-6 rounded-xl bg-white border border-steel-100 hover:border-cyan-200 hover:shadow-lg hover:shadow-cyan-500/5 transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-5 shadow-lg shadow-cyan-500/20 group-hover:scale-110 transition-transform duration-300">
-                <item.icon className="h-6 w-6 text-white" />
+                <item.icon className="h-6 w-6 text-[#ffffff]" />
               </div>
               <h4 className="text-lg font-bold text-navy-900 mb-2">{item.title}</h4>
               <p className="text-sm text-steel-500 leading-relaxed">{item.description}</p>
@@ -67,7 +67,7 @@ export function QualityAssurance() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-sm text-steel-400">
+          <p className="text-sm text-[#829ab1]">
             Certified to ISO 9001:2024, AS9100D, API Q1, and other industry standards
           </p>
         </div>

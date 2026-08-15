@@ -4,6 +4,7 @@ import './globals.css';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { ThemeProvider } from '@/components/layout/theme-provider';
+import { ColorProvider } from '@/providers/color-provider';
 import { QuickContact } from '@/components/layout/quick-contact';
 import { WhatsAppButton } from '@/components/layout/whatsapp-button';
 import { siteConfig } from '@/config/site';
@@ -57,9 +58,9 @@ export const metadata: Metadata = {
     creator: '@zentryo',
   },
   icons: {
-    icon: { url: '/images/favicon-icon.png', type: 'image/png', sizes: '32x32' },
-    shortcut: '/images/favicon-icon.png',
-    apple: '/images/favicon-icon.png',
+    icon: { url: '/images/favicon-icon-main.png', type: 'image/png', sizes: '32x32' },
+    shortcut: '/images/favicon-icon-main.png',
+    apple: '/images/favicon-icon-main.png',
   },
   robots: {
     index: true,
@@ -82,11 +83,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <ThemeProvider>
-          <Header />
-          <main id="main-content" className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
-          <Footer />
-          <QuickContact />
-          <WhatsAppButton />
+          <ColorProvider>
+            <Header />
+            <main id="main-content" className="flex-1 pt-16 lg:pt-24 pb-8 lg:pb-12">{children}</main>
+            <Footer />
+            <QuickContact />
+            <WhatsAppButton />
+          </ColorProvider>
         </ThemeProvider>
       </body>
     </html>

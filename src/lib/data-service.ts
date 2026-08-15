@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import type { Product, ProductFilters, PaginatedResponse, Category, Brand, Industry } from '@/types';
-import { paginate } from '@/lib/utils';
+import { paginate, slugify } from '@/lib/utils';
 import { siteConfig } from '@/config/site';
 
 async function loadProducts(): Promise<Product[]> {
@@ -33,9 +33,9 @@ export async function getProducts(filters: ProductFilters = {}): Promise<Paginat
   let products = await loadProducts();
   const { category, brand, industry, availability, search, sort, page = 1, limit = siteConfig.productsPerPage } = filters;
 
-  if (category) products = products.filter(p => p.category === category || p.subcategory === category);
-  if (brand) products = products.filter(p => p.brand === brand);
-  if (industry) products = products.filter(p => p.industry.includes(industry));
+  if (category) products = products.filter(p => slugify(p.category) === category || slugify(p.subcategory || '') === category);
+  if (brand) products = products.filter(p => slugify(p.brand) === brand);
+  if (industry) products = products.filter(p => matchesIndustry(p.industry, industry));
   if (availability) products = products.filter(p => p.availability === availability);
   if (search) {
     const q = search.toLowerCase();
@@ -172,12 +172,13 @@ export async function getBrands(): Promise<Brand[]> {
   };
   const brandMap = new Map<string, Brand>();
   for (const p of products) {
+    const brandSlug = slugify(p.brand);
     if (!brandMap.has(p.brand)) {
       brandMap.set(p.brand, {
-        id: p.brand.toLowerCase().replace(/\s+/g, '-'),
-        slug: p.brand.toLowerCase().replace(/\s+/g, '-'),
+        id: brandSlug,
+        slug: brandSlug,
         name: p.brand,
-        logo: `/images/brands/${p.brand.toLowerCase().replace(/\s+/g, '-')}.png`,
+        logo: `/images/brands/${brandSlug}.png`,
         description: `${p.brand} - Trusted industrial manufacturer.`,
         website: `https://www.${p.brand.toLowerCase().replace(/\s+/g, '')}.com`,
         country: brandCountryMap[p.brand] || 'Global',
@@ -201,10 +202,30 @@ export async function getBrandBySlug(slug: string): Promise<Brand | null> {
   return brands.find(b => b.slug === slug) || null;
 }
 
+const INDUSTRY_ALIASES: Record<string, string[]> = {
+  'power-generation': ['Power Generation', 'Power Plants', 'Gas Turbines', 'Steam Turbines', 'Power Stations', 'Combined Cycle Plants', 'Cogeneration', 'Energy Storage'],
+  'oil-gas': ['Oil & Gas', 'Oil Refineries', 'Refinery', 'Gas Distribution', 'Oil & Gas Pipelines', 'Refining'],
+  'marine': ['Marine', 'Shipbuilding', 'Marine Propellers', 'Marine Rudders'],
+  'energy': ['Energy Storage', 'Wind Turbines', 'Hydroelectric Turbines', 'Power Distribution', 'Energy'],
+  'manufacturing': ['Manufacturing', 'Advanced Manufacturing', 'Machine Tools', 'CNC', 'Factory Automation', 'Packaging', 'Assembly'],
+  'automotive': ['Automotive', 'Automotive Transmissions', 'Automotive Hubs', 'Forklifts'],
+  'aerospace': ['Aerospace', 'Aircraft Assembly', 'Aviation'],
+  'chemical': ['Chemical', 'Chemical Processing', 'Pharmaceutical', 'Polymer', 'Refinery'],
+  'mining': ['Mining', 'Mining Equipment', 'Mining Machinery', 'Mining Slurry'],
+  'pharmaceutical': ['Pharmaceutical', 'Biotech', 'Medical Devices', 'Pharmaceutical Manufacturing'],
+};
+
+function matchesIndustry(productIndustry: string[], slug: string): boolean {
+  const aliases = INDUSTRY_ALIASES[slug] || [slug];
+  return productIndustry.some((ind) =>
+    aliases.some((alias) => slugify(alias) === slugify(ind))
+  );
+}
+
 export async function getIndustries(): Promise<Industry[]> {
   const products = await loadProducts();
   const industryList = [
-    { id: 'power-plants', slug: 'power-plants', name: 'Power Plants', icon: 'Zap', image: '/images/industries/power-plants.jpg' },
+    { id: 'power-generation', slug: 'power-generation', name: 'Power Generation', icon: 'Zap', image: '/images/industries/power-generation.jpg' },
     { id: 'oil-gas', slug: 'oil-gas', name: 'Oil & Gas', icon: 'Fuel', image: '/images/industries/oil-gas.jpg' },
     { id: 'marine', slug: 'marine', name: 'Marine', icon: 'Ship', image: '/images/industries/marine.jpg' },
     { id: 'energy', slug: 'energy', name: 'Energy', icon: 'Bolt', image: '/images/industries/energy.jpg' },
@@ -217,16 +238,19 @@ export async function getIndustries(): Promise<Industry[]> {
   ];
   const indMap = new Map(industryList.map(i => [i.id, { ...i, description: `Comprehensive solutions for the ${i.name} industry.`, shortDescription: `${i.name} solutions`, solutions: [], productCount: 0 }]));
   for (const p of products) {
-    for (const ind of p.industry) {
-      const key = ind.toLowerCase().replace(/\s+/g, '-');
-      const entry = indMap.get(key) || indMap.get(ind.replace(/\s+/g, '-').toLowerCase());
-      if (entry) entry.productCount++;
+    for (const [id, entry] of indMap) {
+      if (matchesIndustry(p.industry, id)) entry.productCount++;
     }
   }
   return Array.from(indMap.values());
 }
 
+const INDUSTRY_ALIASES_LOOKUP: Record<string, string> = {
+  'power-plants': 'power-generation',
+};
+
 export async function getIndustryBySlug(slug: string): Promise<Industry | null> {
+  const canonical = INDUSTRY_ALIASES_LOOKUP[slug] || slug;
   const industries = await getIndustries();
-  return industries.find(i => i.slug === slug) || null;
+  return industries.find(i => i.slug === canonical || i.id === canonical) || null;
 }

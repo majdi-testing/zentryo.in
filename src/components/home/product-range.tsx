@@ -79,7 +79,7 @@ const productRanges = [
     description: 'Genuine and equivalent OEM replacement parts for critical industrial machinery.',
     items: ['Engine Components', 'Compressor Parts', 'Pump Spares', 'Seals & Gaskets', 'Fasteners & Hardware', 'Custom Machined Parts'],
     industries: ['Power', 'Marine', 'Oil & Gas'],
-    slug: 'oem-parts',
+    href: '/products?search=oem',
   },
   {
     icon: Thermometer,
@@ -87,7 +87,7 @@ const productRanges = [
     description: 'Thermal management solutions for process heating, cooling, and heat recovery.',
     items: ['Shell & Tube Exchangers', 'Plate Coolers', 'Cooling Towers', 'Radiators', 'Condensers', 'Thermal Management Systems'],
     industries: ['Chemical', 'Power', 'Oil & Gas'],
-    slug: 'heat-exchangers',
+    href: '/products?search=exchanger',
   },
   {
     icon: Filter,
@@ -95,7 +95,7 @@ const productRanges = [
     description: 'Industrial filtration systems for fluid, air, and gas purification across all sectors.',
     items: ['Industrial Filters', 'Separators & Strainers', 'Oil Purification Systems', 'Air Filtration Units', 'Water Treatment', 'Gas Filtration Skids'],
     industries: ['All Industries', 'Chemical', 'Power'],
-    slug: 'filtration',
+    slug: 'filters',
   },
   {
     icon: Beaker,
@@ -103,7 +103,7 @@ const productRanges = [
     description: 'NDT and condition monitoring instruments for asset integrity and quality assurance.',
     items: ['NDT Equipment', 'Test Gauges & Calibrators', 'Inspection Cameras', 'Condition Monitoring Systems', 'Laboratory Instruments', 'Pressure Test Equipment'],
     industries: ['All Industries', 'Aerospace', 'Oil & Gas'],
-    slug: 'testing',
+    href: '/products?search=testing',
   },
 ];
 
@@ -135,8 +135,8 @@ export function ProductRange() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 animate-fade-in-up">
           {productRanges.map((range) => (
             <Link
-              key={range.slug}
-              href={`/categories/${range.slug}`}
+              key={range.slug || range.title}
+              href={range.href || `/categories/${range.slug}`}
               className={cn(
                 'group block p-5 rounded-xl border border-steel-100 bg-white',
                 'hover:border-cyan-200 hover:shadow-lg hover:shadow-cyan-500/5',
@@ -144,7 +144,7 @@ export function ProductRange() {
               )}
             >
               <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-4 shadow-md shadow-cyan-500/20">
-                <range.icon className="h-5 w-5 text-white" />
+                <range.icon className="h-5 w-5 text-[#ffffff]" />
               </div>
               <h4 className="text-base font-bold text-navy-800 mb-1.5 group-hover:text-cyan-600 transition-colors">
                 {range.title}

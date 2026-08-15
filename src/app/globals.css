@@ -20,6 +20,7 @@
   --color-navy-700: var(--c-navy-700);
   --color-navy-800: var(--c-navy-800);
   --color-navy-900: var(--c-navy-900);
+  --color-navy-950: var(--c-navy-950);
 
   --color-steel-50: var(--c-steel-50);
   --color-steel-100: var(--c-steel-100);
@@ -34,16 +35,16 @@
 
   --color-white: var(--c-white);
 
-  --color-cyan-50: #eff6ff;
-  --color-cyan-100: #dbeafe;
-  --color-cyan-200: #bfdbfe;
-  --color-cyan-300: #93c5fd;
-  --color-cyan-400: #60a5fa;
-  --color-cyan-500: #3b82f6;
-  --color-cyan-600: #2563eb;
-  --color-cyan-700: #1d4ed8;
-  --color-cyan-800: #1e40af;
-  --color-cyan-900: #1e3a8a;
+  --color-cyan-50: var(--c-cyan-50);
+  --color-cyan-100: var(--c-cyan-100);
+  --color-cyan-200: var(--c-cyan-200);
+  --color-cyan-300: var(--c-cyan-300);
+  --color-cyan-400: var(--c-cyan-400);
+  --color-cyan-500: var(--c-cyan-500);
+  --color-cyan-600: var(--c-cyan-600);
+  --color-cyan-700: var(--c-cyan-700);
+  --color-cyan-800: var(--c-cyan-800);
+  --color-cyan-900: var(--c-cyan-900);
 
   --color-accent: var(--color-cyan-500);
   --color-accent-dark: var(--color-cyan-600);
@@ -51,6 +52,16 @@
 
 :root {
   --c-white: #ffffff;
+  --c-cyan-50: #eff6ff;
+  --c-cyan-100: #dbeafe;
+  --c-cyan-200: #bfdbfe;
+  --c-cyan-300: #93c5fd;
+  --c-cyan-400: #60a5fa;
+  --c-cyan-500: #3b82f6;
+  --c-cyan-600: #2563eb;
+  --c-cyan-700: #1d4ed8;
+  --c-cyan-800: #1e40af;
+  --c-cyan-900: #1e3a8a;
   --c-steel-50: #f0f4f8;
   --c-steel-100: #d9e2ec;
   --c-steel-200: #bcccdc;
@@ -71,6 +82,7 @@
   --c-navy-700: #0f2b5c;
   --c-navy-800: #0a1f42;
   --c-navy-900: #061225;
+  --c-navy-950: #061225;
 
   --background: #ffffff;
   --foreground: #0a1f42;
@@ -105,6 +117,7 @@
   --c-navy-700: #d4e2f7;
   --c-navy-800: #e8effb;
   --c-navy-900: #f5f8fe;
+  --c-navy-950: #061225;
 
   --background: #0a1f42;
   --foreground: #e8effb;

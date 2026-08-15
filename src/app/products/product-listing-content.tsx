@@ -145,7 +145,7 @@ export function ProductListingContent({ initialProducts, categories, brands }: P
               <SlidersHorizontal className="h-4 w-4" />
               Filters
               {activeFilterCount > 0 && (
-                <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-navy-800 text-white text-[10px] font-medium">
+                <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-navy-950 text-[#ffffff] text-[10px] font-medium">
                   {activeFilterCount}
                 </span>
               )}

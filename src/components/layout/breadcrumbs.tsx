@@ -41,16 +41,16 @@ export function Breadcrumbs({ items, variant = 'hero' }: BreadcrumbsProps) {
 
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
-      <ol className="flex items-center gap-1.5 text-sm text-steel-300">
+      <ol className="flex items-center gap-1.5 text-sm text-[#9fb3c8]">
         {items.map((item, i) => (
           <li key={i} className="flex items-center gap-1.5">
             {i > 0 && <ChevronRight className="h-3.5 w-3.5 shrink-0" />}
             {item.href ? (
-              <Link href={item.href} className="hover:text-white transition-colors">
+              <Link href={item.href} className="hover:text-[#ffffff] transition-colors">
                 {item.label}
               </Link>
             ) : (
-              <span className="text-white font-medium" aria-current="page">
+              <span className="text-[#ffffff] font-medium" aria-current="page">
                 {item.label}
               </span>
             )}

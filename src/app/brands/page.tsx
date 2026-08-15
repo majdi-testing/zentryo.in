@@ -32,17 +32,17 @@ export default async function BrandsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Brands' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Our Brands</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Our Brands</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               ZENTRYO partners with 500+ leading industrial manufacturers worldwide to bring you the highest quality components and systems, backed by comprehensive warranties and technical support.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -53,7 +53,7 @@ export default async function BrandsPage() {
                 <Card className="h-full border border-steel-100 hover:border-cyan-300 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1">
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4 mb-4">
-                      <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-navy-50 to-navy-100 flex items-center justify-center group-hover:from-navy-800 group-hover:to-navy-900 transition-all shrink-0">
+                      <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-navy-50 to-navy-100 flex items-center justify-center group-hover:from-navy-950 group-hover:to-navy-800 transition-all shrink-0">
                         <span className="text-lg font-bold text-navy-700 group-hover:text-cyan-400 transition-colors">{brand.name.charAt(0)}</span>
                       </div>
                       <div className="min-w-0">

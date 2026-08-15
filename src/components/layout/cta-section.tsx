@@ -40,7 +40,7 @@ export function CTASection({
                   size="lg"
                   className={
                     btn.variant === 'primary'
-                      ? 'bg-cyan-500 hover:bg-cyan-600 text-white gap-2'
+                      ? 'bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] gap-2'
                       : 'border-navy-200 text-navy-700 hover:bg-navy-50 gap-2'
                   }
                   variant={btn.variant === 'primary' ? 'default' : 'outline'}
@@ -61,12 +61,12 @@ export function CTASection({
     <section className="py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-          <div className="absolute top-10 left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
-          <div className="absolute bottom-10 right-10 w-80 h-80 bg-cyan-400/5 rounded-full blur-3xl" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
+          <div className="absolute top-10 left-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl dark:blur-xl" />
+          <div className="absolute bottom-10 right-10 w-80 h-80 bg-cyan-400/5 rounded-full blur-3xl dark:blur-xl" />
           <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{heading}</h2>
-            <p className="text-steel-200 text-lg mb-8">{description}</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#ffffff] mb-4">{heading}</h2>
+            <p className="text-[#bcccdc] text-lg mb-8">{description}</p>
             <div className="flex flex-wrap gap-4 justify-center">
               {buttons.map((btn, i) => (
                 <Link key={i} href={btn.href}>
@@ -74,8 +74,8 @@ export function CTASection({
                     size="lg"
                     className={
                       btn.variant === 'primary'
-                        ? 'bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-8 py-6 text-base shadow-lg shadow-cyan-500/25'
-                        : 'border-white/20 text-white hover:bg-white/10 hover:text-white bg-transparent px-8 py-6 text-base'
+                        ? 'bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] font-semibold px-8 py-6 text-base shadow-lg shadow-cyan-500/25'
+                        : 'border-[#ffffff]/20 text-[#ffffff] hover:bg-[#ffffff]/10 hover:text-[#ffffff] bg-transparent px-8 py-6 text-base'
                     }
                     variant={btn.variant === 'primary' ? 'default' : 'outline'}
                   >

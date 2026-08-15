@@ -99,7 +99,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
         : 'bg-gradient-to-b from-muted/50 to-background border-b'
       }>
         {isSearch && (
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         )}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10">
           <Breadcrumbs
@@ -114,7 +114,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
           />
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-2">
             <div>
-              <h1 className={`text-3xl md:text-4xl font-bold tracking-tight ${isSearch ? 'text-white' : ''}`}>
+              <h1 className={`text-3xl md:text-4xl font-bold tracking-tight ${isSearch ? 'text-[#ffffff]' : ''}`}>
                 {headerTitle}
                 {!isSearch && productsResult.total > 0 && (
                   <span className="text-muted-foreground text-2xl ml-2 font-normal">
@@ -122,7 +122,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
                   </span>
                 )}
               </h1>
-              <p className={`mt-2 max-w-2xl ${isSearch ? 'text-steel-200' : 'text-muted-foreground'}`}>
+              <p className={`mt-2 max-w-2xl ${isSearch ? 'text-[#bcccdc]' : 'text-muted-foreground'}`}>
                 {isSearch
                   ? `${productsResult.total} product${productsResult.total !== 1 ? 's' : ''} found matching your search`
                   : 'Browse our extensive catalog of industrial components from leading manufacturers.'

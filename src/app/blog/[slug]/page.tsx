@@ -71,25 +71,25 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       <article>
         <section className="relative overflow-hidden gradient-blue">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
           <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
             <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: post.title }]} />
             <div className="max-w-3xl animate-fade-in-up">
               <div className="flex items-center gap-3 mb-4">
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/20 text-white">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-[#ffffff]/20 text-[#ffffff]">
                   {post.category}
                 </span>
-                <span className="flex items-center gap-1 text-sm text-steel-300"><Calendar className="h-3.5 w-3.5" /> {formatDate(post.publishedAt)}</span>
-                <span className="flex items-center gap-1 text-sm text-steel-300"><Clock className="h-3.5 w-3.5" /> {post.readTime} min read</span>
+                <span className="flex items-center gap-1 text-sm text-[#9fb3c8]"><Calendar className="h-3.5 w-3.5" /> {formatDate(post.publishedAt)}</span>
+                <span className="flex items-center gap-1 text-sm text-[#9fb3c8]"><Clock className="h-3.5 w-3.5" /> {post.readTime} min read</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">{post.title}</h1>
-              <p className="text-xl text-steel-200">{post.excerpt}</p>
-              <div className="flex items-center gap-3 mt-6 text-sm text-steel-300">
-                <User className="h-4 w-4" /> Written by <span className="font-medium text-white">{post.author}</span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#ffffff] mb-4">{post.title}</h1>
+              <p className="text-xl text-[#bcccdc]">{post.excerpt}</p>
+              <div className="flex items-center gap-3 mt-6 text-sm text-[#9fb3c8]">
+                <User className="h-4 w-4" /> Written by <span className="font-medium text-[#ffffff]">{post.author}</span>
               </div>
             </div>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
         </section>
 
         <div className="container mx-auto px-4 py-12">
@@ -97,8 +97,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div className="lg:col-span-2">
               <div className="prose prose-lg max-w-none animate-fade-in-up">
                 <div className="w-full h-64 md:h-80 rounded-xl gradient-blue mb-8 flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
-                  <span className="text-8xl font-bold text-white/10">{post.title.charAt(0)}</span>
+                  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
+                  <span className="text-8xl font-bold text-[#ffffff]/10">{post.title.charAt(0)}</span>
                 </div>
 
                 <div className="text-steel-700 leading-relaxed space-y-4">
@@ -182,11 +182,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     {related.map((rel) => (
                       <Link key={rel.slug} href={`/blog/${rel.slug}`} className="flex gap-3 group">
                         <div className="w-14 h-14 rounded-lg gradient-blue flex items-center justify-center shrink-0">
-                          <span className="text-lg font-bold text-white/40">{rel.title.charAt(0)}</span>
+                          <span className="text-lg font-bold text-[#ffffff]/40">{rel.title.charAt(0)}</span>
                         </div>
                         <div className="min-w-0">
                           <p className="text-sm font-medium text-navy-900 group-hover:text-cyan-600 transition-colors line-clamp-2">{rel.title}</p>
-                          <p className="text-xs text-steel-400 mt-1">{formatDate(rel.publishedAt)}</p>
+                          <p className="text-xs text-[#829ab1] mt-1">{formatDate(rel.publishedAt)}</p>
                         </div>
                       </Link>
                     ))}

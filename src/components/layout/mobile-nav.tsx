@@ -31,10 +31,10 @@ export function MobileNav({ onClose }: MobileNavProps) {
           className="flex items-center mb-4"
           onClick={onClose}
         >
-          <Image src="/images/logo.png" alt="ZENTRYO" width={160} height={46} className="object-contain" />
+          <Image src="/images/logo-main.png" alt="ZENTRYO" width={160} height={46} className="object-contain" />
         </Link>
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-steel-400" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#829ab1]" />
           <input
             type="text"
             placeholder="Search products..."
@@ -120,7 +120,7 @@ export function MobileNav({ onClose }: MobileNavProps) {
         <Link
           href="/rfq"
           onClick={onClose}
-          className="block w-full text-center px-4 py-2.5 bg-cyan-500 text-white rounded-lg text-sm font-semibold hover:bg-cyan-600 transition-colors"
+          className="block w-full text-center px-4 py-2.5 bg-cyan-500 text-[#ffffff] rounded-lg text-sm font-semibold hover:bg-cyan-600 transition-colors"
         >
           Request a Quote
         </Link>

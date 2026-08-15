@@ -55,7 +55,7 @@ export function EngineeringServices() {
               </div>
               <div className="relative z-10 p-6 pt-0 -mt-12">
                 <div className="w-12 h-12 rounded-xl bg-cyan-500 border-2 border-white shadow-lg flex items-center justify-center mb-4 group-hover:bg-cyan-600 transition-colors">
-                  <svc.icon className="h-6 w-6 text-white" />
+                  <svc.icon className="h-6 w-6 text-[#ffffff]" />
                 </div>
                 <h4 className="text-lg font-bold text-navy-800 mb-2 group-hover:text-cyan-600 transition-colors">{svc.title}</h4>
                 <p className="text-sm text-steel-500 leading-relaxed mb-3">{svc.description}</p>

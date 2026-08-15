@@ -26,26 +26,26 @@ export function FAQContent() {
   return (
     <>
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Frequently Asked Questions</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Frequently Asked Questions</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Find answers to common questions about our products, services, ordering process, and more.
             </p>
           </div>
           <div className="relative max-w-xl mt-8">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-steel-400" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-[#829ab1]" />
             <Input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search FAQs..."
-              className="pl-12 h-14 text-base bg-white/10 border-white/20 text-white placeholder:text-steel-400 focus-visible:ring-cyan-400"
+              className="pl-12 h-14 text-base bg-[#ffffff]/10 border-[#ffffff]/20 text-[#ffffff] placeholder:text-[#829ab1] focus-visible:ring-cyan-400"
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -85,7 +85,7 @@ export function FAQContent() {
             </div>
           ) : (
             <div className="text-center py-20">
-              <HelpCircle className="h-16 w-16 text-steel-300 mx-auto mb-4" />
+              <HelpCircle className="h-16 w-16 text-[#9fb3c8] mx-auto mb-4" />
               <h2 className="text-2xl font-bold text-navy-900 mb-2">No Results Found</h2>
               <p className="text-steel-500 mb-6">No FAQs match your search criteria. Try different keywords.</p>
               <Button onClick={() => setSearch('')} variant="outline" className="border-navy-200">Clear Search</Button>

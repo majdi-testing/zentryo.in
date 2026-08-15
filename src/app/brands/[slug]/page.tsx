@@ -64,26 +64,26 @@ export default async function BrandPage({ params }: BrandPageProps) {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/80 to-navy-900/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/80 to-navy-950/60" />
         </div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/5 via-transparent to-transparent" />
         <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Brands', href: '/brands' }, { label: brand.name }]} />
           <div className="flex items-center gap-6 mb-4">
-            <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center">
-              <span className="text-3xl font-bold text-white">{brand.name.charAt(0)}</span>
+            <div className="w-20 h-20 rounded-2xl bg-[#ffffff]/20 flex items-center justify-center">
+              <span className="text-3xl font-bold text-[#ffffff]">{brand.name.charAt(0)}</span>
             </div>
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-white">{brand.name}</h1>
-              <div className="flex flex-wrap gap-4 mt-2 text-steel-300 text-sm">
+              <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff]">{brand.name}</h1>
+              <div className="flex flex-wrap gap-4 mt-2 text-[#9fb3c8] text-sm">
                 <span className="flex items-center gap-1"><Shield className="h-4 w-4" /> {brand.productCount} Products</span>
                 <span className="flex items-center gap-1"><Globe className="h-4 w-4" /> {brand.country}</span>
               </div>
             </div>
           </div>
-          <p className="text-xl text-steel-200 max-w-3xl mt-4">{brand.description}</p>
+          <p className="text-xl text-[#bcccdc] max-w-3xl mt-4">{brand.description}</p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
@@ -135,7 +135,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
             <div className="text-center py-12 text-steel-500">
               <p className="text-lg">No products found for this brand.</p>
               <Link href="/products" className="mt-4 inline-block">
-                <Button className="bg-navy-800 hover:bg-navy-900 text-white">Browse All Products</Button>
+                <Button className="bg-navy-950 hover:bg-[#0a1f42] text-[#ffffff]">Browse All Products</Button>
               </Link>
             </div>
           )}
@@ -177,22 +177,22 @@ export default async function BrandPage({ params }: BrandPageProps) {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="relative overflow-hidden rounded-2xl gradient-blue p-12 md:p-16 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
             <div className="relative z-10 max-w-2xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#ffffff] mb-4">
                 Need a Specific {brand.name} Component?
               </h2>
-              <p className="text-steel-200 text-lg mb-8">
+              <p className="text-[#bcccdc] text-lg mb-8">
                 Our team can source any {brand.name} product you need. Contact us with your requirements.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/contact">
-                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white gap-2">
+                  <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-[#ffffff] gap-2">
                     Contact Us <ArrowRight className="h-4 w-4" />
                   </Button>
                 </Link>
                 <Link href="/rfq">
-                  <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 bg-transparent">
+                  <Button size="lg" variant="outline" className="border-[#ffffff]/30 text-[#ffffff] hover:bg-[#ffffff]/10 bg-transparent">
                     Request Quote
                   </Button>
                 </Link>

@@ -35,24 +35,24 @@ export function DownloadsContent() {
   return (
     <>
       <section className="relative overflow-hidden gradient-blue">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/[0.04] via-transparent to-transparent" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 relative z-10">
           <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Downloads' }]} />
           <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Downloads & Resources</h1>
-            <p className="text-xl text-steel-200 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ffffff] mb-4">Downloads & Resources</h1>
+            <p className="text-xl text-[#bcccdc] leading-relaxed">
               Access product catalogs, technical manuals, datasheets, and engineering guides from ZENTRYO.
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-900/80 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-950/80 to-transparent" />
       </section>
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
             <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-steel-400" />
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#829ab1]" />
               <Input
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
@@ -68,7 +68,7 @@ export function DownloadsContent() {
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  activeCategory === cat ? 'bg-navy-800 text-white' : 'bg-navy-50 text-navy-700 hover:bg-navy-100'
+                  activeCategory === cat ? 'bg-navy-950 text-[#ffffff]' : 'bg-navy-50 text-navy-700 hover:bg-navy-100'
                 }`}
               >
                 {cat}
@@ -91,7 +91,7 @@ export function DownloadsContent() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-wrap items-center gap-3 text-xs text-steel-400 mb-4">
+                  <div className="flex flex-wrap items-center gap-3 text-xs text-[#829ab1] mb-4">
                     <span className={`inline-flex items-center px-2 py-0.5 rounded-full font-medium ${typeColors[resource.type] || 'bg-gray-50 text-gray-700'}`}>
                       {resource.type.charAt(0).toUpperCase() + resource.type.slice(1)}
                     </span>
@@ -109,7 +109,7 @@ export function DownloadsContent() {
 
           {filtered.length === 0 && (
             <div className="text-center py-16">
-              <FileText className="h-16 w-16 text-steel-300 mx-auto mb-4" />
+              <FileText className="h-16 w-16 text-[#9fb3c8] mx-auto mb-4" />
               <h2 className="text-xl font-bold text-navy-900 mb-2">No Resources Found</h2>
               <p className="text-steel-500">Try adjusting your search or filter criteria.</p>
             </div>

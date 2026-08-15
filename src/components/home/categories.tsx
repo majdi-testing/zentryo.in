@@ -71,7 +71,7 @@ export function CategoriesSection({ categories }: { categories: CategoryCard[] }
             className={cn(
               'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
               activeGroup === null
-                ? 'bg-navy-900 text-white shadow-md'
+                ? 'bg-navy-950 text-[#ffffff] shadow-md'
                 : 'bg-white text-steel-600 hover:bg-steel-100 border border-steel-200'
             )}
           >
@@ -84,7 +84,7 @@ export function CategoriesSection({ categories }: { categories: CategoryCard[] }
               className={cn(
                 'px-4 py-2 rounded-full text-sm font-medium transition-all duration-200',
                 activeGroup === group
-                  ? 'bg-cyan-500 text-white shadow-md'
+                  ? 'bg-cyan-500 text-[#ffffff] shadow-md'
                   : 'bg-white text-steel-600 hover:bg-steel-100 border border-steel-200'
               )}
             >
@@ -121,28 +121,28 @@ export function CategoriesSection({ categories }: { categories: CategoryCard[] }
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-900/90 via-navy-900/50 to-navy-900/30 group-hover:from-navy-900/95 transition-colors" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/85 via-navy-950/20 to-transparent group-hover:from-navy-950/90 transition-colors" />
                   <div className="relative z-10 flex flex-col h-full min-h-[260px] p-6 justify-end">
-                    <div className="w-12 h-12 rounded-xl bg-cyan-500/30 flex items-center justify-center mb-4 group-hover:bg-cyan-500/40 transition-colors">
+                    <div className="w-12 h-12 rounded-xl bg-cyan-500/25 flex items-center justify-center mb-4 group-hover:bg-cyan-500/35 transition-colors">
                       <Icon className="h-6 w-6 text-cyan-400" />
                     </div>
-                    <h4 className="text-lg font-bold text-white mb-1 group-hover:text-cyan-300 transition-colors">
+                    <h4 className="text-lg font-bold text-[#ffffff] mb-1 group-hover:text-cyan-300 transition-colors">
                       {cat.name}
                     </h4>
-                    <p className="text-sm text-steel-300 mb-2">
+                    <p className="text-sm text-[#9fb3c8] mb-2">
                       {cat.productCount.toLocaleString()} products
                     </p>
                     <div className="flex flex-wrap gap-1.5 mb-3">
                       {cat.subcategories?.slice(0, 3).map((sub) => (
                         <span
                           key={sub}
-                          className="text-[10px] px-2 py-0.5 rounded-full bg-white/15 text-steel-200"
+                          className="text-[10px] px-2 py-0.5 rounded-full bg-[#ffffff]/15 text-[#bcccdc]"
                         >
                           {sub}
                         </span>
                       ))}
                       {cat.subcategories?.length > 3 && (
-                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/15 text-steel-200">
+                        <span className="text-[10px] px-2 py-0.5 rounded-full bg-[#ffffff]/15 text-[#bcccdc]">
                           +{cat.subcategories.length - 3}
                         </span>
                       )}
@@ -159,7 +159,7 @@ export function CategoriesSection({ categories }: { categories: CategoryCard[] }
 
         {filtered.length === 0 && (
           <div className="text-center py-16">
-            <Package className="h-12 w-12 text-steel-300 mx-auto mb-4" />
+            <Package className="h-12 w-12 text-[#9fb3c8] mx-auto mb-4" />
             <p className="text-steel-500">No categories found.</p>
           </div>
         )}
